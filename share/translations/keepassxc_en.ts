@@ -5734,10 +5734,6 @@ Are you sure you want to continue with this file?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>View</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Theme</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6395,7 +6391,7 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Clear all identities in ssh-agent</source>
+        <source>&amp;View</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6431,6 +6427,10 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
             <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
+    </message>
+    <message>
+        <source>Clear all identities in ssh-agent</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
