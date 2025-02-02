@@ -242,6 +242,12 @@ void DatabaseOpenWidget::load(const QString& filename)
     clearForms();
 
     m_filename = filename;
+    
+    // Read public headers
+    QString error;
+    m_db.reset(new Database());
+    m_db->open(m_filename, nullptr, &error);
+
     m_ui->fileNameLabel->setRawText(m_filename);
 
     // Set the public name if defined
@@ -296,7 +302,9 @@ void DatabaseOpenWidget::clearForms()
     toggleHardwareKeyComponent(false);
     toggleQuickUnlockScreen();
 
-    m_db.reset(new Database(m_filename));
+    QString error;
+    m_db.reset(new Database());
+    m_db->open(m_filename, nullptr, &error);
 }
 
 QSharedPointer<Database> DatabaseOpenWidget::database()
@@ -361,6 +369,8 @@ void DatabaseOpenWidget::openDatabase()
             msgBox->exec();
             if (msgBox->clickedButton() != btn) {
                 m_db.reset(new Database());
+                m_db->open(m_filename, nullptr, &error);
+
                 m_ui->messageWidget->showMessage(tr("Database unlock canceled."), MessageWidget::MessageType::Error);
                 setUserInteractionLock(false);
                 return;
