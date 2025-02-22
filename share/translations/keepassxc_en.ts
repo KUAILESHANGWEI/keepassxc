@@ -1107,10 +1107,6 @@ Would you like to migrate your existing settings now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Browsers installed as snaps are currently not supported.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Enable integration for these browsers:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1323,6 +1319,10 @@ Would you like to migrate your existing settings now?</source>
     </message>
     <message>
         <source>KeePassXC-Browser is needed for the browser integration to work. &lt;br /&gt;Download it for %1 and %2 and %3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browsers installed using Snap or Flatpak are not supported with exception to Firefox installed using Snap.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
