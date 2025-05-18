@@ -6789,14 +6789,6 @@ The following data is missing:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Confirm Delete Wordlist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Do you really want to delete the wordlist &quot;%1&quot;?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Failed to delete wordlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6806,19 +6798,6 @@ The following data is missing:
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select Custom Wordlist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Overwrite Wordlist?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Wordlist &quot;%1&quot; already exists as a custom wordlist.
-Do you want to overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6871,6 +6850,31 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Excluded characters: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm Remove Wordlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to remove the wordlist &quot;%1&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select Custom Wordlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overwrite Wordlist?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wordlist &quot;%1&quot; already exists as a custom wordlist.
+Do you want to overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8788,22 +8792,6 @@ This option is deprecated, use --set-key-file instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Invalid KDF iterations, cannot decrypt json file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unsupported format, ensure your Bitwarden export is password-protected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Only PBKDF and Argon2 are supported, cannot decrypt json file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cannot generate valid passphrases because the wordlist is too short</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Encrypted files are not supported.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8851,7 +8839,23 @@ This option is deprecated, use --set-key-file instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Fit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported format, ensure your Bitwarden export is password-protected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid KDF iterations, cannot decrypt json file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only PBKDF and Argon2 are supported, cannot decrypt json file</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
