@@ -257,7 +257,12 @@ void DatabaseOpenWidget::load(const QString& filename)
     // Read public headers
     QString error;
     m_db.reset(new Database());
-    m_db->open(m_filename, nullptr, &error);
+    bool openSuccess = m_db->open(m_filename, nullptr, &error);
+    
+    // If opening failed (e.g., file doesn't exist), show an informative message
+    if (!openSuccess && !error.isEmpty()) {
+        m_ui->messageWidget->showMessage(error, MessageWidget::MessageType::Warning);
+    }
 
     m_ui->fileNameLabel->setRawText(m_filename);
 

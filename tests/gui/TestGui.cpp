@@ -2464,6 +2464,41 @@ void TestGui::testMenuActionStates()
     QVERIFY(isActionEnabled("actionPasswordGenerator"));
 }
 
+void TestGui::testOpenMissingDatabaseFile()
+{
+    // Test that when trying to open a non-existent database file,
+    // the unlock dialog is still shown (instead of auto-closing)
+    // This allows user to retry when the file becomes available (e.g., cloud storage mounting)
+    
+    const QString nonExistentPath = "/tmp/does_not_exist.kdbx";
+    
+    // Ensure the file doesn't exist
+    QFile::remove(nonExistentPath);
+    QVERIFY(!QFile::exists(nonExistentPath));
+    
+    // Record initial tab count
+    int initialTabCount = m_tabWidget->count();
+    
+    // Try to add database tab with non-existent file
+    // This should NOT fail but should create a tab and show unlock dialog
+    m_tabWidget->addDatabaseTab(nonExistentPath);
+    
+    // Verify that a tab was created (unlock dialog shown)
+    QCOMPARE(m_tabWidget->count(), initialTabCount + 1);
+    
+    // Get the database widget for the new tab
+    auto* dbWidget = m_tabWidget->currentDatabaseWidget();
+    QVERIFY(dbWidget);
+    
+    // Verify the database is in a state where it can be unlocked
+    // (not closed/rejected due to missing file)
+    QVERIFY(dbWidget->isLocked());
+    
+    // Close the tab to clean up
+    m_tabWidget->closeDatabaseTab(m_tabWidget->currentIndex());
+    QCOMPARE(m_tabWidget->count(), initialTabCount);
+}
+
 void TestGui::addCannedEntries()
 {
     // Find buttons

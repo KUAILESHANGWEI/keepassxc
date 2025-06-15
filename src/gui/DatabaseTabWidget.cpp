@@ -163,9 +163,11 @@ void DatabaseTabWidget::addDatabaseTab(const QString& filePath,
     QString canonicalFilePath = fileInfo.canonicalFilePath();
 
     if (canonicalFilePath.isEmpty()) {
+        // Don't return early - continue to show unlock dialog even if file is missing
+        // This allows user to retry when file becomes available (e.g., cloud storage mounting)
         emit messageGlobal(tr("Failed to open %1. It either does not exist or is not accessible.").arg(cleanFilePath),
                            MessageWidget::Error);
-        return;
+        canonicalFilePath = cleanFilePath; // Use the original path for comparison
     }
 
     for (int i = 0, c = count(); i < c; ++i) {
