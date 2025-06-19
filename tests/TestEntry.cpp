@@ -691,6 +691,7 @@ void TestEntry::testCrossDatabaseReferences()
     originalEntry->setUsername("OriginalUsername");
     originalEntry->setPassword("OriginalPassword");
     originalEntry->setUrl("http://original.com");
+    originalEntry->setNotes("OriginalNotes");
 
     // Create entry with references to original entry in database 1
     auto* refEntry = new Entry();
@@ -700,12 +701,26 @@ void TestEntry::testCrossDatabaseReferences()
     refEntry->setUsername(QString("{REF:U@I:%1}").arg(originalEntry->uuidToHex()));
     refEntry->setPassword(QString("{REF:P@I:%1}").arg(originalEntry->uuidToHex()));
     refEntry->setUrl(QString("{REF:A@I:%1}").arg(originalEntry->uuidToHex()));
+    refEntry->setNotes(QString("{REF:N@I:%1}").arg(originalEntry->uuidToHex()));
+    
+    // Add custom attribute with reference
+    refEntry->attributes()->set("CustomRef", QString("{REF:T@I:%1}").arg(originalEntry->uuidToHex()));
 
     // Verify references work within same database
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->title()), QString("OriginalTitle"));
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->username()), QString("OriginalUsername"));
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->password()), QString("OriginalPassword"));
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->url()), QString("http://original.com"));
+    QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->notes()), QString("OriginalNotes"));
+    QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->attributes()->value("CustomRef")), QString("OriginalTitle"));
+
+    // Verify the attributes still contain references (not yet resolved)
+    QVERIFY(refEntry->attributes()->isReference(EntryAttributes::TitleKey));
+    QVERIFY(refEntry->attributes()->isReference(EntryAttributes::UserNameKey));
+    QVERIFY(refEntry->attributes()->isReference(EntryAttributes::PasswordKey));
+    QVERIFY(refEntry->attributes()->isReference(EntryAttributes::URLKey));
+    QVERIFY(refEntry->attributes()->isReference(EntryAttributes::NotesKey));
+    QVERIFY(refEntry->attributes()->isReference("CustomRef"));
 
     // Move the referenced entry to database 2
     // This should resolve the references before the move
@@ -716,12 +731,26 @@ void TestEntry::testCrossDatabaseReferences()
     QCOMPARE(refEntry->username(), QString("OriginalUsername"));
     QCOMPARE(refEntry->password(), QString("OriginalPassword"));
     QCOMPARE(refEntry->url(), QString("http://original.com"));
+    QCOMPARE(refEntry->notes(), QString("OriginalNotes"));
+    QCOMPARE(refEntry->attributes()->value("CustomRef"), QString("OriginalTitle"));
 
     // Verify that the references have been replaced with actual values
     QVERIFY(!refEntry->attributes()->isReference(EntryAttributes::TitleKey));
     QVERIFY(!refEntry->attributes()->isReference(EntryAttributes::UserNameKey));
     QVERIFY(!refEntry->attributes()->isReference(EntryAttributes::PasswordKey));
     QVERIFY(!refEntry->attributes()->isReference(EntryAttributes::URLKey));
+    QVERIFY(!refEntry->attributes()->isReference(EntryAttributes::NotesKey));
+    QVERIFY(!refEntry->attributes()->isReference("CustomRef"));
+
+    // Test case where original entry doesn't exist (should keep the reference string)
+    auto* orphanEntry = new Entry();
+    orphanEntry->setGroup(root1);
+    orphanEntry->setUuid(QUuid::createUuid());
+    orphanEntry->setTitle("{REF:T@I:NONEXISTENTUUID}");
+    
+    // Move orphan entry - the unresolvable reference should remain unchanged
+    orphanEntry->setGroup(root2);
+    QCOMPARE(orphanEntry->title(), QString("{REF:T@I:NONEXISTENTUUID}"));
 }
 
 void TestEntry::testIsRecycled()
