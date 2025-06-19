@@ -1369,6 +1369,9 @@ void Entry::setGroup(Group* group, bool trackPrevious)
             setPreviousParentGroup(nullptr);
             m_group->database()->addDeletedObject(m_uuid);
 
+            // Resolve references before moving to a different database
+            resolveReferencesBeforeDatabaseMove();
+
             // copy custom icon to the new database
             if (!iconUuid().isNull() && group->database() && m_group->database()->metadata()->hasCustomIcon(iconUuid())
                 && !group->database()->metadata()->hasCustomIcon(iconUuid())) {
@@ -1409,6 +1412,32 @@ Database* Entry::database()
         return m_group->database();
     }
     return nullptr;
+}
+
+void Entry::resolveReferencesBeforeDatabaseMove()
+{
+    if (!m_group || !m_group->database()) {
+        return;
+    }
+
+    // Resolve references in all default attributes
+    for (const QString& key : EntryAttributes::DefaultAttributes) {
+        if (m_attributes->contains(key) && m_attributes->isReference(key)) {
+            QString resolvedValue = resolveMultiplePlaceholdersRecursive(m_attributes->value(key), 10);
+            bool isProtected = m_attributes->isProtected(key);
+            m_attributes->set(key, resolvedValue, isProtected);
+        }
+    }
+
+    // Resolve references in custom attributes
+    const QList<QString> customKeys = m_attributes->customKeys();
+    for (const QString& key : customKeys) {
+        if (m_attributes->isReference(key)) {
+            QString resolvedValue = resolveMultiplePlaceholdersRecursive(m_attributes->value(key), 10);
+            bool isProtected = m_attributes->isProtected(key);
+            m_attributes->set(key, resolvedValue, isProtected);
+        }
+    }
 }
 
 QString Entry::maskPasswordPlaceholders(const QString& str) const
