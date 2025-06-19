@@ -339,7 +339,9 @@ QList<QString> Entry::autoTypeSequences(const QString& windowTitle) const
     const auto assocList = autoTypeAssociations()->getAll();
     for (const auto& assoc : assocList) {
         auto window = resolveMultiplePlaceholders(assoc.window);
-        if (!assoc.window.isEmpty() && windowMatches(window)) {
+        // Empty window title matches any window (acts as default/catch-all)
+        // Non-empty window title must match the current window
+        if (assoc.window.isEmpty() || windowMatches(window)) {
             if (!assoc.sequence.isEmpty()) {
                 sequenceList << assoc.sequence;
             } else {

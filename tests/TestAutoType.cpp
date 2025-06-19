@@ -125,6 +125,14 @@ void TestAutoType::init()
     m_entry5->setPassword("example5");
     m_entry5->setTitle("some title");
     m_entry5->setUrl("http://example.org");
+
+    // Entry with empty window title (should act as default/catch-all)
+    m_entry6 = new Entry();
+    m_entry6->setGroup(m_group);
+    m_entry6->setPassword("empty_window_test");
+    association.window = "";  // Empty window title
+    association.sequence = "empty_window_sequence";
+    m_entry6->autoTypeAssociations()->add(association);
 }
 
 void TestAutoType::cleanup()
@@ -277,6 +285,31 @@ void TestAutoType::testGlobalAutoTypeRegExp()
     emit osUtils->globalShortcutTriggered("autotype");
     m_autoType->performGlobalAutoType(m_dbList);
     QCOMPARE(m_test->actionChars(), QString("custom_attr_third"));
+    m_test->clearActions();
+}
+
+void TestAutoType::testGlobalAutoTypeEmptyWindow()
+{
+    // Test that empty window title associations work as default/catch-all
+    // This should match any window since the association has an empty window title
+    m_test->setActiveWindowTitle("any random window title");
+    emit osUtils->globalShortcutTriggered("autotype");
+    m_autoType->performGlobalAutoType(m_dbList);
+    QCOMPARE(m_test->actionChars(), QString("empty_window_sequence"));
+    m_test->clearActions();
+
+    // Test with a different window title - should still match
+    m_test->setActiveWindowTitle("completely different title");
+    emit osUtils->globalShortcutTriggered("autotype");
+    m_autoType->performGlobalAutoType(m_dbList);
+    QCOMPARE(m_test->actionChars(), QString("empty_window_sequence"));
+    m_test->clearActions();
+
+    // Test with empty window title - should still match
+    m_test->setActiveWindowTitle("");
+    emit osUtils->globalShortcutTriggered("autotype");
+    m_autoType->performGlobalAutoType(m_dbList);
+    QCOMPARE(m_test->actionChars(), QString("empty_window_sequence"));
     m_test->clearActions();
 }
 

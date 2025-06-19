@@ -47,6 +47,7 @@ private slots:
     void testGlobalAutoTypeUrlSubdomainMatch();
     void testGlobalAutoTypeTitleMatchDisabled();
     void testGlobalAutoTypeRegExp();
+    void testGlobalAutoTypeEmptyWindow();
     void testAutoTypeResults();
     void testAutoTypeResults_data();
     void testAutoTypeSyntaxChecks();
@@ -64,6 +65,7 @@ private:
     Entry* m_entry3;
     Entry* m_entry4;
     Entry* m_entry5;
+    Entry* m_entry6;
 };
 
 #endif // KEEPASSX_TESTAUTOTYPE_H
