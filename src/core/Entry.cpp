@@ -1423,9 +1423,15 @@ void Entry::resolveReferencesBeforeDatabaseMove()
     // Resolve references in all default attributes
     for (const QString& key : EntryAttributes::DefaultAttributes) {
         if (m_attributes->contains(key) && m_attributes->isReference(key)) {
-            QString resolvedValue = resolveMultiplePlaceholdersRecursive(m_attributes->value(key), 10);
-            bool isProtected = m_attributes->isProtected(key);
-            m_attributes->set(key, resolvedValue, isProtected);
+            QString originalValue = m_attributes->value(key);
+            QString resolvedValue = resolveMultiplePlaceholdersRecursive(originalValue, 10);
+
+            // Only replace if the resolution produced a different value and it's not empty
+            // Empty resolution means the reference couldn't be resolved, so keep original
+            if (!resolvedValue.isEmpty() && resolvedValue != originalValue) {
+                bool isProtected = m_attributes->isProtected(key);
+                m_attributes->set(key, resolvedValue, isProtected);
+            }
         }
     }
 
@@ -1433,9 +1439,15 @@ void Entry::resolveReferencesBeforeDatabaseMove()
     const QList<QString> customKeys = m_attributes->customKeys();
     for (const QString& key : customKeys) {
         if (m_attributes->isReference(key)) {
-            QString resolvedValue = resolveMultiplePlaceholdersRecursive(m_attributes->value(key), 10);
-            bool isProtected = m_attributes->isProtected(key);
-            m_attributes->set(key, resolvedValue, isProtected);
+            QString originalValue = m_attributes->value(key);
+            QString resolvedValue = resolveMultiplePlaceholdersRecursive(originalValue, 10);
+
+            // Only replace if the resolution produced a different value and it's not empty
+            // Empty resolution means the reference couldn't be resolved, so keep original
+            if (!resolvedValue.isEmpty() && resolvedValue != originalValue) {
+                bool isProtected = m_attributes->isProtected(key);
+                m_attributes->set(key, resolvedValue, isProtected);
+            }
         }
     }
 }

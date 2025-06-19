@@ -702,7 +702,7 @@ void TestEntry::testCrossDatabaseReferences()
     refEntry->setPassword(QString("{REF:P@I:%1}").arg(originalEntry->uuidToHex()));
     refEntry->setUrl(QString("{REF:A@I:%1}").arg(originalEntry->uuidToHex()));
     refEntry->setNotes(QString("{REF:N@I:%1}").arg(originalEntry->uuidToHex()));
-    
+
     // Add custom attribute with reference
     refEntry->attributes()->set("CustomRef", QString("{REF:T@I:%1}").arg(originalEntry->uuidToHex()));
 
@@ -712,7 +712,8 @@ void TestEntry::testCrossDatabaseReferences()
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->password()), QString("OriginalPassword"));
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->url()), QString("http://original.com"));
     QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->notes()), QString("OriginalNotes"));
-    QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->attributes()->value("CustomRef")), QString("OriginalTitle"));
+    QCOMPARE(refEntry->resolveMultiplePlaceholders(refEntry->attributes()->value("CustomRef")),
+             QString("OriginalTitle"));
 
     // Verify the attributes still contain references (not yet resolved)
     QVERIFY(refEntry->attributes()->isReference(EntryAttributes::TitleKey));
@@ -747,7 +748,7 @@ void TestEntry::testCrossDatabaseReferences()
     orphanEntry->setGroup(root1);
     orphanEntry->setUuid(QUuid::createUuid());
     orphanEntry->setTitle("{REF:T@I:NONEXISTENTUUID}");
-    
+
     // Move orphan entry - the unresolvable reference should remain unchanged
     orphanEntry->setGroup(root2);
     QCOMPARE(orphanEntry->title(), QString("{REF:T@I:NONEXISTENTUUID}"));
