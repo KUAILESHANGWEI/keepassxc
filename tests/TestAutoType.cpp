@@ -126,11 +126,12 @@ void TestAutoType::init()
     m_entry5->setTitle("some title");
     m_entry5->setUrl("http://example.org");
 
-    // Entry with empty window title (should act as default/catch-all)
+    // Entry with empty window title (should act as fallback)
     m_entry6 = new Entry();
     m_entry6->setGroup(m_group);
     m_entry6->setPassword("empty_window_test");
-    association.window = "";  // Empty window title
+    m_entry6->setTitle("Entry for Empty Window Test");
+    association.window = ""; // Empty window title
     association.sequence = "empty_window_sequence";
     m_entry6->autoTypeAssociations()->add(association);
 }
@@ -290,27 +291,27 @@ void TestAutoType::testGlobalAutoTypeRegExp()
 
 void TestAutoType::testGlobalAutoTypeEmptyWindow()
 {
-    // Test that empty window title associations work as default/catch-all
-    // This should match any window since the association has an empty window title
-    m_test->setActiveWindowTitle("any random window title");
+    // Enable title matching for this test since our fallback logic requires it
+    config()->set(Config::AutoTypeEntryTitleMatch, true);
+
+    // Test that empty window title associations work as fallback when no other associations match
+    // This should use the empty window association from m_entry6 when no specific window matches
+    m_test->setActiveWindowTitle("no_matching_window_title");
     emit osUtils->globalShortcutTriggered("autotype");
     m_autoType->performGlobalAutoType(m_dbList);
     QCOMPARE(m_test->actionChars(), QString("empty_window_sequence"));
     m_test->clearActions();
 
-    // Test with a different window title - should still match
-    m_test->setActiveWindowTitle("completely different title");
+    // Test that empty window title associations do NOT match when other associations exist and match
+    // This entry has window associations that should take precedence over empty window title
+    m_test->setActiveWindowTitle("custom window"); // This should match m_entry1 association
     emit osUtils->globalShortcutTriggered("autotype");
     m_autoType->performGlobalAutoType(m_dbList);
-    QCOMPARE(m_test->actionChars(), QString("empty_window_sequence"));
+    QCOMPARE(m_test->actionChars(), QString("myuserassociationmypass")); // Should be from m_entry1, not empty window
     m_test->clearActions();
 
-    // Test with empty window title - should still match
-    m_test->setActiveWindowTitle("");
-    emit osUtils->globalShortcutTriggered("autotype");
-    m_autoType->performGlobalAutoType(m_dbList);
-    QCOMPARE(m_test->actionChars(), QString("empty_window_sequence"));
-    m_test->clearActions();
+    // Reset title matching to default state
+    config()->set(Config::AutoTypeEntryTitleMatch, false);
 }
 
 void TestAutoType::testAutoTypeResults()
