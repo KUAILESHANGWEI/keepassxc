@@ -484,7 +484,7 @@
                  <enum>Qt::RightToLeft</enum>
                 </property>
                 <property name="text">
-                 <string>Enable Quick Unlock</string>
+                 <string>Quick Unlock</string>
                 </property>
                 <property name="checked">
                  <bool>true</bool>
@@ -609,7 +609,7 @@
                 <property name="sizeHint" stdset="0">
                  <size>
                   <width>20</width>
-                  <height>8</height>
+                  <height>4</height>
                  </size>
                 </property>
                </spacer>
@@ -621,6 +621,12 @@
                 </property>
                 <item>
                  <widget class="QPushButton" name="resetQuickUnlockButton">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>20</height>
+                   </size>
+                  </property>
                   <property name="text">
                    <string>Reset</string>
                   </property>
@@ -636,7 +642,7 @@
                   </property>
                   <property name="sizeHint" stdset="0">
                    <size>
-                    <width>6</width>
+                    <width>4</width>
                     <height>20</height>
                    </size>
                   </property>
@@ -644,6 +650,12 @@
                 </item>
                 <item>
                  <widget class="QPushButton" name="closeQuickUnlockButton">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>20</height>
+                   </size>
+                  </property>
                   <property name="text">
                    <string>Close Database</string>
                   </property>
@@ -742,7 +754,6 @@
   </customwidget>
  </customwidgets>
  <tabstops>
-  <tabstop>quickUnlockButton</tabstop>
   <tabstop>editPassword</tabstop>
   <tabstop>keyFileLineEdit</tabstop>
   <tabstop>buttonBrowseFile</tabstop>
@@ -750,7 +761,11 @@
   <tabstop>hardwareKeyCombo</tabstop>
   <tabstop>refreshHardwareKeys</tabstop>
   <tabstop>addKeyFileLinkLabel</tabstop>
+  <tabstop>enableQuickUnlockCheckBox</tabstop>
   <tabstop>buttonBox</tabstop>
+  <tabstop>quickUnlockButton</tabstop>
+  <tabstop>resetQuickUnlockButton</tabstop>
+  <tabstop>closeQuickUnlockButton</tabstop>
  </tabstops>
  <resources/>
  <connections/>
