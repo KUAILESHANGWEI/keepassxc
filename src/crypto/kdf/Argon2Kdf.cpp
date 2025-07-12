@@ -163,6 +163,13 @@ QVariantMap Argon2Kdf::writeParameters()
 
 bool Argon2Kdf::transform(const QByteArray& raw, QByteArray& result) const
 {
+    // This is a programming error and will result in broken encryption
+    Q_ASSERT(*raw != *result);
+    if (*raw == *result) {
+        qWarning("Argon2Kdf: Input and output buffers must not be the same.");
+        return false;
+    }
+
     result.clear();
     result.resize(32);
     // Time Cost, Mem Cost, Threads/Lanes, Password, length, Salt, length, out, length
