@@ -228,39 +228,40 @@ if(APPLE)
             gui/osutils/macutils/ScreenLockListenerMac.cpp
             gui/osutils/macutils/AppKitImpl.mm
             gui/osutils/macutils/AppKit.h
-            quickunlock/TouchID.mm)
-
-    # TODO: Remove -Wno-error once deprecation warnings have been resolved.
-    set_source_files_properties(quickunlock/TouchID.mm PROPERTY COMPILE_FLAGS "-Wno-old-style-cast")
+            quickunlock/TouchID.cpp)
 endif()
 
 if(UNIX AND NOT APPLE)
     list(APPEND gui_SOURCES
             gui/osutils/nixutils/ScreenLockListenerDBus.cpp
             gui/osutils/nixutils/NixUtils.cpp)
-    if("${CMAKE_SYSTEM}" MATCHES "Linux")
-        list(APPEND core_SOURCES
-                quickunlock/Polkit.cpp
-                quickunlock/PolkitDbusTypes.cpp)
-    endif()
     if(WITH_XC_X11)
         list(APPEND gui_SOURCES
             gui/osutils/nixutils/X11Funcs.cpp)
     endif()
+
+    # Polkit is only available on Linux systems
+    if("${CMAKE_SYSTEM}" MATCHES "Linux")
+        list(APPEND gui_SOURCES
+                quickunlock/Polkit.cpp
+                quickunlock/PolkitDbusTypes.cpp)
+
+        set_source_files_properties(
+                quickunlock/dbus/org.freedesktop.PolicyKit1.Authority.xml
+                PROPERTIES
+                INCLUDE "quickunlock/PolkitDbusTypes.h"
+        )
+        qt5_add_dbus_interface(gui_SOURCES
+                quickunlock/dbus/org.freedesktop.PolicyKit1.Authority.xml
+                polkit_dbus
+        )
+    endif()
+
+    # dbus support
     qt5_add_dbus_adaptor(gui_SOURCES
             gui/org.keepassxc.KeePassXC.MainWindow.xml
             gui/MainWindow.h
             MainWindow)
-
-    set_source_files_properties(
-        quickunlock/dbus/org.freedesktop.PolicyKit1.Authority.xml
-        PROPERTIES
-        INCLUDE "quickunlock/PolkitDbusTypes.h"
-        )
-    qt5_add_dbus_interface(core_SOURCES
-        quickunlock/dbus/org.freedesktop.PolicyKit1.Authority.xml
-        polkit_dbus
-    )
 
     find_library(KEYUTILS_LIBRARIES NAMES keyutils)
     if(NOT KEYUTILS_LIBRARIES)

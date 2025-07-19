@@ -52,6 +52,11 @@ public:
 
     quint64 getProcessStartTime() const;
 
+    bool saveSecret(const QString& key, const QByteArray& secretData) const override;
+    bool getSecret(const QString& key, QByteArray& secretData) const override;
+    bool removeSecret(const QString& key) const override;
+    bool removeAllSecrets() const override;
+
 private slots:
     void handleColorSchemeRead(QDBusVariant value);
     void handleColorSchemeChanged(QString ns, QString key, QDBusVariant value);
