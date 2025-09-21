@@ -163,24 +163,29 @@ void DatabaseTabWidget::addDatabaseTab(const QString& filePath,
     QString canonicalFilePath = fileInfo.canonicalFilePath();
 
     if (canonicalFilePath.isEmpty()) {
-        // Don't return early - continue to show unlock dialog even if file is missing
-        // This allows user to retry when file becomes available (e.g., cloud storage mounting)
-        emit messageGlobal(tr("Failed to open %1. It either does not exist or is not accessible.").arg(cleanFilePath),
-                           MessageWidget::Error);
-        canonicalFilePath = cleanFilePath; // Use the original path for comparison
+        // The file does not exist, revert back to the cleaned path for comparison
+        canonicalFilePath = cleanFilePath;
     }
 
+    // Try to find an existing tab with the same file path
     for (int i = 0, c = count(); i < c; ++i) {
         auto* dbWidget = databaseWidgetFromIndex(i);
-        Q_ASSERT(dbWidget);
-        if (dbWidget
-            && dbWidget->database()->canonicalFilePath().compare(canonicalFilePath, FILE_CASE_SENSITIVE) == 0) {
-            dbWidget->performUnlockDatabase(password, keyfile);
-            if (!inBackground) {
-                // switch to existing tab if file is already open
-                setCurrentIndex(indexOf(dbWidget));
+        if (dbWidget) {
+            auto dbFilePath = dbWidget->database()->canonicalFilePath();
+            if (dbFilePath.isEmpty()) {
+                // The file does not exist, revert back to the cleaned path for comparison
+                dbFilePath = QDir::toNativeSeparators(dbWidget->database()->filePath());
             }
-            return;
+            if (dbFilePath.compare(canonicalFilePath, FILE_CASE_SENSITIVE) == 0) {
+                // Attempt to unlock the database if password and/or keyfile is provided
+                dbWidget->performUnlockDatabase(password, keyfile);
+                if (!inBackground) {
+                    // switch to existing tab if file is already open
+                    setCurrentIndex(indexOf(dbWidget));
+                }
+                // Prevent opening a new tab for this file
+                return;
+            }
         }
     }
 

@@ -38,6 +38,7 @@
 namespace
 {
     constexpr int clearFormsDelay = 30000;
+    constexpr int fileExistsCheckInterval = 5000;
 
     bool isQuickUnlockAvailable()
     {
@@ -66,6 +67,16 @@ DatabaseOpenWidget::DatabaseOpenWidget(QWidget* parent)
         // Reset the password field after being hidden for a set time
         m_ui->editPassword->setText("");
         m_ui->editPassword->setShowPassword(false);
+    });
+
+    m_fileExistsTimer.setInterval(fileExistsCheckInterval);
+    m_fileExistsTimer.setSingleShot(false);
+    connect(&m_fileExistsTimer, &QTimer::timeout, this, [this] {
+        if (!QFile::exists(m_filename)) {
+            m_ui->messageWidget->showMessage(tr("The database file does not exist or is not accessible."),
+                                             MessageWidget::Warning,
+                                             fileExistsCheckInterval + 500);
+        }
     });
 
     QFont font;
@@ -215,6 +226,7 @@ bool DatabaseOpenWidget::event(QEvent* event)
         }
 
         if (isVisible()) {
+            m_fileExistsTimer.start();
             m_hideTimer.stop();
             pollHardwareKey();
         }
@@ -225,6 +237,8 @@ bool DatabaseOpenWidget::event(QEvent* event)
         if (!m_hideTimer.isActive()) {
             m_hideTimer.start();
         }
+
+        m_fileExistsTimer.stop();
 
 #ifdef WITH_XC_YUBIKEY
         if (type == QEvent::Hide) {
@@ -257,12 +271,7 @@ void DatabaseOpenWidget::load(const QString& filename)
     // Read public headers
     QString error;
     m_db.reset(new Database());
-    bool openSuccess = m_db->open(m_filename, nullptr, &error);
-    
-    // If opening failed (e.g., file doesn't exist), show an informative message
-    if (!openSuccess && !error.isEmpty()) {
-        m_ui->messageWidget->showMessage(error, MessageWidget::MessageType::Warning);
-    }
+    m_db->open(m_filename, nullptr, &error);
 
     m_ui->fileNameLabel->setRawText(m_filename);
 

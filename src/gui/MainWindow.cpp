@@ -714,7 +714,7 @@ void MainWindow::restoreConfigState()
     if (config()->get(Config::OpenPreviousDatabasesOnStartup).toBool()) {
         const QStringList fileNames = config()->get(Config::LastOpenedDatabases).toStringList();
         for (const QString& filename : fileNames) {
-            if (!filename.isEmpty() && QFile::exists(filename)) {
+            if (!filename.isEmpty()) {
                 openDatabase(filename);
             }
         }

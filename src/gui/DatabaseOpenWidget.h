@@ -97,6 +97,7 @@ private:
     bool m_triedToQuit = false;
     QTimer m_hideTimer;
     QTimer m_hideNoHardwareKeysFoundTimer;
+    QTimer m_fileExistsTimer;
 
     Q_DISABLE_COPY(DatabaseOpenWidget)
 };
