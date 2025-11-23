@@ -81,16 +81,16 @@
         <translation>Details</translation>
     </message>
     <message>
-        <source>Your decision will be remembered for the duration while both the requesting client AND KeePassXC are running.</source>
-        <translation>Your decision will be remembered for the duration while both the requesting client AND KeePassXC are running.</translation>
-    </message>
-    <message>
         <source>Remember</source>
         <translation>Remember</translation>
     </message>
     <message>
         <source>Allow Selected</source>
         <translation>Allow Selected</translation>
+    </message>
+    <message>
+        <source>Your decision will be remembered for the duration while both the requesting client AND KeePassXC are running.</source>
+        <translation>Your decision will be remembered for the duration while both the requesting client AND KeePassXC are running.</translation>
     </message>
     <message>
         <source>Deny All &amp;&amp; Future</source>
@@ -123,10 +123,6 @@
         <translation>Use OpenSSH</translation>
     </message>
     <message>
-        <source>Use both agents</source>
-        <translation>Use both agents</translation>
-    </message>
-    <message>
         <source>SSH_AUTH_SOCK override</source>
         <translation>SSH_AUTH_SOCK override</translation>
     </message>
@@ -154,6 +150,29 @@
         <source>SSH Agent connection is working!</source>
         <translation>SSH Agent connection is working!</translation>
     </message>
+    <message>
+        <source>Use both agents</source>
+        <translation>Use both agents</translation>
+    </message>
+</context>
+<context>
+    <name>AppKit</name>
+    <message>
+        <source>Window</source>
+        <translation>Window</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimise</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Zoom</translation>
+    </message>
+    <message>
+        <source>Bring All to Front</source>
+        <translation>Bring All to Front</translation>
+    </message>
 </context>
 <context>
     <name>ApplicationSettingsWidget</name>
@@ -168,10 +187,6 @@
     <message>
         <source>Security</source>
         <translation>Security</translation>
-    </message>
-    <message>
-        <source>This setting cannot be enabled when minimize on unlock is enabled.</source>
-        <translation>This setting cannot be enabled when minimize on unlock is enabled.</translation>
     </message>
     <message>
         <source>Access error for config file %1</source>
@@ -261,6 +276,10 @@
         <source>Custom</source>
         <translation>Custom</translation>
     </message>
+    <message>
+        <source>This setting cannot be enabled when minimize on unlock is enabled.</source>
+        <translation>This setting cannot be enabled when minimize on unlock is enabled.</translation>
+    </message>
 </context>
 <context>
     <name>ApplicationSettingsWidgetGeneral</name>
@@ -291,10 +310,6 @@
     <message>
         <source>Remember previously used databases</source>
         <translation>Remember previously used databases</translation>
-    </message>
-    <message>
-        <source> recent files</source>
-        <translation> recent files</translation>
     </message>
     <message>
         <source>Load previously open databases on startup</source>
@@ -416,10 +431,6 @@
     <message>
         <source>Toolbar button style:</source>
         <translation>Toolbar button style:</translation>
-    </message>
-    <message>
-        <source>Show passwords in color</source>
-        <translation>Show passwords in color</translation>
     </message>
     <message>
         <source>Use monospaced font for notes</source>
@@ -560,16 +571,48 @@
         <translation>Export settings…</translation>
     </message>
     <message>
-        <source>Open browser on double clicking URL field in entry view</source>
-        <translation>Open browser on double clicking URL field in entry view</translation>
-    </message>
-    <message>
         <source>Font size:</source>
         <translation>Font size:</translation>
     </message>
     <message>
         <source>Font size selection</source>
         <translation>Font size selection</translation>
+    </message>
+    <message>
+        <source>Skip confirmation for main window Auto-Type actions</source>
+        <translation>Skip confirmation for main window Auto-Type actions</translation>
+    </message>
+    <message>
+        <source>Double-click action for URL:</source>
+        <translation>Double-click action for URL:</translation>
+    </message>
+    <message>
+        <source>Double-click action for URL field</source>
+        <translation>Double-click action for URL field</translation>
+    </message>
+    <message>
+        <source>Edit entry</source>
+        <translation>Edit entry</translation>
+    </message>
+    <message>
+        <source>Open entry URL in browser</source>
+        <translation>Open entry URL in browser</translation>
+    </message>
+    <message>
+        <source>Copy entry URL to clipboard</source>
+        <translation>Copy entry URL to clipboard</translation>
+    </message>
+    <message>
+        <source>Auto-generate password for new entries</source>
+        <translation>Auto-generate password for new entries</translation>
+    </message>
+    <message>
+        <source> recent files</source>
+        <translation> recent files</translation>
+    </message>
+    <message>
+        <source>Show passwords in color</source>
+        <translation>Show passwords in color</translation>
     </message>
 </context>
 <context>
@@ -662,6 +705,17 @@
     </message>
 </context>
 <context>
+    <name>AttachmentWidget</name>
+    <message>
+        <source>Attachment Viewer</source>
+        <translation>Attachment Viewer</translation>
+    </message>
+    <message>
+        <source>Unknown attachment type</source>
+        <translation>Unknown attachment type</translation>
+    </message>
+</context>
+<context>
     <name>AutoType</name>
     <message>
         <source>The requested Auto-Type sequence cannot be used due to an error:</source>
@@ -704,12 +758,16 @@
         <translation>Very long delay detected, max is %1: %2</translation>
     </message>
     <message>
+        <source>Invalid placeholder: %1</source>
+        <translation>Invalid placeholder: %1</translation>
+    </message>
+    <message>
         <source>Entry does not have attribute for PICKCHARS: %1</source>
         <translation>Entry does not have attribute for PICKCHARS: %1</translation>
     </message>
     <message>
-        <source>Invalid placeholder: %1</source>
-        <translation>Invalid placeholder: %1</translation>
+        <source>Entry has invalid TOTP settings</source>
+        <translation>Entry has invalid TOTP settings</translation>
     </message>
 </context>
 <context>
@@ -780,20 +838,6 @@
         <translation>Double click a row to perform Auto-Type or find an entry using the search:</translation>
     </message>
     <message>
-        <source>&lt;p&gt;You can use advanced search queries to find any entry in your open databases. The following shortcuts are useful:&lt;br/&gt;
-Ctrl+F - Toggle database search&lt;br/&gt;
-Ctrl+1 - Type username&lt;br/&gt;
-Ctrl+2 - Type password&lt;br/&gt;
-Ctrl+3 - Type TOTP&lt;br/&gt;
-Ctrl+4 - Use Virtual Keyboard (Windows Only)&lt;/p&gt;</source>
-        <translation>&lt;p&gt;You can use advanced search queries to find any entry in your open databases. The following shortcuts are useful:&lt;br/&gt;
-Ctrl+F - Toggle database search&lt;br/&gt;
-Ctrl+1 - Type username&lt;br/&gt;
-Ctrl+2 - Type password&lt;br/&gt;
-Ctrl+3 - Type TOTP&lt;br/&gt;
-Ctrl+4 - Use Virtual Keyboard (Windows Only)&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Search all open databases</source>
         <translation>Search all open databases</translation>
     </message>
@@ -836,6 +880,55 @@ Ctrl+4 - Use Virtual Keyboard (Windows Only)&lt;/p&gt;</translation>
     <message>
         <source>Use Virtual Keyboard</source>
         <translation>Use Virtual Keyboard</translation>
+    </message>
+    <message>
+        <source>Type {URL}</source>
+        <translation>Type {URL}</translation>
+    </message>
+    <message>
+        <source>Copy URL</source>
+        <translation>Copy URL</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;The following shortcuts are available:&lt;br/&gt;
+Ctrl+F - Focus search&lt;br/&gt;
+Ctrl+1 - Type username&lt;br/&gt;
+Ctrl+2 - Type password&lt;br/&gt;
+Ctrl+3 - Type TOTP&lt;br/&gt;
+Ctrl+4 - Type URL&lt;br/&gt;
+Ctrl+5 - Use Virtual Keyboard (Windows Only)&lt;br/&gt;
+Ctrl+Shift+1 - Copy username&lt;br/&gt;
+Ctrl+Shift+2 - Copy password&lt;br/&gt;
+Ctrl+Shift+3 - Copy TOTP&lt;br/&gt;
+Ctrl+Shift+4 - Copy URL&lt;br/&gt;
+&lt;/p&gt;</source>
+        <translation>&lt;p&gt;The following shortcuts are available:&lt;br/&gt;
+Ctrl+F - Focus search&lt;br/&gt;
+Ctrl+1 - Type username&lt;br/&gt;
+Ctrl+2 - Type password&lt;br/&gt;
+Ctrl+3 - Type TOTP&lt;br/&gt;
+Ctrl+4 - Type URL&lt;br/&gt;
+Ctrl+5 - Use Virtual Keyboard (Windows Only)&lt;br/&gt;
+Ctrl+Shift+1 - Copy username&lt;br/&gt;
+Ctrl+Shift+2 - Copy password&lt;br/&gt;
+Ctrl+Shift+3 - Copy TOTP&lt;br/&gt;
+Ctrl+Shift+4 - Copy URL&lt;br/&gt;
+&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>You can use advanced search queries to find any entry in your open databases.</source>
+        <translation>You can use advanced search queries to find any entry in your open databases.</translation>
+    </message>
+</context>
+<context>
+    <name>BinaryStream</name>
+    <message>
+        <source>Failed to read string data: %1</source>
+        <translation>Failed to read string data: %1</translation>
+    </message>
+    <message>
+        <source>String length exceeds 10 MiB limit (requested %1)</source>
+        <translation>String length exceeds 10 MiB limit (requested %1)</translation>
     </message>
 </context>
 <context>
@@ -1028,12 +1121,12 @@ Do you want to delete the entry?
         <translation>KeePassXC - Delete entry</translation>
     </message>
     <message>
-        <source>KeePassXC - New key association request</source>
-        <translation>KeePassXC - New key association request</translation>
+        <source>Converting attributes to custom data…</source>
+        <translation>Converting attributes to custom data…</translation>
     </message>
     <message>
-        <source>Passkey</source>
-        <translation>Passkey</translation>
+        <source>KeePassXC - New key association request</source>
+        <translation>KeePassXC - New key association request</translation>
     </message>
     <message>
         <source>KeePassXC - Passkey credentials</source>
@@ -1042,6 +1135,10 @@ Do you want to delete the entry?
     <message>
         <source>Register a new passkey to this entry:</source>
         <translation>Register a new passkey to this entry:</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Register</translation>
     </message>
     <message>
         <source>KeePassXC - Update passkey</source>
@@ -1054,8 +1151,50 @@ Do you want to overwrite the passkey in %1 - %2?</source>
 Do you want to overwrite the passkey in %1 - %2?</translation>
     </message>
     <message>
-        <source>Register</source>
-        <translation>Register</translation>
+        <source>Passkey</source>
+        <translation>Passkey</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Abort</translation>
+    </message>
+    <message>
+        <source>KeePassXC: Converted KeePassHTTP attributes</source>
+        <translation>KeePassXC: Converted KeePassHTTP attributes</translation>
+    </message>
+    <message>
+        <source>Successfully converted attributes from %1 entry(s).
+Moved %2 keys to custom data.</source>
+        <translation>Successfully converted attributes from %1 entry(s).
+Moved %2 keys to custom data.</translation>
+    </message>
+    <message numerus="yes">
+        <source>Successfully moved %n keys to custom data.</source>
+        <translation><numerusform>Successfully moved %n keys to custom data.</numerusform><numerusform>Successfully moved %n keys to custom data.</numerusform></translation>
+    </message>
+    <message>
+        <source>KeePassXC: No entry with KeePassHTTP attributes found!</source>
+        <translation>KeePassXC: No entry with KeePassHTTP attributes found!</translation>
+    </message>
+    <message>
+        <source>The active database does not contain an entry with KeePassHTTP attributes.</source>
+        <translation>The active database does not contain an entry with KeePassHTTP attributes.</translation>
+    </message>
+    <message>
+        <source>Don&apos;t show this warning again</source>
+        <translation>Don&apos;t show this warning again</translation>
+    </message>
+    <message>
+        <source>KeePassXC: Legacy browser integration settings detected</source>
+        <translation>KeePassXC: Legacy browser integration settings detected</translation>
+    </message>
+    <message>
+        <source>Your KeePassXC-Browser settings need to be moved into the database settings.
+This is necessary to maintain your current browser connections.
+Would you like to migrate your existing settings now?</source>
+        <translation>Your KeePassXC-Browser settings need to be moved into the database settings.
+This is necessary to maintain your current browser connections.
+Would you like to migrate your existing settings now?</translation>
     </message>
 </context>
 <context>
@@ -1262,14 +1401,6 @@ Do you want to overwrite the passkey in %1 - %2?</translation>
     <message>
         <source>Select native messaging host folder location</source>
         <translation>Select native messaging host folder location</translation>
-    </message>
-    <message>
-        <source>Allow keepassxc-proxy to list all entries with their title, URL and UUID in connected databases.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Allow limited access to all entries in connected databases (ignores site access restrictions)</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>&lt;b&gt;Warning:&lt;/b&gt; Only adjust these settings if necessary.</source>
@@ -1631,6 +1762,10 @@ To prevent this error from appearing, you must go to &quot;Database Settings / S
         <translation>Retry with empty password</translation>
     </message>
     <message>
+        <source>Failed to authenticate with Touch ID</source>
+        <translation>Failed to authenticate with Touch ID</translation>
+    </message>
+    <message>
         <source>Failed to open key file: %1</source>
         <translation>Failed to open key file: %1</translation>
     </message>
@@ -1667,10 +1802,6 @@ To prevent this error from appearing, you must go to &quot;Database Settings / S
         <translation>authenticate to access the database</translation>
     </message>
     <message>
-        <source>Failed to authenticate with Quick Unlock: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Select Key File:</source>
         <translation>Select Key File:</translation>
     </message>
@@ -1704,7 +1835,7 @@ Are you sure you want to continue with this file?.</source>
         <translation>The file you selected looks like a database file.
 A database file is NOT a key file!
 
-Are you sure you want to continue with this file?</translation>
+Are you sure you want to continue with this file?.</translation>
     </message>
     <message>
         <source>No hardware keys found.</source>
@@ -1725,6 +1856,18 @@ Are you sure you want to continue with this file?</translation>
     <message>
         <source>Hardware keys found, but no slots are configured.</source>
         <translation>Hardware keys found, but no slots are configured.</translation>
+    </message>
+    <message>
+        <source>Press ESC again to close this database</source>
+        <translation>Press ESC again to close this database</translation>
+    </message>
+    <message>
+        <source>Windows Hello setup was canceled or failed. Quick unlock has not been enabled.</source>
+        <translation>Windows Hello setup was canceled or failed. Quick unlock has not been enabled.</translation>
+    </message>
+    <message>
+        <source>Failed to authenticate with Windows Hello: %1</source>
+        <translation>Failed to authenticate with Windows Hello: %1</translation>
     </message>
 </context>
 <context>
@@ -1769,12 +1912,8 @@ Are you sure you want to continue with this file?</translation>
         <translation>Secret Service Integration</translation>
     </message>
     <message>
-        <source>Remote Sync</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Database Settings: %1</source>
-        <translation type="unfinished"/>
+        <translation>Database Settings: %1</translation>
     </message>
 </context>
 <context>
@@ -1784,16 +1923,24 @@ Are you sure you want to continue with this file?</translation>
         <translation>KeePassXC-Browser settings</translation>
     </message>
     <message>
+        <source>Convert KeePassHTTP data</source>
+        <translation>Convert KeePassHTTP data</translation>
+    </message>
+    <message>
+        <source>Convert legacy KeePassHTTP attributes to KeePassXC-Browser compatible custom data</source>
+        <translation>Convert legacy KeePassHTTP attributes to KeePassXC-Browser compatible custom data</translation>
+    </message>
+    <message>
+        <source>Refresh database root group ID</source>
+        <translation>Refresh database root group ID</translation>
+    </message>
+    <message>
         <source>Disconnect all browsers</source>
         <translation>Disconnect all browsers</translation>
     </message>
     <message>
         <source>Forget all site-specific settings on entries</source>
         <translation>Forget all site-specific settings on entries</translation>
-    </message>
-    <message>
-        <source>Refresh database root group ID</source>
-        <translation>Refresh database root group ID</translation>
     </message>
     <message>
         <source>Stored keys</source>
@@ -1874,6 +2021,16 @@ Permissions to access entries will be revoked.</translation>
         <translation>The active database does not contain an entry with permissions.</translation>
     </message>
     <message>
+        <source>Move KeePassHTTP attributes to custom data</source>
+        <translation>Move KeePassHTTP attributes to custom data</translation>
+    </message>
+    <message>
+        <source>Do you really want to convert all legacy browser integration data to the latest standard?
+This is necessary to maintain compatibility with the browser plugin.</source>
+        <translation>Do you really want to convert all legacy browser integration data to the latest standard?
+This is necessary to maintain compatibility with the browser plugin.</translation>
+    </message>
+    <message>
         <source>Refresh database ID</source>
         <translation>Refresh database ID</translation>
     </message>
@@ -1882,10 +2039,6 @@ Permissions to access entries will be revoked.</translation>
 This is only necessary if your database is a copy of another and the browser extension cannot connect.</source>
         <translation>Do you really want refresh the database ID?
 This is only necessary if your database is a copy of another and the browser extension cannot connect.</translation>
-    </message>
-    <message>
-        <source>Convert legacy KeePassHTTP attributes to KeePassXC-Browser compatible custom data</source>
-        <translation>Convert legacy KeePassHTTP attributes to KeePassXC-Browser compatible custom data</translation>
     </message>
     <message>
         <source>No keys found</source>
@@ -2268,20 +2421,12 @@ removed from the database.</translation>
         <translation>Display name:</translation>
     </message>
     <message>
-        <source>Publically visible display name used on the unlock dialog</source>
-        <translation>Publically visible display name used on the unlock dialog</translation>
-    </message>
-    <message>
         <source>Database public display name</source>
         <translation>Database public display name</translation>
     </message>
     <message>
         <source>Display color:</source>
         <translation>Display color:</translation>
-    </message>
-    <message>
-        <source>Publically visible color used on the unlock dialog</source>
-        <translation>Publically visible color used on the unlock dialog</translation>
     </message>
     <message>
         <source>Database public display color chooser</source>
@@ -2298,6 +2443,14 @@ removed from the database.</translation>
     <message>
         <source>Select Database Icon</source>
         <translation>Select Database Icon</translation>
+    </message>
+    <message>
+        <source>Publicly visible display name used on the unlock dialog</source>
+        <translation>Publicly visible display name used on the unlock dialogue</translation>
+    </message>
+    <message>
+        <source>Publicly visible color used on the unlock dialog</source>
+        <translation>Publicly visible colour used on the unlock dialogue</translation>
     </message>
 </context>
 <context>
@@ -2395,129 +2548,6 @@ removed from the database.</translation>
     </message>
 </context>
 <context>
-    <name>DatabaseSettingsWidgetRemote</name>
-    <message>
-        <source>Sync Commands</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Remove</translation>
-    </message>
-    <message>
-        <source>Command Settings</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Name</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Save</translation>
-    </message>
-    <message>
-        <source>Download</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Command:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download command field</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>e.g.: &quot;sftp user@hostname&quot; or &quot;scp user@hostname:DatabaseOnRemote.kdbx {TEMP_DATABASE}&quot;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Input:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download input field</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Upload</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Upload command field</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>e.g.: &quot;sftp user@hostname&quot; or &quot;scp {TEMP_DATABASE} user@hostname:DatabaseOnRemote.kdbx&quot;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Upload input field</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Name cannot be empty.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Test</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download command cannot be empty.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download failed with error: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download finished, but file %1 could not be found.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download successful.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Save Remote Settings</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>You have unsaved changes. Do you want to save them?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>e.g.:
-get DatabaseOnRemote.kdbx {TEMP_DATABASE}
-exit
----
-{TEMP_DATABASE} is used as placeholder to store the database in a temporary location
-The command has to exit. In case of `sftp` as last command `exit` has to be sent
-            </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>e.g.:
-put {TEMP_DATABASE} DatabaseOnRemote.kdbx
-exit
----
-{TEMP_DATABASE} is used as placeholder to store the database in a temporary location
-The command has to exit. In case of `sftp` as last command `exit` has to be sent
-            </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Timeout:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source> seconds</source>
-        <translation> seconds</translation>
-    </message>
-</context>
-<context>
     <name>DatabaseTabWidget</name>
     <message>
         <source>Database creation error</source>
@@ -2566,18 +2596,6 @@ This is definitely a bug, please report it to the developers.</translation>
         <translation>Writing the HTML file failed.</translation>
     </message>
     <message>
-        <source>Export database to XML file</source>
-        <translation>Export database to XML file</translation>
-    </message>
-    <message>
-        <source>XML file</source>
-        <translation>XML file</translation>
-    </message>
-    <message>
-        <source>Writing the XML file failed</source>
-        <translation>Writing the XML file failed</translation>
-    </message>
-    <message>
         <source>Export Confirmation</source>
         <translation>Export Confirmation</translation>
     </message>
@@ -2591,17 +2609,20 @@ This is definitely a bug, please report it to the developers.</translation>
         <translation>%1 [Locked]</translation>
     </message>
     <message>
-        <source>%1 [Temporary]</source>
-        <comment>Database tab name modifier</comment>
-        <translation type="unfinished"/>
+        <source>Export database to XML file</source>
+        <translation>Export database to XML file</translation>
+    </message>
+    <message>
+        <source>XML file</source>
+        <translation>XML file</translation>
+    </message>
+    <message>
+        <source>Writing the XML file failed</source>
+        <translation>Writing the XML file failed</translation>
     </message>
 </context>
 <context>
     <name>DatabaseWidget</name>
-    <message>
-        <source>Searches and Tags</source>
-        <translation>Searches and Tags</translation>
-    </message>
     <message>
         <source>Searching…</source>
         <translation>Searching…</translation>
@@ -2631,28 +2652,12 @@ This is definitely a bug, please report it to the developers.</translation>
         <translation>Remember my choice</translation>
     </message>
     <message>
-        <source>Delete group</source>
-        <translation>Delete group</translation>
-    </message>
-    <message>
-        <source>Do you really want to delete the group &quot;%1&quot; for good?</source>
-        <translation>Do you really want to delete the group &quot;%1&quot; for good?</translation>
-    </message>
-    <message>
-        <source>Move group to recycle bin?</source>
-        <translation>Move group to recycle bin?</translation>
-    </message>
-    <message>
         <source>Do you really want to move the group &quot;%1&quot; to the recycle bin?</source>
         <translation>Do you really want to move the group &quot;%1&quot; to the recycle bin?</translation>
     </message>
     <message>
         <source>Expired entries</source>
         <translation>Expired entries</translation>
-    </message>
-    <message numerus="yes">
-        <source>Entries expiring within %1 day(s)</source>
-        <translation><numerusform>Entries expiring within %1 day</numerusform><numerusform>Entries expiring within %1 days</numerusform></translation>
     </message>
     <message>
         <source>No current database.</source>
@@ -2663,24 +2668,12 @@ This is definitely a bug, please report it to the developers.</translation>
         <translation>No source database, nothing to do.</translation>
     </message>
     <message>
-        <source>Successfully merged the database files.</source>
-        <translation>Successfully merged the database files.</translation>
-    </message>
-    <message>
-        <source>Database was not modified by merge operation.</source>
-        <translation>Database was not modified by merge operation.</translation>
-    </message>
-    <message>
         <source>Search Results (%1)</source>
         <translation>Search Results (%1)</translation>
     </message>
     <message>
         <source>No Results</source>
         <translation>No Results</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Save</translation>
     </message>
     <message>
         <source>Enter a unique name or overwrite an existing search from the list:</source>
@@ -2745,10 +2738,6 @@ Disable safe saves and try again?</translation>
         <translation>KeePass 2 Database</translation>
     </message>
     <message>
-        <source>Save database backup</source>
-        <translation>Save database backup</translation>
-    </message>
-    <message>
         <source>Empty recycle bin?</source>
         <translation>Empty recycle bin?</translation>
     </message>
@@ -2770,34 +2759,6 @@ Disable safe saves and try again?</translation>
         <translation>%1 [New Database]</translation>
     </message>
     <message>
-        <source>Remote Sync did not contain any download or upload commands.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Remote sync &apos;%1&apos; completed successfully!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Remote sync &apos;%1&apos; failed: %2</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Error while saving database %1: %2</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Downloading...</source>
-        <translation>Downloading...</translation>
-    </message>
-    <message>
-        <source>Uploading...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Syncing...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Remove passkey from entry</source>
         <translation>Remove passkey from entry</translation>
     </message>
@@ -2812,10 +2773,6 @@ Disable safe saves and try again?</translation>
     <message>
         <source>Do you want to load the changes?</source>
         <translation>Do you want to load the changes?</translation>
-    </message>
-    <message>
-        <source>Reload database</source>
-        <translation>Reload database</translation>
     </message>
     <message>
         <source>Reloading database…</source>
@@ -2842,12 +2799,67 @@ Disable safe saves and try again?</translation>
         <translation>The database file &quot;%1&quot; was modified externally.&lt;br&gt;How would you like to proceed?&lt;br&gt;&lt;br&gt;Merge all changes then save&lt;br&gt;Overwrite the changes on disk&lt;br&gt;Discard unsaved changes</translation>
     </message>
     <message>
+        <source>Reload database</source>
+        <translation>Reload database</translation>
+    </message>
+    <message>
         <source>Database file overwritten.</source>
         <translation>Database file overwritten.</translation>
     </message>
     <message>
         <source>Database file on disk cannot be unlocked with current credentials.&lt;br&gt;Enter new credentials and/or present hardware key to continue.</source>
         <translation>Database file on disk cannot be unlocked with current credentials.&lt;br&gt;Enter new credentials and/or present hardware key to continue.</translation>
+    </message>
+    <message>
+        <source>Failed to save backup database: %1</source>
+        <translation>Failed to save backup database: %1</translation>
+    </message>
+    <message>
+        <source>Confirm Delete Group</source>
+        <translation>Confirm Delete Group</translation>
+    </message>
+    <message>
+        <source>Do you really want to permanently delete the group &quot;%1&quot;?</source>
+        <translation>Do you really want to permanently delete the group &quot;%1&quot;?</translation>
+    </message>
+    <message>
+        <source>Confirm Recycle Group</source>
+        <translation>Confirm Recycle Group</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Save</translation>
+    </message>
+    <message>
+        <source>Save Database Backup</source>
+        <translation>Save Database Backup</translation>
+    </message>
+    <message>
+        <source>Successfully merged the selected database.</source>
+        <translation>Successfully merged the selected database.</translation>
+    </message>
+    <message>
+        <source>No changes were made by the merge operation.</source>
+        <translation>No changes were made by the merge operation.</translation>
+    </message>
+    <message>
+        <source>Merge canceled, no changes were made.</source>
+        <translation>Merge cancelled, no changes were made.</translation>
+    </message>
+    <message>
+        <source>Searches and Tags</source>
+        <translation>Searches and Tags</translation>
+    </message>
+    <message numerus="yes">
+        <source>Entries expiring within %1 day(s)</source>
+        <translation><numerusform>Entries expiring within %1 day</numerusform><numerusform>Entries expiring within %1 days</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>EditEntryAttachmentsDialog</name>
+    <message>
+        <source>Edit: %1</source>
+        <translation>Edit: %1</translation>
     </message>
 </context>
 <context>
@@ -2987,10 +2999,6 @@ Would you like to correct it?</translation>
         <translation>Hide</translation>
     </message>
     <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
-    </message>
-    <message numerus="yes">
         <source>%n week(s)</source>
         <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
     </message>
@@ -3001,6 +3009,10 @@ Would you like to correct it?</translation>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
     </message>
     <message>
         <source>Failed to decrypt SSH key, ensure password is correct.</source>
@@ -3125,18 +3137,8 @@ Would you like to correct it?</translation>
         <translation>Add new window association</translation>
     </message>
     <message>
-        <source>+</source>
-        <comment>Add item</comment>
-        <translation>+</translation>
-    </message>
-    <message>
         <source>Remove selected window association</source>
         <translation>Remove selected window association</translation>
-    </message>
-    <message>
-        <source>-</source>
-        <comment>Remove item</comment>
-        <translation>-</translation>
     </message>
     <message>
         <source>Window title:</source>
@@ -3161,6 +3163,16 @@ Would you like to correct it?</translation>
     <message>
         <source>Custom Auto-Type sequence for this window</source>
         <translation>Custom Auto-Type sequence for this window</translation>
+    </message>
+    <message>
+        <source>+</source>
+        <comment>Add item</comment>
+        <translation>+</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <comment>Remove item</comment>
+        <translation>-</translation>
     </message>
 </context>
 <context>
@@ -3379,6 +3391,19 @@ Would you like to correct it?</translation>
         <translation>Private key</translation>
     </message>
     <message>
+        <source>External file</source>
+        <translation>External file</translation>
+    </message>
+    <message>
+        <source>Browser for key file</source>
+        <translation>Browser for key file</translation>
+    </message>
+    <message>
+        <source>Browse…</source>
+        <extracomment>Button for opening file dialog</extracomment>
+        <translation>Browse…</translation>
+    </message>
+    <message>
         <source>Attachment</source>
         <translation>Attachment</translation>
     </message>
@@ -3393,23 +3418,6 @@ Would you like to correct it?</translation>
     <message>
         <source>Remove from agent</source>
         <translation>Remove from agent</translation>
-    </message>
-    <message>
-        <source>External file</source>
-        <translation>External file</translation>
-    </message>
-    <message>
-        <source>Browser for key file</source>
-        <translation>Browse filesystem for key file</translation>
-    </message>
-    <message>
-        <source>Browse…</source>
-        <extracomment>Button for opening file dialog</extracomment>
-        <translation>Browse…</translation>
-    </message>
-    <message>
-        <source>Generate</source>
-        <translation>Generate</translation>
     </message>
     <message>
         <source>Select attachment file</source>
@@ -3451,6 +3459,10 @@ Would you like to correct it?</translation>
         <translation>Icon</translation>
     </message>
     <message>
+        <source>Browser Integration</source>
+        <translation>Browser Integration</translation>
+    </message>
+    <message>
         <source>Properties</source>
         <translation>Properties</translation>
     </message>
@@ -3465,10 +3477,6 @@ Would you like to correct it?</translation>
     <message>
         <source>Group has unsaved changes</source>
         <translation>Group has unsaved changes</translation>
-    </message>
-    <message>
-        <source>Browser Integration</source>
-        <translation>Browser Integration</translation>
     </message>
     <message>
         <source>Enable</source>
@@ -3531,11 +3539,11 @@ Would you like to correct it?</translation>
     </message>
     <message>
         <source>Restrict matching to given browser key:</source>
-        <translation type="unfinished"/>
+        <translation>Restrict matching to given browser key:</translation>
     </message>
     <message>
         <source>Restrict matching to given browser key toggle for this and sub groups</source>
-        <translation type="unfinished"/>
+        <translation>Restrict matching to given browser key toggle for this and sub groups</translation>
     </message>
 </context>
 <context>
@@ -3825,14 +3833,6 @@ Supported extensions are: %1.</translation>
         <translation>Datetime modified</translation>
     </message>
     <message>
-        <source>Accessed:</source>
-        <translation>Accessed:</translation>
-    </message>
-    <message>
-        <source>Datetime accessed</source>
-        <translation>Datetime accessed</translation>
-    </message>
-    <message>
         <source>Uuid:</source>
         <translation>Uuid:</translation>
     </message>
@@ -3899,27 +3899,68 @@ This may cause the affected plugins to malfunction.</translation>
         <translation>Invalid regular expression syntax %1
 %2</translation>
     </message>
+    <message>
+        <source>Title</source>
+        <translation>Title</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Username</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>URL</source>
+        <translation>URL</translation>
+    </message>
+    <message>
+        <source>Notes</source>
+        <translation>Notes</translation>
+    </message>
+    <message>
+        <source>Custom Attributes</source>
+        <translation>Custom Attributes</translation>
+    </message>
+    <message>
+        <source>Icon</source>
+        <translation>Icon</translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>Colour</translation>
+    </message>
+    <message>
+        <source>Expiration</source>
+        <translation>Expiration</translation>
+    </message>
+    <message>
+        <source>TOTP</source>
+        <translation>TOTP</translation>
+    </message>
+    <message>
+        <source>Custom Data</source>
+        <translation>Custom Data</translation>
+    </message>
+    <message>
+        <source>Attachments</source>
+        <translation>Attachments</translation>
+    </message>
+    <message>
+        <source>Auto-Type</source>
+        <translation>Auto-Type</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tags</translation>
+    </message>
 </context>
 <context>
     <name>EntryAttachments</name>
     <message>
         <source>Cannot open file &quot;%1&quot;</source>
         <translation>Cannot open file &quot;%1&quot;</translation>
-    </message>
-</context>
-<context>
-    <name>EntryAttachmentsDialog</name>
-    <message>
-        <source>Form</source>
-        <translation>Form</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>File name</translation>
-    </message>
-    <message>
-        <source>File contents...</source>
-        <translation>File contents...</translation>
     </message>
 </context>
 <context>
@@ -3948,10 +3989,6 @@ This may cause the affected plugins to malfunction.</translation>
         <translation>Add new attachment</translation>
     </message>
     <message>
-        <source>Add</source>
-        <translation>Add</translation>
-    </message>
-    <message>
         <source>Remove selected attachment</source>
         <translation>Remove selected attachment</translation>
     </message>
@@ -3970,10 +4007,6 @@ This may cause the affected plugins to malfunction.</translation>
     <message>
         <source>Save selected attachment to disk</source>
         <translation>Save selected attachment to disk</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Save</translation>
     </message>
     <message>
         <source>Select files</source>
@@ -4075,16 +4108,32 @@ Would you like to overwrite the existing attachment?</source>
 Would you like to overwrite the existing attachment?</translation>
     </message>
     <message>
-        <source>New</source>
-        <translation>New</translation>
-    </message>
-    <message>
         <source>Preview</source>
         <translation>Preview</translation>
     </message>
     <message>
-        <source>Failed to preview an attachment: Attachment not found</source>
-        <translation>Failed to preview an attachment: Attachment not found</translation>
+        <source>Edit</source>
+        <translation>Edit</translation>
+    </message>
+    <message>
+        <source>New Text Document</source>
+        <translation>New Text Document</translation>
+    </message>
+    <message>
+        <source>Add file…</source>
+        <translation>Add file…</translation>
+    </message>
+    <message>
+        <source>Load from Disk…</source>
+        <translation>Load from Disk…</translation>
+    </message>
+    <message>
+        <source>Save…</source>
+        <translation>Save…</translation>
+    </message>
+    <message>
+        <source>New Attachment</source>
+        <translation>New Attachment</translation>
     </message>
 </context>
 <context>
@@ -4115,62 +4164,6 @@ Would you like to overwrite the existing attachment?</translation>
     <message>
         <source>Size</source>
         <translation>Size</translation>
-    </message>
-    <message>
-        <source>Title</source>
-        <translation>Title</translation>
-    </message>
-    <message>
-        <source>Username</source>
-        <translation>Username</translation>
-    </message>
-    <message>
-        <source>Password</source>
-        <translation>Password</translation>
-    </message>
-    <message>
-        <source>URL</source>
-        <translation>URL</translation>
-    </message>
-    <message>
-        <source>Notes</source>
-        <translation>Notes</translation>
-    </message>
-    <message>
-        <source>Custom Attributes</source>
-        <translation>Custom Attributes</translation>
-    </message>
-    <message>
-        <source>Icon</source>
-        <translation>Icon</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Color</translation>
-    </message>
-    <message>
-        <source>Expiration</source>
-        <translation>Expiration</translation>
-    </message>
-    <message>
-        <source>TOTP</source>
-        <translation>TOTP</translation>
-    </message>
-    <message>
-        <source>Custom Data</source>
-        <translation>Custom Data</translation>
-    </message>
-    <message>
-        <source>Attachments</source>
-        <translation>Attachments</translation>
-    </message>
-    <message>
-        <source>Auto-Type</source>
-        <translation>Auto-Type</translation>
-    </message>
-    <message>
-        <source>Tags</source>
-        <translation>Tags</translation>
     </message>
 </context>
 <context>
@@ -4221,10 +4214,6 @@ Would you like to overwrite the existing attachment?</translation>
         <translation>Modified</translation>
     </message>
     <message>
-        <source>Accessed</source>
-        <translation>Accessed</translation>
-    </message>
-    <message>
         <source>Attachments</source>
         <translation>Attachments</translation>
     </message>
@@ -4259,10 +4248,6 @@ Would you like to overwrite the existing attachment?</translation>
     <message>
         <source>Last modification date</source>
         <translation>Last modification date</translation>
-    </message>
-    <message>
-        <source>Last access date</source>
-        <translation>Last access date</translation>
     </message>
     <message>
         <source>Attached files</source>
@@ -4308,8 +4293,8 @@ Would you like to overwrite the existing attachment?</translation>
         <translation>Password</translation>
     </message>
     <message>
-        <source>URL</source>
-        <translation>URL</translation>
+        <source>Notes</source>
+        <translation>Notes</translation>
     </message>
     <message>
         <source>Expiration</source>
@@ -4328,8 +4313,8 @@ Would you like to overwrite the existing attachment?</translation>
         <translation>Username</translation>
     </message>
     <message>
-        <source>Notes</source>
-        <translation>Notes</translation>
+        <source>URL</source>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -4380,16 +4365,16 @@ Would you like to overwrite the existing attachment?</translation>
         <translation>Never</translation>
     </message>
     <message>
-        <source>Double click to copy value</source>
-        <translation>Double click to copy value</translation>
-    </message>
-    <message>
         <source>Enabled</source>
         <translation>Enabled</translation>
     </message>
     <message>
         <source>Disabled</source>
         <translation>Disabled</translation>
+    </message>
+    <message>
+        <source>Double click to copy value</source>
+        <translation>Double click to copy value</translation>
     </message>
     <message>
         <source>Double click to copy to clipboard</source>
@@ -4457,16 +4442,16 @@ This will leave your passwords and sensitive information vulnerable!
         <translation>name (descending)</translation>
     </message>
     <message>
-        <source>unknown</source>
-        <translation>unknown</translation>
-    </message>
-    <message>
         <source>Export database to HTML file</source>
         <translation>Export database to HTML file</translation>
     </message>
     <message>
         <source>HTML file</source>
         <translation>HTML file</translation>
+    </message>
+    <message>
+        <source>invalid sort order</source>
+        <translation>invalid sort order</translation>
     </message>
 </context>
 <context>
@@ -4535,7 +4520,7 @@ This will leave your passwords and sensitive information vulnerable!
     <message numerus="yes">
         <source>%n Entry(s) was used by %1</source>
         <comment>%1 is the name of an application</comment>
-        <translation><numerusform>%n Entry was used by %1</numerusform><numerusform>%n Entries were used by %1</numerusform></translation>
+        <translation><numerusform>%n entry was used by %1</numerusform><numerusform>%n entries were used by %1</numerusform></translation>
     </message>
 </context>
 <context>
@@ -4647,6 +4632,17 @@ You can enable the DuckDuckGo website icon service in the security section of th
     </message>
 </context>
 <context>
+    <name>ImageAttachmentsWidget</name>
+    <message>
+        <source>Zoom:</source>
+        <translation>Zoom:</translation>
+    </message>
+    <message>
+        <source>Fit</source>
+        <translation>Fit</translation>
+    </message>
+</context>
+<context>
     <name>ImportWizard</name>
     <message>
         <source>Import Wizard</source>
@@ -4682,14 +4678,6 @@ You can enable the DuckDuckGo website icon service in the security section of th
     <message>
         <source>Url</source>
         <translation>Url</translation>
-    </message>
-    <message>
-        <source>Could not load key file.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Could not open remote database. Password or key file may be incorrect.</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4801,36 +4789,6 @@ You can enable the DuckDuckGo website icon service in the security section of th
     <message>
         <source>Proton Pass JSON Export</source>
         <translation>Proton Pass JSON Export</translation>
-    </message>
-    <message>
-        <source>Temporary Database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Command:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>e.g.: &quot;sftp user@hostname&quot; or &quot;scp user@hostname:DatabaseOnRemote.kdbx {TEMP_DATABASE}&quot;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Input:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>e.g.:
-get DatabaseOnRemote.kdbx {TEMP_DATABASE}
-exit
----
-{TEMP_DATABASE} is used as placeholder to store the database in a temporary location
-The command has to exit. In case of `sftp` as last commend `exit` has to be sent
-         </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Remote Database (.kdbx)</source>
-        <translation>Remote Database (.kdbx)</translation>
     </message>
 </context>
 <context>
@@ -5644,10 +5602,6 @@ Are you sure you want to continue with this file?</translation>
         <translation>TOTP</translation>
     </message>
     <message>
-        <source>Tags</source>
-        <translation>Tags</translation>
-    </message>
-    <message>
         <source>&amp;Groups</source>
         <translation>&amp;Groups</translation>
     </message>
@@ -5692,8 +5646,16 @@ Are you sure you want to continue with this file?</translation>
         <translation>&amp;New Database…</translation>
     </message>
     <message>
+        <source>Create a new database</source>
+        <translation>Create a new database</translation>
+    </message>
+    <message>
         <source>&amp;Merge From Database…</source>
         <translation>&amp;Merge From Database…</translation>
+    </message>
+    <message>
+        <source>Merge from another KDBX database</source>
+        <translation>Merge from another KDBX database</translation>
     </message>
     <message>
         <source>&amp;New Entry…</source>
@@ -5704,12 +5666,12 @@ Are you sure you want to continue with this file?</translation>
         <translation>&amp;Edit Entry…</translation>
     </message>
     <message>
-        <source>&amp;Delete Entry…</source>
-        <translation>&amp;Delete Entry…</translation>
-    </message>
-    <message>
         <source>&amp;New Group…</source>
         <translation>&amp;New Group…</translation>
+    </message>
+    <message>
+        <source>Add a new group</source>
+        <translation>Add a new group</translation>
     </message>
     <message>
         <source>&amp;Edit Group…</source>
@@ -5744,8 +5706,16 @@ Are you sure you want to continue with this file?</translation>
         <translation>Database &amp;Reports…</translation>
     </message>
     <message>
+        <source>Statistics, health check, etc.</source>
+        <translation>Statistics, health check, etc.</translation>
+    </message>
+    <message>
         <source>&amp;Database Settings…</source>
         <translation>&amp;Database Settings…</translation>
+    </message>
+    <message>
+        <source>Database settings</source>
+        <translation>Database settings</translation>
     </message>
     <message>
         <source>&amp;Clone Entry…</source>
@@ -5756,16 +5726,32 @@ Are you sure you want to continue with this file?</translation>
         <translation>Move u&amp;p</translation>
     </message>
     <message>
+        <source>Move entry one step up</source>
+        <translation>Move entry one step up</translation>
+    </message>
+    <message>
         <source>Move do&amp;wn</source>
         <translation>Move do&amp;wn</translation>
+    </message>
+    <message>
+        <source>Move entry one step down</source>
+        <translation>Move entry one step down</translation>
     </message>
     <message>
         <source>Copy &amp;Username</source>
         <translation>Copy &amp;Username</translation>
     </message>
     <message>
+        <source>Copy username to clipboard</source>
+        <translation>Copy username to clipboard</translation>
+    </message>
+    <message>
         <source>Copy &amp;Password</source>
         <translation>Copy &amp;Password</translation>
+    </message>
+    <message>
+        <source>Copy password to clipboard</source>
+        <translation>Copy password to clipboard</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -5800,12 +5786,20 @@ Are you sure you want to continue with this file?</translation>
         <translation>&amp;Title</translation>
     </message>
     <message>
-        <source>Copy &amp;URL</source>
-        <translation>Copy &amp;URL</translation>
+        <source>Copy title to clipboard</source>
+        <translation>Copy title to clipboard</translation>
+    </message>
+    <message>
+        <source>Copy URL to clipboard</source>
+        <translation>Copy URL to clipboard</translation>
     </message>
     <message>
         <source>&amp;Notes</source>
         <translation>&amp;Notes</translation>
+    </message>
+    <message>
+        <source>Copy notes to clipboard</source>
+        <translation>Copy notes to clipboard</translation>
     </message>
     <message>
         <source>&amp;CSV File…</source>
@@ -5820,12 +5814,24 @@ Are you sure you want to continue with this file?</translation>
         <translation>KeePass 1 Database…</translation>
     </message>
     <message>
+        <source>Import a KeePass 1 database</source>
+        <translation>Import a KeePass 1 database</translation>
+    </message>
+    <message>
         <source>1Password Vault…</source>
         <translation>1Password Vault…</translation>
     </message>
     <message>
+        <source>Import a 1Password Vault</source>
+        <translation>Import a 1Password Vault</translation>
+    </message>
+    <message>
         <source>CSV File…</source>
         <translation>CSV File…</translation>
+    </message>
+    <message>
+        <source>Import a CSV file</source>
+        <translation>Import a CSV file</translation>
     </message>
     <message>
         <source>Show TOTP</source>
@@ -5842,10 +5848,6 @@ Are you sure you want to continue with this file?</translation>
     <message>
         <source>Copy &amp;TOTP</source>
         <translation>Copy &amp;TOTP</translation>
-    </message>
-    <message>
-        <source>Copy Password and TOTP</source>
-        <translation>Copy Password and TOTP</translation>
     </message>
     <message>
         <source>E&amp;mpty recycle bin</source>
@@ -5870,6 +5872,10 @@ Are you sure you want to continue with this file?</translation>
     <message>
         <source>&amp;Online Help</source>
         <translation>&amp;Online Help</translation>
+    </message>
+    <message>
+        <source>Go to online documentation</source>
+        <translation>Go to online documentation</translation>
     </message>
     <message>
         <source>&amp;User Guide</source>
@@ -5944,10 +5950,6 @@ Are you sure you want to continue with this file?</translation>
         <translation>Clone Group...</translation>
     </message>
     <message>
-        <source>&amp;XML File…</source>
-        <translation>&amp;XML File…</translation>
-    </message>
-    <message>
         <source>Clear history</source>
         <translation>Clear history</translation>
     </message>
@@ -6005,10 +6007,6 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <source>Quit KeePassXC</source>
         <translation>Quit KeePassXC</translation>
     </message>
-    <message numerus="yes">
-        <source>%1 Entry(s)</source>
-        <translation><numerusform>%1 Entry</numerusform><numerusform>%1 Entries</numerusform></translation>
-    </message>
     <message>
         <source>Please present or touch your YubiKey to continue…</source>
         <translation>Please present or touch your YubiKey to continue…</translation>
@@ -6022,8 +6020,8 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <translation>You must restart the application to apply this setting. Would you like to restart now?</translation>
     </message>
     <message>
-        <source>Allow Screen Capture</source>
-        <translation>Allow Screen Capture</translation>
+        <source>Tags</source>
+        <translation>Tags</translation>
     </message>
     <message>
         <source>1Password 1PUX...</source>
@@ -6041,265 +6039,49 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <source>Passkeys…</source>
         <translation>Passkeys…</translation>
     </message>
+    <message numerus="yes">
+        <source>%1 Entry(s)</source>
+        <translation><numerusform>%1 Entry</numerusform><numerusform>%1 Entries</numerusform></translation>
+    </message>
+    <message>
+        <source>&amp;XML File…</source>
+        <translation>&amp;XML File…</translation>
+    </message>
+    <message>
+        <source>XML File…</source>
+        <translation>XML File…</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URL</source>
+        <translation>Copy &amp;URL</translation>
+    </message>
+    <message>
+        <source>Allow Screen Capture</source>
+        <translation>Allow Screen Capture</translation>
+    </message>
+    <message>
+        <source>Passkeys</source>
+        <translation>Passkeys</translation>
+    </message>
     <message>
         <source>Import Passkey</source>
         <translation>Import Passkey</translation>
     </message>
     <message>
-        <source>Remote S&amp;ync…</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Quit Application</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Open About Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Open Database</source>
-        <translation>Open Database</translation>
-    </message>
-    <message>
-        <source>Create Database</source>
-        <translation>Create Database</translation>
-    </message>
-    <message>
-        <source>Merge From Database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Create Entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Edit Entry</source>
-        <translation>Edit Entry</translation>
-    </message>
-    <message>
         <source>Delete Entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Create Group</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Edit Group</source>
-        <translation>Edit Group</translation>
-    </message>
-    <message>
-        <source>Delete Group</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Download All Favicons</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Sort Groups A-Z</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Sort Groups Z-A</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Save Database As</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show Database Security</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show Database Reports</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show Database Settings</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show Passkeys</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Clone Entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Move Entry Up</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Move Entry Down</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy Username</source>
-        <translation>Copy Username</translation>
-    </message>
-    <message>
-        <source>Copy Password</source>
-        <translation>Copy Password</translation>
-    </message>
-    <message>
-        <source>Show Application Settings</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show Password Generator</source>
-        <translation type="unfinished"/>
+        <translation>Delete Entry</translation>
     </message>
     <message>
         <source>Remove Passkey From Entry</source>
         <translation>Remove Passkey From Entry</translation>
     </message>
     <message>
-        <source>Perform Auto-Type: {USERNAME}</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Perform Auto-Type: {USERNAME}{ENTER}</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Perform Auto-Type: {PASSWORD}</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Perform Auto-Type: {PASSWORD}{ENTER}</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Perform Auto-Type: {TOTP}</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy Title</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy URL</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Copy Notes</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Export to CSV</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Export to HTML</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Import KeePass1 Database</source>
-        <translation>Import KeePass1 Database</translation>
-    </message>
-    <message>
-        <source>Import 1Password Vault</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Import CSV File</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Show TOTP QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set up TOTP</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Empty Recycle Bin</source>
         <translation>Empty Recycle Bin</translation>
     </message>
     <message>
-        <source>Open Donation Website</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Open Bug Report</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Open Online Documentation</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Open Keyboard Shortcuts Guide</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Save Database Backup</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>SSH Agent: Add Key</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>SSH Agent: Remove Key</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Toggle Compact Mode</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set Theme: Automatic</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set Theme: Light</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set Theme: Dark</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Set Theme: Classic</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Toggle Show Menubar</source>
         <translation>Toggle Show Menubar</translation>
-    </message>
-    <message>
-        <source>Toggle Show Toolbar</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Toggle Show Preview Panel</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Toggle Always on Top</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Toggle Hide Usernames</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Toggle Hide Passwords</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Export to XML</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Toggle Allow Screen Capture</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <source>Show Group Panel</source>
@@ -6310,16 +6092,8 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <translation>Toggle Show Group Panel</translation>
     </message>
     <message>
-        <source>Setup Remote Sync…</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Password Generator</source>
         <translation>Password Generator</translation>
-    </message>
-    <message>
-        <source>E&amp;xpire Entry…</source>
-        <translation>E&amp;xpire Entry…</translation>
     </message>
     <message>
         <source>Clear SSH Agent</source>
@@ -6328,6 +6102,42 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     <message>
         <source>Clear all identities in ssh-agent</source>
         <translation>Clear all identities in ssh-agent</translation>
+    </message>
+    <message>
+        <source>New Entry</source>
+        <translation>New Entry</translation>
+    </message>
+    <message>
+        <source>Edit Entry…</source>
+        <translation>Edit Entry…</translation>
+    </message>
+    <message>
+        <source>E&amp;xpire Entry</source>
+        <translation>E&amp;xpire Entry</translation>
+    </message>
+    <message>
+        <source>Expire Entry</source>
+        <translation>Expire Entry</translation>
+    </message>
+    <message>
+        <source>&amp;Delete Entry</source>
+        <translation>&amp;Delete Entry</translation>
+    </message>
+    <message numerus="yes">
+        <source>Move selected entry(s) to the recycle bin</source>
+        <translation><numerusform>Move selected entry(s) to the recycle bin</numerusform><numerusform>Move selected entry(s) to the recycle bin</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>Permanently delete the selected entry(s)</source>
+        <translation><numerusform>Permanently delete the selected entry(s)</numerusform><numerusform>Permanently delete the selected entry(s)</numerusform></translation>
+    </message>
+    <message>
+        <source>View or edit entry</source>
+        <translation>View or edit entry</translation>
+    </message>
+    <message>
+        <source>Copy Password and TOTP</source>
+        <translation>Copy Password and TOTP</translation>
     </message>
 </context>
 <context>
@@ -6373,42 +6183,41 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
 </context>
 <context>
+    <name>MergeDialog</name>
+    <message>
+        <source>Database Merge Confirmation</source>
+        <translation>Database Merge Confirmation</translation>
+    </message>
+    <message>
+        <source>Merge</source>
+        <translation>Merge</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation>Group</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>Title</translation>
+    </message>
+    <message>
+        <source>UUID</source>
+        <translation>UUID</translation>
+    </message>
+    <message>
+        <source>Details</source>
+        <translation>Details</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Change</translation>
+    </message>
+</context>
+<context>
     <name>Merger</name>
-    <message>
-        <source>Creating missing %1 [%2]</source>
-        <translation>Creating missing %1 [%2]</translation>
-    </message>
-    <message>
-        <source>Relocating %1 [%2]</source>
-        <translation>Relocating %1 [%2]</translation>
-    </message>
-    <message>
-        <source>Overwriting %1 [%2]</source>
-        <translation>Overwriting %1 [%2]</translation>
-    </message>
-    <message>
-        <source>Synchronizing from newer source %1 [%2]</source>
-        <translation>Synchronizing from newer source %1 [%2]</translation>
-    </message>
-    <message>
-        <source>Synchronizing from older source %1 [%2]</source>
-        <translation>Synchronizing from older source %1 [%2]</translation>
-    </message>
-    <message>
-        <source>Deleting child %1 [%2]</source>
-        <translation>Deleting child %1 [%2]</translation>
-    </message>
-    <message>
-        <source>Deleting orphan %1 [%2]</source>
-        <translation>Deleting orphan %1 [%2]</translation>
-    </message>
     <message>
         <source>Changed deleted objects</source>
         <translation>Changed deleted objects</translation>
-    </message>
-    <message>
-        <source>Adding missing icon %1</source>
-        <translation>Adding missing icon %1</translation>
     </message>
     <message>
         <source>Removed custom data %1 [%2]</source>
@@ -6417,6 +6226,74 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     <message>
         <source>Adding custom data %1 [%2]</source>
         <translation>Adding custom data %1 [%2]</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Added</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modified</translation>
+    </message>
+    <message>
+        <source>Moved</source>
+        <translation>Moved</translation>
+    </message>
+    <message>
+        <source>Deleted</source>
+        <translation>Deleted</translation>
+    </message>
+    <message>
+        <source>Previous location: %1</source>
+        <translation>Previous location: %1</translation>
+    </message>
+    <message>
+        <source>Number of entries in group: %1</source>
+        <translation>Number of entries in group: %1</translation>
+    </message>
+    <message>
+        <source>Group name</source>
+        <translation>Group name</translation>
+    </message>
+    <message>
+        <source>Notes</source>
+        <translation>Notes</translation>
+    </message>
+    <message>
+        <source>Icon (UUID)</source>
+        <translation>Icon (UUID)</translation>
+    </message>
+    <message>
+        <source>Icon (Number)</source>
+        <translation>Icon (Number)</translation>
+    </message>
+    <message>
+        <source>Expiry time</source>
+        <translation>Expiry time</translation>
+    </message>
+    <message>
+        <source>Modification time</source>
+        <translation>Modification time</translation>
+    </message>
+    <message>
+        <source>%1 (Add local modifications to new entry)</source>
+        <translation>%1 (Add local modifications to new entry)</translation>
+    </message>
+    <message>
+        <source>%1 (Add new modifications to existing entry)</source>
+        <translation>%1 (Add new modifications to existing entry)</translation>
+    </message>
+    <message>
+        <source>Explicit deletion</source>
+        <translation>Explicit deletion</translation>
+    </message>
+    <message>
+        <source>Implicit deletion (e.g. removal of parent group)</source>
+        <translation>Implicit deletion (e.g. removal of parent group)</translation>
+    </message>
+    <message>
+        <source>Adding new icon %1</source>
+        <translation>Adding new icon %1</translation>
     </message>
 </context>
 <context>
@@ -6477,25 +6354,6 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     <message>
         <source>Please fill in the display name and an optional description for your new database:</source>
         <translation>Please fill in the display name and an optional description for your new database:</translation>
-    </message>
-</context>
-<context>
-    <name>NewEntryAttachmentsDialog</name>
-    <message>
-        <source>Attachment name cannot be empty</source>
-        <translation>Attachment name cannot be empty</translation>
-    </message>
-    <message>
-        <source>Attachment with the same name already exists</source>
-        <translation>Attachment with the same name already exists</translation>
-    </message>
-    <message>
-        <source>Save attachment</source>
-        <translation>Save attachment</translation>
-    </message>
-    <message>
-        <source>New entry attachment</source>
-        <translation>New entry attachment</translation>
     </message>
 </context>
 <context>
@@ -6598,10 +6456,6 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <translation>Found zero keys</translation>
     </message>
     <message>
-        <source>Failed to read public key.</source>
-        <translation>Failed to read public key.</translation>
-    </message>
-    <message>
         <source>Corrupted key file, reading private key failed</source>
         <translation>Corrupted key file, reading private key failed</translation>
     </message>
@@ -6616,10 +6470,6 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     <message>
         <source>Unknown cipher: %1</source>
         <translation>Unknown cipher: %1</translation>
-    </message>
-    <message>
-        <source>AES-256/GCM is currently not supported</source>
-        <translation>AES-256/GCM is currently not supported</translation>
     </message>
     <message>
         <source>Passphrase is required to decrypt this key</source>
@@ -6689,24 +6539,17 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <source>(encrypted)</source>
         <translation>(encrypted)</translation>
     </message>
-</context>
-<context>
-    <name>OpenSSHKeyGenDialog</name>
     <message>
-        <source>SSH Key Generator</source>
-        <translation type="unfinished"/>
+        <source>Failed to read key file: %1</source>
+        <translation>Failed to read key file: %1</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Type</translation>
+        <source>Failed to read public key: %1</source>
+        <translation>Failed to read public key: %1</translation>
     </message>
     <message>
-        <source>Bits</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Comment</translation>
+        <source>AES-256/GCM is currently not supported</source>
+        <translation>AES-256/GCM is currently not supported</translation>
     </message>
 </context>
 <context>
@@ -6743,10 +6586,6 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
 <context>
     <name>PasskeyExporter</name>
     <message>
-        <source>KeePassXC: Passkey Export</source>
-        <translation>KeePassXC: Passkey Export</translation>
-    </message>
-    <message>
         <source>File &quot;%1.passkey&quot; already exists.
 Do you want to overwrite it?
 </source>
@@ -6765,6 +6604,10 @@ Do you want to overwrite it?
     <message>
         <source>Cannot write to file</source>
         <translation>Cannot write to file</translation>
+    </message>
+    <message>
+        <source>Overwrite Existing File?</source>
+        <translation>Overwrite Existing File?</translation>
     </message>
 </context>
 <context>
@@ -6841,14 +6684,6 @@ Do you want to overwrite it?
         <translation>Cannot open file &quot;%1&quot; for reading.</translation>
     </message>
     <message>
-        <source>Open passkey file</source>
-        <translation>Open passkey file</translation>
-    </message>
-    <message>
-        <source>Cannot import passkey</source>
-        <translation>Cannot import passkey</translation>
-    </message>
-    <message>
         <source>Cannot import passkey file &quot;%1&quot;. Data is missing.</source>
         <translation>Cannot import passkey file &quot;%1&quot;. Data is missing.</translation>
     </message>
@@ -6863,6 +6698,14 @@ The following data is missing:
     <message>
         <source>Cannot import passkey file &quot;%1&quot;. Private key is missing or malformed.</source>
         <translation>Cannot import passkey file &quot;%1&quot;. Private key is missing or malformed.</translation>
+    </message>
+    <message>
+        <source>Open Passkey File</source>
+        <translation>Open Passkey File</translation>
+    </message>
+    <message>
+        <source>Passkey Import Failed</source>
+        <translation>Passkey Import Failed</translation>
     </message>
 </context>
 <context>
@@ -7116,6 +6959,30 @@ The following data is missing:
         <translation>Entropy: %1 bit</translation>
     </message>
     <message>
+        <source>Failed to delete wordlist</source>
+        <translation>Failed to delete wordlist</translation>
+    </message>
+    <message>
+        <source>Wordlists</source>
+        <translation>Wordlists</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>All files</translation>
+    </message>
+    <message>
+        <source>Failed to add wordlist</source>
+        <translation>Failed to add wordlist</translation>
+    </message>
+    <message>
+        <source>Logograms</source>
+        <translation>Logograms</translation>
+    </message>
+    <message>
+        <source>Special Characters</source>
+        <translation>Special Characters</translation>
+    </message>
+    <message>
         <source>Password Quality: %1</source>
         <translation>Password Quality: %1</translation>
     </message>
@@ -7140,52 +7007,6 @@ The following data is missing:
         <translation>Excellent</translation>
     </message>
     <message>
-        <source>Confirm Delete Wordlist</source>
-        <translation>Confirm Delete Wordlist</translation>
-    </message>
-    <message>
-        <source>Do you really want to delete the wordlist &quot;%1&quot;?</source>
-        <translation>Do you really want to delete the wordlist &quot;%1&quot;?</translation>
-    </message>
-    <message>
-        <source>Failed to delete wordlist</source>
-        <translation>Failed to delete wordlist</translation>
-    </message>
-    <message>
-        <source>Wordlists</source>
-        <translation>Wordlists</translation>
-    </message>
-    <message>
-        <source>All files</source>
-        <translation>All files</translation>
-    </message>
-    <message>
-        <source>Select Custom Wordlist</source>
-        <translation>Select Custom Wordlist</translation>
-    </message>
-    <message>
-        <source>Overwrite Wordlist?</source>
-        <translation>Overwrite Wordlist?</translation>
-    </message>
-    <message>
-        <source>Wordlist &quot;%1&quot; already exists as a custom wordlist.
-Do you want to overwrite it?</source>
-        <translation>Wordlist &quot;%1&quot; already exists as a custom wordlist.
-Do you want to overwrite it?</translation>
-    </message>
-    <message>
-        <source>Failed to add wordlist</source>
-        <translation>Failed to add wordlist</translation>
-    </message>
-    <message>
-        <source>Logograms</source>
-        <translation>Logograms</translation>
-    </message>
-    <message>
-        <source>Special Characters</source>
-        <translation>Special Characters</translation>
-    </message>
-    <message>
         <source>passwordLength</source>
         <translation>passwordLength</translation>
     </message>
@@ -7200,6 +7021,32 @@ Do you want to overwrite it?</translation>
     <message>
         <source>Excluded characters: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</source>
         <translation>Excluded characters: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</translation>
+    </message>
+    <message>
+        <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
+        <translation>Warning: the chosen wordlist is smaller than the minimum recommended size!</translation>
+    </message>
+    <message>
+        <source>Confirm Remove Wordlist</source>
+        <translation>Confirm Remove Wordlist</translation>
+    </message>
+    <message>
+        <source>Do you really want to remove the wordlist &quot;%1&quot;?</source>
+        <translation>Do you really want to remove the wordlist &quot;%1&quot;?</translation>
+    </message>
+    <message>
+        <source>Select Custom Wordlist</source>
+        <translation>Select Custom Wordlist</translation>
+    </message>
+    <message>
+        <source>Overwrite Wordlist?</source>
+        <translation>Overwrite Wordlist?</translation>
+    </message>
+    <message>
+        <source>Wordlist &quot;%1&quot; already exists as a custom wordlist.
+Do you want to overwrite it?</source>
+        <translation>Wordlist &quot;%1&quot; already exists as a custom wordlist.
+Do you want to overwrite it?</translation>
     </message>
 </context>
 <context>
@@ -7249,8 +7096,8 @@ Do you want to overwrite it?</translation>
         <translation>Excellent</translation>
     </message>
     <message>
-        <source>Toggle password visibility using Control + H. Open the password generator using Control + G.</source>
-        <translation type="unfinished"/>
+        <source>Toggle password visibilty using Control + H. Open the password generator using Control + G.</source>
+        <translation>Toggle password visibilty using Control + H. Open the password generator using Control + G.</translation>
     </message>
 </context>
 <context>
@@ -7271,16 +7118,16 @@ Do you want to overwrite it?</translation>
 <context>
     <name>PreviewEntryAttachmentsDialog</name>
     <message>
-        <source>Preview entry attachment</source>
-        <translation>Preview entry attachment</translation>
+        <source>Form</source>
+        <translation>Form</translation>
     </message>
     <message>
-        <source>No preview available</source>
-        <translation>No preview available</translation>
+        <source>Preview: %1</source>
+        <translation>Preview: %1</translation>
     </message>
     <message>
-        <source>Image format not supported</source>
-        <translation>Image format not supported</translation>
+        <source>Save…</source>
+        <translation>Save…</translation>
     </message>
 </context>
 <context>
@@ -7719,10 +7566,6 @@ Do you want to overwrite it?</translation>
         <translation>Too many arguments provided.</translation>
     </message>
     <message>
-        <source>Path of the database.</source>
-        <translation>Path of the database.</translation>
-    </message>
-    <message>
         <source>Target decryption time in MS for the database.</source>
         <translation>Target decryption time in MS for the database.</translation>
     </message>
@@ -7741,6 +7584,10 @@ Do you want to overwrite it?</translation>
     <message>
         <source>Create a new database.</source>
         <translation>Create a new database.</translation>
+    </message>
+    <message>
+        <source>Path of the database.</source>
+        <translation>Path of the database.</translation>
     </message>
     <message>
         <source>Invalid decryption time %1.</source>
@@ -7785,158 +7632,6 @@ Do you want to overwrite it?</translation>
     <message>
         <source>Successfully created new database.</source>
         <translation>Successfully created new database.</translation>
-    </message>
-    <message>
-        <source>Unset the password for the database.</source>
-        <translation>Unset the password for the database.</translation>
-    </message>
-    <message>
-        <source>Unset the key file for the database.</source>
-        <translation>Unset the key file for the database.</translation>
-    </message>
-    <message>
-        <source>Edit a database.</source>
-        <translation>Edit a database.</translation>
-    </message>
-    <message>
-        <source>Cannot use %1 and %2 at the same time.</source>
-        <translation>Cannot use %1 and %2 at the same time.</translation>
-    </message>
-    <message>
-        <source>Could not change the database key.</source>
-        <translation>Could not change the database key.</translation>
-    </message>
-    <message>
-        <source>Database was not modified.</source>
-        <translation>Database was not modified.</translation>
-    </message>
-    <message>
-        <source>Writing the database failed: %1</source>
-        <translation>Writing the database failed: %1</translation>
-    </message>
-    <message>
-        <source>Successfully edited the database.</source>
-        <translation>Successfully edited the database.</translation>
-    </message>
-    <message>
-        <source>Cannot remove password: The database does not have a password.</source>
-        <translation>Cannot remove password: The database does not have a password.</translation>
-    </message>
-    <message>
-        <source>Cannot remove file key: The database does not have a file key.</source>
-        <translation>Cannot remove file key: The database does not have a file key.</translation>
-    </message>
-    <message>
-        <source>Loading the new key file failed: %1</source>
-        <translation>Loading the new key file failed: %1</translation>
-    </message>
-    <message>
-        <source>Found unexpected Key type %1</source>
-        <translation>Found unexpected Key type %1</translation>
-    </message>
-    <message>
-        <source>Cannot remove all the keys from a database.</source>
-        <translation>Cannot remove all the keys from a database.</translation>
-    </message>
-    <message>
-        <source>Show a database&apos;s information.</source>
-        <translation>Show a database&apos;s information.</translation>
-    </message>
-    <message>
-        <source>UUID: </source>
-        <translation>UUID: </translation>
-    </message>
-    <message>
-        <source>Name: </source>
-        <translation>Name: </translation>
-    </message>
-    <message>
-        <source>Description: </source>
-        <translation>Description: </translation>
-    </message>
-    <message>
-        <source>Cipher: </source>
-        <translation>Cipher: </translation>
-    </message>
-    <message>
-        <source>KDF: </source>
-        <translation>KDF: </translation>
-    </message>
-    <message>
-        <source>Recycle bin is enabled.</source>
-        <translation>Recycle bin is enabled.</translation>
-    </message>
-    <message>
-        <source>Recycle bin is not enabled.</source>
-        <translation>Recycle bin is not enabled.</translation>
-    </message>
-    <message>
-        <source>Location</source>
-        <translation>Location</translation>
-    </message>
-    <message>
-        <source>Database created</source>
-        <translation>Database created</translation>
-    </message>
-    <message>
-        <source>Last saved</source>
-        <translation>Last saved</translation>
-    </message>
-    <message>
-        <source>Unsaved changes</source>
-        <translation>Unsaved changes</translation>
-    </message>
-    <message>
-        <source>yes</source>
-        <translation>yes</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>no</translation>
-    </message>
-    <message>
-        <source>Number of groups</source>
-        <translation>Number of groups</translation>
-    </message>
-    <message>
-        <source>Number of entries</source>
-        <translation>Number of entries</translation>
-    </message>
-    <message>
-        <source>Number of expired entries</source>
-        <translation>Number of expired entries</translation>
-    </message>
-    <message>
-        <source>Unique passwords</source>
-        <translation>Unique passwords</translation>
-    </message>
-    <message>
-        <source>Non-unique passwords</source>
-        <translation>Non-unique passwords</translation>
-    </message>
-    <message>
-        <source>Maximum password reuse</source>
-        <translation>Maximum password reuse</translation>
-    </message>
-    <message>
-        <source>Number of short passwords</source>
-        <translation>Number of short passwords</translation>
-    </message>
-    <message>
-        <source>Number of weak passwords</source>
-        <translation>Number of weak passwords</translation>
-    </message>
-    <message>
-        <source>Entries excluded from reports</source>
-        <translation>Entries excluded from reports</translation>
-    </message>
-    <message>
-        <source>Average password length</source>
-        <translation>Average password length</translation>
-    </message>
-    <message>
-        <source>%1 characters</source>
-        <translation>%1 characters</translation>
     </message>
     <message>
         <source>Word count for the diceware passphrase.</source>
@@ -7984,6 +7679,10 @@ Do you want to overwrite it?</translation>
     <message>
         <source>Enter new password for entry: </source>
         <translation>Enter new password for entry: </translation>
+    </message>
+    <message>
+        <source>Writing the database failed: %1</source>
+        <translation>Writing the database failed: %1</translation>
     </message>
     <message>
         <source>Successfully edited entry %1.</source>
@@ -8084,14 +7783,6 @@ Do you want to overwrite it?</translation>
     <message>
         <source>Type: Spatial(Rep)</source>
         <translation>Type: Spatial(Rep)</translation>
-    </message>
-    <message>
-        <source>Type: Date(Rep)</source>
-        <translation>Type: Date(Rep)</translation>
-    </message>
-    <message>
-        <source>Type: Unknown (%1)</source>
-        <translation>Type: Unknown (%1)</translation>
     </message>
     <message>
         <source>Entropy %1 (%2)</source>
@@ -8204,6 +7895,102 @@ Do you want to overwrite it?</translation>
     <message>
         <source>Successfully imported database.</source>
         <translation>Successfully imported database.</translation>
+    </message>
+    <message>
+        <source>Show a database&apos;s information.</source>
+        <translation>Show a database&apos;s information.</translation>
+    </message>
+    <message>
+        <source>UUID: </source>
+        <translation>UUID: </translation>
+    </message>
+    <message>
+        <source>Name: </source>
+        <translation>Name: </translation>
+    </message>
+    <message>
+        <source>Description: </source>
+        <translation>Description: </translation>
+    </message>
+    <message>
+        <source>Cipher: </source>
+        <translation>Cipher: </translation>
+    </message>
+    <message>
+        <source>KDF: </source>
+        <translation>KDF: </translation>
+    </message>
+    <message>
+        <source>Recycle bin is enabled.</source>
+        <translation>Recycle bin is enabled.</translation>
+    </message>
+    <message>
+        <source>Recycle bin is not enabled.</source>
+        <translation>Recycle bin is not enabled.</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Location</translation>
+    </message>
+    <message>
+        <source>Database created</source>
+        <translation>Database created</translation>
+    </message>
+    <message>
+        <source>Last saved</source>
+        <translation>Last saved</translation>
+    </message>
+    <message>
+        <source>Unsaved changes</source>
+        <translation>Unsaved changes</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>Number of groups</source>
+        <translation>Number of groups</translation>
+    </message>
+    <message>
+        <source>Number of entries</source>
+        <translation>Number of entries</translation>
+    </message>
+    <message>
+        <source>Number of expired entries</source>
+        <translation>Number of expired entries</translation>
+    </message>
+    <message>
+        <source>Unique passwords</source>
+        <translation>Unique passwords</translation>
+    </message>
+    <message>
+        <source>Non-unique passwords</source>
+        <translation>Non-unique passwords</translation>
+    </message>
+    <message>
+        <source>Maximum password reuse</source>
+        <translation>Maximum password reuse</translation>
+    </message>
+    <message>
+        <source>Number of short passwords</source>
+        <translation>Number of short passwords</translation>
+    </message>
+    <message>
+        <source>Number of weak passwords</source>
+        <translation>Number of weak passwords</translation>
+    </message>
+    <message>
+        <source>Entries excluded from reports</source>
+        <translation>Entries excluded from reports</translation>
+    </message>
+    <message>
+        <source>Average password length</source>
+        <translation>Average password length</translation>
     </message>
     <message>
         <source>Unknown command %1</source>
@@ -8378,10 +8165,6 @@ Available commands:
         <translation>Show the protected attributes in clear text.</translation>
     </message>
     <message>
-        <source>Show all the attributes of the entry.</source>
-        <translation>Show all the attributes of the entry.</translation>
-    </message>
-    <message>
         <source>Show the attachments of the entry.</source>
         <translation>Show the attachments of the entry.</translation>
     </message>
@@ -8450,10 +8233,6 @@ Please consider generating a new key file.</translation>
     <message>
         <source>Invalid YubiKey serial %1</source>
         <translation>Invalid YubiKey serial %1</translation>
-    </message>
-    <message>
-        <source>Please present or touch your YubiKey to continue.</source>
-        <translation>Please present or touch your YubiKey to continue.</translation>
     </message>
     <message>
         <source>Enter password to encrypt database (optional): </source>
@@ -8780,32 +8559,12 @@ Kernel: %3 %4</translation>
         <translation><numerusform>%1 s</numerusform><numerusform>%1 s</numerusform></translation>
     </message>
     <message>
-        <source>Do you really want to delete the entry &quot;%1&quot; for good?</source>
-        <translation>Do you really want to delete the entry &quot;%1&quot; for good?</translation>
-    </message>
-    <message numerus="yes">
-        <source>Do you really want to delete %n entry(s) for good?</source>
-        <translation><numerusform>Do you really want to delete %n entry for good?</numerusform><numerusform>Do you really want to delete %n entries for good?</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>Delete entry(s)?</source>
-        <translation><numerusform>Delete entry?</numerusform><numerusform>Delete entries?</numerusform></translation>
-    </message>
-    <message>
         <source>Do you really want to move entry &quot;%1&quot; to the recycle bin?</source>
         <translation>Do you really want to move entry &quot;%1&quot; to the recycle bin?</translation>
     </message>
     <message numerus="yes">
         <source>Do you really want to move %n entry(s) to the recycle bin?</source>
         <translation><numerusform>Do you really want to move %n entry to the recycle bin?</numerusform><numerusform>Do you really want to move %n entries to the recycle bin?</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>Move entry(s) to recycle bin?</source>
-        <translation><numerusform>Move entry to recycle bin?</numerusform><numerusform>Move entries to recycle bin?</numerusform></translation>
-    </message>
-    <message>
-        <source>Replace references to entry?</source>
-        <translation>Replace references to entry?</translation>
     </message>
     <message numerus="yes">
         <source>Entry &quot;%1&quot; has %2 reference(s). Do you want to overwrite references with values, skip this entry, or delete anyway?</source>
@@ -8880,10 +8639,6 @@ Kernel: %3 %4</translation>
         <translation>Another instance of KeePassXC is already running.</translation>
     </message>
     <message>
-        <source>KeePassXC is not running. No open database to lock</source>
-        <translation>KeePassXC is not running. No open database to lock</translation>
-    </message>
-    <message>
         <source>Fatal error while testing the cryptographic functions.</source>
         <translation>Fatal error while testing the cryptographic functions.</translation>
     </message>
@@ -8926,12 +8681,12 @@ Kernel: %3 %4</translation>
         <translation>Invalid KDF</translation>
     </message>
     <message>
-        <source>Access to all entries is denied</source>
-        <translation>Access to all entries is denied</translation>
+        <source>Please present or touch your YubiKey to continue.</source>
+        <translation>Please present or touch your YubiKey to continue.</translation>
     </message>
     <message>
-        <source>allow screenshots and app recording (Windows/macOS)</source>
-        <translation>allow screenshots and app recording (Windows/macOS)</translation>
+        <source>Show all the attributes of the entry.</source>
+        <translation>Show all the attributes of the entry.</translation>
     </message>
     <message>
         <source>Set the key file for the database.
@@ -8948,84 +8703,40 @@ This option is deprecated, use --set-key-file instead.</translation>
         <translation>Attestation not supported</translation>
     </message>
     <message>
-        <source>Credential is excluded</source>
-        <translation>Credential is excluded</translation>
+        <source>Loading the new key file failed: %1</source>
+        <translation>Loading the new key file failed: %1</translation>
     </message>
     <message>
-        <source>Passkeys request canceled</source>
-        <translation>Passkeys request canceled</translation>
+        <source>Unset the password for the database.</source>
+        <translation>Unset the password for the database.</translation>
     </message>
     <message>
-        <source>Invalid user verification</source>
-        <translation>Invalid user verification</translation>
+        <source>Unset the key file for the database.</source>
+        <translation>Unset the key file for the database.</translation>
     </message>
     <message>
-        <source>Empty public key</source>
-        <translation>Empty public key</translation>
+        <source>Cannot use %1 and %2 at the same time.</source>
+        <translation>Cannot use %1 and %2 at the same time.</translation>
     </message>
     <message>
-        <source>Invalid URL provided</source>
-        <translation>Invalid URL provided</translation>
+        <source>Cannot remove all the keys from a database.</source>
+        <translation>Cannot remove all the keys from a database.</translation>
     </message>
     <message>
         <source>Passkeys</source>
         <translation>Passkeys</translation>
     </message>
     <message>
-        <source>AES initialization failed</source>
-        <translation type="unfinished"/>
+        <source>Found unexpected Key type %1</source>
+        <translation>Found unexpected Key type %1</translation>
     </message>
     <message>
-        <source>AES encrypt failed</source>
-        <translation type="unfinished"/>
+        <source>KeePassXC is not running. No open database to lock</source>
+        <translation>KeePassXC is not running. No open database to lock</translation>
     </message>
     <message>
-        <source>Failed to store in Linux Keyring</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Polkit returned an error: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Could not locate key in keyring</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Could not read key in keyring</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>AES decrypt failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>No Polkit authentication agent was available</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Polkit authorization failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>No Quick Unlock provider is available</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to init KeePassXC crypto.</source>
-        <translation>Failed to init KeePassXC crypto.</translation>
-    </message>
-    <message>
-        <source>Failed to encrypt key data.</source>
-        <translation>Failed to encrypt key data.</translation>
-    </message>
-    <message>
-        <source>Failed to get Windows Hello credential.</source>
-        <translation>Failed to get Windows Hello credential.</translation>
-    </message>
-    <message>
-        <source>Failed to decrypt key data.</source>
-        <translation>Failed to decrypt key data.</translation>
+        <source>allow screenshots and app recording (Windows/macOS)</source>
+        <translation>allow screenshots and app recording (Windows/macOS)</translation>
     </message>
     <message>
         <source>Origin is empty or not allowed</source>
@@ -9054,6 +8765,10 @@ This option is deprecated, use --set-key-file instead.</translation>
     <message>
         <source>user.id does not match the required length</source>
         <translation>user.id does not match the required length</translation>
+    </message>
+    <message>
+        <source>Access to all entries is denied</source>
+        <translation>Access to all entries is denied</translation>
     </message>
     <message>
         <source>Favorite</source>
@@ -9126,56 +8841,52 @@ This option is deprecated, use --set-key-file instead.</translation>
         <translation>1Password Import</translation>
     </message>
     <message>
-        <source>Enter Shortcut</source>
-        <translation type="unfinished"/>
+        <source>Credential is excluded</source>
+        <translation>Credential is excluded</translation>
     </message>
     <message>
-        <source>Action</source>
-        <translation type="unfinished"/>
+        <source>Passkeys request canceled</source>
+        <translation>Passkeys request canceled</translation>
     </message>
     <message>
-        <source>Shortcuts</source>
-        <translation type="unfinished"/>
+        <source>Invalid user verification</source>
+        <translation>Invalid user verification</translation>
+    </message>
+    <message>
+        <source>Empty public key</source>
+        <translation>Empty public key</translation>
+    </message>
+    <message>
+        <source>Invalid URL provided</source>
+        <translation>Invalid URL provided</translation>
+    </message>
+    <message>
+        <source>Edit a database.</source>
+        <translation>Edit a database.</translation>
+    </message>
+    <message>
+        <source>Could not change the database key.</source>
+        <translation>Could not change the database key.</translation>
+    </message>
+    <message>
+        <source>Database was not modified.</source>
+        <translation>Database was not modified.</translation>
+    </message>
+    <message>
+        <source>Successfully edited the database.</source>
+        <translation>Successfully edited the database.</translation>
+    </message>
+    <message>
+        <source>Cannot remove password: The database does not have a password.</source>
+        <translation>Cannot remove password: The database does not have a password.</translation>
+    </message>
+    <message>
+        <source>Cannot remove file key: The database does not have a file key.</source>
+        <translation>Cannot remove file key: The database does not have a file key.</translation>
     </message>
     <message>
         <source>Unknown passkeys error</source>
         <translation>Unknown passkeys error</translation>
-    </message>
-    <message>
-        <source>Invalid KDF iterations, cannot decrypt json file</source>
-        <translation>Invalid KDF iterations, cannot decrypt json file</translation>
-    </message>
-    <message>
-        <source>Unsupported format, ensure your Bitwarden export is password-protected</source>
-        <translation>Unsupported format, ensure your Bitwarden export is password-protected</translation>
-    </message>
-    <message>
-        <source>Only PBKDF and Argon2 are supported, cannot decrypt json file</source>
-        <translation>Only PBKDF and Argon2 are supported, cannot decrypt json file</translation>
-    </message>
-    <message>
-        <source>Reset Shortcuts</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Double click an action to change its shortcut</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Filter...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Shortcut Conflict</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Shortcut %1 conflicts with &apos;%2&apos;. Overwrite shortcut?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Cannot generate valid passphrases because the wordlist is too short</source>
-        <translation>Cannot generate valid passphrases because the wordlist is too short</translation>
     </message>
     <message>
         <source>Encrypted files are not supported.</source>
@@ -9184,14 +8895,6 @@ This option is deprecated, use --set-key-file instead.</translation>
     <message>
         <source>Proton Pass Import</source>
         <translation>Proton Pass Import</translation>
-    </message>
-    <message>
-        <source>Delete plugin data?</source>
-        <translation>Delete plugin data?</translation>
-    </message>
-    <message numerus="yes">
-        <source>Delete plugin data from Entry(s)?</source>
-        <translation><numerusform>Delete plugin data from Entry?</numerusform><numerusform>Delete plugin data from Entries?</numerusform></translation>
     </message>
     <message>
         <source>Passkey</source>
@@ -9207,19 +8910,85 @@ This option is deprecated, use --set-key-file instead.</translation>
     </message>
     <message>
         <source>malformed string, possible unescaped delimiter</source>
-        <translation type="unfinished"/>
+        <translation>malformed string, possible unescaped delimiter</translation>
     </message>
     <message>
         <source>missing closing delimiter</source>
-        <translation type="unfinished"/>
+        <translation>missing closing delimiter</translation>
     </message>
     <message>
         <source>%1, row: %2, column: %3</source>
-        <translation type="unfinished"/>
+        <translation>%1, row: %2, column: %3</translation>
     </message>
     <message>
         <source>Tags</source>
         <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
+        <translation>Warning: the chosen wordlist is smaller than the minimum recommended size!</translation>
+    </message>
+    <message>
+        <source>Invalid Step</source>
+        <comment>TOTP</comment>
+        <translation>Invalid Step</translation>
+    </message>
+    <message>
+        <source>Invalid Digits</source>
+        <comment>TOTP</comment>
+        <translation>Invalid Digits</translation>
+    </message>
+    <message numerus="yes">
+        <source>%1 character(s)</source>
+        <translation><numerusform>%1 character(s)</numerusform><numerusform>%1 character(s)</numerusform></translation>
+    </message>
+    <message>
+        <source>Do you really want to permanently delete the entry &quot;%1&quot;?</source>
+        <translation>Do you really want to permanently delete the entry &quot;%1&quot;?</translation>
+    </message>
+    <message numerus="yes">
+        <source>Do you really want to permanently delete %n entry(s)?</source>
+        <translation><numerusform>Do you really want to permanently delete %n entry(s)?</numerusform><numerusform>Do you really want to permanently delete %n entry(s)?</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>Confirm Delete Entry(s)</source>
+        <translation><numerusform>Confirm Delete Entry(s)</numerusform><numerusform>Confirm Delete Entry(s)</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>Confirm Recycle Entry(s)</source>
+        <translation><numerusform>Confirm Recycle Entry(s)</numerusform><numerusform>Confirm Recycle Entry(s)</numerusform></translation>
+    </message>
+    <message>
+        <source>Confirm Delete Plugin Data</source>
+        <translation>Confirm Delete Plugin Data</translation>
+    </message>
+    <message numerus="yes">
+        <source>Delete plugin data from the selected entry(s)?</source>
+        <translation><numerusform>Delete plugin data from the selected entry(s)?</numerusform><numerusform>Delete plugin data from the selected entry(s)?</numerusform></translation>
+    </message>
+    <message>
+        <source>Confirm Replace Entry References</source>
+        <translation>Confirm Replace Entry References</translation>
+    </message>
+    <message>
+        <source>Type: Date(Rep)</source>
+        <translation>Type: Date(Rep)</translation>
+    </message>
+    <message>
+        <source>Type: Unknown (%1)</source>
+        <translation>Type: Unknown (%1)</translation>
+    </message>
+    <message>
+        <source>Unsupported format, ensure your Bitwarden export is password-protected</source>
+        <translation>Unsupported format, ensure your Bitwarden export is password-protected</translation>
+    </message>
+    <message>
+        <source>Invalid KDF iterations, cannot decrypt json file</source>
+        <translation>Invalid KDF iterations, cannot decrypt json file</translation>
+    </message>
+    <message>
+        <source>Only PBKDF and Argon2 are supported, cannot decrypt json file</source>
+        <translation>Only PBKDF and Argon2 are supported, cannot decrypt json file</translation>
     </message>
 </context>
 <context>
@@ -9254,37 +9023,6 @@ This option is deprecated, use --set-key-file instead.</translation>
     <message>
         <source>Internal zlib error: </source>
         <translation>Internal zlib error: </translation>
-    </message>
-</context>
-<context>
-    <name>RemoteHandler</name>
-    <message>
-        <source>Command `%1` did not finish in time. Process was killed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to upload merged database. Command `%1` did not finish in time. Process was killed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Invalid download parameters provided.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Command `%1` failed to download database.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Invalid database pointer or upload parameters provided.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Command `%1` exited with status code: %2</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Failed to upload merged database. Command `%1` exited with status code: %2</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -9375,7 +9113,7 @@ This option is deprecated, use --set-key-file instead.</translation>
     </message>
     <message numerus="yes">
         <source>Delete plugin data from Entry(s)…</source>
-        <translation><numerusform>Delete plugin data from Entry…</numerusform><numerusform>Delete plugin data from Entries…</numerusform></translation>
+        <translation><numerusform>Delete plugin data from entry…</numerusform><numerusform>Delete plugin data from entries…</numerusform></translation>
     </message>
 </context>
 <context>
@@ -9742,12 +9480,12 @@ This option is deprecated, use --set-key-file instead.</translation>
         <translation>Average password length</translation>
     </message>
     <message>
-        <source>%1 characters</source>
-        <translation>%1 characters</translation>
-    </message>
-    <message>
         <source>Average password length is less than ten characters. Longer passwords provide more security.</source>
         <translation>Average password length is less than ten characters. Longer passwords provide more security.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%1 character(s)</source>
+        <translation><numerusform>%1 character(s)</numerusform><numerusform>%1 character(s)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -9871,10 +9609,6 @@ This option is deprecated, use --set-key-file instead.</translation>
         <translation>Search Help</translation>
     </message>
     <message>
-        <source>Save Search</source>
-        <translation>Save Search</translation>
-    </message>
-    <message>
         <source>Search (%1)…</source>
         <comment>Search placeholder text, %1 is the keyboard shortcut</comment>
         <translation>Search (%1)…</translation>
@@ -9886,6 +9620,14 @@ This option is deprecated, use --set-key-file instead.</translation>
     <message>
         <source>Limit search to selected group</source>
         <translation>Limit search to selected group</translation>
+    </message>
+    <message>
+        <source>Press Enter to search</source>
+        <translation>Press Enter to search</translation>
+    </message>
+    <message>
+        <source>Save Search</source>
+        <translation>Save Search</translation>
     </message>
 </context>
 <context>
@@ -10092,20 +9834,24 @@ This option is deprecated, use --set-key-file instead.</translation>
 <context>
     <name>TagModel</name>
     <message>
-        <source>Clear Search</source>
-        <translation>Clear Search</translation>
-    </message>
-    <message>
-        <source>All Entries</source>
-        <translation>All Entries</translation>
-    </message>
-    <message>
         <source>Expired</source>
         <translation>Expired</translation>
     </message>
     <message>
         <source>Weak Passwords</source>
         <translation>Weak Passwords</translation>
+    </message>
+    <message>
+        <source>All Entries</source>
+        <translation>All Entries</translation>
+    </message>
+    <message>
+        <source>Clear Search</source>
+        <translation>Clear Search</translation>
+    </message>
+    <message>
+        <source>TOTP Entries</source>
+        <translation>TOTP Entries</translation>
     </message>
 </context>
 <context>
@@ -10125,6 +9871,24 @@ This option is deprecated, use --set-key-file instead.</translation>
     <message>
         <source>Remove tag &quot;%1&quot; from all entries in this database?</source>
         <translation>Remove tag &quot;%1&quot; from all entries in this database?</translation>
+    </message>
+</context>
+<context>
+    <name>TextAttachmentsEditWidget</name>
+    <message>
+        <source>Preview</source>
+        <translation>Preview</translation>
+    </message>
+</context>
+<context>
+    <name>TextAttachmentsPreviewWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Type:</translation>
     </message>
 </context>
 <context>
@@ -10239,6 +10003,10 @@ Example: JBSWY3DPEHPK3PXP</translation>
         <source>Are you sure you want to delete TOTP settings for this entry?</source>
         <translation>Are you sure you want to delete TOTP settings for this entry?</translation>
     </message>
+    <message>
+        <source>Error: secret key is invalid</source>
+        <translation>Error: secret key is invalid</translation>
+    </message>
 </context>
 <context>
     <name>URLEdit</name>
@@ -10325,6 +10093,25 @@ Example: JBSWY3DPEHPK3PXP</translation>
     </message>
 </context>
 <context>
+    <name>WindowsHello</name>
+    <message>
+        <source>Failed to init KeePassXC crypto.</source>
+        <translation>Failed to init KeePassXC crypto.</translation>
+    </message>
+    <message>
+        <source>Failed to encrypt key data.</source>
+        <translation>Failed to encrypt key data.</translation>
+    </message>
+    <message>
+        <source>Failed to get Windows Hello credential.</source>
+        <translation>Failed to get Windows Hello credential.</translation>
+    </message>
+    <message>
+        <source>Failed to decrypt key data.</source>
+        <translation>Failed to decrypt key data.</translation>
+    </message>
+</context>
+<context>
     <name>YubiKey</name>
     <message>
         <source>General: </source>
@@ -10374,10 +10161,6 @@ Example: JBSWY3DPEHPK3PXP</translation>
         <translation>Detecting hardware keys…</translation>
     </message>
     <message>
-        <source>No hardware keys detected</source>
-        <translation>No hardware keys detected</translation>
-    </message>
-    <message>
         <source>Refresh hardware keys</source>
         <translation>Refresh hardware keys</translation>
     </message>
@@ -10386,16 +10169,16 @@ Example: JBSWY3DPEHPK3PXP</translation>
         <translation>&lt;p&gt;If you own a &lt;a href=&quot;https://www.yubico.com/&quot;&gt;YubiKey&lt;/a&gt; or &lt;a href=&quot;https://onlykey.io&quot;&gt;OnlyKey&lt;/a&gt;, you can use it for additional security.&lt;/p&gt;&lt;p&gt;The key requires one of its slots to be programmed with &lt;a href=&quot;https://keepassxc.org/docs/#faq-yubikey-howto&quot;&gt;Challenge-Response&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
+        <source>No hardware keys detected</source>
+        <translation>No hardware keys detected</translation>
+    </message>
+    <message>
         <source>Hardware keys found, but no slots are configured</source>
         <translation>Hardware keys found, but no slots are configured</translation>
     </message>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>The YubiKey PCSC interface has not been initialized.</source>
-        <translation>The YubiKey PCSC interface has not been initialized.</translation>
-    </message>
     <message>
         <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
         <translation>Could not find or access hardware key with serial number %1. Please present it to continue. </translation>
@@ -10407,10 +10190,6 @@ Example: JBSWY3DPEHPK3PXP</translation>
     <message>
         <source>Hardware key was not found or is not configured.</source>
         <translation>Hardware key was not found or is not configured.</translation>
-    </message>
-    <message>
-        <source>Failed to complete a challenge-response, the PCSC error code was: %1</source>
-        <translation>Failed to complete a challenge-response, the PCSC error code was: %1</translation>
     </message>
     <message>
         <source>(NFC) %1 [%2] - Slot %3, %4</source>
@@ -10427,13 +10206,17 @@ Example: JBSWY3DPEHPK3PXP</translation>
         <comment>USB Challenge-Response Key no interaction required</comment>
         <translation>Passive</translation>
     </message>
+    <message>
+        <source>The YubiKey PC/SC interface has not been initialized.</source>
+        <translation>The YubiKey PC/SC interface has not been initialised.</translation>
+    </message>
+    <message>
+        <source>Failed to complete a challenge-response, the PC/SC error code was: %1</source>
+        <translation>Failed to complete a challenge-response, the PC/SC error code was: %1</translation>
+    </message>
 </context>
 <context>
     <name>YubiKeyInterfaceUSB</name>
-    <message>
-        <source>Unknown</source>
-        <translation>Unknown</translation>
-    </message>
     <message>
         <source>Press</source>
         <comment>USB Challenge-Response Key interaction request</comment>
@@ -10473,6 +10256,11 @@ Example: JBSWY3DPEHPK3PXP</translation>
         <source>%1 [%2] - Slot %3, %4</source>
         <comment>YubiKey display fields</comment>
         <translation>%1 [%2] - Slot %3, %4</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <comment>Unknown hardware key name</comment>
+        <translation>Unknown</translation>
     </message>
 </context>
 </TS>
