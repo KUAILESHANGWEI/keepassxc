@@ -98,7 +98,7 @@
     </message>
     <message>
         <source>Allow All &amp;&amp; &amp;Future</source>
-        <translation>Tillåt alla &amp;&amp; framtida</translation>
+        <translation>Tillåt alla &amp;&amp; &amp;framtida</translation>
     </message>
 </context>
 <context>
@@ -855,11 +855,11 @@
     </message>
     <message>
         <source>Type {USERNAME}</source>
-        <translation>Skriv {ANVÄNDARNAMN}</translation>
+        <translation>Skriv {USERNAME}</translation>
     </message>
     <message>
         <source>Type {PASSWORD}</source>
-        <translation>Skriv {LÖSENORD}</translation>
+        <translation>Skriv {PASSWORD}</translation>
     </message>
     <message>
         <source>Type {TOTP}</source>
@@ -1045,7 +1045,7 @@ Vill du registrera en ny passnyckel för:</translation>
     </message>
     <message>
         <source>Authenticate passkey credentials for:</source>
-        <translation>Autentisera passnyckeluppgifter för: </translation>
+        <translation>Autentisera passnyckeluppgifter för:</translation>
     </message>
     <message>
         <source>Do you want to register a passkey for:</source>
@@ -3013,7 +3013,7 @@ Vill du korrigera det?</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%1 timma</numerusform><numerusform>%n timmar</numerusform></translation>
+        <translation><numerusform>%n timme</numerusform><numerusform>%n timmar</numerusform></translation>
     </message>
     <message>
         <source>Failed to decrypt SSH key, ensure password is correct.</source>
@@ -3655,6 +3655,14 @@ Filtyper som stöds är: %1.</translation>
     <message>
         <source>Select import/export file</source>
         <translation>Välj import-/exportfil</translation>
+    </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Behåll gruppstruktur med delad databas</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Bevara gruppstruktur</translation>
     </message>
 </context>
 <context>
@@ -5032,11 +5040,11 @@ Om detta upprepas, kan din databasfil vara skadad.</translation>
     </message>
     <message>
         <source>Invalid master seed size</source>
-        <translation type="unfinished"/>
+        <translation>Ogiltig storlek på huvudöverföring</translation>
     </message>
     <message>
         <source>Invalid transform seed size</source>
-        <translation type="unfinished"/>
+        <translation>Ogiltig storlek på transformeringsöverföring</translation>
     </message>
     <message>
         <source>Invalid transform rounds size</source>
@@ -5129,7 +5137,7 @@ Rad %2, kolumn: %3</translation>
     </message>
     <message>
         <source>Null DeleteObject uuid</source>
-        <translation type="unfinished"/>
+        <translation>Null DeleteObject uuid</translation>
     </message>
     <message>
         <source>Missing DeletedObject uuid or time</source>
@@ -5261,7 +5269,7 @@ Rad %2, kolumn: %3</translation>
     </message>
     <message>
         <source>Invalid transform seed size</source>
-        <translation type="unfinished"/>
+        <translation>Ogiltig storlek på transformeringsöverföring</translation>
     </message>
     <message>
         <source>Invalid number of transform rounds</source>
@@ -5682,7 +5690,7 @@ Vill du verkligen fortsätta med den här filen?</translation>
     </message>
     <message>
         <source>Download All &amp;Favicons…</source>
-        <translation>Ladda ner alla favikoner…</translation>
+        <translation>Ladda ner alla &amp;favikoner…</translation>
     </message>
     <message>
         <source>Sort &amp;A-Z</source>
@@ -6201,7 +6209,7 @@ Förvänta dig några fel och mindre problem, den här versionen är avsedd för
     </message>
     <message>
         <source>UUID</source>
-        <translation>UUID: </translation>
+        <translation>UUID</translation>
     </message>
     <message>
         <source>Details</source>
@@ -7432,7 +7440,7 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Attachment %1 already exists for entry %2.</source>
-        <translation>Bilagan %1 finns redan i post &amp;2.</translation>
+        <translation>Bilagan %1 finns redan i post %2.</translation>
     </message>
     <message>
         <source>Could not open attachment file %1.</source>
@@ -10113,12 +10121,8 @@ Exempel: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Allmänt: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Kunde inte hitta gränssnittet för hårdvarunyckeln med serienummer %1. Anslut den för att fortsätta.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Kunde hitta hårdvarunyckel med serienummer %1. Anslut den för att fortsätta.</translation>
     </message>
 </context>
 <context>
@@ -10178,10 +10182,6 @@ Exempel: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Kunde inte hitta eller komma åt hårdvarunyckeln med serienummer %1. Var snäll och anslut den för att fortsätta. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Hårdvarunyckeln är låst eller tidsgränsen har uppnåtts. Lås upp eller anslut den igen för att fortsätta.</translation>

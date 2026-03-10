@@ -3205,7 +3205,7 @@ Would you like to correct it?</source>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Remover</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -3657,6 +3657,14 @@ Las extensiones admitidas son: %1.</translation>
         <source>Select import/export file</source>
         <translation>Seleccione el archivo de importación/exportación</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Mantener la estructura del grupo con una base de datos compartida.</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Mantener la estructura del grupo</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -4020,7 +4028,7 @@ Esto puede causar un mal funcionamiento de los complementos afectados.</translat
     </message>
     <message numerus="yes">
         <source>Are you sure you want to remove %n attachment(s)?</source>
-        <translation><numerusform>¿Desea eliminar %n dato adjunto?</numerusform><numerusform>¿Desea remover %n datos adjuntos?</numerusform><numerusform>¿Está seguro de que desea eliminar %n el/los archivo(s) adjunto(s)?</numerusform></translation>
+        <translation><numerusform>¿Desea eliminar %n archivo adjunto?</numerusform><numerusform>¿Desea eliminar %n archivos adjuntos?</numerusform><numerusform>¿Desea eliminar %n archivo adjunto?</numerusform></translation>
     </message>
     <message>
         <source>Save attachments</source>
@@ -6128,7 +6136,7 @@ Espere algunos defectos y problemas menores, esta versión está destinada para 
     </message>
     <message numerus="yes">
         <source>Move selected entry(s) to the recycle bin</source>
-        <translation><numerusform>mover apunteseleccionado (s) al papelera</numerusform><numerusform>mover apunteseleccionado (s) al papelera</numerusform><numerusform>Mover apunte seleccionado (s) al papelera</numerusform></translation>
+        <translation><numerusform>Mover apunte seleccionado a la papelera</numerusform><numerusform>Mover apuntes seleccionados a la papelera</numerusform><numerusform>Mover apunte seleccionado a la papelera</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Permanently delete the selected entry(s)</source>
@@ -8563,7 +8571,7 @@ Núcleo: %3 %4</translation>
     </message>
     <message>
         <source>Do you really want to move entry &quot;%1&quot; to the recycle bin?</source>
-        <translation>¿Desea mover el apunte &quot;%1&quot; a la papelera de reciclaje?</translation>
+        <translation>¿Desea mover el apunte «%1» a la papelera de reciclaje?</translation>
     </message>
     <message numerus="yes">
         <source>Do you really want to move %n entry(s) to the recycle bin?</source>
@@ -9715,7 +9723,7 @@ Esta opción está obsoleta, use --set-key-file.</translation>
     </message>
     <message>
         <source>&lt;b&gt;Warning:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Atención:&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Atención:&lt;/b&gt; </translation>
     </message>
     <message>
         <source>Save current changes to activate the plugin and enable editing of this section.</source>
@@ -10117,12 +10125,8 @@ Ejemplo: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>General: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>No se puede encontrar la interfaz para la llave hardware con número de serie %1. Conéctela para continuar.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>No se ha encontrado la llave de hardware con el número de serie %1. Conéctela para continuar.</translation>
     </message>
 </context>
 <context>
@@ -10182,10 +10186,6 @@ Ejemplo: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>No se puede encontrar la interfaz para la llave hardware con número de serie %1. Conéctela para continuar.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>La llave hardware está bloqueada o caducada. Desbloquee o vuelva a presentar para continuar.</translation>

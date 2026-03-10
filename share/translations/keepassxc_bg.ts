@@ -82,7 +82,7 @@
     </message>
     <message>
         <source>Remember</source>
-        <translation>Запомни</translation>
+        <translation>Запомняне</translation>
     </message>
     <message>
         <source>Allow Selected</source>
@@ -214,15 +214,15 @@
     </message>
     <message>
         <source>Monochrome</source>
-        <translation>Едноцветен</translation>
+        <translation>Едноцветни</translation>
     </message>
     <message>
         <source>Monochrome (light)</source>
-        <translation>Монохромен(светлъл)</translation>
+        <translation>Едноцветни (светли)</translation>
     </message>
     <message>
         <source>Monochrome (dark)</source>
-        <translation>Монохромен(тъмен)</translation>
+        <translation>Едноцветни (тъмни)</translation>
     </message>
     <message>
         <source>Colorful</source>
@@ -293,7 +293,7 @@
     </message>
     <message>
         <source>Start only a single instance of KeePassXC</source>
-        <translation>Започнете само една инстанция на KeePassXC</translation>
+        <translation>Поддържане на един екземпляр на KeePassXC</translation>
     </message>
     <message>
         <source>Automatically launch KeePassXC at system startup</source>
@@ -309,15 +309,15 @@
     </message>
     <message>
         <source>Remember previously used databases</source>
-        <translation>Запаметяване на предишни използвани бази данни</translation>
+        <translation>Запомняне на последно използваните</translation>
     </message>
     <message>
         <source>Load previously open databases on startup</source>
-        <translation>Зареждане на последно отворената бази данни при стартиране</translation>
+        <translation>Зареждане на последно отвореното хранилище при стартиране</translation>
     </message>
     <message>
         <source>Remember database key files and security dongles</source>
-        <translation>Запомни файл-ключовете и защитните устройства</translation>
+        <translation>Запомняне на файловете с ключ и преносимите защитни устройства за хранилищата</translation>
     </message>
     <message>
         <source>Check for updates at application startup once per week</source>
@@ -337,19 +337,19 @@
     </message>
     <message>
         <source>Automatically save when locking database</source>
-        <translation>Запази автоматично при заключване на базата данни</translation>
+        <translation>Автоматично запазване при заключване на хранилището</translation>
     </message>
     <message>
         <source>Automatically save non-data changes when locking database</source>
-        <translation>При заключване на базата данни, запази автоматично промените, които не засягат данните.</translation>
+        <translation>Автоматично запазване на промени, които не са свързани с данни, при заключване на хранилището</translation>
     </message>
     <message>
         <source>Automatically reload the database when modified externally</source>
-        <translation>Автоматично презареждане на базата данни при външно модифициране</translation>
+        <translation>Автоматично презареждане на хранилището, ако е променено от друго приложение</translation>
     </message>
     <message>
         <source>Backup database file before saving</source>
-        <translation>Архивиране на файла с базата данни преди записване</translation>
+        <translation>Резервно копие на хранилището преди запазване</translation>
     </message>
     <message>
         <source>{DB_FILENAME}.old.kdbx</source>
@@ -365,7 +365,7 @@
     </message>
     <message>
         <source>Directly write to database file (dangerous)</source>
-        <translation>Директно писане в файла с базата данни (опасно)</translation>
+        <translation>Директно писане във файла на хранилището (опасно)</translation>
     </message>
     <message>
         <source>Entry Management</source>
@@ -434,7 +434,7 @@
     </message>
     <message>
         <source>Use monospaced font for notes</source>
-        <translation>Използване на еднопространствен шрифт за бележките</translation>
+        <translation>Използване на равноширок шрифт за бележките</translation>
     </message>
     <message>
         <source>Minimize instead of app exit</source>
@@ -446,11 +446,11 @@
     </message>
     <message>
         <source>Tray icon type</source>
-        <translation>Тип иконата в системната лента</translation>
+        <translation>Вид на пиктограмите в системния панел</translation>
     </message>
     <message>
         <source>Tray icon type:</source>
-        <translation>Тип иконата в системната лента:</translation>
+        <translation>Вид на пиктограмите в системния панел:</translation>
     </message>
     <message>
         <source>Hide window to system tray when minimized</source>
@@ -482,7 +482,7 @@
     </message>
     <message>
         <source>Re-lock previously locked database after performing Auto-Type</source>
-        <translation>Повторно заключване на предварително заключена база данни след извършване на Auto-Type</translation>
+        <translation>Повторно заключване на преди това заключено хранилище след автоматично въвеждане</translation>
     </message>
     <message>
         <source>Auto-Type start delay:</source>
@@ -515,7 +515,7 @@
     </message>
     <message>
         <source>Remember last typed entry for:</source>
-        <translation>Запомни последно въведения запис за:</translation>
+        <translation>Запомняне на последния въведен запис за:</translation>
     </message>
     <message>
         <source>On database unlock, show entries that will expire within</source>
@@ -623,7 +623,7 @@
     </message>
     <message>
         <source>Database lock timeout seconds</source>
-        <translation>Секунди за заключване на базата данни</translation>
+        <translation>Изчакване преди заключване на хранилище, секунди</translation>
     </message>
     <message>
         <source> sec</source>
@@ -649,7 +649,7 @@
     </message>
     <message>
         <source>Lock databases after inactivity of</source>
-        <translation>Заключване на бази данни след бездействие от</translation>
+        <translation>Заключване на хранилищата след бездействие от</translation>
     </message>
     <message>
         <source>Convenience</source>
@@ -661,11 +661,11 @@
     </message>
     <message>
         <source>Lock databases when session is locked or lid is closed</source>
-        <translation>Заключване на базите данни при заключена сесия или затваряне на капака</translation>
+        <translation>Заключване на хранилищата при заключена сесия или затваряне на капака</translation>
     </message>
     <message>
         <source>Lock databases after minimizing the window</source>
-        <translation>Заключи базите данни след минимизиране на прозореца</translation>
+        <translation>Заключване на хранилищата след скриване на прозореца</translation>
     </message>
     <message>
         <source>Hide passwords when editing them</source>
@@ -839,7 +839,7 @@
     </message>
     <message>
         <source>Search all open databases</source>
-        <translation>Търсене във всички отворени бази данни</translation>
+        <translation>Търсене във всички отворени хранилища</translation>
     </message>
     <message>
         <source>Search…</source>
@@ -943,11 +943,11 @@ Ctrl+Shift+4 – копиране на адреса&lt;br/&gt;
     </message>
     <message>
         <source>Remember access to checked entries</source>
-        <translation>Запомни достъпа до избраните записи</translation>
+        <translation>Запомняне на достъпа до избраните записи</translation>
     </message>
     <message>
         <source>Remember</source>
-        <translation>Запомни</translation>
+        <translation>Запомняне</translation>
     </message>
     <message>
         <source>Allow access to entries</source>
@@ -983,8 +983,8 @@ Ctrl+Shift+4 – копиране на адреса&lt;br/&gt;
     <message>
         <source>You have multiple databases open.
 Please select the correct database for saving credentials.</source>
-        <translation>Имате отворени няколко бази данни.
-Изберете правилната база данни за записване на идентификационни данни.</translation>
+        <translation>Отворени са няколко хранилища.
+Изберете в кое от тях да бъде запазена тази самоличност.</translation>
     </message>
     <message>
         <source>KeePassXC - Select Database</source>
@@ -1205,7 +1205,7 @@ Would you like to migrate your existing settings now?</source>
     </message>
     <message>
         <source>This is required for accessing your databases with KeePassXC-Browser</source>
-        <translation>Това е необходимо за достъп до вашите бази данни с KeePassXC-Browser</translation>
+        <translation>Това е необходимо за достъп до хранилищата от KeePassXC-Browser</translation>
     </message>
     <message>
         <source>Enable browser integration</source>
@@ -1282,12 +1282,12 @@ Would you like to migrate your existing settings now?</source>
     </message>
     <message>
         <source>All databases connected to the extension will return matching credentials.</source>
-        <translation>Всички бази данни, свързани с разширението, ще върнат съвпадащи идентификационни данни.</translation>
+        <translation>Всички хранилища, свързани към разширението, ще връщат съвпадащи самоличности.</translation>
     </message>
     <message>
         <source>Search in all opened databases for matching credentials</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>Търсене във всички отворени бази данни за съвпадащи идентификационни данни</translation>
+        <translation>Търсене на съвпадащи самоличности във всички отворени хранилища</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -1296,12 +1296,12 @@ Would you like to migrate your existing settings now?</source>
     <message>
         <source>Never ask before accessing credentials</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>Никога не питай преди достъпване на идентификационни данни</translation>
+        <translation>Без питане преди достъп до самоличности</translation>
     </message>
     <message>
         <source>Never ask before updating credentials</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>Никога не питай преди актуализиране на идентификационни данни</translation>
+        <translation>Без питане преди променяне на самоличности</translation>
     </message>
     <message>
         <source>Do not ask permission for HTTP Basic Auth</source>
@@ -2024,7 +2024,7 @@ Permissions to access entries will be revoked.</source>
         <source>Do you really want to convert all legacy browser integration data to the latest standard?
 This is necessary to maintain compatibility with the browser plugin.</source>
         <translation>Желаете ли да всички данни от съчетаването с изведени от употреба четци към последния стандарт?
-Тази стъпка е необходима, за да се запази съвместимостта с разширението за мрежов четец.</translation>
+Тази стъпка е необходима, за да бъде запазена съвместимостта с разширението за мрежов четец.</translation>
     </message>
     <message>
         <source>Refresh database ID</source>
@@ -2220,9 +2220,9 @@ If you keep this number, your database may take hours, days, or even longer to o
         <source>You are using a very low number of key transform rounds with AES-KDF.
 
 If you keep this number, your database will not be protected from brute force attacks.</source>
-        <translation>Използвате прекалено ниско число за AES-KDF ключова трансформация.
+        <translation>Използвате твърде малко преобразувания на ключове с AES-KDF.
 
-Ако решите да запазите това число, вашата база няма да бъде защитена срещи brute force атаки.</translation>
+Ако оставите този брой, хранилището няма да бъде защитено от атаки с груба сила.</translation>
     </message>
     <message>
         <source>KDF unchanged</source>
@@ -2645,7 +2645,7 @@ This is definitely a bug, please report it to the developers.</source>
     </message>
     <message>
         <source>Remember my choice</source>
-        <translation>Запомни моя избор</translation>
+        <translation>Запомняне на избора</translation>
     </message>
     <message>
         <source>Do you really want to move the group &quot;%1&quot; to the recycle bin?</source>
@@ -2714,8 +2714,8 @@ Save changes?</source>
     <message>
         <source>KeePassXC has failed to save the database multiple times. This is likely caused by file sync services holding a lock on the save file.
 Disable safe saves and try again?</source>
-        <translation>KeePassXC не успя да запази базата данни няколко пъти. Това вероятно се дължи на услугите за синхронизация на файлове, които заключват записа на файла.
-Забраняване на безопасното запазване и опитайте отново?</translation>
+        <translation>KeePassXC няколко пъти не успя да запази хранилището. Вероятна причина е услугата за синхронизиране на файлове, която е заключила файла за писане.
+Да бъде ли изключено безопасното запазване и да бъде направен повторен опит?</translation>
     </message>
     <message>
         <source>Writing the database failed: %1</source>
@@ -3651,6 +3651,14 @@ Supported extensions are: %1.</source>
     <message>
         <source>Select import/export file</source>
         <translation>Изберете файл за импортиране/експортиране</translation>
+    </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Поддържане структурата на групата и в споделеното хранилище</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Запазване структурата на групата</translation>
     </message>
 </context>
 <context>
@@ -5578,7 +5586,7 @@ Are you sure you want to continue with this file?</source>
     </message>
     <message>
         <source>&amp;Recent Databases</source>
-        <translation>&amp;Скорошни бази данни</translation>
+        <translation>&amp;Последно използвани хранилища</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -5778,7 +5786,7 @@ Are you sure you want to continue with this file?</source>
     </message>
     <message>
         <source>Lock &amp;All Databases</source>
-        <translation>&amp;Заключване на всички бази данни</translation>
+        <translation>Заключване на &amp;всички хранилища</translation>
     </message>
     <message>
         <source>&amp;Title</source>
@@ -7876,11 +7884,11 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Import the contents of an XML database.</source>
-        <translation>Импортиране на съдържанието на XML база данни.</translation>
+        <translation>Внасяне на съдържание от хранилище в XML.</translation>
     </message>
     <message>
         <source>Path of the XML database export.</source>
-        <translation>Път на експортирането на XML база данни.</translation>
+        <translation>Път, в който да бъде изнесено хранилище в XML.</translation>
     </message>
     <message>
         <source>Path of the new database.</source>
@@ -8035,7 +8043,7 @@ Available commands:
     </message>
     <message>
         <source>Use the same credentials for both database files.</source>
-        <translation>Използвайте едни и същи идентификационни данни за двата файла с бази данни.</translation>
+        <translation>Използване на едно удостоверяване на достъпа за двете хранилища.</translation>
     </message>
     <message>
         <source>Key file of the database to merge from.</source>
@@ -8043,7 +8051,7 @@ Available commands:
     </message>
     <message>
         <source>Deactivate password key for the database to merge from.</source>
-        <translation>Изключване на използваната парола-ключ за обединяването на базите данни .</translation>
+        <translation>Без използване на парола за хранилището, от което да бъде сливано.</translation>
     </message>
     <message>
         <source>Only print the changes detected by the merge operation.</source>
@@ -8059,7 +8067,7 @@ Available commands:
     </message>
     <message>
         <source>Merge two databases.</source>
-        <translation>Сливане на две бази данни.</translation>
+        <translation>Сливане на две хранилища.</translation>
     </message>
     <message>
         <source>Path of the database to merge from.</source>
@@ -8602,7 +8610,7 @@ Kernel: %3 %4</source>
     </message>
     <message>
         <source>filenames of the password databases to open (*.kdbx)</source>
-        <translation>файловите имена на базите данни с пароли за отваряне (*.kdbx)</translation>
+        <translation>файлове или хранилища за пароли (*.kdbx)</translation>
     </message>
     <message>
         <source>path to a custom config file</source>
@@ -8626,7 +8634,7 @@ Kernel: %3 %4</source>
     </message>
     <message>
         <source>Database failed to lock.</source>
-        <translation>Неуспешно заключване на базите данни.</translation>
+        <translation>Неуспешно заключване на хранилище.</translation>
     </message>
     <message>
         <source>Another instance of KeePassXC is already running.</source>
@@ -10048,7 +10056,7 @@ Example: JBSWY3DPEHPK3PXP</source>
     </message>
     <message>
         <source>Recent databases</source>
-        <translation>Скорошни бази данни</translation>
+        <translation>Последно използвани хранилища</translation>
     </message>
     <message>
         <source>Open a recent database</source>
@@ -10108,12 +10116,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Основни:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Не е намерен интерфейс за хардуерен ключ със сериен номер %1. За да продължите го вържете.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Хардуерният ключ със сериен № %1 не може да бъде намерен. За да продължите го включете.</translation>
     </message>
 </context>
 <context>
@@ -10173,10 +10177,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Не е намерен хардуерен ключ за достъп със сериен номер %1. Моля, въведете го, за да продължите.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Хардуерният ключ е заключен или времето за изчакване е изтекло. За да продължите го отключете или го добавете повторно.</translation>

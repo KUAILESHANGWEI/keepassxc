@@ -3655,6 +3655,14 @@ Extensões suportadas são: %1</translation>
         <source>Select import/export file</source>
         <translation>Selecione o arquivo de importação/exportação</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Manter estrutura do grupo com a base de dados partilhada</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Manter estrutura do grupo</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10114,12 +10122,8 @@ Exemplo: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Geral:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Não foi possível localizar a interface para o dispositivo com o número de série %1. Introduza o seu dispositivo para continuar.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Não foi possível encontrar a chave de hardware com o número de série %1. Conecte a chave de segurança e continue.</translation>
     </message>
 </context>
 <context>
@@ -10179,10 +10183,6 @@ Exemplo: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Não foi possível localizar ou acessar a interface para o dispositivo com o número de série %1. Introduza o seu dispositivo para continuar.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>O dispositivo está bloqueado ou o tempo esgotou. Desbloqueie ou reintroduza o dispositivo para continuar.</translation>

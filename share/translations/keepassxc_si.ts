@@ -3628,6 +3628,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>ආයාත/අපනයන ගොනුව තෝරන්න</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10082,12 +10090,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>ජනරාල්: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>අනුක්‍රමික අංක %1සහිත දෘඪාංග යතුර සඳහා අතුරු මුහුණත සොයා ගැනීමට නොහැකි විය. ඉදිරියට යාමට කරුණාකර එය සම්බන්ධ කරන්න.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10147,10 +10151,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>අනුක්‍රමික අංක %1සහිත දෘඪාංග යතුර සොයා ගැනීමට හෝ ප්‍රවේශ වීමට නොහැකි විය. ඉදිරියට යාමට කරුණාකර එය ඉදිරිපත් කරන්න. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>දෘඪාංග යතුර අගුලු දමා හෝ කල් ඉකුත් වී ඇත. දිගටම කරගෙන යාමට එය අගුළු හරින්න හෝ නැවත ඉදිරිපත් කරන්න.</translation>

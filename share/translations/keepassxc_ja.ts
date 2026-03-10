@@ -3653,6 +3653,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>インポート/エクスポートファイルを選択</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10111,12 +10119,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>全般: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>シリアルナンバー %1 のハードウェアキーのためのインターフェースが見つかりませんでした。接続して続行してください。</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10176,10 +10180,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>シリアルナンバー %1 のハードウェアキーが見つからない、またはアクセスできませんでした。続行するには正しく挿入してください。</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>ハードウェアキーがロックされているか、タイムアウトしました。続行するにはロック解除または再挿入してください。</translation>

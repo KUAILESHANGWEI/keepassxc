@@ -3641,6 +3641,14 @@ Støttede utvidelser er: %1.</translation>
         <source>Select import/export file</source>
         <translation>Velg fil for import/eksport</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10096,12 +10104,8 @@ Eksempel: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Generelt: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Finner ikke grensesnitt til maskinvarenøkkel med serienummer %1. Koble den til for å fortsette.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10161,10 +10165,6 @@ Eksempel: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Kunne ikke finne eller få tilgang til maskinvarenøkkelen med serienummer %1. Koble den til for å fortsette.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Maskinvarenøkkelen er låst eller tidsavbrutt. Lås opp eller koble den til på nytt for å fortsette.</translation>

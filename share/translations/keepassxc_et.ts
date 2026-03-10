@@ -3657,6 +3657,14 @@ Toetatud faililaiendid: %1</translation>
         <source>Select import/export file</source>
         <translation>Imporditava/eksporditava faili valimine</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Säilita jagatud andmebaasis gruppide struktuur</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Säilita gruppide struktuur</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10115,12 +10123,8 @@ Näide: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Üldine: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Riistvaralisele võtmele seerianumbriga %1 ei leitud sobivat liidest. Jätkamiseks tuleb see arvutiga ühendada.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Riistvaralist võtit seerianumbriga %1 ei leidu. Jätkamiseks palun ühenda see arvutiga.</translation>
     </message>
 </context>
 <context>
@@ -10180,10 +10184,6 @@ Näide: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Riistvaralist võtit seerianumbriga %1 kas ei leitud või ei pääsetud sellele juurde. Jätkamiseks viipa võtit.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Riistvaraline võti on lukus või ei jõudnud vastust ära oodata. Jätkamiseks ava lukk või viipa võtit uuesti.</translation>

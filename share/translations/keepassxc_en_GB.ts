@@ -3655,6 +3655,14 @@ Supported extensions are: %1.</translation>
         <source>Select import/export file</source>
         <translation>Select import/export file</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Maintain group structure with shared database</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Keep Group Structure</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10114,12 +10122,8 @@ Example: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>General: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Could not find interface for hardware key with serial number %1. Please connect it to continue.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Could not find hardware key with serial number %1. Please connect it to continue.</translation>
     </message>
 </context>
 <context>
@@ -10179,10 +10183,6 @@ Example: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Could not find or access hardware key with serial number %1. Please present it to continue. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Hardware key is locked or timed out. Unlock or re-present it to continue.</translation>

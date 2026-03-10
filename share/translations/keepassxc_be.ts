@@ -3655,6 +3655,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>Выбраць файл для імпарту/экспарту</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -5861,7 +5869,7 @@ Are you sure you want to continue with this file?</source>
     </message>
     <message>
         <source>&amp;Getting Started</source>
-        <translation>&amp;Пачатак працы</translation>
+        <translation>&amp;Пачатковы дапаможнік</translation>
     </message>
     <message>
         <source>Open Getting Started Guide</source>
@@ -5869,7 +5877,7 @@ Are you sure you want to continue with this file?</source>
     </message>
     <message>
         <source>&amp;Online Help</source>
-        <translation>&amp;Онлайн-дапамога</translation>
+        <translation>&amp;Анлайн-дапамога</translation>
     </message>
     <message>
         <source>Go to online documentation</source>
@@ -10099,12 +10107,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Агульнае: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Не ўдалося знайсці інтэрфейс для апаратнага ключа з серыйным нумарам %1. Калі ласка, падключыце яго, каб працягнуць.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10164,10 +10168,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Не ўдалося знайсці або атрымаць доступ да апаратнага ключа з серыйным нумарам %1. Калі ласка, прад&apos;явіце яго, каб працягнуць.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Апаратны ключ заблакаваны або скончыўся час чакання. Разблакіруйце або прад&apos;явіце яго зноў, каб працягнуць.</translation>

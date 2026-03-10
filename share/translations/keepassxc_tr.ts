@@ -3655,6 +3655,14 @@ Desteklenen eklentiler: %1.</translation>
         <source>Select import/export file</source>
         <translation>İçe/dışa aktarılacak dosyayı seçin</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Paylaşılan veri tabanında grup yapısını korur</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Grup yapısı korunsun</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10114,12 +10122,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Genel:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>%1 seri numaralı donanım anahtarı arabirimi bulunamadı. Lütfen ilerlemek için anahtarı takın. </translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>%1 seri numaralı donanım anahtarı bulunamadı. İlerlemek için lütfen anahtarı takın.</translation>
     </message>
 </context>
 <context>
@@ -10179,10 +10183,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>%1 seri numaralı donanım anahtarı bulunamadı ya da erişilemiyor. Lütfen ilerlemek için anahtarı takın. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Donanımsal anahtar kilitli ya da zaman aşımına uğramış. İlerlemek için kilidi açın ya da çıkarıp yeniden takın.</translation>

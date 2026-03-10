@@ -584,27 +584,27 @@
     </message>
     <message>
         <source>Double-click action for URL:</source>
-        <translation type="unfinished"/>
+        <translation>إجراء النقر المزدوج للرابط:</translation>
     </message>
     <message>
         <source>Double-click action for URL field</source>
-        <translation type="unfinished"/>
+        <translation>إجراء النقر المزدوج لحقل الرابط:</translation>
     </message>
     <message>
         <source>Edit entry</source>
-        <translation type="unfinished"/>
+        <translation>عدِّل المدخل</translation>
     </message>
     <message>
         <source>Open entry URL in browser</source>
-        <translation type="unfinished"/>
+        <translation>افتح رابط المدخل في المتصفح</translation>
     </message>
     <message>
         <source>Copy entry URL to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>انسخ رابط المدخل إلى الحافظة</translation>
     </message>
     <message>
         <source>Auto-generate password for new entries</source>
-        <translation type="unfinished"/>
+        <translation>ولِّد كلمة مرور تلقائيًا للمُدخلات الجديدة</translation>
     </message>
     <message>
         <source> recent files</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>Copy URL</source>
-        <translation type="unfinished"/>
+        <translation>انسخ رابط URL</translation>
     </message>
     <message>
         <source>&lt;p&gt;The following shortcuts are available:&lt;br/&gt;
@@ -3643,6 +3643,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>حدد ملف الاستيراد/التصدير</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -3901,7 +3909,7 @@ This may cause the affected plugins to malfunction.</source>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished"/>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Notes</source>
@@ -6075,11 +6083,11 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>Show Group Panel</source>
-        <translation type="unfinished"/>
+        <translation>أظهر لوحة المجموعة</translation>
     </message>
     <message>
         <source>Toggle Show Group Panel</source>
-        <translation type="unfinished"/>
+        <translation>بدّل إظهار لوحة المجموعة</translation>
     </message>
     <message>
         <source>Password Generator</source>
@@ -6095,23 +6103,23 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>New Entry</source>
-        <translation type="unfinished"/>
+        <translation>مدخل جديد</translation>
     </message>
     <message>
         <source>Edit Entry…</source>
-        <translation type="unfinished"/>
+        <translation>عدِّل المدخل…</translation>
     </message>
     <message>
         <source>E&amp;xpire Entry</source>
-        <translation type="unfinished"/>
+        <translation>&amp;أنهِ المدخل</translation>
     </message>
     <message>
         <source>Expire Entry</source>
-        <translation type="unfinished"/>
+        <translation>أنهِ المدخل</translation>
     </message>
     <message>
         <source>&amp;Delete Entry</source>
-        <translation type="unfinished"/>
+        <translation>&amp;احذف المدخل</translation>
     </message>
     <message numerus="yes">
         <source>Move selected entry(s) to the recycle bin</source>
@@ -6902,7 +6910,7 @@ The following data is missing:
     </message>
     <message>
         <source>Delete selected wordlist</source>
-        <translation type="unfinished"/>
+        <translation>احذف قائمة الكلمات المحدّدة</translation>
     </message>
     <message>
         <source>Add custom wordlist</source>
@@ -7002,7 +7010,7 @@ The following data is missing:
     </message>
     <message>
         <source>MIXED case</source>
-        <translation type="unfinished"/>
+        <translation>حالة مختلطة</translation>
     </message>
     <message>
         <source>Excluded characters: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</source>
@@ -7014,11 +7022,11 @@ The following data is missing:
     </message>
     <message>
         <source>Confirm Remove Wordlist</source>
-        <translation type="unfinished"/>
+        <translation>أكِّد إزالة قائمة الكلمات</translation>
     </message>
     <message>
         <source>Do you really want to remove the wordlist &quot;%1&quot;?</source>
-        <translation type="unfinished"/>
+        <translation>أتريد حقًا إزالة قائمة الكلمات &quot;%1&quot;؟</translation>
     </message>
     <message>
         <source>Select Custom Wordlist</source>
@@ -7026,12 +7034,13 @@ The following data is missing:
     </message>
     <message>
         <source>Overwrite Wordlist?</source>
-        <translation type="unfinished"/>
+        <translation>كتابة القائمة الكلمات فوق القديمة؟</translation>
     </message>
     <message>
         <source>Wordlist &quot;%1&quot; already exists as a custom wordlist.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"/>
+        <translation>قائمة الكلمات &quot;%1&quot; موجودة بالفعل كقائمة كلمات مخصّصة.
+أتريد استبدالها؟</translation>
     </message>
 </context>
 <context>
@@ -7480,7 +7489,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Entry %1 not found.</source>
-        <translation type="unfinished"/>
+        <translation>المدخل %1 غير موجود.</translation>
     </message>
     <message>
         <source>ERROR: Please specify one of --attribute or --totp, not both.</source>
@@ -10096,12 +10105,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>عام:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>لم نتمكن من العثور على واجهة لمفتاح حماية عتادي بالرقم التسلسلي %1. يرجى توصيله للمتابعة.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10161,10 +10166,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>تعذر العثور على مفتاح حماية عتادي الذي يحمل الرقم التسلسلي %1 أو الوصول إليه. يُرجى تقديمه للمتابعة.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>مفتاح حماية عتادي مُقفل أو انتهت مهلته. قم بإلغاء قفله أو إعادة تقديمه للمتابعة.</translation>

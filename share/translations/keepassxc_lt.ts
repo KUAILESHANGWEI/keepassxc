@@ -3628,6 +3628,14 @@ Palaikomi pratęsimai yra: %1.</translation>
         <source>Select import/export file</source>
         <translation>Pasirinkti importo / eksporto failą</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10083,12 +10091,8 @@ Pavyzdys: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Bendra: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Nepavyko rasti aparatinės įrangos rakto sąsajos su serijos numeriu %1. Norėdami tęsti, prijunkite jį prie jo.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10148,10 +10152,6 @@ Pavyzdys: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Nepavyko rasti arba pasiekti aparatūros rakto su serijos numeriu %1. Prašome jį pristatyti, kad tęstumėte. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Aparatūros raktas užrakintas arba nustatytas nustatytas laiku. Atrakinkite arba iš naujo pateikite jį, kad tęstumėte.</translation>

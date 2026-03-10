@@ -1270,7 +1270,7 @@ Voulez-vous migrer vos paramètres maintenant ?</translation>
     </message>
     <message>
         <source>Return only best-matching credentials</source>
-        <translation>Retourner que les identifiants qui correspondent le mieux</translation>
+        <translation>Ne retourner que les identifiants qui correspondent le mieux</translation>
     </message>
     <message>
         <source>Returns expired credentials. String [expired] is added to the title.</source>
@@ -3647,6 +3647,14 @@ Supported extensions are: %1.</source>
     <message>
         <source>Select import/export file</source>
         <translation>Choisir le fichier d’importation ou d’exportation</translation>
+    </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Converser la structure du groupe avec la base de données partagée</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Converser la structure du groupe</translation>
     </message>
 </context>
 <context>
@@ -10105,12 +10113,8 @@ Exemple : JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Général :</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Impossible de trouver une interface pour la clé matérielle dont le numéro de série est %1. Connectez-la pour poursuivre.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Impossible de trouver la clé matérielle dont le numéro de série est %1. Connectez-la pour poursuivre.</translation>
     </message>
 </context>
 <context>
@@ -10170,10 +10174,6 @@ Exemple : JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Impossible de trouver la clé matérielle dont le numéro de série est %1 ou d’y accéder. Présentez-la pour poursuivre.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>La clé matérielle est verrouillée ou est arrivée au bout de son délai. Déverrouillez-la ou présentez-la de nouveau pour poursuivre.</translation>

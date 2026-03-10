@@ -112,7 +112,7 @@
     <name>AgentSettingsWidget</name>
     <message>
         <source>Enable SSH Agent integration</source>
-        <translation>Включить интеграцию SSH-агента</translation>
+        <translation>Включить интеграцию с браузерами</translation>
     </message>
     <message>
         <source>Use Pageant</source>
@@ -148,7 +148,7 @@
     </message>
     <message>
         <source>SSH Agent connection is working!</source>
-        <translation>Соединение с SSH-агентом активно!</translation>
+        <translation>SSH-агент соединение работает!</translation>
     </message>
     <message>
         <source>Use both agents</source>
@@ -202,11 +202,11 @@
     </message>
     <message>
         <source>Text beside icon</source>
-        <translation>Текст рядом со значком</translation>
+        <translation>Текст рядом с значок</translation>
     </message>
     <message>
         <source>Text under icon</source>
-        <translation>Текст под значком</translation>
+        <translation>Текст под значок</translation>
     </message>
     <message>
         <source>Follow style</source>
@@ -369,7 +369,7 @@
     </message>
     <message>
         <source>Entry Management</source>
-        <translation>Управление записями</translation>
+        <translation>Управление входом</translation>
     </message>
     <message>
         <source>Use group icon on entry creation</source>
@@ -636,7 +636,7 @@
     </message>
     <message>
         <source>Clear search query after</source>
-        <translation>Задержка очистки поискового запроса:</translation>
+        <translation>Задержка очистки поискового запроса</translation>
     </message>
     <message>
         <source> min</source>
@@ -3651,6 +3651,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>Выберите файл для импорта/экспорта</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Сохранять структуру групп при использовании общей базы данных</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Сохранять структуру групп</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -5613,7 +5621,7 @@ Are you sure you want to continue with this file?</source>
     </message>
     <message>
         <source>Theme</source>
-        <translation>Тема</translation>
+        <translation>Оформление</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
@@ -5905,19 +5913,19 @@ Are you sure you want to continue with this file?</source>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>Системная</translation>
+        <translation>Как в системе</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Светлая</translation>
+        <translation>Светлое</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Тёмная</translation>
+        <translation>Тёмное</translation>
     </message>
     <message>
         <source>Classic (Platform-native)</source>
-        <translation>Классическая (зависит от платформы)</translation>
+        <translation>Классическое (зависит от платформы)</translation>
     </message>
     <message>
         <source>Show Menubar</source>
@@ -10111,12 +10119,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Общий: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Не удалось найти интерфейс для аппаратного ключа с серийным номером %1. Подключите его, чтобы продолжить.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Не удалось найти аппаратный ключ с серийным номером %1. Подключите его, чтобы продолжить.</translation>
     </message>
 </context>
 <context>
@@ -10176,10 +10180,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Не удалось найти или получить доступ к аппаратному ключу с серийным номером %1. Подключите его для продолжения. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Аппаратный ключ заблокирован или истекло время ожидания. Разблокируйте или подключите его повторно, чтобы продолжить.</translation>

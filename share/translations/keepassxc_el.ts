@@ -3641,6 +3641,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>Επιλογή αρχείου εισαγωγής/εξαγωγής</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10095,12 +10103,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Γενικά:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Δεν ήταν δυνατή η εύρεση διεπαφής για το κλειδί υλικού με σειριακό αριθμό %1. Συνδέστε το για να συνεχίσετε.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10160,10 +10164,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Δεν ήταν δυνατή η εύρεση ή η πρόσβαση στο κλειδί υλικού με τον σειριακό αριθμό %1. Παρακαλώ παρουσιάστε το για να συνεχίσετε.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Το κλειδί υλικού είναι κλειδωμένο ή έληξε. Ξεκλειδώστε ή παρουσιάστε ξανά για να συνεχίσετε.</translation>

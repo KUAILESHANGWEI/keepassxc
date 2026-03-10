@@ -3,7 +3,7 @@
     <name>AboutDialog</name>
     <message>
         <source>About KeePassXC</source>
-        <translation>Tietoja ohjelmasta KeePassXC</translation>
+        <translation>Tietoa KeePassXC:stä</translation>
     </message>
     <message>
         <source>About</source>
@@ -50,11 +50,11 @@
     <name>AccessControlDialog</name>
     <message>
         <source>KeePassXC -  Access Request</source>
-        <translation>KeePassXC - Pääsypyyntö</translation>
+        <translation>KeePassXC – pääsypyyntö</translation>
     </message>
     <message>
         <source>Non-existing/inaccessible executable path. Please double-check the client is legit.</source>
-        <translation>Suorituspolkua ei löydy. Tarkista asiakasohjelman todenperäisyys.</translation>
+        <translation>Ohjelmatiedoston sijaintia ei löydy. Varmista asiakasohjelman luotettavuus.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;%1 &lt;/span&gt;is requesting access to the following entries:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -70,7 +70,7 @@
     </message>
     <message>
         <source>Executable</source>
-        <translation>Suoritettava tiedosto</translation>
+        <translation>Ohjelmatiedosto</translation>
     </message>
     <message>
         <source>Command Line</source>
@@ -90,7 +90,7 @@
     </message>
     <message>
         <source>Your decision will be remembered for the duration while both the requesting client AND KeePassXC are running.</source>
-        <translation>Valintasi muistetaan pyynnön esittäneen päätteen JA KeePassXC käyntiajan.</translation>
+        <translation>Valintasi muistetaan pyynnön esittäneen asiakasohjelman JA KeePassXC:n käynnissäoloajan.</translation>
     </message>
     <message>
         <source>Deny All &amp;&amp; Future</source>
@@ -152,7 +152,7 @@
     </message>
     <message>
         <source>Use both agents</source>
-        <translation>Käytä molempia agentteja</translation>
+        <translation>Käytä kumpaakin agenttia</translation>
     </message>
 </context>
 <context>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Zoomaa</translation>
+        <translation>Lähennä</translation>
     </message>
     <message>
         <source>Bring All to Front</source>
@@ -182,7 +182,7 @@
     </message>
     <message>
         <source>General</source>
-        <translation>Yleistä</translation>
+        <translation>Perusasetukset</translation>
     </message>
     <message>
         <source>Security</source>
@@ -262,7 +262,7 @@
     </message>
     <message>
         <source>Normal</source>
-        <translation>Normaali</translation>
+        <translation>Tavallinen</translation>
     </message>
     <message>
         <source>Medium</source>
@@ -278,7 +278,7 @@
     </message>
     <message>
         <source>This setting cannot be enabled when minimize on unlock is enabled.</source>
-        <translation>Tätä asetusta ei voi ottaa käyttöön, kun ohjelman pienennys lukituksen avauksen jälkeen on otettu käyttöön.</translation>
+        <translation>Tätä asetusta ei voi ottaa käyttöön, kun ohjelman pienennys lukituksen avauksen jälkeen on käytössä.</translation>
     </message>
 </context>
 <context>
@@ -329,7 +329,7 @@
     </message>
     <message>
         <source>File Management</source>
-        <translation>Tiedostohallinta</translation>
+        <translation>Tiedostonhallinta</translation>
     </message>
     <message>
         <source>Automatically save after every change</source>
@@ -337,7 +337,7 @@
     </message>
     <message>
         <source>Automatically save when locking database</source>
-        <translation>Tallenna automaattisesti, kun tietokanta lukitaan</translation>
+        <translation>Tallenna automaattisesti lukittaessa tietokanta</translation>
     </message>
     <message>
         <source>Automatically save non-data changes when locking database</source>
@@ -345,7 +345,7 @@
     </message>
     <message>
         <source>Automatically reload the database when modified externally</source>
-        <translation>Lataa tietokanta automaattisesti uudelleen jos tietokantaa muokattiin muualla</translation>
+        <translation>Lataa tietokanta automaattisesti uudelleen, jos sitä on muokattu toisaalla</translation>
     </message>
     <message>
         <source>Backup database file before saving</source>
@@ -357,7 +357,7 @@
     </message>
     <message>
         <source>Use alternative saving method (may solve problems with Dropbox, Google Drive, GVFS, etc.)</source>
-        <translation>Käytä vaihtoehtoista tallennusmetodia (voi ratkaista ongelmia Dropboxin, Google Driven GVFS:n, ymv. kanssa)</translation>
+        <translation>Käytä vaihtoehtoista tallennustapaa (voi ratkaista ongelmia Dropboxin, Google Driven GVFS:n ym. kanssa)</translation>
     </message>
     <message>
         <source>Temporary file moved into place</source>
@@ -393,11 +393,11 @@
     </message>
     <message>
         <source>Favicon download timeout:</source>
-        <translation>Faviconin latauksen aikakatkaisu:</translation>
+        <translation>Sivustokuvakkeen latauksen aikakatkaisu:</translation>
     </message>
     <message>
         <source>Website icon download timeout in seconds</source>
-        <translation>Nettisivun ikonin latauksen aikakatkaisu sekunneissa</translation>
+        <translation>Sivustokuvakkeen latauksen aikakatkaisu sekunteina</translation>
     </message>
     <message>
         <source> sec</source>
@@ -434,27 +434,27 @@
     </message>
     <message>
         <source>Use monospaced font for notes</source>
-        <translation>Käytä tasalevyistä fonttia muistiinpanoille</translation>
+        <translation>Käytä muistiinpanoille tasalevyistä fonttia</translation>
     </message>
     <message>
         <source>Minimize instead of app exit</source>
-        <translation>Minimoi ohjelma sulkemisen sijasta</translation>
+        <translation>Pienennä ohjelma sulkemisen sijaan</translation>
     </message>
     <message>
         <source>Show a system tray icon</source>
-        <translation>Näytä ilmoitusalueen kuvake</translation>
+        <translation>Näytä ilmoitusaluekuvake</translation>
     </message>
     <message>
         <source>Tray icon type</source>
-        <translation>Ilmoitusalueen ikonin tyyppi</translation>
+        <translation>Ilmoitusaluekuvakkeen tyyppi</translation>
     </message>
     <message>
         <source>Tray icon type:</source>
-        <translation>Ilmoitusalueen ikonin tyyppi:</translation>
+        <translation>Ilmoitusaluekuvakkeen tyyppi:</translation>
     </message>
     <message>
         <source>Hide window to system tray when minimized</source>
-        <translation>Piiloita pienennetty ikkuna ilmoitusalueelle</translation>
+        <translation>Piilota ikkuna ilmoitusalueelle pienennettäessä</translation>
     </message>
     <message>
         <source>Reset settings to default…</source>
@@ -482,7 +482,7 @@
     </message>
     <message>
         <source>Re-lock previously locked database after performing Auto-Type</source>
-        <translation>Uudelleenlukitse aikaisemmin lukittu tietokanta automaattisyötön jälkeen</translation>
+        <translation>Lukitse aikaisemmin lukittu tietokanta uudelleen automaattisyötön jälkeen</translation>
     </message>
     <message>
         <source>Auto-Type start delay:</source>
@@ -536,7 +536,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; is replaced with the filename of the saved database without extension&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; is replaced with the specified time format (default: dd_MM_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;See the User Guide for more details&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; korvataan tallennettavan tietokannan päätteettömällä tiedostonimellä&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; korvataan määrityksen mukaisella aikaleimalla (oletus: pp_KK_vvvv_tt-mm-ss)&lt;/p&gt;&lt;p&gt;Lisätietoa löytyy käyttöoppaasta&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; korvataan tallennettavan tietokannan päätteettömällä tiedostonimellä&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; korvataan määrityksen mukaisella aikaleimalla (oletus: dd_MM_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;Lisätietoa löytyy käyttöoppaasta&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Choose folder...</source>
@@ -572,15 +572,15 @@
     </message>
     <message>
         <source>Font size:</source>
-        <translation>Fontti koko:</translation>
+        <translation>Fonttikoko:</translation>
     </message>
     <message>
         <source>Font size selection</source>
-        <translation>Fontin koon valinta</translation>
+        <translation>Fonttikoon valinta</translation>
     </message>
     <message>
         <source>Skip confirmation for main window Auto-Type actions</source>
-        <translation>Ohita varmistus pääikkunan automaattisyötön toiminnoissa</translation>
+        <translation>Ohita pääikkunan automaattisyöttötoimintojen vahvistaminen</translation>
     </message>
     <message>
         <source>Double-click action for URL:</source>
@@ -632,11 +632,11 @@
     </message>
     <message>
         <source>Clear clipboard after</source>
-        <translation>Tyhjennä leikepöytä kun on kulunut</translation>
+        <translation>Tyhjennä leikepöytä ajassa</translation>
     </message>
     <message>
         <source>Clear search query after</source>
-        <translation>Tyhjennä hakukentän sisältö kun on kulunut</translation>
+        <translation>Tyhjennä hakukentän sisältö ajassa</translation>
     </message>
     <message>
         <source> min</source>
@@ -645,11 +645,11 @@
     </message>
     <message>
         <source>Clipboard clear seconds</source>
-        <translation>Leikepöydän tyhjentäminen sekunneissa</translation>
+        <translation>Leikepöydän tyhjennys sekunteina</translation>
     </message>
     <message>
         <source>Lock databases after inactivity of</source>
-        <translation>Lukitse tietokannat jos on oltu joutilaana</translation>
+        <translation>Lukitse tietokannat, kun on oltu jouten</translation>
     </message>
     <message>
         <source>Convenience</source>
@@ -657,11 +657,11 @@
     </message>
     <message>
         <source>Enable database quick unlock (Touch ID / Windows Hello)</source>
-        <translation>Käytä tietokannan Pika-avausta (Touch ID/Windows Hello)</translation>
+        <translation>Käytä tietokannan pika-avausta (Touch ID/Windows Hello)</translation>
     </message>
     <message>
         <source>Lock databases when session is locked or lid is closed</source>
-        <translation>Lukitse tietokannat kun istunto lukitaan tai kansi suljetaan</translation>
+        <translation>Lukitse tietokannat istuntoa lukittaessa tai kantta suljettaessa</translation>
     </message>
     <message>
         <source>Lock databases after minimizing the window</source>
@@ -673,7 +673,7 @@
     </message>
     <message>
         <source>Use placeholder for empty password fields</source>
-        <translation>Käytä paikkamerkkiä tyhjissä salasanakentissä</translation>
+        <translation>Käytä tyhjiin salasanakenttiin paikkamerkkiä</translation>
     </message>
     <message>
         <source>Hide passwords in the entry preview panel</source>
@@ -685,7 +685,7 @@
     </message>
     <message>
         <source>Use DuckDuckGo service to download website icons</source>
-        <translation>Käytä DuckDuckGo:ta sivustojen ikonien lataukseen</translation>
+        <translation>Käytä DuckDuckGo’ta sivustojen ikonien lataukseen</translation>
     </message>
     <message>
         <source>Hide TOTP in the entry preview panel</source>
@@ -693,7 +693,7 @@
     </message>
     <message>
         <source>Lock databases when switching user</source>
-        <translation>Lukitse tietokanta, jos käyttäjää vaihdetaan</translation>
+        <translation>Lukitse tietokanta käyttäjää vaihdettaessa</translation>
     </message>
     <message>
         <source>Lock Options</source>
@@ -708,11 +708,11 @@
     <name>AttachmentWidget</name>
     <message>
         <source>Attachment Viewer</source>
-        <translation>Liitetiedostojen katselin</translation>
+        <translation>Liitekatselin</translation>
     </message>
     <message>
         <source>Unknown attachment type</source>
-        <translation>Tuntematon liitetiedoston tyyppi</translation>
+        <translation>Tuntematon liitetyyppi</translation>
     </message>
 </context>
 <context>
@@ -743,19 +743,19 @@
     </message>
     <message>
         <source>Bracket imbalance detected, found extra { or }</source>
-        <translation>Sulkujen määrissä on virhe. Löydettiin ylimääräinen { tai }</translation>
+        <translation>Sulkeet ovat epätasapainossa: löytyi ylimääräinen { tai }</translation>
     </message>
     <message>
         <source>Too many repetitions detected, max is %1: %2</source>
-        <translation>Liian monta toistoa, maksimi on %1: %2</translation>
+        <translation>Liikaa toistoja, enimmäismäärä on %1: %2</translation>
     </message>
     <message>
         <source>Very slow key press detected, max is %1: %2</source>
-        <translation>Erittäin hidas näppäinpainallus havaittu, maksimi on %1: %2</translation>
+        <translation>Erittäin hidas näppäinpainallus havaittu, enimmäisaika on %1: %2</translation>
     </message>
     <message>
         <source>Very long delay detected, max is %1: %2</source>
-        <translation>Erittäin pitkä viive havaittu, maksimi on %1: %2</translation>
+        <translation>Erittäin pitkä viive havaittu, enimmäisaika on %1: %2</translation>
     </message>
     <message>
         <source>Invalid placeholder: %1</source>
@@ -763,7 +763,7 @@
     </message>
     <message>
         <source>Entry does not have attribute for PICKCHARS: %1</source>
-        <translation>Merkintä ei sisällä attribuuttia PICKCHARS: %1</translation>
+        <translation>Merkintä ei sisällä PICKCHARS-määritettä: %1</translation>
     </message>
     <message>
         <source>Entry has invalid TOTP settings</source>
@@ -812,7 +812,7 @@
     <name>AutoTypePlatformX11</name>
     <message>
         <source>Sequence aborted: Caps Lock is on</source>
-        <translation>Sekvenssi peruutettu: Caps Lock on päällä</translation>
+        <translation>Sekvenssi peruutettu: vaihtolukko on käytössä</translation>
     </message>
     <message>
         <source>Sequence aborted: Modifier keys held by user</source>
@@ -831,11 +831,11 @@
     <name>AutoTypeSelectDialog</name>
     <message>
         <source>Auto-Type - KeePassXC</source>
-        <translation>Automaattisyöttö - KeePassXC</translation>
+        <translation>Automaattisyöttö – KeePassXC</translation>
     </message>
     <message>
         <source>Double click a row to perform Auto-Type or find an entry using the search:</source>
-        <translation>Tuplaklikkaa riviä suorittaaksesi automaattitäydennyksen, tai etsi tietuetta käyttäen hakua:</translation>
+        <translation>Automaattitäydennä kaksoisnapsauttamalla tai etsi tietuetta haulla:</translation>
     </message>
     <message>
         <source>Search all open databases</source>
@@ -851,7 +851,7 @@
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>Type {USERNAME}</source>
@@ -879,7 +879,7 @@
     </message>
     <message>
         <source>Use Virtual Keyboard</source>
-        <translation>Käytä virtuaalista näppäimistöä</translation>
+        <translation>Käytä näyttönäppäimistöä</translation>
     </message>
     <message>
         <source>Type {URL}</source>
@@ -902,22 +902,22 @@ Ctrl+Shift+2 - Copy password&lt;br/&gt;
 Ctrl+Shift+3 - Copy TOTP&lt;br/&gt;
 Ctrl+Shift+4 - Copy URL&lt;br/&gt;
 &lt;/p&gt;</source>
-        <translation>&lt;p&gt;Seuraavat pikanäppäimet ovat saatavilla:&lt;br/&gt;
-Ctrl+F - Kohdista hakuun&lt;br/&gt;
-Ctrl+1 - Kirjoita käyttäjänimi&lt;br/&gt;
-Ctrl+2 - Kirjoita salasana&lt;br/&gt;
-Ctrl+3 - Kirjoita TOTP&lt;br/&gt;
-Ctrl+4 - Kirjoita osoite&lt;br/&gt;
-Ctrl+5 - Käytä virtuaalista näppäimistöä (vain Windows)&lt;br/&gt;
-Ctrl+Shift+1 - Kopioi käyttäjänimi&lt;br/&gt;
-Ctrl+Shift+2 - Kopioi salasana&lt;br/&gt;
-Ctrl+Shift+3 - Kopioi TOTP&lt;br/&gt;
-Ctrl+Shift+4 - Kopioi osoite&lt;br/&gt;
+        <translation>&lt;p&gt;Käytettävissä ovat seuraavat pikanäppäimet:&lt;br/&gt;
+Ctrl+F – Kohdista hakuun&lt;br/&gt;
+Ctrl+1 – Kirjoita käyttäjänimi&lt;br/&gt;
+Ctrl+2 – Kirjoita salasana&lt;br/&gt;
+Ctrl+3 – Kirjoita TOTP&lt;br/&gt;
+Ctrl+4 – Kirjoita osoite&lt;br/&gt;
+Ctrl+5 – Käytä näyttönäppäimistöä (vain Windows)&lt;br/&gt;
+Ctrl+Vaihto+1 – Kopioi käyttäjänimi&lt;br/&gt;
+Ctrl+Vaihto+2 – Kopioi salasana&lt;br/&gt;
+Ctrl+Vaihto+3 – Kopioi TOTP&lt;br/&gt;
+Ctrl+Vaihto+4 – Kopioi osoite&lt;br/&gt;
 &lt;/p&gt;</translation>
     </message>
     <message>
         <source>You can use advanced search queries to find any entry in your open databases.</source>
-        <translation>Voit käyttää lisähakuehtoja löytääksesi minkä tahansa tietueen avoimista tietokannoista.</translation>
+        <translation>Lisähakuehdoin voi löytää avoimista tietokannoista minkä tahansa tietueen.</translation>
     </message>
 </context>
 <context>
@@ -935,7 +935,7 @@ Ctrl+Shift+4 - Kopioi osoite&lt;br/&gt;
     <name>BrowserAccessControlDialog</name>
     <message>
         <source>KeePassXC - Browser Access Request</source>
-        <translation>KeePassXC - Selaimen pääsypyyntö</translation>
+        <translation>KeePassXC – selaimen pääsypyyntö</translation>
     </message>
     <message>
         <source>%1 is requesting access to the following entries:</source>
@@ -943,7 +943,7 @@ Ctrl+Shift+4 - Kopioi osoite&lt;br/&gt;
     </message>
     <message>
         <source>Remember access to checked entries</source>
-        <translation>Muista pääsylupa merkatuille tietueille</translation>
+        <translation>Muista pääsylupa valituille tietueille</translation>
     </message>
     <message>
         <source>Remember</source>
@@ -988,14 +988,14 @@ Valitse tietokanta, johon tiedot tallennetaan.</translation>
     </message>
     <message>
         <source>KeePassXC - Select Database</source>
-        <translation>KeePassXC - Valitse tietokanta</translation>
+        <translation>KeePassXC – valitse tietokanta</translation>
     </message>
 </context>
 <context>
     <name>BrowserPasskeysConfirmationDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>Update</source>
@@ -1027,7 +1027,7 @@ Valitse tietokanta, johon tiedot tallennetaan.</translation>
     </message>
     <message>
         <source>KeePassXC - Passkey credentials</source>
-        <translation>KeePassXC - Suojausavaimen tunnistetiedot</translation>
+        <translation>KeePassXC – suojausavaimen tunnistetiedot</translation>
     </message>
     <message>
         <source>Add to existing entry</source>
@@ -3643,6 +3643,14 @@ Tuetut tyypit ovat: %1.</translation>
     <message>
         <source>Select import/export file</source>
         <translation>Valitse tuonti-/vientitiedosto</translation>
+    </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Ylläpidä ryhmärakennetta jaetulla tietokannalla</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Säilytä ryhmärakenne</translation>
     </message>
 </context>
 <context>
@@ -10103,12 +10111,8 @@ Esimerkiksi: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Yleiset:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Laiteavainta sarjanumerolla %1 ei löydetty. Ole hyvä ja liitä se jatkaaksesi.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Sarjanumerolla %1 ei löytynyt laiteavainta. Jatka kytkemällä se.</translation>
     </message>
 </context>
 <context>
@@ -10168,10 +10172,6 @@ Esimerkiksi: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Laiteavainta sarjanumerolla %1 ei löydetty. Ole hyvä ja liitä se jatkaaksesi.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Laiteavain on lukittu tai aikakatkaistu. Ole hyvä ja avaa se jatkaaksesi.</translation>

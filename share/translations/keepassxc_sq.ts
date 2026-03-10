@@ -3645,6 +3645,14 @@ Zgjatimet e mbuluara janë: %1.</translation>
         <source>Select import/export file</source>
         <translation>Përzgjidhni kartelë importim/eksportimi</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10105,12 +10113,8 @@ Shembull: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Të përgjithshme: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>S’u gjet dot ndërfaqe për kyçin hardware me numrin serial %1. Ju lutemi, që të vazhdohet, lidheni.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10170,10 +10174,6 @@ Shembull: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>S’u gjet dot, ose s’u përdor dot kyç hardware me numër serial %1. Që të vazhdohet, ju lutemi, silleni. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Kyçi hardware është i kyçur, ose mbaroi koha. Që të vazhdohet, shkyçeni, ose riparaqiteni.</translation>

@@ -160,19 +160,19 @@
     <name>AppKit</name>
     <message>
         <source>Window</source>
-        <translation type="unfinished"/>
+        <translation>Вікно</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation type="unfinished"/>
+        <translation>Згорнути</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished"/>
+        <translation>Збільшити</translation>
     </message>
     <message>
         <source>Bring All to Front</source>
-        <translation type="unfinished"/>
+        <translation>Вивести все на передній план</translation>
     </message>
 </context>
 <context>
@@ -537,7 +537,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; is replaced with the filename of the saved database without extension&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; is replaced with the specified time format (default: dd_MM_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;See the User Guide for more details&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; замінюється на ім&apos;я файла збереженої бази даних без розширення&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; замінюється на вказаний формат часу (за замовчуванням: дд_ММ_рррр_чч-хх-сс)&lt;/p&gt;&lt;p&gt;Дивіться Посібник користувача для більш детальної інформації&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; замінюється на ім&apos;я файла збереженої бази даних без розширення&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; замінюється на вказаний формат часу (за замовчуванням: dd_ММ_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;Дивіться Посібник користувача для більш детальної інформації&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Choose folder...</source>
@@ -585,27 +585,27 @@
     </message>
     <message>
         <source>Double-click action for URL:</source>
-        <translation type="unfinished"/>
+        <translation>Дія на подвійне натискання на URL:</translation>
     </message>
     <message>
         <source>Double-click action for URL field</source>
-        <translation type="unfinished"/>
+        <translation>Дія на подвійне натискання на поле URL</translation>
     </message>
     <message>
         <source>Edit entry</source>
-        <translation type="unfinished"/>
+        <translation>Редагувати запис</translation>
     </message>
     <message>
         <source>Open entry URL in browser</source>
-        <translation type="unfinished"/>
+        <translation>Відкрити URL-адресу запису в браузері</translation>
     </message>
     <message>
         <source>Copy entry URL to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Скопіювати URL-адресу запису в буфер обміну</translation>
     </message>
     <message>
         <source>Auto-generate password for new entries</source>
-        <translation type="unfinished"/>
+        <translation>Автоматично генерувати пароль для нових записів</translation>
     </message>
     <message>
         <source> recent files</source>
@@ -925,11 +925,11 @@ Ctrl+Shift+4 - Скопіювати URL&lt;br/&gt;
     <name>BinaryStream</name>
     <message>
         <source>Failed to read string data: %1</source>
-        <translation type="unfinished"/>
+        <translation>Не вдалося прочитати дані рядка: %1</translation>
     </message>
     <message>
         <source>String length exceeds 10 MiB limit (requested %1)</source>
-        <translation type="unfinished"/>
+        <translation>Довжина рядка перевищує обмеження в 10 МБ (потрібно %1)</translation>
     </message>
 </context>
 <context>
@@ -1037,20 +1037,19 @@ Please select the correct database for saving credentials.</source>
     <message>
         <source>Existing passkey found.
 Do you want to register a new passkey for:</source>
-        <translation>Знайдено існуючий пароль.
-Ви хочете зареєструвати новий пароль для:</translation>
+        <translation>Знайдено наявний ключ доступу.Чи хочете ви зареєструвати новий ключ доступу для:</translation>
     </message>
     <message>
         <source>Select the existing passkey and press Update to replace it.</source>
-        <translation>Виберіть існуючий пароль і натисніть &quot;Оновити&quot;, щоб замінити його.</translation>
+        <translation>Виберіть наявний ключ доступу і натисніть «Оновити», щоб замінити його.</translation>
     </message>
     <message>
         <source>Authenticate passkey credentials for:</source>
-        <translation>Аутентифікувати облікові дані пароля для:</translation>
+        <translation>Аутентифікувати облікові дані ключа доступу для:</translation>
     </message>
     <message>
         <source>Do you want to register a passkey for:</source>
-        <translation>Ви хочете зареєструвати пароль для:</translation>
+        <translation>Чи хочете ви зареєструвати ключ доступу для:</translation>
     </message>
 </context>
 <context>
@@ -1099,7 +1098,7 @@ Do you want to delete the entry?
     </message>
     <message>
         <source>%1 (Passkey)</source>
-        <translation>%1 (ключ доступу)</translation>
+        <translation>%1 (Ключ доступу)</translation>
     </message>
     <message>
         <source>KeePassXC - Create a new group</source>
@@ -1131,11 +1130,11 @@ Do you want to delete the entry?
     </message>
     <message>
         <source>KeePassXC - Passkey credentials</source>
-        <translation>KeePassXC - Облікові дані ключа доступу</translation>
+        <translation>KeePassXC - Дані ключів доступу</translation>
     </message>
     <message>
         <source>Register a new passkey to this entry:</source>
-        <translation>Зареєструвати новий пароль для цього запису:</translation>
+        <translation>Зареєструвати новий ключ доступу для цього запису:</translation>
     </message>
     <message>
         <source>Register</source>
@@ -1143,17 +1142,16 @@ Do you want to delete the entry?
     </message>
     <message>
         <source>KeePassXC - Update passkey</source>
-        <translation>KeePassXC - Оновити пароль</translation>
+        <translation>KeePassXC - Оновити ключ доступу</translation>
     </message>
     <message>
         <source>Entry already has a passkey.
 Do you want to overwrite the passkey in %1 - %2?</source>
-        <translation>Запис уже має пароль.
-Ви хочете перезаписати пароль у %1 - %2?</translation>
+        <translation>Запис вже має ключ доступу.Чи хочете ви перезаписати пароль у %1 - %2?</translation>
     </message>
     <message>
         <source>Passkey</source>
-        <translation>Passkey</translation>
+        <translation>Ключ доступу</translation>
     </message>
     <message>
         <source>Abort</source>
@@ -1421,11 +1419,11 @@ Would you like to migrate your existing settings now?</source>
     </message>
     <message>
         <source>Allows using insecure http://localhost with passkeys for testing purposes.</source>
-        <translation>Дозволяє використовувати небезпечний http://localhost з паролями для тестування.</translation>
+        <translation>Дозволяє використовувати небезпечний http://localhost з ключами доступу для тестування.</translation>
     </message>
     <message>
         <source>Allow using localhost with passkeys</source>
-        <translation>Дозволити використовувати localhost з паролями</translation>
+        <translation>Дозволити використовувати localhost з ключами доступу</translation>
     </message>
     <message>
         <source>KeePassXC-Browser is needed for the browser integration to work. &lt;br /&gt;Download it for %1 and %2 and %3.</source>
@@ -2761,11 +2759,11 @@ Disable safe saves and try again?</source>
     </message>
     <message>
         <source>Remove passkey from entry</source>
-        <translation>Видалити пароль з запису</translation>
+        <translation>Видалити ключ доступу із запису</translation>
     </message>
     <message>
         <source>Do you want to remove the passkey from this entry?</source>
-        <translation>Ви хочете видалити пароль з цього запису?</translation>
+        <translation>Бажаєте видалити ключ доступу з цього запису?</translation>
     </message>
     <message>
         <source>The database file &quot;%1&quot; was modified externally</source>
@@ -2837,15 +2835,15 @@ Disable safe saves and try again?</source>
     </message>
     <message>
         <source>Successfully merged the selected database.</source>
-        <translation type="unfinished"/>
+        <translation>Вибрану базу даних успішно об&apos;єднано.</translation>
     </message>
     <message>
         <source>No changes were made by the merge operation.</source>
-        <translation type="unfinished"/>
+        <translation>Операція об&apos;єднання не внесла жодних змін.</translation>
     </message>
     <message>
         <source>Merge canceled, no changes were made.</source>
-        <translation type="unfinished"/>
+        <translation>Об&apos;єднання скасовано, зміни не внесені.</translation>
     </message>
     <message>
         <source>Searches and Tags</source>
@@ -3656,6 +3654,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>Вибрати файл імпорту/експорту</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Підтримувати структуру групи за допомогою спільної бази даних</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Зберегти структуру групи</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -3884,7 +3890,7 @@ This may cause the affected plugins to malfunction.</source>
     </message>
     <message>
         <source>Passkey</source>
-        <translation>Passkey</translation>
+        <translation>Ключ доступу</translation>
     </message>
     <message>
         <source>Invalid conversion type: %1</source>
@@ -3902,59 +3908,59 @@ This may cause the affected plugins to malfunction.</source>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"/>
+        <translation>Заголовок</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished"/>
+        <translation>Ім&apos;я користувача</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished"/>
+        <translation>Пароль</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished"/>
+        <translation>URL-адреса</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation type="unfinished"/>
+        <translation>Примітки</translation>
     </message>
     <message>
         <source>Custom Attributes</source>
-        <translation type="unfinished"/>
+        <translation>Власні атрибути</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation type="unfinished"/>
+        <translation>Піктограма</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"/>
+        <translation>Колір</translation>
     </message>
     <message>
         <source>Expiration</source>
-        <translation type="unfinished"/>
+        <translation>Термін дії</translation>
     </message>
     <message>
         <source>TOTP</source>
-        <translation type="unfinished"/>
+        <translation>TOTP</translation>
     </message>
     <message>
         <source>Custom Data</source>
-        <translation type="unfinished"/>
+        <translation>Користувацькі дані</translation>
     </message>
     <message>
         <source>Attachments</source>
-        <translation type="unfinished"/>
+        <translation>Вкладення</translation>
     </message>
     <message>
         <source>Auto-Type</source>
-        <translation type="unfinished"/>
+        <translation>Автозаповнення</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation type="unfinished"/>
+        <translation>Мітки</translation>
     </message>
 </context>
 <context>
@@ -6068,7 +6074,7 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>Import Passkey</source>
-        <translation>Імпорт ключа доступу</translation>
+        <translation>Імпортувати ключ доступу</translation>
     </message>
     <message>
         <source>Delete Entry</source>
@@ -6076,7 +6082,7 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>Remove Passkey From Entry</source>
-        <translation>Видалити пароль з запису</translation>
+        <translation>Видалити ключ доступу із запису</translation>
     </message>
     <message>
         <source>Empty Recycle Bin</source>
@@ -6189,31 +6195,31 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     <name>MergeDialog</name>
     <message>
         <source>Database Merge Confirmation</source>
-        <translation type="unfinished"/>
+        <translation>Підтвердження об&apos;єднання бази даних</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"/>
+        <translation>Об&apos;єднати</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"/>
+        <translation>Група</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"/>
+        <translation>Заголовок</translation>
     </message>
     <message>
         <source>UUID</source>
-        <translation type="unfinished"/>
+        <translation>UUID</translation>
     </message>
     <message>
         <source>Details</source>
-        <translation type="unfinished"/>
+        <translation>Подробиці</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished"/>
+        <translation>Змінити</translation>
     </message>
 </context>
 <context>
@@ -6232,71 +6238,71 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>Added</source>
-        <translation type="unfinished"/>
+        <translation>Додано</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"/>
+        <translation>Змінено</translation>
     </message>
     <message>
         <source>Moved</source>
-        <translation type="unfinished"/>
+        <translation>Переміщено</translation>
     </message>
     <message>
         <source>Deleted</source>
-        <translation type="unfinished"/>
+        <translation>Видалено</translation>
     </message>
     <message>
         <source>Previous location: %1</source>
-        <translation type="unfinished"/>
+        <translation>Попереднє місцезнаходження: %1</translation>
     </message>
     <message>
         <source>Number of entries in group: %1</source>
-        <translation type="unfinished"/>
+        <translation>Кількість записів у групі: %1</translation>
     </message>
     <message>
         <source>Group name</source>
-        <translation type="unfinished"/>
+        <translation>Назва групи</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation type="unfinished"/>
+        <translation>Примітки</translation>
     </message>
     <message>
         <source>Icon (UUID)</source>
-        <translation type="unfinished"/>
+        <translation>Піктограма (UUID)</translation>
     </message>
     <message>
         <source>Icon (Number)</source>
-        <translation type="unfinished"/>
+        <translation>Піктограма (Number)</translation>
     </message>
     <message>
         <source>Expiry time</source>
-        <translation type="unfinished"/>
+        <translation>Термін дії</translation>
     </message>
     <message>
         <source>Modification time</source>
-        <translation type="unfinished"/>
+        <translation>Час модифікації</translation>
     </message>
     <message>
         <source>%1 (Add local modifications to new entry)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (Додати місцеві зміни до нового запису)</translation>
     </message>
     <message>
         <source>%1 (Add new modifications to existing entry)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (Додати місцеві зміни до наявного запису)</translation>
     </message>
     <message>
         <source>Explicit deletion</source>
-        <translation type="unfinished"/>
+        <translation>Явне видалення</translation>
     </message>
     <message>
         <source>Implicit deletion (e.g. removal of parent group)</source>
-        <translation type="unfinished"/>
+        <translation>Неявне видалення (наприклад, видалення батьківської групи)</translation>
     </message>
     <message>
         <source>Adding new icon %1</source>
-        <translation type="unfinished"/>
+        <translation>Додавання нової піктограми %1</translation>
     </message>
 </context>
 <context>
@@ -6544,11 +6550,11 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>Failed to read key file: %1</source>
-        <translation type="unfinished"/>
+        <translation>Не вдалося прочитати файл ключа: %1</translation>
     </message>
     <message>
         <source>Failed to read public key: %1</source>
-        <translation type="unfinished"/>
+        <translation>Не вдалося прочитати відкритий ключ: %1</translation>
     </message>
     <message>
         <source>AES-256/GCM is currently not supported</source>
@@ -6583,7 +6589,7 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
     </message>
     <message>
         <source>Export the following passkey entries.</source>
-        <translation>Експортувати наступні записи паролів.</translation>
+        <translation>Експортувати наступні записи ключів доступу.</translation>
     </message>
 </context>
 <context>
@@ -6592,8 +6598,7 @@ Expect some bugs and minor issues, this version is meant for testing purposes.</
         <source>File &quot;%1.passkey&quot; already exists.
 Do you want to overwrite it?
 </source>
-        <translation>Файл &quot;%1.passkey&quot; вже існує.
-Хочете перезаписати його?</translation>
+        <translation>Файл &quot;%1.passkey&quot; вже існує.Хочете перезаписати його?</translation>
     </message>
     <message>
         <source>Cannot open file</source>
@@ -6632,7 +6637,7 @@ Do you want to overwrite it?
     </message>
     <message>
         <source>Import Passkey</source>
-        <translation>Імпорт ключа доступу</translation>
+        <translation>Імпортувати ключ доступу</translation>
     </message>
     <message>
         <source>Import</source>
@@ -6656,22 +6661,22 @@ Do you want to overwrite it?
     </message>
     <message>
         <source>Import the following passkey:</source>
-        <translation>Імпортувати наступний пароль:</translation>
+        <translation>Імпортувати наступний ключ доступу:</translation>
     </message>
     <message>
         <source>Import the following passkey to this entry:</source>
-        <translation>Імпортувати наступний пароль до цього запису:</translation>
+        <translation>Імпортувати наступний ключ доступу до цього запису:</translation>
     </message>
     <message>
         <source>Default passkeys group (Imported Passkeys)</source>
-        <translation>Група паролів за замовчуванням (Імпортовані паролі)</translation>
+        <translation>Група ключів доступу за замовчуванням (Імпортовані ключі доступу)</translation>
     </message>
 </context>
 <context>
     <name>PasskeyImporter</name>
     <message>
         <source>Passkey file</source>
-        <translation>Файл з ключем</translation>
+        <translation>Файл ключа доступу</translation>
     </message>
     <message>
         <source>All files</source>
@@ -6687,27 +6692,25 @@ Do you want to overwrite it?
     </message>
     <message>
         <source>Cannot import passkey file &quot;%1&quot;. Data is missing.</source>
-        <translation>Не вдалося імпортувати файл пароля &quot;%1&quot;. Дані відсутні.</translation>
+        <translation>Не вдалося імпортувати файл ключа доступу «%1». Дані відсутні.</translation>
     </message>
     <message>
         <source>Cannot import passkey file &quot;%1&quot;.
 The following data is missing:
 %2</source>
-        <translation>Не вдалося імпортувати файл пароля &quot;%1&quot;.
-Відсутні такі дані:
-%2</translation>
+        <translation>Не вдалося імпортувати файл ключа доступу «%1».Відсутні такі дані:%2</translation>
     </message>
     <message>
         <source>Cannot import passkey file &quot;%1&quot;. Private key is missing or malformed.</source>
-        <translation>Не вдалося імпортувати файл пароля &quot;%1&quot;. Відсутній або пошкоджений приватний ключ.</translation>
+        <translation>Не вдалося імпортувати файл ключа доступу «%1». Приватний ключ відсутній або пошкоджений.</translation>
     </message>
     <message>
         <source>Open Passkey File</source>
-        <translation>Відкрити файл Passkey</translation>
+        <translation>Відкрити файл ключа доступу</translation>
     </message>
     <message>
         <source>Passkey Import Failed</source>
-        <translation>Помилка імпорту Passkey</translation>
+        <translation>Помилка імпорту ключа доступу</translation>
     </message>
 </context>
 <context>
@@ -8726,7 +8729,7 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message>
         <source>Passkeys</source>
-        <translation>Passkeys</translation>
+        <translation>Ключі доступу</translation>
     </message>
     <message>
         <source>Found unexpected Key type %1</source>
@@ -8888,7 +8891,7 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message>
         <source>Unknown passkeys error</source>
-        <translation>Невідома помилка паролів</translation>
+        <translation>Невідома помилка ключів доступу</translation>
     </message>
     <message>
         <source>Encrypted files are not supported.</source>
@@ -8900,7 +8903,7 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message>
         <source>Passkey</source>
-        <translation>Passkey</translation>
+        <translation>Ключ доступу</translation>
     </message>
     <message>
         <source>Format to use when exporting. Available choices are &apos;xml&apos;, &apos;csv&apos; or &apos;html&apos;. Defaults to &apos;xml&apos;.</source>
@@ -9352,15 +9355,15 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message>
         <source>The passkey file will be vulnerable to theft and unauthorized use, if left unsecured. Are you sure you want to continue?</source>
-        <translation>Файл пароля буде вразливим до крадіжки та несанкціонованого використання, якщо залишити його незахищеним. Ви впевнені, що хочете продовжити?</translation>
+        <translation>Файл ключа доступу буде вразливим до крадіжки та несанкціонованого використання, якщо залишити його незахищеним. Ви впевнені, що хочете продовжити?</translation>
     </message>
     <message>
         <source>Please wait, list of entries with passkeys is being updated…</source>
-        <translation>Будь ласка, зачекайте, список записів з паролями оновлюється…</translation>
+        <translation>Будь ласка, зачекайте, список записів з ключами доступу оновлюється…</translation>
     </message>
     <message>
         <source>No entries with passkeys.</source>
-        <translation>Немає записів з паролями.</translation>
+        <translation>Немає записів з ключами доступу.</translation>
     </message>
 </context>
 <context>
@@ -10116,12 +10119,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Загальні: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Не вдалося знайти інтерфейс для апаратного ключа з серійним номером %1. Під&apos;єднайте його, щоб продовжити.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Не вдалося знайти апаратний ключ із серійним номером %1. Підключіть його, щоб продовжити.</translation>
     </message>
 </context>
 <context>
@@ -10181,10 +10180,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Не вдалося знайти або отримати доступ до апаратного ключа з серійним номером %1. Будь ласка, надайте його, щоб продовжити. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Апаратний ключ заблоковано або завершився час очікування. Розблокуйте його, або надайте повторно, щоб продовжити.</translation>

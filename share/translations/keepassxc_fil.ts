@@ -3637,6 +3637,14 @@ Ang mga sinusuportahang extension ay: %1.</translation>
         <source>Select import/export file</source>
         <translation>Piliin ang import/export na file</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10092,12 +10100,8 @@ Halimbawa: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Pangkalahatan: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Hindi mahanap ang interface para sa hardware key na may serial number na %1. Mangyaring ikonekta ito para magpatuloy.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10157,10 +10161,6 @@ Halimbawa: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Hindi mahanap o ma-access ang hardware key na may serial number na %1. Mangyaring ipakita ito para magpatuloy. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Naka-lock o nag-time out ang hardware key. I-unlock o muling ipakita ito para makapagpatuloy.</translation>

@@ -1,70 +1,68 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="vi">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>About KeePassXC</source>
-        <translation>Über KeePassXC</translation>
+        <translation>Về KeePassXC</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Über</translation>
+        <translation>Giới thiệu</translation>
     </message>
     <message>
         <source>Report bugs at: &lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</source>
-        <translation>Melden Sie Fehler auf: &lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</translation>
+        <translation>Báo cáo lỗi tại: &lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</translation>
     </message>
     <message>
         <source>KeePassXC is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
-        <translation>KeePassXC wird unter den Bedingungen der GNU General Public License (GPL) Version 2 oder Version 3 (je nach Ihrer Auswahl) vertrieben.</translation>
+        <translation>KeePassXC được phân phối theo các điều khoản của Giấy phép Công cộng GNU (GPL) phiên bản 2 hoặc (tùy chọn của bạn) phiên bản 3.</translation>
     </message>
     <message>
         <source>Project Maintainers:</source>
-        <translation>Projekt-Betreuer:</translation>
+        <translation>Người duy trì dự án:</translation>
     </message>
     <message>
         <source>Special thanks from the KeePassXC team go to debfx for creating the original KeePassX.</source>
-        <translation>Das KeePassXC-Team möchte ganz besonders debfx danken für die Entwicklung des ursprünglichen KeePassX.</translation>
+        <translation>Nhóm KeePassXC gửi lời cảm ơn đặc biệt đến debfx vì đã tạo ra KeePassX gốc.</translation>
     </message>
     <message>
         <source>Contributors</source>
-        <translation>Mitwirkende</translation>
+        <translation>Người đóng góp</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/graphs/contributors&quot;&gt;See Contributions on GitHub&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/graphs/contributors&quot;&gt;Mitwirkende auf GitHub&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/graphs/contributors&quot;&gt;Xem đóng góp trên GitHub&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Debug Info</source>
-        <translation>Debug-Info</translation>
+        <translation>Thông tin gỡ lỗi</translation>
     </message>
     <message>
         <source>Include the following information whenever you report a bug:</source>
-        <translation>Geben Sie folgende Informationen an, wenn Sie einen Fehler melden:</translation>
+        <translation>Vui lòng bao gồm thông tin sau khi báo cáo lỗi:</translation>
     </message>
     <message>
         <source>Copy to clipboard</source>
-        <translation>In die Zwischenablage kopieren</translation>
+        <translation>Sao chép vào clipboard</translation>
     </message>
 </context>
 <context>
     <name>AccessControlDialog</name>
     <message>
         <source>KeePassXC -  Access Request</source>
-        <translation>KeePassXC - Zugriffsanfrage</translation>
+        <translation>KeePassXC - Yêu cầu truy cập</translation>
     </message>
     <message>
         <source>Non-existing/inaccessible executable path. Please double-check the client is legit.</source>
-        <translation>Ausführbare Datei ist nicht vorhandener oder nicht zugänglich. Bitte prüfen Sie, ob der Client wirklich korrekt ist.</translation>
+        <translation>Đường dẫn thực thi không tồn tại/không thể truy cập. Vui lòng kiểm tra kỹ xem ứng dụng có hợp lệ không.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;%1 &lt;/span&gt;is requesting access to the following entries:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;%1 &lt;/span&gt;fordert Zugriff auf die folgenden Einträge an:
-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;%1 &lt;/span&gt;đang yêu cầu truy cập vào các mục sau:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Tên</translation>
     </message>
     <message>
         <source>PID</source>
@@ -72,824 +70,824 @@
     </message>
     <message>
         <source>Executable</source>
-        <translation>Ausführbar</translation>
+        <translation>Tệp thực thi</translation>
     </message>
     <message>
         <source>Command Line</source>
-        <translation>Kommandozeile</translation>
+        <translation>Dòng lệnh</translation>
     </message>
     <message>
         <source>Details</source>
-        <translation>Details</translation>
+        <translation>Chi tiết</translation>
     </message>
     <message>
         <source>Remember</source>
-        <translation>Merken</translation>
+        <translation>Ghi nhớ</translation>
     </message>
     <message>
         <source>Allow Selected</source>
-        <translation>Auswahl erlauben</translation>
+        <translation>Cho phép mục đã chọn</translation>
     </message>
     <message>
         <source>Your decision will be remembered for the duration while both the requesting client AND KeePassXC are running.</source>
-        <translation>Ihre Entscheidung wird so lange gespeichert, wie sowohl der anfragende Client als auch KeePassXC ausgeführt werden.</translation>
+        <translation>Quyết định của bạn sẽ được ghi nhớ trong suốt thời gian cả ứng dụng yêu cầu VÀ KeePassXC đang chạy.</translation>
     </message>
     <message>
         <source>Deny All &amp;&amp; Future</source>
-        <translation>Alle verweigern &amp;&amp; Zukünftige</translation>
+        <translation>Từ chối tất cả &amp;&amp; Tương lai</translation>
     </message>
     <message>
         <source>Allow All &amp;&amp; &amp;Future</source>
-        <translation>Alle erlauben &amp;&amp; &amp;Zukünftige</translation>
+        <translation>Cho phép tất cả &amp;&amp; &amp;Tương lai</translation>
     </message>
 </context>
 <context>
     <name>AccessControlDialog::DenyButton</name>
     <message>
         <source>Deny for this program</source>
-        <translation>Für dieses Programm verweigern</translation>
+        <translation>Từ chối cho chương trình này</translation>
     </message>
 </context>
 <context>
     <name>AgentSettingsWidget</name>
     <message>
         <source>Enable SSH Agent integration</source>
-        <translation>SSH-Agent-Integration aktivieren</translation>
+        <translation>Bật tích hợp SSH Agent</translation>
     </message>
     <message>
         <source>Use Pageant</source>
-        <translation>Pageant verwenden</translation>
+        <translation>Sử dụng Pageant</translation>
     </message>
     <message>
         <source>Use OpenSSH</source>
-        <translation>OpenSSH verwenden</translation>
+        <translation>Sử dụng OpenSSH</translation>
     </message>
     <message>
         <source>SSH_AUTH_SOCK override</source>
-        <translation>SSH_AUTH_SOCK-Überschreibung</translation>
+        <translation>Ghi đè SSH_AUTH_SOCK</translation>
     </message>
     <message>
         <source>SSH_AUTH_SOCK value</source>
-        <translation>SSH_AUTH_SOCK-Wert</translation>
+        <translation>Giá trị SSH_AUTH_SOCK</translation>
     </message>
     <message>
         <source>(empty)</source>
-        <translation>(leer)</translation>
+        <translation>(trống)</translation>
     </message>
     <message>
         <source>SSH_SK_PROVIDER value</source>
-        <translation>SSH_SK_PROVIDER-Wert</translation>
+        <translation>Giá trị SSH_SK_PROVIDER</translation>
     </message>
     <message>
         <source>SSH_SK_PROVIDER override</source>
-        <translation>SSH_SK_PROVIDER-Überschreibung</translation>
+        <translation>Ghi đè SSH_SK_PROVIDER</translation>
     </message>
     <message>
         <source>No SSH Agent socket available. Either make sure SSH_AUTH_SOCK environment variable exists or set an override.</source>
-        <translation>Kein SSH-Agent-Socket verfügbar. Stellen Sie sicher, dass die Umgebungsvariable SSH_AUTH_SOCK existiert, oder setzen Sie einen Überschreibungswert.</translation>
+        <translation>Không có socket SSH Agent khả dụng. Hãy đảm bảo biến môi trường SSH_AUTH_SOCK tồn tại hoặc đặt ghi đè.</translation>
     </message>
     <message>
         <source>SSH Agent connection is working!</source>
-        <translation>SSH-Agent-Verbindung funktioniert!</translation>
+        <translation>Kết nối SSH Agent đang hoạt động!</translation>
     </message>
     <message>
         <source>Use both agents</source>
-        <translation>Beide Agents verwenden</translation>
+        <translation>Sử dụng cả hai agent</translation>
     </message>
 </context>
 <context>
     <name>AppKit</name>
     <message>
         <source>Window</source>
-        <translation>Fenster</translation>
+        <translation>Cửa sổ</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimieren</translation>
+        <translation>Thu nhỏ</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Zoom</translation>
+        <translation>Thu phóng</translation>
     </message>
     <message>
         <source>Bring All to Front</source>
-        <translation>Alle nach vorne bringen</translation>
+        <translation>Đưa tất cả lên trước</translation>
     </message>
 </context>
 <context>
     <name>ApplicationSettingsWidget</name>
     <message>
         <source>Application Settings</source>
-        <translation>Anwendungseinstellungen</translation>
+        <translation>Cài đặt ứng dụng</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <source>Security</source>
-        <translation>Sicherheit</translation>
+        <translation>Bảo mật</translation>
     </message>
     <message>
         <source>Access error for config file %1</source>
-        <translation>Zugriffsfehler bei Konfigurationsdatei %1</translation>
+        <translation>Lỗi truy cập tệp cấu hình %1</translation>
     </message>
     <message>
         <source>Icon only</source>
-        <translation>Nur Symbol</translation>
+        <translation>Chỉ biểu tượng</translation>
     </message>
     <message>
         <source>Text only</source>
-        <translation>Nur Text</translation>
+        <translation>Chỉ văn bản</translation>
     </message>
     <message>
         <source>Text beside icon</source>
-        <translation>Text neben Symbol</translation>
+        <translation>Văn bản bên cạnh biểu tượng</translation>
     </message>
     <message>
         <source>Text under icon</source>
-        <translation>Text unter Symbol</translation>
+        <translation>Văn bản dưới biểu tượng</translation>
     </message>
     <message>
         <source>Follow style</source>
-        <translation>Stil beibehalten</translation>
+        <translation>Theo kiểu</translation>
     </message>
     <message>
         <source>Monochrome</source>
-        <translation>Monochrom</translation>
+        <translation>Đơn sắc</translation>
     </message>
     <message>
         <source>Monochrome (light)</source>
-        <translation>Monochrom (hell)</translation>
+        <translation>Đơn sắc (sáng)</translation>
     </message>
     <message>
         <source>Monochrome (dark)</source>
-        <translation>Monochrom (dunkel)</translation>
+        <translation>Đơn sắc (tối)</translation>
     </message>
     <message>
         <source>Colorful</source>
-        <translation>Bunt</translation>
+        <translation>Nhiều màu</translation>
     </message>
     <message>
         <source>You must restart the application to set the new language. Would you like to restart now?</source>
-        <translation>Zum Ändern der Sprache müssen Sie die Anwendung neu starten. Möchten Sie jetzt neu starten?</translation>
+        <translation>Bạn phải khởi động lại ứng dụng để đặt ngôn ngữ mới. Bạn có muốn khởi động lại ngay bây giờ không?</translation>
     </message>
     <message>
         <source>Select backup storage directory</source>
-        <translation>Verzeichnis für die Datensicherung auswählen</translation>
+        <translation>Chọn thư mục lưu trữ sao lưu</translation>
     </message>
     <message>
         <source>Confirm Reset</source>
-        <translation>Zurücksetzen bestätigen</translation>
+        <translation>Xác nhận đặt lại</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all settings to default?</source>
-        <translation>Sind Sie sicher, dass Sie alle Einstellungen auf die Standardwerte zurücksetzen wollen?</translation>
+        <translation>Bạn có chắc chắn muốn đặt lại tất cả cài đặt về mặc định không?</translation>
     </message>
     <message>
         <source>Import KeePassXC Settings</source>
-        <translation>KeePassXC-Einstellungen importieren</translation>
+        <translation>Nhập cài đặt KeePassXC</translation>
     </message>
     <message>
         <source>Failed to import settings from %1, not a valid settings file.</source>
-        <translation>Fehler beim Importieren von Einstellungen aus %1, keine gültige Einstellungsdatei.</translation>
+        <translation>Không thể nhập cài đặt từ %1, không phải tệp cài đặt hợp lệ.</translation>
     </message>
     <message>
         <source>Export KeePassXC Settings</source>
-        <translation>KeePassXC-Einstellungen exportieren</translation>
+        <translation>Xuất cài đặt KeePassXC</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation>Klein</translation>
+        <translation>Nhỏ</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation>Normal</translation>
+        <translation>Bình thường</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation>Medium</translation>
+        <translation>Trung bình</translation>
     </message>
     <message>
         <source>Large</source>
-        <translation>Groß</translation>
+        <translation>Lớn</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Benutzerdefiniert</translation>
+        <translation>Tùy chỉnh</translation>
     </message>
     <message>
         <source>This setting cannot be enabled when minimize on unlock is enabled.</source>
-        <translation>Diese Einstellung kann nicht aktiviert werden, wenn Minimieren beim Entsperren aktiviert ist.</translation>
+        <translation>Cài đặt này không thể bật khi tính năng thu nhỏ khi mở khóa đang được bật.</translation>
     </message>
 </context>
 <context>
     <name>ApplicationSettingsWidgetGeneral</name>
     <message>
         <source>Basic Settings</source>
-        <translation>Grundeinstellungen</translation>
+        <translation>Cài đặt cơ bản</translation>
     </message>
     <message>
         <source>Startup</source>
-        <translation>Programmstart</translation>
+        <translation>Khởi động</translation>
     </message>
     <message>
         <source>Start only a single instance of KeePassXC</source>
-        <translation>Nur eine einzige KeePassXC-Instanz starten</translation>
+        <translation>Chỉ khởi động một phiên bản KeePassXC</translation>
     </message>
     <message>
         <source>Automatically launch KeePassXC at system startup</source>
-        <translation>KeePassXC beim Systemstart automatisch starten</translation>
+        <translation>Tự động khởi chạy KeePassXC khi hệ thống khởi động</translation>
     </message>
     <message>
         <source>Minimize window at application startup</source>
-        <translation>Bei Programmstart Fenster minimieren</translation>
+        <translation>Thu nhỏ cửa sổ khi khởi động ứng dụng</translation>
     </message>
     <message>
         <source>Minimize window after unlocking database</source>
-        <translation>Nach Entsperren der Datenbank Fenster minimieren</translation>
+        <translation>Thu nhỏ cửa sổ sau khi mở khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Remember previously used databases</source>
-        <translation>Zuletzt verwendete Datenbanken merken</translation>
+        <translation>Ghi nhớ các cơ sở dữ liệu đã sử dụng trước đó</translation>
     </message>
     <message>
         <source>Load previously open databases on startup</source>
-        <translation>Beim Start zuletzt verwendete Datenbanken öffnen</translation>
+        <translation>Tải các cơ sở dữ liệu đã mở trước đó khi khởi động</translation>
     </message>
     <message>
         <source>Remember database key files and security dongles</source>
-        <translation>Datenbank-Schlüsseldateien und Sicherheits-Dongles merken</translation>
+        <translation>Ghi nhớ tệp khóa cơ sở dữ liệu và thiết bị bảo mật</translation>
     </message>
     <message>
         <source>Check for updates at application startup once per week</source>
-        <translation>Bei Programmstart wöchentlich auf Updates prüfen</translation>
+        <translation>Kiểm tra cập nhật khi khởi động ứng dụng mỗi tuần một lần</translation>
     </message>
     <message>
         <source>Include beta releases when checking for updates</source>
-        <translation>Bei Update-Prüfung Beta-Versionen einbeziehen</translation>
+        <translation>Bao gồm các phiên bản beta khi kiểm tra cập nhật</translation>
     </message>
     <message>
         <source>File Management</source>
-        <translation>Dateiverwaltung</translation>
+        <translation>Quản lý tệp</translation>
     </message>
     <message>
         <source>Automatically save after every change</source>
-        <translation>Automatisch speichern nach jeder Änderung</translation>
+        <translation>Tự động lưu sau mỗi thay đổi</translation>
     </message>
     <message>
         <source>Automatically save when locking database</source>
-        <translation>Beim Sperren der Datenbank automatisch speichern</translation>
+        <translation>Tự động lưu khi khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Automatically save non-data changes when locking database</source>
-        <translation>Beim Sperren der Datenbank Metadaten automatisch speichern</translation>
+        <translation>Tự động lưu các thay đổi không phải dữ liệu khi khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Automatically reload the database when modified externally</source>
-        <translation>Datenbank nach externer Änderung automatisch neu laden</translation>
+        <translation>Tự động tải lại cơ sở dữ liệu khi được sửa đổi từ bên ngoài</translation>
     </message>
     <message>
         <source>Backup database file before saving</source>
-        <translation>Vor dem Speichern Backup der Datenbank erstellen</translation>
+        <translation>Sao lưu tệp cơ sở dữ liệu trước khi lưu</translation>
     </message>
     <message>
         <source>{DB_FILENAME}.old.kdbx</source>
-        <translation>{DB_FILENAME}.alt.kdbx</translation>
+        <translation>{DB_FILENAME}.old.kdbx</translation>
     </message>
     <message>
         <source>Use alternative saving method (may solve problems with Dropbox, Google Drive, GVFS, etc.)</source>
-        <translation>Alternative Speichermethode verwenden (kann Probleme von Dropbox, Google Drive, GVFS usw. lösen)</translation>
+        <translation>Sử dụng phương pháp lưu thay thế (có thể giải quyết vấn đề với Dropbox, Google Drive, GVFS, v.v.)</translation>
     </message>
     <message>
         <source>Temporary file moved into place</source>
-        <translation>Temporärdatei verschoben</translation>
+        <translation>Tệp tạm thời được di chuyển vào vị trí</translation>
     </message>
     <message>
         <source>Directly write to database file (dangerous)</source>
-        <translation>Direkt in die Datenbankdatei schreiben (gefährlich)</translation>
+        <translation>Ghi trực tiếp vào tệp cơ sở dữ liệu (nguy hiểm)</translation>
     </message>
     <message>
         <source>Entry Management</source>
-        <translation>Eintragsverwaltung</translation>
+        <translation>Quản lý mục</translation>
     </message>
     <message>
         <source>Use group icon on entry creation</source>
-        <translation>Gruppensymbol beim Erstellen neuer Einträge verwenden</translation>
+        <translation>Sử dụng biểu tượng nhóm khi tạo mục</translation>
     </message>
     <message>
         <source>Minimize when opening a URL</source>
-        <translation>Nach Öffnen einer URL Fenster minimieren</translation>
+        <translation>Thu nhỏ khi mở URL</translation>
     </message>
     <message>
         <source>Hide window when copying to clipboard</source>
-        <translation>Nach Kopieren in Zwischenablage Fenster verstecken</translation>
+        <translation>Ẩn cửa sổ khi sao chép vào clipboard</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimieren</translation>
+        <translation>Thu nhỏ</translation>
     </message>
     <message>
         <source>Drop to background</source>
-        <translation>In den Hintergrund verschieben</translation>
+        <translation>Chuyển xuống nền</translation>
     </message>
     <message>
         <source>Favicon download timeout:</source>
-        <translation>Timeout beim Herunterladen von Favicons:</translation>
+        <translation>Thời gian chờ tải favicon:</translation>
     </message>
     <message>
         <source>Website icon download timeout in seconds</source>
-        <translation>Timeout beim Herunterladen von Webseiten-Icons in Sekunden</translation>
+        <translation>Thời gian chờ tải biểu tượng trang web tính bằng giây</translation>
     </message>
     <message>
         <source> sec</source>
         <comment>Seconds</comment>
-        <translation> sek</translation>
+        <translation> giây</translation>
     </message>
     <message>
         <source>User Interface</source>
-        <translation>Benutzeroberfläche</translation>
+        <translation>Giao diện người dùng</translation>
     </message>
     <message>
         <source>Toolbar button style</source>
-        <translation>Design der Symbolleisten-Buttons</translation>
+        <translation>Kiểu nút thanh công cụ</translation>
     </message>
     <message>
         <source>Movable toolbar</source>
-        <translation>Bewegbare Werkzeugleiste</translation>
+        <translation>Thanh công cụ di chuyển được</translation>
     </message>
     <message>
         <source>Language selection</source>
-        <translation>Sprachauswahl</translation>
+        <translation>Chọn ngôn ngữ</translation>
     </message>
     <message>
         <source>Language:</source>
-        <translation>Sprache:</translation>
+        <translation>Ngôn ngữ:</translation>
     </message>
     <message>
         <source>(restart program to activate)</source>
-        <translation>(zum Aktivieren Programm neu starten)</translation>
+        <translation>(khởi động lại chương trình để kích hoạt)</translation>
     </message>
     <message>
         <source>Toolbar button style:</source>
-        <translation>Design der Symbolleisten-Buttons:</translation>
+        <translation>Kiểu nút thanh công cụ:</translation>
     </message>
     <message>
         <source>Use monospaced font for notes</source>
-        <translation>Monospace-Schriftart für Notizen verwenden</translation>
+        <translation>Sử dụng phông chữ monospace cho ghi chú</translation>
     </message>
     <message>
         <source>Minimize instead of app exit</source>
-        <translation>Minimieren, statt Programm zu beenden</translation>
+        <translation>Thu nhỏ thay vì thoát ứng dụng</translation>
     </message>
     <message>
         <source>Show a system tray icon</source>
-        <translation>Taskleistensymbol anzeigen</translation>
+        <translation>Hiển thị biểu tượng khay hệ thống</translation>
     </message>
     <message>
         <source>Tray icon type</source>
-        <translation>Taskleistensymbol-Typ</translation>
+        <translation>Loại biểu tượng khay</translation>
     </message>
     <message>
         <source>Tray icon type:</source>
-        <translation>Taskleistensymbol-Typ:</translation>
+        <translation>Loại biểu tượng khay:</translation>
     </message>
     <message>
         <source>Hide window to system tray when minimized</source>
-        <translation>Fenster verstecken, wenn minimiert</translation>
+        <translation>Ẩn cửa sổ vào khay hệ thống khi thu nhỏ</translation>
     </message>
     <message>
         <source>Reset settings to default…</source>
-        <translation>Einstellungen auf Voreinstellung zurücksetzen …</translation>
+        <translation>Đặt lại cài đặt về mặc định…</translation>
     </message>
     <message>
         <source>Auto-Type</source>
-        <translation>Auto-Type</translation>
+        <translation>Tự động nhập</translation>
     </message>
     <message>
         <source>Use entry title to match windows for global Auto-Type</source>
-        <translation>Eintragstitel verwenden, um passendes Fenster für globales Auto-Type zu finden</translation>
+        <translation>Sử dụng tiêu đề mục để khớp cửa sổ cho Tự động nhập toàn cục</translation>
     </message>
     <message>
         <source>Use entry URL to match windows for global Auto-Type</source>
-        <translation>URL verwenden, um passendes Fenster für globales Auto-Type zu finden</translation>
+        <translation>Sử dụng URL mục để khớp cửa sổ cho Tự động nhập toàn cục</translation>
     </message>
     <message>
         <source>Always ask before performing Auto-Type</source>
-        <translation>Vor Auto-Type immer nachfragen</translation>
+        <translation>Luôn hỏi trước khi thực hiện Tự động nhập</translation>
     </message>
     <message>
         <source>Hide expired entries from Auto-Type</source>
-        <translation>Abgelaufene Einträge bei Auto-Type ausblenden</translation>
+        <translation>Ẩn các mục đã hết hạn khỏi Tự động nhập</translation>
     </message>
     <message>
         <source>Re-lock previously locked database after performing Auto-Type</source>
-        <translation>Zuvor gesperrte Datenbank nach Auto-Type wieder sperren</translation>
+        <translation>Khóa lại cơ sở dữ liệu đã khóa trước đó sau khi thực hiện Tự động nhập</translation>
     </message>
     <message>
         <source>Auto-Type start delay:</source>
-        <translation>Startverzögerung für Auto-Type:</translation>
+        <translation>Độ trễ bắt đầu Tự động nhập:</translation>
     </message>
     <message>
         <source>Global Auto-Type shortcut:</source>
-        <translation>Tastenkürzel für globales Auto-Type:</translation>
+        <translation>Phím tắt Tự động nhập toàn cục:</translation>
     </message>
     <message>
         <source>Auto-type start delay milliseconds</source>
-        <translation>Startverzögerung für Auto-Type in Millisekunden</translation>
+        <translation>Độ trễ bắt đầu tự động nhập (mili giây)</translation>
     </message>
     <message>
         <source> ms</source>
         <comment>Milliseconds</comment>
-        <translation>ms</translation>
+        <translation> ms</translation>
     </message>
     <message>
         <source>Auto-Type typing delay:</source>
-        <translation>Tastenverzögerung für Auto-Type:</translation>
+        <translation>Độ trễ nhập Tự động nhập:</translation>
     </message>
     <message>
         <source>Global auto-type shortcut</source>
-        <translation>Tastenkürzel für globales Auto-Type</translation>
+        <translation>Phím tắt tự động nhập toàn cục</translation>
     </message>
     <message>
         <source>Auto-type character typing delay milliseconds</source>
-        <translation>Tastenverzögerung für Auto-Type in Millisekunden</translation>
+        <translation>Độ trễ nhập ký tự tự động nhập (mili giây)</translation>
     </message>
     <message>
         <source>Remember last typed entry for:</source>
-        <translation>Zuletzt eingegebenen Eintrag merken für:</translation>
+        <translation>Ghi nhớ mục đã nhập cuối cùng trong:</translation>
     </message>
     <message>
         <source>On database unlock, show entries that will expire within</source>
-        <translation>Beim Entsperren der Datenbank Einträge anzeigen, die ablaufen in:</translation>
+        <translation>Khi mở khóa cơ sở dữ liệu, hiển thị các mục sẽ hết hạn trong vòng</translation>
     </message>
     <message>
         <source>On database unlock, show entries that will expire within </source>
-        <translation>Beim Entsperren der Datenbank Einträge anzeigen, die ablaufen in:</translation>
+        <translation>Khi mở khóa cơ sở dữ liệu, hiển thị các mục sẽ hết hạn trong vòng </translation>
     </message>
     <message>
         <source> days</source>
         <comment>number of days warning for password expiration</comment>
-        <translation> Tagen</translation>
+        <translation> ngày</translation>
     </message>
     <message>
         <source>Destination format:</source>
-        <translation>Zielformat:</translation>
+        <translation>Định dạng đích:</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; is replaced with the filename of the saved database without extension&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; is replaced with the specified time format (default: dd_MM_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;See the User Guide for more details&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; wird durch den Dateinamen der gespeicherten Datenbank ohne Erweiterung ersetzt&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; wird durch das angegebene Zeitformat ersetzt (Standard: dd_MM_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;Weitere Einzelheiten finden Sie im Benutzerhandbuch&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{DB_FILENAME}&lt;/span&gt; được thay thế bằng tên tệp của cơ sở dữ liệu đã lưu không có phần mở rộng&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;{TIME:&amp;lt;format&amp;gt;}&lt;/span&gt; được thay thế bằng định dạng thời gian đã chỉ định (mặc định: dd_MM_yyyy_hh-mm-ss)&lt;/p&gt;&lt;p&gt;Xem Hướng dẫn người dùng để biết thêm chi tiết&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Choose folder...</source>
-        <translation>Ordner auswählen…</translation>
+        <translation>Chọn thư mục...</translation>
     </message>
     <message>
         <source>Show confirmation before moving entries to recycle bin</source>
-        <translation>Bestätigung vor dem Verschieben von Einträgen in den Papierkorb anzeigen</translation>
+        <translation>Hiển thị xác nhận trước khi chuyển mục vào thùng rác</translation>
     </message>
     <message>
         <source>Copy data on double clicking field in entry view</source>
-        <translation>Daten beim Doppelklick auf ein Feld in der Eintragsansicht kopieren</translation>
+        <translation>Sao chép dữ liệu khi nhấp đúp vào trường trong chế độ xem mục</translation>
     </message>
     <message>
         <source>Show toolbar</source>
-        <translation>Symbolleiste anzeigen</translation>
+        <translation>Hiển thị thanh công cụ</translation>
     </message>
     <message>
         <source>Show the menu bar by pressing the Alt key</source>
-        <translation>Menüleiste durch Drücken der Alt-Taste anzeigen</translation>
+        <translation>Hiển thị thanh menu bằng cách nhấn phím Alt</translation>
     </message>
     <message>
         <source>Show menubar</source>
-        <translation>Menüleiste anzeigen</translation>
+        <translation>Hiển thị thanh menu</translation>
     </message>
     <message>
         <source>Import settings…</source>
-        <translation>Einstellungen importieren…</translation>
+        <translation>Nhập cài đặt…</translation>
     </message>
     <message>
         <source>Export settings…</source>
-        <translation>Einstellungen exportieren…</translation>
+        <translation>Xuất cài đặt…</translation>
     </message>
     <message>
         <source>Font size:</source>
-        <translation>Schriftgröße:</translation>
+        <translation>Kích thước phông chữ:</translation>
     </message>
     <message>
         <source>Font size selection</source>
-        <translation>Auswahl der Schriftgröße</translation>
+        <translation>Chọn kích thước phông chữ</translation>
     </message>
     <message>
         <source>Skip confirmation for main window Auto-Type actions</source>
-        <translation>Bestätigung für Auto-Type-Aktionen im Hauptfenster überspringen</translation>
+        <translation>Bỏ qua xác nhận cho các hành động Tự động nhập cửa sổ chính</translation>
     </message>
     <message>
         <source>Double-click action for URL:</source>
-        <translation>Doppelklick-Aktion für URL:</translation>
+        <translation>Hành động nhấp đúp cho URL:</translation>
     </message>
     <message>
         <source>Double-click action for URL field</source>
-        <translation>Doppelklick-Aktion für URL-Feld</translation>
+        <translation>Hành động nhấp đúp cho trường URL</translation>
     </message>
     <message>
         <source>Edit entry</source>
-        <translation>Eintrag bearbeiten</translation>
+        <translation>Chỉnh sửa mục</translation>
     </message>
     <message>
         <source>Open entry URL in browser</source>
-        <translation>URL im Browser öffnen</translation>
+        <translation>Mở URL mục trong trình duyệt</translation>
     </message>
     <message>
         <source>Copy entry URL to clipboard</source>
-        <translation>URL des Eintrags in die Zwischenablage kopieren</translation>
+        <translation>Sao chép URL mục vào clipboard</translation>
     </message>
     <message>
         <source>Auto-generate password for new entries</source>
-        <translation>Passwort für neue Einträge automatisch generieren</translation>
+        <translation>Tự động tạo mật khẩu cho các mục mới</translation>
     </message>
     <message>
         <source> recent files</source>
-        <translation> aktuelle Dateien</translation>
+        <translation> tệp gần đây</translation>
     </message>
     <message>
         <source>Show passwords in color</source>
-        <translation>Passwörter farbig anzeigen</translation>
+        <translation>Hiển thị mật khẩu có màu</translation>
     </message>
 </context>
 <context>
     <name>ApplicationSettingsWidgetSecurity</name>
     <message>
         <source>Timeouts</source>
-        <translation>Timeouts</translation>
+        <translation>Hết thời gian</translation>
     </message>
     <message>
         <source>Database lock timeout seconds</source>
-        <translation>Sekunden bis zum Sperren der Datenbank</translation>
+        <translation>Thời gian chờ khóa cơ sở dữ liệu (giây)</translation>
     </message>
     <message>
         <source> sec</source>
         <comment>Seconds</comment>
-        <translation> sek</translation>
+        <translation> giây</translation>
     </message>
     <message>
         <source>Clear clipboard after</source>
-        <translation>Zwischenablage leeren nach</translation>
+        <translation>Xóa clipboard sau</translation>
     </message>
     <message>
         <source>Clear search query after</source>
-        <translation>Suchabfrage löschen nach</translation>
+        <translation>Xóa truy vấn tìm kiếm sau</translation>
     </message>
     <message>
         <source> min</source>
         <comment>Minutes</comment>
-        <translation> min</translation>
+        <translation> phút</translation>
     </message>
     <message>
         <source>Clipboard clear seconds</source>
-        <translation>Sekunden bis zum Löschen der Zwischenablage</translation>
+        <translation>Xóa clipboard (giây)</translation>
     </message>
     <message>
         <source>Lock databases after inactivity of</source>
-        <translation>Datenbanken sperren nach Inaktivität von</translation>
+        <translation>Khóa cơ sở dữ liệu sau khi không hoạt động</translation>
     </message>
     <message>
         <source>Convenience</source>
-        <translation>Komfort</translation>
+        <translation>Tiện lợi</translation>
     </message>
     <message>
         <source>Enable database quick unlock (Touch ID / Windows Hello)</source>
-        <translation>Schnelle Datenbank-Entsperrung aktivieren (Touch ID/Windows Hello)</translation>
+        <translation>Bật mở khóa nhanh cơ sở dữ liệu (Touch ID / Windows Hello)</translation>
     </message>
     <message>
         <source>Lock databases when session is locked or lid is closed</source>
-        <translation>Datenbanken sperren, wenn Sitzung gesperrt oder Deckel zugeklappt wird</translation>
+        <translation>Khóa cơ sở dữ liệu khi phiên bị khóa hoặc nắp được đóng</translation>
     </message>
     <message>
         <source>Lock databases after minimizing the window</source>
-        <translation>Datenbanken sperren beim Minimieren des Fensters</translation>
+        <translation>Khóa cơ sở dữ liệu sau khi thu nhỏ cửa sổ</translation>
     </message>
     <message>
         <source>Hide passwords when editing them</source>
-        <translation>Passwörter beim Bearbeiten ausblenden</translation>
+        <translation>Ẩn mật khẩu khi chỉnh sửa</translation>
     </message>
     <message>
         <source>Use placeholder for empty password fields</source>
-        <translation>Platzhalter für leere Passwortfelder verwenden</translation>
+        <translation>Sử dụng placeholder cho các trường mật khẩu trống</translation>
     </message>
     <message>
         <source>Hide passwords in the entry preview panel</source>
-        <translation>Passwörter im Eintrags-Vorschau-Panel verstecken</translation>
+        <translation>Ẩn mật khẩu trong bảng xem trước mục</translation>
     </message>
     <message>
         <source>Privacy</source>
-        <translation>Datenschutz</translation>
+        <translation>Riêng tư</translation>
     </message>
     <message>
         <source>Use DuckDuckGo service to download website icons</source>
-        <translation>DuckDuckGo zum Herunterladen von Webseiten-Symbolen verwenden</translation>
+        <translation>Sử dụng dịch vụ DuckDuckGo để tải biểu tượng trang web</translation>
     </message>
     <message>
         <source>Hide TOTP in the entry preview panel</source>
-        <translation>TOTP in der Eintragsvorschau ausblenden</translation>
+        <translation>Ẩn TOTP trong bảng xem trước mục</translation>
     </message>
     <message>
         <source>Lock databases when switching user</source>
-        <translation>Datenbanken beim Benutzerwechsel sperren</translation>
+        <translation>Khóa cơ sở dữ liệu khi chuyển người dùng</translation>
     </message>
     <message>
         <source>Lock Options</source>
-        <translation>Optionen sperren</translation>
+        <translation>Tùy chọn khóa</translation>
     </message>
     <message>
         <source>Hide notes in the entry preview panel</source>
-        <translation>Notizen in der Eintragsvorschau verstecken</translation>
+        <translation>Ẩn ghi chú trong bảng xem trước mục</translation>
     </message>
 </context>
 <context>
     <name>AttachmentWidget</name>
     <message>
         <source>Attachment Viewer</source>
-        <translation>Anhangsanzeige</translation>
+        <translation>Trình xem tệp đính kèm</translation>
     </message>
     <message>
         <source>Unknown attachment type</source>
-        <translation>Unbekannter Anhangstyp</translation>
+        <translation>Loại tệp đính kèm không xác định</translation>
     </message>
 </context>
 <context>
     <name>AutoType</name>
     <message>
         <source>The requested Auto-Type sequence cannot be used due to an error:</source>
-        <translation>Die angeforderte Auto-Type-Sequenz kann aufgrund eines Fehlers nicht verwendet werden:</translation>
+        <translation>Chuỗi Tự động nhập được yêu cầu không thể sử dụng do lỗi:</translation>
     </message>
     <message>
         <source>Auto-Type Error</source>
-        <translation>Auto-Type-Fehler</translation>
+        <translation>Lỗi Tự động nhập</translation>
     </message>
     <message>
         <source>Permission Required</source>
-        <translation>Berechtigung erforderlich</translation>
+        <translation>Yêu cầu quyền</translation>
     </message>
     <message>
         <source>KeePassXC requires the Accessibility permission in order to perform entry level Auto-Type. If you already granted permission, you may have to restart KeePassXC.</source>
-        <translation>KeePassXC benötigt die Berechtigung für Barrierefreiheit, um Auto-Type auf Eintragsebene durchzuführen. Falls Sie die Berechtigung bereits erteilt haben, starten Sie KeePassXC bitte neu.</translation>
+        <translation>KeePassXC yêu cầu quyền Trợ năng để thực hiện Tự động nhập cấp mục. Nếu bạn đã cấp quyền, bạn có thể phải khởi động lại KeePassXC.</translation>
     </message>
     <message>
         <source>KeePassXC requires the Accessibility and Screen Recorder permission in order to perform global Auto-Type. Screen Recording is necessary to use the window title to find entries. If you already granted permission, you may have to restart KeePassXC.</source>
-        <translation>KeePassXC benötigt die Berechtigungen für Barrierefreiheit und Bildschirmaufzeichnung, um globalen Auto-Type durchzuführen. Die Bildschirmaufzeichnung ist notwendig, um Einträge über den Fenstertitel zu finden. Falls Sie die Berechtigung bereits erteilt haben, starten Sie KeePasXC bitte neu.</translation>
+        <translation>KeePassXC yêu cầu quyền Trợ năng và Ghi màn hình để thực hiện Tự động nhập toàn cục. Ghi màn hình cần thiết để sử dụng tiêu đề cửa sổ tìm mục. Nếu bạn đã cấp quyền, bạn có thể phải khởi động lại KeePassXC.</translation>
     </message>
     <message>
         <source>Invalid entry provided</source>
-        <translation>Ungültiger Eintrag angegeben</translation>
+        <translation>Mục được cung cấp không hợp lệ</translation>
     </message>
     <message>
         <source>Bracket imbalance detected, found extra { or }</source>
-        <translation>Klammern nicht balanciert, zusätzliche { oder } gefunden</translation>
+        <translation>Phát hiện dấu ngoặc không cân bằng, tìm thấy { hoặc } thừa</translation>
     </message>
     <message>
         <source>Too many repetitions detected, max is %1: %2</source>
-        <translation>Zu viele Wiederholungen, max. %1: %2</translation>
+        <translation>Phát hiện quá nhiều lần lặp lại, tối đa là %1: %2</translation>
     </message>
     <message>
         <source>Very slow key press detected, max is %1: %2</source>
-        <translation>Sehr langsamer Tastendruck, max. %1: %2</translation>
+        <translation>Phát hiện nhấn phím rất chậm, tối đa là %1: %2</translation>
     </message>
     <message>
         <source>Very long delay detected, max is %1: %2</source>
-        <translation>Sehr lange Verzögerung, max. %1: %2</translation>
+        <translation>Phát hiện độ trễ rất dài, tối đa là %1: %2</translation>
     </message>
     <message>
         <source>Invalid placeholder: %1</source>
-        <translation>Ungültiger Platzhalter: %1</translation>
+        <translation>Placeholder không hợp lệ: %1</translation>
     </message>
     <message>
         <source>Entry does not have attribute for PICKCHARS: %1</source>
-        <translation>Eintrag hat kein Attribut für PICKCHARS: %1</translation>
+        <translation>Mục không có thuộc tính cho PICKCHARS: %1</translation>
     </message>
     <message>
         <source>Entry has invalid TOTP settings</source>
-        <translation>Eintrag hat ungültige TOTP-Einstellungen</translation>
+        <translation>Mục có cài đặt TOTP không hợp lệ</translation>
     </message>
 </context>
 <context>
     <name>AutoTypeAssociationsModel</name>
     <message>
         <source>Window</source>
-        <translation>Fenster</translation>
+        <translation>Cửa sổ</translation>
     </message>
     <message>
         <source>Sequence</source>
-        <translation>Sequenz</translation>
+        <translation>Chuỗi</translation>
     </message>
     <message>
         <source>(empty)</source>
-        <translation>(leer)</translation>
+        <translation>(trống)</translation>
     </message>
     <message>
         <source>Default sequence</source>
-        <translation>Standard-Sequenz</translation>
+        <translation>Chuỗi mặc định</translation>
     </message>
 </context>
 <context>
     <name>AutoTypeMatchModel</name>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Sequence</source>
-        <translation>Sequenz</translation>
+        <translation>Chuỗi</translation>
     </message>
 </context>
 <context>
     <name>AutoTypePlatformX11</name>
     <message>
         <source>Sequence aborted: Caps Lock is on</source>
-        <translation>Sequenz wird abgebrochen: Die Feststelltaste ist eingeschaltet</translation>
+        <translation>Chuỗi bị hủy: Caps Lock đang bật</translation>
     </message>
     <message>
         <source>Sequence aborted: Modifier keys held by user</source>
-        <translation>Sequenz wird abgebrochen: Modifizierungstasten sind gedrückt</translation>
+        <translation>Chuỗi bị hủy: Người dùng đang giữ phím bổ trợ</translation>
     </message>
     <message>
         <source>Unable to get valid keycode for key: </source>
-        <translation>Kein gültiger Tastencode für Taste: </translation>
+        <translation>Không thể lấy mã phím hợp lệ cho phím: </translation>
     </message>
     <message>
         <source>Trying to send invalid keyboard symbol.</source>
-        <translation>Es wurde versucht, ein ungültiges Tastatursymbol zu senden.</translation>
+        <translation>Đang cố gửi ký hiệu bàn phím không hợp lệ.</translation>
     </message>
 </context>
 <context>
     <name>AutoTypeSelectDialog</name>
     <message>
         <source>Auto-Type - KeePassXC</source>
-        <translation>Auto-Type - KeePassXC</translation>
+        <translation>Tự động nhập - KeePassXC</translation>
     </message>
     <message>
         <source>Double click a row to perform Auto-Type or find an entry using the search:</source>
-        <translation>Doppelklicken Sie auf eine Zeile, um Auto-Type auszuführen oder einen Eintrag über die Suche zu finden:</translation>
+        <translation>Nhấp đúp vào hàng để thực hiện Tự động nhập hoặc tìm mục bằng tìm kiếm:</translation>
     </message>
     <message>
         <source>Search all open databases</source>
-        <translation>Suche in allen geöffneten Datenbanken</translation>
+        <translation>Tìm kiếm tất cả cơ sở dữ liệu đang mở</translation>
     </message>
     <message>
         <source>Search…</source>
-        <translation>Suchen …</translation>
+        <translation>Tìm kiếm…</translation>
     </message>
     <message>
         <source>Type Sequence</source>
-        <translation>Tippreihenfolge</translation>
+        <translation>Nhập chuỗi</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Type {USERNAME}</source>
-        <translation>Tippe {USERNAME}</translation>
+        <translation>Nhập {USERNAME}</translation>
     </message>
     <message>
         <source>Type {PASSWORD}</source>
-        <translation>Tippe {PASSWORD}</translation>
+        <translation>Nhập {PASSWORD}</translation>
     </message>
     <message>
         <source>Type {TOTP}</source>
-        <translation>Tippe {TOTP}</translation>
+        <translation>Nhập {TOTP}</translation>
     </message>
     <message>
         <source>Copy Username</source>
-        <translation>Benutzername kopieren</translation>
+        <translation>Sao chép tên người dùng</translation>
     </message>
     <message>
         <source>Copy Password</source>
-        <translation>Passwort kopieren</translation>
+        <translation>Sao chép mật khẩu</translation>
     </message>
     <message>
         <source>Copy TOTP</source>
-        <translation>TOTP kopieren</translation>
+        <translation>Sao chép TOTP</translation>
     </message>
     <message>
         <source>Use Virtual Keyboard</source>
-        <translation>Virtuelle Tastatur verwenden</translation>
+        <translation>Sử dụng bàn phím ảo</translation>
     </message>
     <message>
         <source>Type {URL}</source>
-        <translation>Tippe {URL} </translation>
+        <translation>Nhập {URL}</translation>
     </message>
     <message>
         <source>Copy URL</source>
-        <translation>URL kopieren</translation>
+        <translation>Sao chép URL</translation>
     </message>
     <message>
         <source>&lt;p&gt;The following shortcuts are available:&lt;br/&gt;
@@ -904,154 +902,154 @@ Ctrl+Shift+2 - Copy password&lt;br/&gt;
 Ctrl+Shift+3 - Copy TOTP&lt;br/&gt;
 Ctrl+Shift+4 - Copy URL&lt;br/&gt;
 &lt;/p&gt;</source>
-        <translation>&lt;p&gt;Die folgenden Tastenkürzel sind hilfreich:&lt;br/&gt;
-Strg+F - Fokus-Suche&lt;br/&gt;
-Strg+1 - Benutzernamen eingeben&lt;br/&gt;
-Strg+2 - Passwort eingeben&lt;br/&gt;
-Strg+3 - TOTP eingeben&lt;br/&gt;
-Strg+4 - URL eingeben&lt;br/&gt;
-Strg+5 - Virtuelle Tastatur verwenden (nur Windows)&lt;br/&gt;
-Strg+Umschalt+1 - Benutzernamen kopieren&lt;br/&gt;
-Strg+Umschalt+2 - Passwort kopieren&lt;br/&gt;
-Strg+Umschalt+3 - TOTP kopieren&lt;br/&gt;
-Strg+Umschalt+4 - URL kopieren&lt;br/&gt;
+        <translation>&lt;p&gt;Các phím tắt sau có sẵn:&lt;br/&gt;
+Ctrl+F - Tập trung tìm kiếm&lt;br/&gt;
+Ctrl+1 - Nhập tên người dùng&lt;br/&gt;
+Ctrl+2 - Nhập mật khẩu&lt;br/&gt;
+Ctrl+3 - Nhập TOTP&lt;br/&gt;
+Ctrl+4 - Nhập URL&lt;br/&gt;
+Ctrl+5 - Sử dụng bàn phím ảo (chỉ Windows)&lt;br/&gt;
+Ctrl+Shift+1 - Sao chép tên người dùng&lt;br/&gt;
+Ctrl+Shift+2 - Sao chép mật khẩu&lt;br/&gt;
+Ctrl+Shift+3 - Sao chép TOTP&lt;br/&gt;
+Ctrl+Shift+4 - Sao chép URL&lt;br/&gt;
 &lt;/p&gt;</translation>
     </message>
     <message>
         <source>You can use advanced search queries to find any entry in your open databases.</source>
-        <translation>Sie können erweiterte Suchabfragen verwenden, um beliebige Einträge in Ihren geöffneten Datenbanken zu finden.</translation>
+        <translation>Bạn có thể sử dụng truy vấn tìm kiếm nâng cao để tìm bất kỳ mục nào trong cơ sở dữ liệu đang mở.</translation>
     </message>
 </context>
 <context>
     <name>BinaryStream</name>
     <message>
         <source>Failed to read string data: %1</source>
-        <translation>Fehler beim Lesen der Zeichenfolgedaten: %1</translation>
+        <translation>Không thể đọc dữ liệu chuỗi: %1</translation>
     </message>
     <message>
         <source>String length exceeds 10 MiB limit (requested %1)</source>
-        <translation>Die Zeichenfolgelänge überschreitet das Limit von 10 MiB (angefordert %1).</translation>
+        <translation>Độ dài chuỗi vượt quá giới hạn 10 MiB (yêu cầu %1)</translation>
     </message>
 </context>
 <context>
     <name>BrowserAccessControlDialog</name>
     <message>
         <source>KeePassXC - Browser Access Request</source>
-        <translation>KeePassXC - Browser-Zugriffsanfrage</translation>
+        <translation>KeePassXC - Yêu cầu truy cập trình duyệt</translation>
     </message>
     <message>
         <source>%1 is requesting access to the following entries:</source>
-        <translation>%1 fordert Zugriff auf die folgenden Einträge an:</translation>
+        <translation>%1 đang yêu cầu truy cập vào các mục sau:</translation>
     </message>
     <message>
         <source>Remember access to checked entries</source>
-        <translation>Zugriff auf markierte Einträge merken</translation>
+        <translation>Ghi nhớ quyền truy cập vào các mục đã chọn</translation>
     </message>
     <message>
         <source>Remember</source>
-        <translation>Merken</translation>
+        <translation>Ghi nhớ</translation>
     </message>
     <message>
         <source>Allow access to entries</source>
-        <translation>Zugriff auf Einträge erlauben</translation>
+        <translation>Cho phép truy cập vào các mục</translation>
     </message>
     <message>
         <source>Allow Selected</source>
-        <translation>Auswahl erlauben</translation>
+        <translation>Cho phép mục đã chọn</translation>
     </message>
     <message>
         <source>Deny All</source>
-        <translation>Alle verweigern</translation>
+        <translation>Từ chối tất cả</translation>
     </message>
     <message>
         <source>Disable for this site</source>
-        <translation>Für diese Seite deaktivieren</translation>
+        <translation>Tắt cho trang web này</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Rückgängig</translation>
+        <translation>Hoàn tác</translation>
     </message>
 </context>
 <context>
     <name>BrowserEntrySaveDialog</name>
     <message>
         <source>Ok</source>
-        <translation>Ok</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>You have multiple databases open.
 Please select the correct database for saving credentials.</source>
-        <translation>Sie haben mehrere Datenbanken geöffnet.
-Bitte wählen Sie die richtige Datenbank zum Speichern der Anmeldedaten.</translation>
+        <translation>Bạn có nhiều cơ sở dữ liệu đang mở.
+Vui lòng chọn cơ sở dữ liệu chính xác để lưu thông tin đăng nhập.</translation>
     </message>
     <message>
         <source>KeePassXC - Select Database</source>
-        <translation>KeePassXC - Datenbank auswählen</translation>
+        <translation>KeePassXC - Chọn cơ sở dữ liệu</translation>
     </message>
 </context>
 <context>
     <name>BrowserPasskeysConfirmationDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation>Update</translation>
+        <translation>Cập nhật</translation>
     </message>
     <message>
         <source>Authenticate</source>
-        <translation>Authentifizieren</translation>
+        <translation>Xác thực</translation>
     </message>
     <message>
         <source>Register new</source>
-        <translation>Neu registrieren</translation>
+        <translation>Đăng ký mới</translation>
     </message>
     <message>
         <source>Register</source>
-        <translation>Registrieren</translation>
+        <translation>Đăng ký</translation>
     </message>
     <message numerus="yes">
         <source>Timeout in &lt;b&gt;%n&lt;/b&gt; seconds...</source>
-        <translation><numerusform>Timeout in &lt;b&gt;%n&lt;/b&gt; Sekunde...</numerusform><numerusform>Timeout in &lt;b&gt;%n&lt;/b&gt; Sekunden...</numerusform></translation>
+        <translation><numerusform>Hết thời gian sau &lt;b&gt;%n&lt;/b&gt; giây...</numerusform></translation>
     </message>
     <message>
         <source>Relying Party: %1</source>
-        <translation>Verlässliche Gegenseite: %1</translation>
+        <translation>Bên phụ thuộc: %1</translation>
     </message>
     <message>
         <source>Username: %1</source>
-        <translation>Benutzername: %1</translation>
+        <translation>Tên người dùng: %1</translation>
     </message>
     <message>
         <source>KeePassXC - Passkey credentials</source>
-        <translation>KeePassXC - Passkey-Anmeldedaten</translation>
+        <translation>KeePassXC - Thông tin đăng nhập Passkey</translation>
     </message>
     <message>
         <source>Add to existing entry</source>
-        <translation>Einem bestehenden Eintrag hinzufügen</translation>
+        <translation>Thêm vào mục hiện có</translation>
     </message>
     <message>
         <source>Existing passkey found.
 Do you want to register a new passkey for:</source>
-        <translation>Vorhandenen Passkey gefunden.
-Möchten Sie einen neuen Passkey registrieren für:</translation>
+        <translation>Đã tìm thấy passkey hiện có.
+Bạn có muốn đăng ký passkey mới cho:</translation>
     </message>
     <message>
         <source>Select the existing passkey and press Update to replace it.</source>
-        <translation>Wählen Sie den vorhandenen Passkey aus und drücken Sie Update, um ihn zu ersetzen.</translation>
+        <translation>Chọn passkey hiện có và nhấn Cập nhật để thay thế.</translation>
     </message>
     <message>
         <source>Authenticate passkey credentials for:</source>
-        <translation>Passkey-Anmeldedaten authentifizieren für:</translation>
+        <translation>Xác thực thông tin đăng nhập passkey cho:</translation>
     </message>
     <message>
         <source>Do you want to register a passkey for:</source>
-        <translation>Möchten Sie ein Passkey registrieren für:</translation>
+        <translation>Bạn có muốn đăng ký passkey cho:</translation>
     </message>
 </context>
 <context>
@@ -1060,8 +1058,8 @@ Möchten Sie einen neuen Passkey registrieren für:</translation>
         <source>A request for creating a new group &quot;%1&quot; has been received.
 Do you want to create this group?
 </source>
-        <translation>Eine Anfrage zur Erstellung einer neuen Gruppe &quot;%1&quot; ist eingegangen.
-Möchten Sie diese Gruppe erstellen?
+        <translation>Đã nhận được yêu cầu tạo nhóm mới &quot;%1&quot;.
+Bạn có muốn tạo nhóm này không?
 </translation>
     </message>
     <message>
@@ -1070,31 +1068,32 @@ Möchten Sie diese Gruppe erstellen?
 
 Give the connection a unique name or ID, for example:
 chrome-laptop.</source>
-        <translation>Verbindungsanfrage erhalten für folgende Datenbank:
+        <translation>Bạn đã nhận được yêu cầu liên kết cho cơ sở dữ liệu sau:
 %1
 
-Geben Sie der Verbindung einen eindeutigen Namen, z. B. &quot;chrome-laptop&quot;.</translation>
+Đặt tên hoặc ID duy nhất cho kết nối, ví dụ:
+chrome-laptop.</translation>
     </message>
     <message>
         <source>Save and allow access</source>
-        <translation>Speichern und Zugriff erlauben</translation>
+        <translation>Lưu và cho phép truy cập</translation>
     </message>
     <message>
         <source>A shared encryption key with the name &quot;%1&quot; already exists.
 Do you want to overwrite it?</source>
-        <translation>Ein geteilter Schlüssel mit dem Namen „%1“ existiert bereits.
-Möchten Sie ihn überschreiben?</translation>
+        <translation>Khóa mã hóa chia sẻ với tên &quot;%1&quot; đã tồn tại.
+Bạn có muốn ghi đè không?</translation>
     </message>
     <message>
         <source>Do you want to update the information in %1 - %2?</source>
-        <translation>Möchten Sie die Informationen in %1 - %2 aktualisieren?</translation>
+        <translation>Bạn có muốn cập nhật thông tin trong %1 - %2 không?</translation>
     </message>
     <message>
         <source>A request for deleting entry &quot;%1&quot; has been received.
 Do you want to delete the entry?
 </source>
-        <translation>Anfrage zum Löschen des Eintrags &quot;%1&quot; erhalten.
-Möchten Sie den Eintrag löschen?
+        <translation>Đã nhận được yêu cầu xóa mục &quot;%1&quot;.
+Bạn có muốn xóa mục này không?
 </translation>
     </message>
     <message>
@@ -1103,53 +1102,53 @@ Möchten Sie den Eintrag löschen?
     </message>
     <message>
         <source>KeePassXC - Create a new group</source>
-        <translation>KeePassXC - Neue Gruppe erstellen</translation>
+        <translation>KeePassXC - Tạo nhóm mới</translation>
     </message>
     <message>
         <source>Disable</source>
-        <translation>Deaktivieren</translation>
+        <translation>Tắt</translation>
     </message>
     <message>
         <source>KeePassXC - Overwrite existing key?</source>
-        <translation>KeePassXC - Bestehenden Schlüssel überschreiben?</translation>
+        <translation>KeePassXC - Ghi đè khóa hiện có?</translation>
     </message>
     <message>
         <source>KeePassXC - Update Entry</source>
-        <translation>KeePassXC - Eintrag aktualisieren</translation>
+        <translation>KeePassXC - Cập nhật mục</translation>
     </message>
     <message>
         <source>KeePassXC - Delete entry</source>
-        <translation>KeePassXC - Eintrag löschen</translation>
+        <translation>KeePassXC - Xóa mục</translation>
     </message>
     <message>
         <source>Converting attributes to custom data…</source>
-        <translation>Eigenschaften werden in Plugin-Daten umgewandelt ...</translation>
+        <translation>Đang chuyển đổi thuộc tính sang dữ liệu tùy chỉnh…</translation>
     </message>
     <message>
         <source>KeePassXC - New key association request</source>
-        <translation>KeePassXC - Neue Anforderung einer Schlüsselzuordnung</translation>
+        <translation>KeePassXC - Yêu cầu liên kết khóa mới</translation>
     </message>
     <message>
         <source>KeePassXC - Passkey credentials</source>
-        <translation>KeePassXC - Passkey-Anmeldedaten</translation>
+        <translation>KeePassXC - Thông tin đăng nhập Passkey</translation>
     </message>
     <message>
         <source>Register a new passkey to this entry:</source>
-        <translation>Registrieren Sie einen neuen Passkey für diesen Eintrag:</translation>
+        <translation>Đăng ký passkey mới cho mục này:</translation>
     </message>
     <message>
         <source>Register</source>
-        <translation>Registrieren</translation>
+        <translation>Đăng ký</translation>
     </message>
     <message>
         <source>KeePassXC - Update passkey</source>
-        <translation>KeePassXC - Passkey aktualisieren</translation>
+        <translation>KeePassXC - Cập nhật passkey</translation>
     </message>
     <message>
         <source>Entry already has a passkey.
 Do you want to overwrite the passkey in %1 - %2?</source>
-        <translation>Eintrag hat bereits einen Passkey.
-Möchten Sie den Passkey in %1 - %2 überschreiben?</translation>
+        <translation>Mục đã có passkey.
+Bạn có muốn ghi đè passkey trong %1 - %2 không?</translation>
     </message>
     <message>
         <source>Passkey</source>
@@ -1157,68 +1156,66 @@ Möchten Sie den Passkey in %1 - %2 überschreiben?</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy bỏ</translation>
     </message>
     <message>
         <source>KeePassXC: Converted KeePassHTTP attributes</source>
-        <translation>KeepassXC: KeePassHTTP-Eigenschaften wurden umgewandelt</translation>
+        <translation>KeePassXC: Đã chuyển đổi thuộc tính KeePassHTTP</translation>
     </message>
     <message>
         <source>Successfully converted attributes from %1 entry(s).
 Moved %2 keys to custom data.</source>
-        <translation>Eigenschaften von %1 Einträgen wurden erfolgreich umgewandelt.
-%2 Schlüssel in die Plugin-Daten verschoben.</translation>
+        <translation>Đã chuyển đổi thành công thuộc tính từ %1 mục.
+Đã di chuyển %2 khóa sang dữ liệu tùy chỉnh.</translation>
     </message>
     <message numerus="yes">
         <source>Successfully moved %n keys to custom data.</source>
-        <translation><numerusform>%1 Einträge wurden erfolgreich umgewandelt</numerusform><numerusform>%n Schlüssel wurden erfolgreich in die Plugin-Daten verschoben.</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>KeePassXC: No entry with KeePassHTTP attributes found!</source>
-        <translation>KeePassXC: Kein Eintrag mit KeePassHTTP-Eigenschaften gefunden!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>The active database does not contain an entry with KeePassHTTP attributes.</source>
-        <translation>Die aktive Datenbank enthält keinen Eintrag mit KeePassHTTP-Eigenschaften.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Don&apos;t show this warning again</source>
-        <translation>Diese Warnung nicht wieder anzeigen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>KeePassXC: Legacy browser integration settings detected</source>
-        <translation>KeePassXC: Veraltete Einstellungen für Browser-Integration gefunden</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Your KeePassXC-Browser settings need to be moved into the database settings.
 This is necessary to maintain your current browser connections.
 Would you like to migrate your existing settings now?</source>
-        <translation>Ihre KeePassXC-Browser-Einstellungen müssen in die Datenbankeinstellungen verschoben werden.
-Dies ist notwendig, um Ihre aktuellen Browserverbindungen aufrechtzuerhalten.
-Möchten Sie Ihre bestehenden Einstellungen jetzt migrieren?</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>BrowserSettingsWidget</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>Hộp thoại</translation>
     </message>
     <message>
         <source>This is required for accessing your databases with KeePassXC-Browser</source>
-        <translation>Dies ist notwendig, um mit KeePassXC-Browser auf Ihre Datenbanken zuzugreifen</translation>
+        <translation>Điều này cần thiết để truy cập cơ sở dữ liệu của bạn bằng KeePassXC-Browser</translation>
     </message>
     <message>
         <source>Enable browser integration</source>
-        <translation>Browserintegration aktivieren</translation>
+        <translation>Bật tích hợp trình duyệt</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <source>Enable integration for these browsers:</source>
-        <translation>Integration für diese Browser aktivieren:</translation>
+        <translation>Bật tích hợp cho các trình duyệt sau:</translation>
     </message>
     <message>
         <source>Vivaldi</source>
@@ -1251,235 +1248,235 @@ Möchten Sie Ihre bestehenden Einstellungen jetzt migrieren?</translation>
     <message>
         <source>Show a notification when credentials are requested</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>Benachrichtigung anzeigen, wenn Anmeldedaten angefragt werden</translation>
+        <translation>Hiển thị thông báo khi thông tin xác thực được yêu cầu</translation>
     </message>
     <message>
         <source>Request to unlock the database if it is locked</source>
-        <translation>Entsperren anfragen, wenn die Datenbank gesperrt ist</translation>
+        <translation>Yêu cầu mở khóa cơ sở dữ liệu nếu nó bị khóa</translation>
     </message>
     <message>
         <source>Only entries with the same scheme (http://, https://, …) are returned.</source>
-        <translation>Es werden nur Einträge mit dem gleichen Schema (http://, https://, …) zurückgegeben.</translation>
+        <translation>Chỉ trả về các mục có cùng giao thức (http://, https://, …).</translation>
     </message>
     <message>
         <source>Match URL scheme (e.g., https://example.com)</source>
-        <translation>URL-Schema vergleichen (z. B. https://example.com)</translation>
+        <translation>Khớp giao thức URL (ví dụ: https://example.com)</translation>
     </message>
     <message>
         <source>Only returns the best matches for a specific URL instead of all entries for the whole domain.</source>
-        <translation>Nur die am besten passenden Einträge für eine URL anzeigen (statt aller Einträge der gesamten Domain)</translation>
+        <translation>Chỉ trả về các kết quả khớp tốt nhất cho URL cụ thể thay vì tất cả mục cho toàn bộ tên miền.</translation>
     </message>
     <message>
         <source>Return only best-matching credentials</source>
-        <translation>Nur am besten passende Anmeldedaten zurückgeben</translation>
+        <translation>Chỉ trả về thông tin đăng nhập khớp tốt nhất</translation>
     </message>
     <message>
         <source>Returns expired credentials. String [expired] is added to the title.</source>
-        <translation>Abgelaufene Anmeldedaten zurückgeben. &quot;Abgelaufen&quot; wird an den Titel angehängt.</translation>
+        <translation>Trả về thông tin đăng nhập đã hết hạn. Chuỗi [expired] được thêm vào tiêu đề.</translation>
     </message>
     <message>
         <source>Allow returning expired credentials</source>
-        <translation>Rückgabe abgelaufener Anmeldedaten erlauben</translation>
+        <translation>Cho phép trả về thông tin đăng nhập đã hết hạn</translation>
     </message>
     <message>
         <source>All databases connected to the extension will return matching credentials.</source>
-        <translation>Alle Datenbanken, die mit der Erweiterung verbunden sind, geben übereinstimmende Anmeldedaten zurück.</translation>
+        <translation>Tất cả cơ sở dữ liệu được kết nối với tiện ích mở rộng sẽ trả về thông tin đăng nhập khớp.</translation>
     </message>
     <message>
         <source>Search in all opened databases for matching credentials</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>In allen geöffneten Datenbanken nach passenden Anmeldedaten suchen</translation>
+        <translation>Tìm kiếm trong tất cả cơ sở dữ liệu đang mở để tìm thông tin xác thực khớp</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Fortgeschritten</translation>
+        <translation>Nâng cao</translation>
     </message>
     <message>
         <source>Never ask before accessing credentials</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>Niemals fragen, bevor auf Anmeldedaten zugegriffen wird</translation>
+        <translation>Không bao giờ hỏi trước khi truy cập thông tin xác thực</translation>
     </message>
     <message>
         <source>Never ask before updating credentials</source>
         <extracomment>Credentials mean login data requested via browser extension</extracomment>
-        <translation>Niemals fragen, bevor Anmeldedaten aktualisiert werden</translation>
+        <translation>Không bao giờ hỏi trước khi cập nhật thông tin xác thực</translation>
     </message>
     <message>
         <source>Do not ask permission for HTTP Basic Auth</source>
         <extracomment>An extra HTTP Basic Auth setting</extracomment>
-        <translation>Nicht nach Berechtigung für &quot;HTTP Basic Auth&quot; fragen</translation>
+        <translation>Không yêu cầu quyền cho HTTP Basic Auth</translation>
     </message>
     <message>
         <source>Automatically creating or updating string fields is not supported.</source>
-        <translation>Automatisches Erstellen und Aktualisieren von erweiterten Attributen wird nicht unterstützt.</translation>
+        <translation>Không hỗ trợ tự động tạo hoặc cập nhật các trường chuỗi.</translation>
     </message>
     <message>
         <source>Return advanced string fields which start with &quot;KPH: &quot;</source>
-        <translation>Auch erweiterte Attribute anzeigen, die mit &quot;KPH: &quot; beginnen</translation>
+        <translation>Trả về các trường chuỗi nâng cao bắt đầu bằng &quot;KPH: &quot;</translation>
     </message>
     <message>
         <source>Don&apos;t display the popup suggesting migration of legacy KeePassHTTP settings.</source>
-        <translation>Kein Popup zeigen, das die Migration von älteren KeePassHTTP-Einstellungen vorschlägt.</translation>
+        <translation>Không hiển thị popup gợi ý di chuyển cài đặt KeePassHTTP cũ.</translation>
     </message>
     <message>
         <source>Do not prompt for KeePassHTTP settings migration.</source>
-        <translation>Nicht zur Migration der KeePassHTTP-Einstellungen auffordern.</translation>
+        <translation>Không nhắc di chuyển cài đặt KeePassHTTP.</translation>
     </message>
     <message>
         <source>Updates KeePassXC or keepassxc-proxy binary path automatically to native messaging scripts on startup.</source>
-        <translation>Aktualisiert beim Start den KeePassXC- oder KeePassXC-Proxy-Pfad automatisch in den Native-Messaging-Skripts.</translation>
+        <translation>Tự động cập nhật đường dẫn nhị phân KeePassXC hoặc keepassxc-proxy vào script native messaging khi khởi động.</translation>
     </message>
     <message>
         <source>Update native messaging manifest files at startup</source>
-        <translation>Native-Messaging-Manifest beim Start aktualisieren</translation>
+        <translation>Cập nhật tệp manifest native messaging khi khởi động</translation>
     </message>
     <message>
         <source>Use a custom proxy location if you installed a proxy manually.</source>
-        <translation>Benutzerdefinierten Proxy-Pfad verwenden, falls ein Proxy manuell installiert wurde</translation>
+        <translation>Sử dụng vị trí proxy tùy chỉnh nếu bạn đã cài đặt proxy thủ công.</translation>
     </message>
     <message>
         <source>Use a custom proxy location:</source>
         <comment>Meant is the proxy for KeePassXC-Browser</comment>
-        <translation>Benutzerdefinierten Proxy-Pfad verwenden:</translation>
+        <translation>Sử dụng vị trí proxy tùy chỉnh:</translation>
     </message>
     <message>
         <source>Custom proxy location field</source>
-        <translation>Feld für benutzerdefinierten Proxy-Pfad</translation>
+        <translation>Trường vị trí proxy tùy chỉnh</translation>
     </message>
     <message>
         <source>Browser for custom proxy file</source>
-        <translation>Browser für benutzerdefinierte Proxy-Datei</translation>
+        <translation>Duyệt tệp proxy tùy chỉnh</translation>
     </message>
     <message>
         <source>Browse…</source>
         <extracomment>Button for opening file dialog</extracomment>
-        <translation>Durchsuchen …</translation>
+        <translation>Duyệt…</translation>
     </message>
     <message>
         <source>Use a custom browser configuration location:</source>
-        <translation>Benutzerdefinierten Browser-Konfigurations-Pfad verwenden:</translation>
+        <translation>Sử dụng vị trí cấu hình trình duyệt tùy chỉnh:</translation>
     </message>
     <message>
         <source>Browser type:</source>
-        <translation>Browser-Typ:</translation>
+        <translation>Loại trình duyệt:</translation>
     </message>
     <message>
         <source>Toolbar button style</source>
-        <translation>Design der Symbolleisten-Buttons</translation>
+        <translation>Kiểu nút thanh công cụ</translation>
     </message>
     <message>
         <source>Config Location:</source>
-        <translation>Konfigurations-Pfad:</translation>
+        <translation>Vị trí cấu hình:</translation>
     </message>
     <message>
         <source>Custom browser location field</source>
-        <translation>Feld für benutzerdefinierten Browser-Pfad</translation>
+        <translation>Trường vị trí trình duyệt tùy chỉnh</translation>
     </message>
     <message>
         <source>Browse for custom browser path</source>
-        <translation>Nach benutzerdefiniertem Browser-Pfad suchen</translation>
+        <translation>Duyệt đường dẫn trình duyệt tùy chỉnh</translation>
     </message>
     <message>
         <source>Custom extension ID:</source>
-        <translation>Benutzerdefinierte Erweiterungs-ID:</translation>
+        <translation>ID tiện ích mở rộng tùy chỉnh:</translation>
     </message>
     <message>
         <source>Custom extension ID</source>
-        <translation>Benutzerdefinierte Erweiterungs-ID</translation>
+        <translation>ID tiện ích mở rộng tùy chỉnh</translation>
     </message>
     <message>
         <source>Executable Files</source>
-        <translation>Ausführbare Dateien</translation>
+        <translation>Tệp thực thi</translation>
     </message>
     <message>
         <source>All Files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Select custom proxy location</source>
-        <translation>Benutzerdefinierten Proxy-Pfad auswählen</translation>
+        <translation>Chọn vị trí proxy tùy chỉnh</translation>
     </message>
     <message>
         <source>Select native messaging host folder location</source>
-        <translation>Ordner-Pfad für Native-Messaging-Host auswählen</translation>
+        <translation>Chọn vị trí thư mục native messaging host</translation>
     </message>
     <message>
         <source>&lt;b&gt;Warning:&lt;/b&gt; Only adjust these settings if necessary.</source>
-        <translation>&lt;b&gt;Warnung:&lt;/b&gt;Diese Einstellungen sollten nur bei Bedarf angepasst werden.</translation>
+        <translation>&lt;b&gt;Cảnh báo:&lt;/b&gt; Chỉ điều chỉnh các cài đặt này nếu cần thiết.</translation>
     </message>
     <message>
         <source>The custom proxy location does not exist.</source>
-        <translation>Der benutzerdefinierte Proxy-Pfad ist nicht vorhanden.</translation>
+        <translation>Vị trí proxy tùy chỉnh không tồn tại.</translation>
     </message>
     <message>
         <source>&lt;b&gt;Error:&lt;/b&gt; The custom proxy location does not exist. Correct this in the advanced settings tab.</source>
-        <translation>&lt;b&gt;Fehler:&lt;/b&gt; Der benutzerdefinierte Proxy-Pfad ist nicht vorhanden. Korrigieren Sie dies auf dem Tab „Erweiterte Einstellungen“.</translation>
+        <translation>&lt;b&gt;Lỗi:&lt;/b&gt; Vị trí proxy tùy chỉnh không tồn tại. Sửa lại trong tab cài đặt nâng cao.</translation>
     </message>
     <message>
         <source>&lt;b&gt;Error:&lt;/b&gt; The installed proxy executable is missing from the expected location: %1&lt;br/&gt;Please set a custom proxy location in the advanced settings or reinstall the application.</source>
-        <translation>&lt;b&gt;Fehler:&lt;/b&gt; Die installierte ausführbare Proxy-Datei fehlt am erwarteten Speicherort: %1&lt;br/&gt;Bitte legen Sie in den erweiterten Einstellungen einen benutzerdefinierten Proxy-Pfad fest oder installieren Sie die Anwendung neu.</translation>
+        <translation>&lt;b&gt;Lỗi:&lt;/b&gt; Tệp thực thi proxy đã cài đặt bị thiếu từ vị trí mong đợi: %1&lt;br/&gt;Vui lòng đặt vị trí proxy tùy chỉnh trong cài đặt nâng cao hoặc cài đặt lại ứng dụng.</translation>
     </message>
     <message>
         <source>Allows using insecure http://localhost with passkeys for testing purposes.</source>
-        <translation>Nutzung von unsicheren http://localhost mit Passkeys zu Testzwecken zulassen.</translation>
+        <translation>Cho phép sử dụng http://localhost không an toàn với passkey cho mục đích thử nghiệm.</translation>
     </message>
     <message>
         <source>Allow using localhost with passkeys</source>
-        <translation>Nutzung von localhost mit Passkeys zulassen</translation>
+        <translation>Cho phép sử dụng localhost với passkey</translation>
     </message>
     <message>
         <source>KeePassXC-Browser is needed for the browser integration to work. &lt;br /&gt;Download it for %1 and %2 and %3.</source>
-        <translation>KeePassXC-Browser wird für die Browserintegration benötigt. &lt;br /&gt;Laden Sie ihn für %1 und %2 und %3 herunter.</translation>
+        <translation>KeePassXC-Browser cần thiết để tích hợp trình duyệt hoạt động. &lt;br /&gt;Tải xuống cho %1 và %2 và %3.</translation>
     </message>
     <message>
         <source>Browsers installed using Snap or Flatpak are not supported with exception to Firefox installed using Snap.</source>
-        <translation>Mit Snap oder Flatpak installierte Browser werden nicht unterstützt, mit Ausnahme von Firefox, der mit Snap installiert wurde.</translation>
+        <translation>Trình duyệt được cài đặt bằng Snap hoặc Flatpak không được hỗ trợ ngoại trừ Firefox được cài đặt bằng Snap.</translation>
     </message>
 </context>
 <context>
     <name>CloneDialog</name>
     <message>
         <source>Clone Entry Options</source>
-        <translation>Eintragsoptionen klonen</translation>
+        <translation>Tùy chọn sao chép mục</translation>
     </message>
     <message>
         <source>Append &apos; - Clone&apos; to title</source>
-        <translation>„ - Klon“ zum Titel hinzufügen</translation>
+        <translation>Thêm &apos; - Clone&apos; vào tiêu đề</translation>
     </message>
     <message>
         <source>Replace username and password with references</source>
-        <translation>Benutzername und Passwort durch Referenzen ersetzen</translation>
+        <translation>Thay thế tên người dùng và mật khẩu bằng tham chiếu</translation>
     </message>
     <message>
         <source>Copy history</source>
-        <translation>Verlauf kopieren</translation>
+        <translation>Sao chép lịch sử</translation>
     </message>
 </context>
 <context>
     <name>CsvImportWidget</name>
     <message>
         <source>size, rows, columns</source>
-        <translation>Größe, Zeilen, Spalten</translation>
+        <translation>kích thước, hàng, cột</translation>
     </message>
     <message>
         <source>Column Association</source>
-        <translation>Spalten-Zuordnung</translation>
+        <translation>Liên kết cột</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>URL</source>
@@ -1487,7 +1484,7 @@ Möchten Sie Ihre bestehenden Einstellungen jetzt migrieren?</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation>Notizen</translation>
+        <translation>Ghi chú</translation>
     </message>
     <message>
         <source>TOTP</source>
@@ -1495,19 +1492,19 @@ Möchten Sie Ihre bestehenden Einstellungen jetzt migrieren?</translation>
     </message>
     <message>
         <source>Created</source>
-        <translation>Erstellt</translation>
+        <translation>Đã tạo</translation>
     </message>
     <message>
         <source>Last Modified</source>
-        <translation>Zuletzt geändert</translation>
+        <translation>Sửa đổi lần cuối</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation>Symbol</translation>
+        <translation>Biểu tượng</translation>
     </message>
     <message>
         <source>Encoding</source>
-        <translation>Zeichensatz</translation>
+        <translation>Mã hóa</translation>
     </message>
     <message>
         <source>Codec</source>
@@ -1515,81 +1512,81 @@ Möchten Sie Ihre bestehenden Einstellungen jetzt migrieren?</translation>
     </message>
     <message>
         <source>Text is qualified by</source>
-        <translation>Text ist qualifiziert durch</translation>
+        <translation>Văn bản được phân định bởi</translation>
     </message>
     <message>
         <source>Text qualification</source>
-        <translation>Textqualifizierung</translation>
+        <translation>Phân định văn bản</translation>
     </message>
     <message>
         <source>Fields are separated by</source>
-        <translation>Felder sind getrennt durch</translation>
+        <translation>Các trường được phân tách bởi</translation>
     </message>
     <message>
         <source>Field separation</source>
-        <translation>Feldtrennung</translation>
+        <translation>Phân tách trường</translation>
     </message>
     <message>
         <source>Comments start with</source>
-        <translation>Kommentare beginnen mit</translation>
+        <translation>Bình luận bắt đầu bằng</translation>
     </message>
     <message>
         <source>Header lines skipped</source>
-        <translation>Kopfzeilen übersprungen</translation>
+        <translation>Bỏ qua dòng tiêu đề</translation>
     </message>
     <message>
         <source>Number of header lines to discard</source>
-        <translation>Anzahl der zu verwerfenden Kopfzeilen</translation>
+        <translation>Số dòng tiêu đề cần bỏ qua</translation>
     </message>
     <message>
         <source>First line has field names</source>
-        <translation>Erste Zeile enthält Feldnamen</translation>
+        <translation>Dòng đầu tiên có tên trường</translation>
     </message>
     <message>
         <source>Consider &apos;\&apos; an escape character</source>
-        <translation>„\“ als Maskierungs-Zeichen behandeln</translation>
+        <translation>Coi &apos;\&apos; là ký tự thoát</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Vorschau</translation>
+        <translation>Xem trước</translation>
     </message>
     <message>
         <source>CSV import preview</source>
-        <translation>CSV-Import-Vorschau</translation>
+        <translation>Xem trước nhập CSV</translation>
     </message>
     <message>
         <source>Not Present</source>
-        <translation>Nicht vorhanden</translation>
+        <translation>Không có</translation>
     </message>
     <message>
         <source>Column %1</source>
-        <translation>Spalte %1</translation>
+        <translation>Cột %1</translation>
     </message>
     <message numerus="yes">
         <source>[%n more message(s) skipped]</source>
-        <translation><numerusform>[zusätzlich %n Nachricht(en) übersprungen]</numerusform><numerusform>[%n weitere Nachricht(en) übersprungen]</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Failed to parse CSV file: %1</source>
-        <translation>CSV-Datei konnte nicht verarbeitet werden: %1</translation>
+        <translation>Không thể phân tích tệp CSV: %1</translation>
     </message>
     <message>
         <source>Imported from CSV file: %1</source>
-        <translation>Aus CSV-Datei: %1 importiert</translation>
+        <translation>Đã nhập từ tệp CSV: %1</translation>
     </message>
     <message>
         <source>No Title Selected</source>
-        <translation>Kein Titel ausgewählt</translation>
+        <translation>Không chọn tiêu đề</translation>
     </message>
     <message>
         <source>No title column was selected, entries will be hard to tell apart.
 Are you sure you want to import?</source>
-        <translation>Es wurde keine Titelspalte ausgewählt, so dass die Einträge schwer zu unterscheiden sind.
-Sind Sie sicher, dass Sie importieren möchten?</translation>
+        <translation>Không có cột tiêu đề nào được chọn, các mục sẽ khó phân biệt.
+Bạn có chắc chắn muốn nhập không?</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Tags</translation>
+        <translation>Thẻ</translation>
     </message>
 </context>
 <context>
@@ -1597,12 +1594,12 @@ Sind Sie sicher, dass Sie importieren möchten?</translation>
     <message numerus="yes">
         <source>%n row(s)</source>
         <comment>CSV row count</comment>
-        <translation><numerusform>%n Zeile(n)</numerusform><numerusform>%n Zeile(n)</numerusform></translation>
+        <translation><numerusform>%n hàng</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n column(s)</source>
         <comment>CSV column count</comment>
-        <translation><numerusform>%n Spalte</numerusform><numerusform>%n Spalte(n)</numerusform></translation>
+        <translation><numerusform>%n cột</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1610,115 +1607,115 @@ Sind Sie sicher, dass Sie importieren möchten?</translation>
     <message>
         <source>Passwords</source>
         <comment>Root group name</comment>
-        <translation>Passwörter</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>File %1 does not exist.</source>
-        <translation>Datei %1 existiert nicht.</translation>
+        <translation>Tệp %1 không tồn tại.</translation>
     </message>
     <message>
         <source>Unable to open file %1.</source>
-        <translation>Kann Datei %1 nicht öffnen.</translation>
+        <translation>Không thể mở tệp %1.</translation>
     </message>
     <message>
         <source>Error while reading the database: %1</source>
-        <translation>Fehler beim Öffnen der Datenbank: %1</translation>
+        <translation>Lỗi khi đọc cơ sở dữ liệu: %1</translation>
     </message>
     <message>
         <source>Could not save, database does not point to a valid file.</source>
-        <translation>Kann nicht abspeichern, Datenbank verweist auf keine gültige Datei.</translation>
+        <translation>Không thể lưu, cơ sở dữ liệu không trỏ đến tệp hợp lệ.</translation>
     </message>
     <message>
         <source>Database save is already in progress.</source>
-        <translation>Die Datenbank wird bereits gespeichert.</translation>
+        <translation>Đang lưu cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Could not save, database has not been initialized!</source>
-        <translation>Kann nicht abspeichern, die Datenbank ist nicht initialisiert worden!</translation>
+        <translation>Không thể lưu, cơ sở dữ liệu chưa được khởi tạo!</translation>
     </message>
     <message>
         <source>Database file has unmerged changes.</source>
-        <translation>Die Datenbank hat Änderungen, die noch nicht zusammengeführt worden sind.</translation>
+        <translation>Tệp cơ sở dữ liệu có các thay đổi chưa được hợp nhất.</translation>
     </message>
     <message>
         <source>%1
 Backup database located at %2</source>
         <translation>%1
-Sicherungskopie der Datenbank ist in %2</translation>
+Cơ sở dữ liệu sao lưu nằm tại %2</translation>
     </message>
     <message>
         <source>Key not transformed. This is a bug, please report it to the developers.</source>
-        <translation>Schlüssel nicht umgewandelt. Dies ist ein Programmfehler, bitte benachrichtigen Sie die Entwickler.</translation>
+        <translation>Khóa không được chuyển đổi. Đây là lỗi, vui lòng báo cáo cho nhà phát triển.</translation>
     </message>
     <message>
         <source>Recycle Bin</source>
-        <translation>Papierkorb</translation>
+        <translation>Thùng rác</translation>
     </message>
     <message>
         <source>Database file read error.</source>
-        <translation>Fehler beim Lesen der Datenbankdatei.</translation>
+        <translation>Lỗi đọc tệp cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>No file path was provided.</source>
-        <translation>Es wurde kein Dateipfad angegeben.</translation>
+        <translation>Không có đường dẫn tệp được cung cấp.</translation>
     </message>
 </context>
 <context>
     <name>DatabaseOpenDialog</name>
     <message>
         <source>Unlock Database - KeePassXC</source>
-        <translation>Datenbank entsperren - KeePassXC</translation>
+        <translation>Mở khóa cơ sở dữ liệu - KeePassXC</translation>
     </message>
 </context>
 <context>
     <name>DatabaseOpenWidget</name>
     <message>
         <source>Unlock KeePassXC Database</source>
-        <translation>KeePassXC-Datenbank entsperren</translation>
+        <translation>Mở khóa cơ sở dữ liệu KeePassXC</translation>
     </message>
     <message>
         <source>Enter Password:</source>
-        <translation>Passwort eingeben:</translation>
+        <translation>Nhập mật khẩu:</translation>
     </message>
     <message>
         <source>Password field</source>
-        <translation>Passwort-Feld</translation>
+        <translation>Trường mật khẩu</translation>
     </message>
     <message>
         <source>Hardware key slot selection</source>
-        <translation>Auswahl des Hardwareschlüssel-Slots</translation>
+        <translation>Chọn khe khóa phần cứng</translation>
     </message>
     <message>
         <source>Key file to unlock the database</source>
-        <translation>Schlüsseldatei zum Entsperren der Datenbank</translation>
+        <translation>Tệp khóa để mở khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Browse for key file</source>
-        <translation>Schlüsseldatei auswählen</translation>
+        <translation>Duyệt tệp khóa</translation>
     </message>
     <message>
         <source>Browse…</source>
-        <translation>Durchsuchen …</translation>
+        <translation>Duyệt…</translation>
     </message>
     <message>
         <source>Unlock Database</source>
-        <translation>Datenbank entsperren</translation>
+        <translation>Mở khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Unlock</source>
-        <translation>Entsperren</translation>
+        <translation>Mở khóa</translation>
     </message>
     <message>
         <source>Please present or touch your YubiKey to continue…</source>
-        <translation>Bitte YubiKey vorhalten oder berühren, um fortzufahren …</translation>
+        <translation>Vui lòng đưa hoặc chạm YubiKey của bạn để tiếp tục…</translation>
     </message>
     <message>
         <source>Database Version Mismatch</source>
-        <translation>Datenbankversion stimmt nicht überein</translation>
+        <translation>Phiên bản cơ sở dữ liệu không khớp</translation>
     </message>
     <message>
         <source>The database you are trying to open was most likely
@@ -1728,181 +1725,181 @@ You can try to open it anyway, but it may be incomplete
 and saving any changes may incur data loss.
 
 We recommend you update your KeePassXC installation.</source>
-        <translation>Die Datenbank, die Sie öffnen wollen, wurde wahrscheinlich
-mit einer neueren Version von KeePassXC erstellt.
+        <translation>Cơ sở dữ liệu bạn đang cố mở có thể
+được tạo bởi phiên bản KeePassXC mới hơn.
 
-Sie können trotzdem versuchen, sie zu öffnen, aber sie könnte unvollständig sein,
-und das Speichern von Änderungen kann zu Datenverlust führen.
+Bạn có thể thử mở nó, nhưng nó có thể không đầy đủ
+và lưu bất kỳ thay đổi nào có thể gây mất dữ liệu.
 
-Wir empfehlen, ein Update von KeePassXC zu installieren.</translation>
+Chúng tôi khuyên bạn nên cập nhật KeePassXC.</translation>
     </message>
     <message>
         <source>Open database anyway</source>
-        <translation>Datenbank trotzdem öffnen</translation>
+        <translation>Vẫn mở cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Database unlock canceled.</source>
-        <translation>Entsperren der Datenbank abgebrochen.</translation>
+        <translation>Đã hủy mở khóa cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Unlock failed and no password given</source>
-        <translation>Entsperren fehlgeschlagen und kein Passwort angegeben</translation>
+        <translation>Mở khóa thất bại và không có mật khẩu</translation>
     </message>
     <message>
         <source>Unlocking the database failed and you did not enter a password.
 Do you want to retry with an &quot;empty&quot; password instead?
 
 To prevent this error from appearing, you must go to &quot;Database Settings / Security&quot; and reset your password.</source>
-        <translation>Das Entsperren der Datenbank ist fehlgeschlagen, und Sie haben kein Passwort eingegeben.
-Möchten Sie es stattdessen mit einem &quot;leeren&quot; Passwort versuchen?
+        <translation>Mở khóa cơ sở dữ liệu thất bại và bạn không nhập mật khẩu.
+Bạn có muốn thử lại với mật khẩu &quot;trống&quot; không?
 
-Um zu verhindern, dass dieser Fehler auftritt, müssen Sie zu &quot;Datenbankeinstellungen &gt; Sicherheit&quot; gehen und Ihr Passwort zurücksetzen.</translation>
+Để ngăn lỗi này xuất hiện, bạn phải vào &quot;Cài đặt cơ sở dữ liệu / Bảo mật&quot; và đặt lại mật khẩu.</translation>
     </message>
     <message>
         <source>Retry with empty password</source>
-        <translation>Mit leerem Passwort versuchen</translation>
+        <translation>Thử lại với mật khẩu trống</translation>
     </message>
     <message>
         <source>Failed to authenticate with Touch ID</source>
-        <translation>Authentifizierung mit Touch ID fehlgeschlagen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Failed to open key file: %1</source>
-        <translation>Fehler beim Öffnen der Schlüsseldatei: %1</translation>
+        <translation>Không thể mở tệp khóa: %1</translation>
     </message>
     <message>
         <source>Old key file format</source>
-        <translation>Schlüsseldatei im alten Format</translation>
+        <translation>Định dạng tệp khóa cũ</translation>
     </message>
     <message>
         <source>You are using an old key file format which KeePassXC may&lt;br&gt;stop supporting in the future.&lt;br&gt;&lt;br&gt;Please consider generating a new key file by going to:&lt;br&gt;&lt;strong&gt;Database &amp;gt; Database Security &amp;gt; Change Key File.&lt;/strong&gt;&lt;br&gt;</source>
-        <translation>Sie verwenden ein altes Schlüsseldateiformat, das KeePassXC in Zukunft möglicherweise&lt;br&gt; nicht mehr unterstützen wird.&lt;br&gt;&lt;br&gt;Sie können hier eine neue Schlüsseldatei erzeugen:&lt;br&gt;&lt;strong&gt;Datenbank &amp;gt; Datenbank-Sicherheit &amp;gt; Schlüsseldatei ändern.&lt;br&gt;</translation>
+        <translation>Bạn đang sử dụng định dạng tệp khóa cũ mà KeePassXC có thể&lt;br&gt;ngừng hỗ trợ trong tương lai.&lt;br&gt;&lt;br&gt;Vui lòng xem xét tạo tệp khóa mới bằng cách vào:&lt;br&gt;&lt;strong&gt;Cơ sở dữ liệu &amp;gt; Bảo mật cơ sở dữ liệu &amp;gt; Thay đổi tệp khóa.&lt;/strong&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Don&apos;t show this warning again</source>
-        <translation>Diese Warnung nicht wieder anzeigen</translation>
+        <translation>Không hiển thị cảnh báo này nữa</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Key files</source>
-        <translation>Schlüsseldateien</translation>
+        <translation>Tệp khóa</translation>
     </message>
     <message>
         <source>Select key file</source>
-        <translation>Schlüsseldatei auswählen</translation>
+        <translation>Chọn tệp khóa</translation>
     </message>
     <message>
         <source>Cannot use database file as key file</source>
-        <translation>Datenbankdatei kann nicht als Schlüsseldatei verwendet werden</translation>
+        <translation>Không thể sử dụng tệp cơ sở dữ liệu làm tệp khóa</translation>
     </message>
     <message>
         <source>authenticate to access the database</source>
-        <translation>zum Zugriff auf die Datenbank authentifizieren</translation>
+        <translation>xác thực để truy cập cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Select Key File:</source>
-        <translation>Schlüsseldatei auswählen:</translation>
+        <translation>Chọn tệp khóa:</translation>
     </message>
     <message>
         <source>&lt;p&gt;In addition to a password, you can use a secret file to enhance the security of your database. This file can be generated in your database&apos;s security settings.&lt;/p&gt;&lt;p&gt;This is &lt;strong&gt;not&lt;/strong&gt; your *.kdbx database file!&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Zusätzlich zu einem Passwort können Sie eine geheime Datei verwenden, um die Sicherheit Ihrer Datenbank zu erhöhen. Diese Datei kann in den Sicherheitseinstellungen Ihrer Datenbank erzeugt werden.&lt;/p&gt;&lt;p&gt;Dies ist &lt;strong&gt;nicht&lt;/strong&gt; Ihre *.kdbx-Datenbankdatei!&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Ngoài mật khẩu, bạn có thể sử dụng tệp bí mật để tăng cường bảo mật cho cơ sở dữ liệu của mình. Tệp này có thể được tạo trong cài đặt bảo mật của cơ sở dữ liệu.&lt;/p&gt;&lt;p&gt;Đây &lt;strong&gt;không phải&lt;/strong&gt; là tệp cơ sở dữ liệu *.kdbx của bạn!&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Use hardware key [Serial: %1]</source>
-        <translation>Hardwareschlüssel verwenden [Seriennummer: %1]</translation>
+        <translation>Sử dụng khóa phần cứng [Serial: %1]</translation>
     </message>
     <message>
         <source>Use hardware key</source>
-        <translation>Hardwareschlüssel verwenden</translation>
+        <translation>Sử dụng khóa phần cứng</translation>
     </message>
     <message>
         <source>Your database file is NOT a key file!
 If you don&apos;t have a key file or don&apos;t know what that is, you don&apos;t have to select one.</source>
-        <translation>Ihre Datenbankdatei ist KEINE Schlüsseldatei!
-Wenn Sie keine Schlüsseldatei haben oder nicht wissen, was das ist, müssen Sie keine auswählen.</translation>
+        <translation>Tệp cơ sở dữ liệu của bạn KHÔNG phải là tệp khóa!
+Nếu bạn không có tệp khóa hoặc không biết đó là gì, bạn không cần chọn.</translation>
     </message>
     <message>
         <source>KeePassXC database file selected</source>
-        <translation>KeePassXC-Datenbankdatei ausgewählt</translation>
+        <translation>Đã chọn tệp cơ sở dữ liệu KeePassXC</translation>
     </message>
     <message>
         <source>The file you selected looks like a database file.
 A database file is NOT a key file!
 
 Are you sure you want to continue with this file?.</source>
-        <translation>Die von Ihnen ausgewählte Datei sieht aus wie eine Datenbankdatei.
-Eine Datenbankdatei ist KEINE Schlüsseldatei!
+        <translation>Tệp bạn chọn trông giống tệp cơ sở dữ liệu.
+Tệp cơ sở dữ liệu KHÔNG phải là tệp khóa!
 
-Sind Sie sicher, dass Sie mit dieser Datei fortfahren wollen?</translation>
+Bạn có chắc chắn muốn tiếp tục với tệp này không?.</translation>
     </message>
     <message>
         <source>No hardware keys found.</source>
-        <translation>Keine Hardwareschlüssel gefunden.</translation>
+        <translation>Không tìm thấy khóa phần cứng.</translation>
     </message>
     <message>
         <source>Refresh Hardware Keys</source>
-        <translation>Hardwareschlüssel aktualisieren</translation>
+        <translation>Làm mới khóa phần cứng</translation>
     </message>
     <message>
         <source>Click to add a key file.</source>
-        <translation>Durch Anklicken können Sie eine Schlüsseldatei hinzufügen.</translation>
+        <translation>Nhấp để thêm tệp khóa.</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;#&quot; style=&quot;text-decoration: underline&quot;&gt;I have a key file&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;#&quot; style=&quot;text-decoration: underline&quot;&gt;Ich habe eine Schlüsseldatei&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;#&quot; style=&quot;text-decoration: underline&quot;&gt;Tôi có tệp khóa&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Hardware keys found, but no slots are configured.</source>
-        <translation>Hardwareschlüssel gefunden, es sind aber keine Slots konfiguriert.</translation>
+        <translation>Đã tìm thấy khóa phần cứng, nhưng không có khe nào được cấu hình.</translation>
     </message>
     <message>
         <source>Press ESC again to close this database</source>
-        <translation>Drücken Sie erneut Esc, um diese Datenbank zu schließen</translation>
+        <translation>Nhấn ESC lần nữa để đóng cơ sở dữ liệu này</translation>
     </message>
     <message>
         <source>Windows Hello setup was canceled or failed. Quick unlock has not been enabled.</source>
-        <translation>Die Einrichtung von Windows Hello wurde abgebrochen oder ist fehlgeschlagen. Die Schnellentsperrung wurde nicht aktiviert.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Failed to authenticate with Windows Hello: %1</source>
-        <translation>Authentifizierung mit Windows Hello fehlgeschlagen: %1</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>DatabaseSettingWidgetMetaData</name>
     <message>
         <source>Passwords</source>
-        <translation>Passwörter</translation>
+        <translation>Mật khẩu</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsDialog</name>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <source>Security</source>
-        <translation>Sicherheit</translation>
+        <translation>Bảo mật</translation>
     </message>
     <message>
         <source>Database Credentials</source>
-        <translation>Datenbank-Anmeldedaten</translation>
+        <translation>Thông tin đăng nhập cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Encryption Settings</source>
-        <translation>Verschlüsselungs-Einstellungen</translation>
+        <translation>Cài đặt mã hóa</translation>
     </message>
     <message>
         <source>Browser Integration</source>
-        <translation>Browser-Integration</translation>
+        <translation>Tích hợp trình duyệt</translation>
     </message>
     <message>
         <source>Maintenance</source>
-        <translation>Wartung</translation>
+        <translation>Bảo trì</translation>
     </message>
     <message>
         <source>KeeShare</source>
@@ -1910,246 +1907,245 @@ Sind Sie sicher, dass Sie mit dieser Datei fortfahren wollen?</translation>
     </message>
     <message>
         <source>Secret Service Integration</source>
-        <translation>Secret-Service-Integration</translation>
+        <translation>Tích hợp Secret Service</translation>
     </message>
     <message>
         <source>Database Settings: %1</source>
-        <translation>Datenbankeinstellungen: %1</translation>
+        <translation>Cài đặt cơ sở dữ liệu: %1</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetBrowser</name>
     <message>
         <source>KeePassXC-Browser settings</source>
-        <translation>KeePassXC-Browser-Einstellungen</translation>
+        <translation>Cài đặt KeePassXC-Browser</translation>
     </message>
     <message>
         <source>Convert KeePassHTTP data</source>
-        <translation>KeePassHTTP-Daten konvertieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Convert legacy KeePassHTTP attributes to KeePassXC-Browser compatible custom data</source>
-        <translation>Veraltete KeePassHTTP-Eigenschaften in KeePassXC-Browser-kompatible Plugin-Daten konvertieren</translation>
+        <translation>Chuyển đổi thuộc tính KeePassHTTP cũ sang dữ liệu tùy chỉnh tương thích với KeePassXC-Browser</translation>
     </message>
     <message>
         <source>Refresh database root group ID</source>
-        <translation>ID der Datenbank-Root-Gruppe erneuern</translation>
+        <translation>Làm mới ID nhóm gốc cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Disconnect all browsers</source>
-        <translation>Alle Browserverbindungen entfernen</translation>
+        <translation>Ngắt kết nối tất cả trình duyệt</translation>
     </message>
     <message>
         <source>Forget all site-specific settings on entries</source>
-        <translation>Alle auf Internetseiten bezogenen Einstellungen löschen</translation>
+        <translation>Quên tất cả cài đặt cụ thể của trang web trên các mục</translation>
     </message>
     <message>
         <source>Stored keys</source>
-        <translation>Gespeicherte Schlüssel</translation>
+        <translation>Khóa đã lưu</translation>
     </message>
     <message>
         <source>Stored browser keys</source>
-        <translation>Gespeicherte Browser-Schlüssel</translation>
+        <translation>Khóa trình duyệt đã lưu</translation>
     </message>
     <message>
         <source>Remove selected key</source>
-        <translation>Ausgewählten Schlüssel entfernen</translation>
+        <translation>Xóa khóa đã chọn</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Delete the selected key?</source>
-        <translation>Ausgewählten Schlüssel löschen?</translation>
+        <translation>Xóa khóa đã chọn?</translation>
     </message>
     <message>
         <source>Do you really want to delete the selected key?
 This may prevent connection to the browser plugin.</source>
-        <translation>Möchten Sie wirklich diesen Schlüssel löschen?
-Dadurch kann die Verbindung zum Browser-Plugin verhindert werden.</translation>
+        <translation>Bạn có thực sự muốn xóa khóa đã chọn không?
+Điều này có thể ngăn kết nối với plugin trình duyệt.</translation>
     </message>
     <message>
         <source>Key</source>
-        <translation>Schlüssel</translation>
+        <translation>Khóa</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>Giá trị</translation>
     </message>
     <message>
         <source>Created</source>
-        <translation>Erstellt</translation>
+        <translation>Đã tạo</translation>
     </message>
     <message>
         <source>Enable Browser Integration to access these settings.</source>
-        <translation>Aktivieren Sie die Browser-Integration, um auf diese Einstellungen zuzugreifen.</translation>
+        <translation>Bật Tích hợp trình duyệt để truy cập các cài đặt này.</translation>
     </message>
     <message>
         <source>Do you really want to disconnect all browsers?
 This may prevent connection to the browser plugin.</source>
-        <translation>Möchten Sie wirklich alle Browserverbindungen entfernen?
-Das wird die Verbindung zum Browser-Plugin verhindern.</translation>
+        <translation>Bạn có thực sự muốn ngắt kết nối tất cả trình duyệt không?
+Điều này có thể ngăn kết nối đến plugin trình duyệt.</translation>
     </message>
     <message>
         <source>No shared encryption keys found in KeePassXC settings.</source>
-        <translation>Keine geteilten Schlüssel in den KeePassXC-Einstellungen gefunden.</translation>
+        <translation>Không tìm thấy khóa mã hóa được chia sẻ trong cài đặt KeePassXC.</translation>
     </message>
     <message numerus="yes">
         <source>Successfully removed %n encryption key(s) from KeePassXC settings.</source>
-        <translation><numerusform>%n Schlüssel erfolgreich aus KeePassXC-Einstellungen entfernt.</numerusform><numerusform>%n Schlüssel erfolgreich aus KeePassXC-Einstellungen entfernt.</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Do you really want forget all site-specific settings on every entry?
 Permissions to access entries will be revoked.</source>
-        <translation>Wollen Sie wirklich alle auf Internetseiten bezogenen Einstellungen löschen?
-Zugriffserlaubnisse zu allen Einträgen werden gelöscht.</translation>
+        <translation>Bạn có thực sự muốn quên tất cả cài đặt cụ thể của trang web trên mọi mục không?
+Quyền truy cập vào mục sẽ bị thu hồi.</translation>
     </message>
     <message>
         <source>Removing stored permissions…</source>
-        <translation>Entferne gespeicherte Berechtigungen ...</translation>
+        <translation>Đang xóa quyền đã lưu…</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy bỏ</translation>
     </message>
     <message numerus="yes">
         <source>Successfully removed permissions from %n entry(s).</source>
-        <translation><numerusform>Zugriffsberechtigungen für %n Eintrag/Einträge erfolgreich gelöscht.</numerusform><numerusform>Berechtigungen aus %n Einträgen erfolgreich entfernt.</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>The active database does not contain an entry with permissions.</source>
-        <translation>Die aktive Datenbank enthält keinen Eintrag mit Zugangsdaten.</translation>
+        <translation>Cơ sở dữ liệu đang hoạt động không chứa mục nào có quyền.</translation>
     </message>
     <message>
         <source>Move KeePassHTTP attributes to custom data</source>
-        <translation>KeePassHTTP-Eigenschaften in die Plugin-Daten verschieben</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Do you really want to convert all legacy browser integration data to the latest standard?
 This is necessary to maintain compatibility with the browser plugin.</source>
-        <translation>Wollen Sie wirklich alle alten Daten der Browser-Integration auf den neuesten Standard umstellen?
-Das ist notwendig, um die Kompatibilität mit dem Browser-Plugin zu erhalten.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Refresh database ID</source>
-        <translation>Datenbank-ID erneuern</translation>
+        <translation>Làm mới ID cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Do you really want refresh the database ID?
 This is only necessary if your database is a copy of another and the browser extension cannot connect.</source>
-        <translation>Wollen Sie wirklich die Datenbank-ID erneuern?
-Das ist nur notwendig, wenn Ihre Datenbank eine Kopie einer anderen ist und die Browser-Erweiterung sich nicht verbinden kann.</translation>
+        <translation>Bạn có thực sự muốn làm mới ID cơ sở dữ liệu không?
+Điều này chỉ cần thiết nếu cơ sở dữ liệu của bạn là bản sao của cơ sở dữ liệu khác và tiện ích mở rộng trình duyệt không thể kết nối.</translation>
     </message>
     <message>
         <source>No keys found</source>
-        <translation>Keine Schlüssel gefunden</translation>
+        <translation>Không tìm thấy khóa</translation>
     </message>
     <message>
         <source>Removed keys from database</source>
-        <translation>Schlüssel aus der Datenbank entfernt</translation>
+        <translation>Đã xóa khóa khỏi cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Removed permissions</source>
-        <translation>Berechtigungen entfernt</translation>
+        <translation>Đã xóa quyền</translation>
     </message>
     <message>
         <source>No entry with permissions found!</source>
-        <translation>Kein Eintrag mit Berechtigungen gefunden!</translation>
+        <translation>Không tìm thấy mục nào có quyền!</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetDatabaseKey</name>
     <message>
         <source>Add additional protection…</source>
-        <translation>Zusätzlichen Schutz hinzufügen ...</translation>
+        <translation>Thêm bảo vệ bổ sung…</translation>
     </message>
     <message>
         <source>No password set</source>
-        <translation>Kein Passwort festgelegt</translation>
+        <translation>Chưa đặt mật khẩu</translation>
     </message>
     <message>
         <source>WARNING! You have not set a password. Using a database without a password is strongly discouraged!
 
 Are you sure you want to continue without a password?</source>
-        <translation>WARNUNG! Sie haben kein Passwort festgelegt. Es wird streng davon abgeraten, eine Datenbank ohne Passwort zu benutzen!
+        <translation>CẢNH BÁO! Bạn chưa đặt mật khẩu. Sử dụng cơ sở dữ liệu không có mật khẩu rất không được khuyến khích!
 
-Wollen Sie wirklich ohne Passwort fortfahren?</translation>
+Bạn có chắc chắn muốn tiếp tục mà không có mật khẩu không?</translation>
     </message>
     <message>
         <source>Continue without password</source>
-        <translation>Ohne Passwort fortfahren</translation>
+        <translation>Tiếp tục không có mật khẩu</translation>
     </message>
     <message>
         <source>No encryption key added</source>
-        <translation>Kein Schlüssel zum Verschlüsseln hinzugefügt</translation>
+        <translation>Chưa thêm khóa mã hóa</translation>
     </message>
     <message>
         <source>You must add at least one encryption key to secure your database!</source>
-        <translation>Sie müssen mindestens einen Schlüssel hinzufügen, um die Datenbank zu sichern!</translation>
+        <translation>Bạn phải thêm ít nhất một khóa mã hóa để bảo mật cơ sở dữ liệu!</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Unbekannter Fehler</translation>
+        <translation>Lỗi không xác định</translation>
     </message>
     <message>
         <source>Failed to change database credentials</source>
-        <translation>Fehler beim Ändern der Datenbank-Anmeldedaten</translation>
+        <translation>Không thể thay đổi thông tin đăng nhập cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Weak password</source>
-        <translation>Schwaches Passwort</translation>
+        <translation>Mật khẩu yếu</translation>
     </message>
     <message>
         <source>This is a weak password! For better protection of your secrets, you should choose a stronger password.</source>
-        <translation>Dies ist ein schwaches Passwort! Um Ihre Geheimnisse besser zu schützen, sollten Sie ein stärkeres Passwort wählen.</translation>
+        <translation>Đây là mật khẩu yếu! Để bảo vệ bí mật của bạn tốt hơn, bạn nên chọn mật khẩu mạnh hơn.</translation>
     </message>
     <message>
         <source>The provided password does not meet the minimum quality requirement.</source>
-        <translation>Das übermittelte Passwort entspricht nicht den Mindestanforderungen.</translation>
+        <translation>Mật khẩu được cung cấp không đáp ứng yêu cầu chất lượng tối thiểu.</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetEncryption</name>
     <message>
         <source>Decryption Time:</source>
-        <translation>Zeit zum Entschlüsseln:</translation>
+        <translation>Thời gian giải mã:</translation>
     </message>
     <message>
         <source>Decryption time in seconds</source>
-        <translation>Entschlüsselungszeit in Sekunden</translation>
+        <translation>Thời gian giải mã tính bằng giây</translation>
     </message>
     <message>
         <source>Higher values offer more protection, but opening the database will take longer.</source>
-        <translation>Höhere Werte sind sicherer, aber das Öffnen der Datenbank dauert länger.</translation>
+        <translation>Giá trị cao hơn cung cấp nhiều bảo vệ hơn, nhưng việc mở cơ sở dữ liệu sẽ mất nhiều thời gian hơn.</translation>
     </message>
     <message>
         <source>Database format:</source>
-        <translation>Datenbankformat:</translation>
+        <translation>Định dạng cơ sở dữ liệu:</translation>
     </message>
     <message>
         <source>Database format</source>
-        <translation>Datenbankformat</translation>
+        <translation>Định dạng cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Format cannot be changed: Your database uses KDBX 4 features</source>
-        <translation>Format kann nicht geändert werden: Ihre Datenbank verwendet KDBX 4-Funktionen</translation>
+        <translation>Không thể thay đổi định dạng: Cơ sở dữ liệu của bạn sử dụng tính năng KDBX 4</translation>
     </message>
     <message>
         <source>Unless you need to open your database with other programs, always use the latest format.</source>
-        <translation>Sofern Sie Ihre Datenbank nicht mit anderen Programmen öffnen müssen, sollten Sie immer das neueste Format verwenden.</translation>
+        <translation>Trừ khi bạn cần mở cơ sở dữ liệu với các chương trình khác, hãy luôn sử dụng định dạng mới nhất.</translation>
     </message>
     <message>
         <source>Encryption Algorithm:</source>
-        <translation>Verschlüsselungs-Algorithmus:</translation>
+        <translation>Thuật toán mã hóa:</translation>
     </message>
     <message>
         <source>Encryption algorithm</source>
-        <translation>Verschlüsselungsalgorithmus</translation>
+        <translation>Thuật toán mã hóa</translation>
     </message>
     <message>
         <source>AES:  256 Bit   (default)</source>
-        <translation>AES:  256 Bit   (Standard)</translation>
+        <translation>AES:  256 Bit   (mặc định)</translation>
     </message>
     <message>
         <source>Twofish:  256 Bit</source>
@@ -2157,39 +2153,39 @@ Wollen Sie wirklich ohne Passwort fortfahren?</translation>
     </message>
     <message>
         <source>Key Derivation Function:</source>
-        <translation>Schlüssel-Ableitungsfunktion:</translation>
+        <translation>Hàm dẫn xuất khóa:</translation>
     </message>
     <message>
         <source>Key derivation function</source>
-        <translation>Funktion zur Schlüsselableitung</translation>
+        <translation>Hàm dẫn xuất khóa</translation>
     </message>
     <message>
         <source>Transform rounds:</source>
-        <translation>Verschlüsselungs-Durchläufe:</translation>
+        <translation>Số vòng biến đổi:</translation>
     </message>
     <message>
         <source>Transform rounds</source>
-        <translation>Transformationsrunden</translation>
+        <translation>Số vòng chuyển đổi</translation>
     </message>
     <message>
         <source>Memory Usage:</source>
-        <translation>Speicherverbrauch</translation>
+        <translation>Sử dụng bộ nhớ:</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Speicherbelegung</translation>
+        <translation>Sử dụng bộ nhớ</translation>
     </message>
     <message>
         <source>Parallelism:</source>
-        <translation>Parallelität:</translation>
+        <translation>Song song:</translation>
     </message>
     <message>
         <source>Parallelism</source>
-        <translation>Parallelität</translation>
+        <translation>Song song</translation>
     </message>
     <message>
         <source>KDBX 4 (recommended)</source>
-        <translation>KDBX 4 (empfohlen)</translation>
+        <translation>KDBX 4 (được khuyến nghị)</translation>
     </message>
     <message>
         <source>KDBX 3</source>
@@ -2198,128 +2194,128 @@ Wollen Sie wirklich ohne Passwort fortfahren?</translation>
     <message>
         <source>Number of rounds too high</source>
         <comment>Key transformation rounds</comment>
-        <translation>Anzahl der Runden zu groß</translation>
+        <translation>Số vòng quá cao</translation>
     </message>
     <message>
         <source>You are using a very high number of key transform rounds with Argon2.
 
 If you keep this number, your database may take hours, days, or even longer to open.</source>
-        <translation>Sie verwenden eine sehr hohe Anzahl von Schlüsseltransformationsrunden mit Argon2.
+        <translation>Bạn đang sử dụng số vòng biến đổi khóa rất cao với Argon2.
 
-Wenn Sie diese Anzahl beibehalten, kann das Öffnen Ihrer Datenbank Stunden, Tage oder sogar länger dauern.</translation>
+Nếu bạn giữ số này, cơ sở dữ liệu của bạn có thể mất hàng giờ, hàng ngày hoặc thậm chí lâu hơn để mở.</translation>
     </message>
     <message>
         <source>Understood, keep number</source>
-        <translation>Verstanden, Anzahl beibehalten</translation>
+        <translation>Đã hiểu, giữ nguyên số</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Number of rounds too low</source>
         <comment>Key transformation rounds</comment>
-        <translation>Anzahl der Runden zu niedrig</translation>
+        <translation>Số vòng quá thấp</translation>
     </message>
     <message>
         <source>You are using a very low number of key transform rounds with AES-KDF.
 
 If you keep this number, your database will not be protected from brute force attacks.</source>
-        <translation>Sie verwenden eine sehr geringe Anzahl von Schlüsseltransformationsrunden mit AES-KDF.
+        <translation>Bạn đang sử dụng số vòng biến đổi khóa rất thấp với AES-KDF.
 
-Wenn Sie diese Zahl beibehalten, ist Ihre Datenbank nicht vor Brute-Force-Angriffen geschützt.</translation>
+Nếu bạn giữ số này, cơ sở dữ liệu của bạn sẽ không được bảo vệ khỏi các cuộc tấn công vét cạn.</translation>
     </message>
     <message>
         <source>KDF unchanged</source>
-        <translation>KDF unverändert</translation>
+        <translation>KDF không thay đổi</translation>
     </message>
     <message>
         <source>Failed to transform key with new KDF parameters; KDF unchanged.</source>
-        <translation>Konnte Schlüssel nicht mit den neuen KDF-Parametern transformieren; KDF unverändert.</translation>
+        <translation>Không thể biến đổi khóa với tham số KDF mới; KDF không thay đổi.</translation>
     </message>
     <message numerus="yes">
         <source> MiB</source>
         <comment>Abbreviation for Mebibytes (KDF settings)</comment>
-        <translation><numerusform>MiB</numerusform><numerusform>MiB</numerusform></translation>
+        <translation><numerusform> MiB</numerusform></translation>
     </message>
     <message numerus="yes">
         <source> thread(s)</source>
         <comment>Threads for parallel execution (KDF settings)</comment>
-        <translation><numerusform>Thread(s)</numerusform><numerusform>Thread(s)</numerusform></translation>
+        <translation><numerusform> luồng</numerusform></translation>
     </message>
     <message>
         <source>Encryption Settings:</source>
-        <translation>Verschlüsselungseinstellungen:</translation>
+        <translation>Cài đặt mã hóa:</translation>
     </message>
     <message>
         <source>Basic</source>
-        <translation>Allgemein</translation>
+        <translation>Cơ bản</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Fortgeschritten</translation>
+        <translation>Nâng cao</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetFdoSecrets</name>
     <message>
         <source>Exposed Entries</source>
-        <translation>Offengelegte Einträge</translation>
+        <translation>Mục được hiển thị</translation>
     </message>
     <message>
         <source>Don&apos;t expose this database</source>
-        <translation>Diese Datenbank nicht offenlegen</translation>
+        <translation>Không hiển thị cơ sở dữ liệu này</translation>
     </message>
     <message>
         <source>Expose entries under this group:</source>
-        <translation>Einträge unter dieser Gruppe offenlegen:</translation>
+        <translation>Hiển thị mục trong nhóm này:</translation>
     </message>
     <message>
         <source>Enable Secret Service to access these settings.</source>
-        <translation>Aktivieren Sie Secret Service, um auf diese Einstellungen zuzugreifen.</translation>
+        <translation>Bật Secret Service để truy cập các cài đặt này.</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetGeneral</name>
     <message>
         <source>Database Metadata</source>
-        <translation>Datenbank-Metadaten</translation>
+        <translation>Siêu dữ liệu cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Database name:</source>
-        <translation>Datenbankname:</translation>
+        <translation>Tên cơ sở dữ liệu:</translation>
     </message>
     <message>
         <source>Database name field</source>
-        <translation>Namensfeld der Datenbank</translation>
+        <translation>Trường tên cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Database description:</source>
-        <translation>Datenbankbeschreibung:</translation>
+        <translation>Mô tả cơ sở dữ liệu:</translation>
     </message>
     <message>
         <source>Database description field</source>
-        <translation>Beschreibungsfeld der Datenbank</translation>
+        <translation>Trường mô tả cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Default username:</source>
-        <translation>Standard-Benutzername:</translation>
+        <translation>Tên người dùng mặc định:</translation>
     </message>
     <message>
         <source>Default username field</source>
-        <translation>Standard-Benutzernamen-Feld</translation>
+        <translation>Trường tên người dùng mặc định</translation>
     </message>
     <message>
         <source>History Settings</source>
-        <translation>Verlaufseinstellungen</translation>
+        <translation>Cài đặt lịch sử</translation>
     </message>
     <message>
         <source>Maximum number of history items per entry</source>
-        <translation>Maximale Anzahl von Verlaufs-Elementen pro Eintrag</translation>
+        <translation>Số lượng mục lịch sử tối đa mỗi mục</translation>
     </message>
     <message>
         <source>Maximum size of history per entry</source>
-        <translation>Maximale Größe des Verlaufs pro Eintrag</translation>
+        <translation>Kích thước lịch sử tối đa mỗi mục</translation>
     </message>
     <message>
         <source> MiB</source>
@@ -2327,844 +2323,843 @@ Wenn Sie diese Zahl beibehalten, ist Ihre Datenbank nicht vor Brute-Force-Angrif
     </message>
     <message>
         <source>Use recycle bin</source>
-        <translation>Papierkorb verwenden</translation>
+        <translation>Sử dụng thùng rác</translation>
     </message>
     <message>
         <source>Additional Database Settings</source>
-        <translation>Weitere Datenbank-Einstellungen</translation>
+        <translation>Cài đặt cơ sở dữ liệu bổ sung</translation>
     </message>
     <message>
         <source>Enable compression (recommended)</source>
-        <translation>Komprimierung aktivieren (empfohlen)</translation>
+        <translation>Bật nén (được khuyến nghị)</translation>
     </message>
     <message>
         <source>Delete Recycle Bin</source>
-        <translation>Papierkorb löschen</translation>
+        <translation>Xóa thùng rác</translation>
     </message>
     <message>
         <source>Do you want to delete the current recycle bin and all its contents?
 This action is not reversible.</source>
-        <translation>Wollen Sie den Papierkorb und seinen Inhalt komplett löschen?
-Das kann nicht rückgängig gemacht werden.</translation>
+        <translation>Bạn có muốn xóa thùng rác hiện tại và tất cả nội dung của nó không?
+Hành động này không thể hoàn tác.</translation>
     </message>
     <message>
         <source> (old)</source>
-        <translation>(alt)</translation>
+        <translation> (cũ)</translation>
     </message>
     <message>
         <source>When saving this setting or editing an entry
 the oldest history items of an entry will be
 removed such that only the specified amount
 of entries remain at most.</source>
-        <translation>Wenn Sie diese Einstellung speichern oder einen Eintrag bearbeiten,
-werden die ältesten Elemente der Historie eines Eintrags
-entfernt, sodass nur die angegebene Anzahl
-von Einträgen übrig bleibt.</translation>
+        <translation>Khi lưu cài đặt này hoặc chỉnh sửa mục
+các mục lịch sử cũ nhất của mục sẽ bị
+xóa sao cho chỉ còn lại số lượng
+mục được chỉ định tối đa.</translation>
     </message>
     <message>
         <source>Limit the amount of history items per entry to:</source>
-        <translation>Anzahl der Verlaufselemente pro Eintrag begrenzen auf:</translation>
+        <translation>Giới hạn số lượng mục lịch sử mỗi mục thành:</translation>
     </message>
     <message>
         <source>When saving this setting or editing an entry
 the oldest history items of an entry will be
 removed such that the remaining history items
 add up to the specified amount at most.</source>
-        <translation>Wenn Sie diese Einstellung speichern oder einen Eintrag bearbeiten,
-werden die ältesten Elemente des Verlaufs eines Eintrags
-entfernt, sodass die verbleibenden Verlaufselemente
-maximal der angegebenen Anzahl entspricht.</translation>
+        <translation>Khi lưu cài đặt này hoặc chỉnh sửa mục
+các mục lịch sử cũ nhất của mục sẽ bị
+xóa sao cho các mục lịch sử còn lại
+cộng lại tối đa bằng số lượng được chỉ định.</translation>
     </message>
     <message>
         <source>Limit the total size of history items per entry to:</source>
-        <translation>Gesamtgröße der Verlaufselemente pro Eintrag begrenzen auf:</translation>
+        <translation>Giới hạn tổng kích thước mục lịch sử mỗi mục thành:</translation>
     </message>
     <message>
         <source>Move entries to a recycle bin group
 instead of deleting them from the database.
 Entries deleted from the recycle bin are
 removed from the database.</source>
-        <translation>Verschieben Sie Einträge in den Papierkorb
-anstatt sie aus der Datenbank zu löschen.
-Aus dem Papierkorb gelöschte Einträge werden
-aus der Datenbank entfernt.</translation>
+        <translation>Di chuyển mục vào nhóm thùng rác
+thay vì xóa chúng khỏi cơ sở dữ liệu.
+Các mục bị xóa khỏi thùng rác sẽ
+bị xóa khỏi cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Autosave delay since last change</source>
-        <translation>Verzögerung beim automatischen Speichern seit der letzten Änderung</translation>
+        <translation>Độ trễ tự động lưu kể từ thay đổi cuối cùng</translation>
     </message>
     <message>
         <source>Autosave delay</source>
-        <translation>Verzögerung beim automatischen Speichern</translation>
+        <translation>Độ trễ tự động lưu</translation>
     </message>
     <message>
         <source>Autosave delay since last change in minutes</source>
-        <translation>Verzögerung beim automatischen Speichern seit der letzten Änderung in Minuten</translation>
+        <translation>Độ trễ tự động lưu kể từ thay đổi cuối cùng tính bằng phút</translation>
     </message>
     <message>
         <source> min</source>
-        <translation>min</translation>
+        <translation> phút</translation>
     </message>
     <message>
         <source>Autosave delay since last change checkbox</source>
-        <translation>Verzögerung beim automatischen Speichern seit der letzten Änderung (Checkbox)</translation>
+        <translation>Hộp kiểm độ trễ tự động lưu kể từ thay đổi cuối cùng</translation>
     </message>
     <message>
         <source>Public Database Metadata</source>
-        <translation>Öffentliche Datenbank-Metadaten</translation>
+        <translation>Siêu dữ liệu cơ sở dữ liệu công khai</translation>
     </message>
     <message>
         <source>Warning: the following settings are not encrypted.</source>
-        <translation>Warnung: Die folgenden Einstellungen sind nicht verschlüsselt.</translation>
+        <translation>Cảnh báo: các cài đặt sau không được mã hóa.</translation>
     </message>
     <message>
         <source>Display name:</source>
-        <translation>Anzeigename:</translation>
+        <translation>Tên hiển thị:</translation>
     </message>
     <message>
         <source>Database public display name</source>
-        <translation>Öffentlicher Anzeigename der Datenbank</translation>
+        <translation>Tên hiển thị công khai của cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Display color:</source>
-        <translation>Anzeigefarbe:</translation>
+        <translation>Màu hiển thị:</translation>
     </message>
     <message>
         <source>Database public display color chooser</source>
-        <translation>Öffentliche Anzeigefarbwahl der Datenbank</translation>
+        <translation>Bộ chọn màu hiển thị công khai của cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Löschen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Display icon:</source>
-        <translation>Anzeigesymbol:</translation>
+        <translation>Biểu tượng hiển thị:</translation>
     </message>
     <message>
         <source>Select Database Icon</source>
-        <translation>Datenbanksymbol auswählen</translation>
+        <translation>Chọn biểu tượng cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Publicly visible display name used on the unlock dialog</source>
-        <translation>Öffentlich sichtbarer Anzeigename, der im Entsperrdialog verwendet wird</translation>
+        <translation>Tên hiển thị công khai được sử dụng trên hộp thoại mở khóa</translation>
     </message>
     <message>
         <source>Publicly visible color used on the unlock dialog</source>
-        <translation>Öffentlich sichtbare Farbe, die im Entsperrdialog verwendet wird</translation>
+        <translation>Màu hiển thị công khai được sử dụng trên hộp thoại mở khóa</translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetKeeShare</name>
     <message>
         <source>Sharing</source>
-        <translation>Teilen</translation>
+        <translation>Chia sẻ</translation>
     </message>
     <message>
         <source>Breadcrumb</source>
-        <translation>Breadcrumb</translation>
+        <translation>Đường dẫn</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Loại</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Đường dẫn</translation>
     </message>
     <message>
         <source>Last Signer</source>
-        <translation>Letzte Unterschrift</translation>
+        <translation>Người ký cuối cùng</translation>
     </message>
     <message>
         <source>Certificates</source>
-        <translation>Zertifikate</translation>
+        <translation>Chứng chỉ</translation>
     </message>
     <message>
         <source> &gt; </source>
         <comment>Breadcrumb separator</comment>
-        <translation>&gt;</translation>
+        <translation> &gt; </translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetMaintenance</name>
     <message>
         <source>Manage Custom Icons</source>
-        <translation>Benutzerdefinierte Icons verwalten</translation>
+        <translation>Quản lý biểu tượng tùy chỉnh</translation>
     </message>
     <message>
         <source>Delete selected icon(s)</source>
-        <translation>Ausgewählte Icons löschen</translation>
+        <translation>Xóa (các) biểu tượng đã chọn</translation>
     </message>
     <message>
         <source>Delete all custom icons not in use by any entry or group</source>
-        <translation>Alle benutzerdefinierten Icons löschen, die nirgendwo verwendet werden</translation>
+        <translation>Xóa tất cả biểu tượng tùy chỉnh không được sử dụng bởi bất kỳ mục hoặc nhóm nào</translation>
     </message>
     <message>
         <source>Purge unused icons</source>
-        <translation>Unbenutzte Icons löschen</translation>
+        <translation>Xóa biểu tượng không sử dụng</translation>
     </message>
     <message>
         <source>Confirm Deletion</source>
-        <translation>Löschen bestätigen</translation>
+        <translation>Xác nhận xóa</translation>
     </message>
     <message>
         <source>At least one of the selected icons is currently in use by at least one entry or group. The icons of all affected entries and groups will be replaced by the default icon. Are you sure you want to delete icons that are currently in use?</source>
-        <translation>Mindestens eines der ausgewählten Icons wird derzeit von mindestens einem Eintrag oder einer Gruppe verwendet. Die Icons aller betroffenen Einträge und Gruppen werden durch das Standard-Icon ersetzt. Sind Sie sicher, dass Sie Icons löschen möchten, die noch in Verwendung sind?</translation>
+        <translation>Ít nhất một trong các biểu tượng đã chọn hiện đang được sử dụng bởi ít nhất một mục hoặc nhóm. Biểu tượng của tất cả các mục và nhóm bị ảnh hưởng sẽ được thay thế bằng biểu tượng mặc định. Bạn có chắc chắn muốn xóa các biểu tượng hiện đang được sử dụng không?</translation>
     </message>
     <message>
         <source>Custom Icons Are In Use</source>
-        <translation>Benutzerdefinierte Icons sind in Verwendung</translation>
+        <translation>Biểu tượng tùy chỉnh đang được sử dụng</translation>
     </message>
     <message>
         <source>All custom icons are in use by at least one entry or group.</source>
-        <translation>Alle benutzerdefinierten Icons werden von mindestens einem Eintrag oder einer Gruppe verwendet.</translation>
+        <translation>Tất cả biểu tượng tùy chỉnh đang được sử dụng bởi ít nhất một mục hoặc nhóm.</translation>
     </message>
     <message>
         <source>Purged Unused Icons</source>
-        <translation>Unbenutzte Icons löschen</translation>
+        <translation>Đã xóa biểu tượng không sử dụng</translation>
     </message>
     <message numerus="yes">
         <source>Purged %n icon(s) from the database.</source>
-        <translation><numerusform>Es wurde %n Symbol aus der Datenbank gelöscht.</numerusform><numerusform>%n Icon(s) gelöscht.</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
     <name>DatabaseSettingsWidgetMetaDataSimple</name>
     <message>
         <source>Database Name:</source>
-        <translation>Datenbankname:</translation>
+        <translation>Tên cơ sở dữ liệu:</translation>
     </message>
     <message>
         <source>Database name field</source>
-        <translation>Namensfeld der Datenbank</translation>
+        <translation>Trường tên cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Beschreibung:</translation>
+        <translation>Mô tả:</translation>
     </message>
     <message>
         <source>Database description field</source>
-        <translation>Beschreibungsfeld der Datenbank</translation>
+        <translation>Trường mô tả cơ sở dữ liệu</translation>
     </message>
 </context>
 <context>
     <name>DatabaseTabWidget</name>
     <message>
         <source>Database creation error</source>
-        <translation>Fehler beim Erstellen der Datenbank</translation>
+        <translation>Lỗi tạo cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>The created database has no key or KDF, refusing to save it.
 This is definitely a bug, please report it to the developers.</source>
-        <translation>Die erstellte Datenbank hat keinen Schlüssel oder KDF, sie kann nicht gespeichert werden.
-Das ist definitiv ein Programmfehler, bitte benachrichtigen Sie die Entwickler.</translation>
+        <translation>Cơ sở dữ liệu đã tạo không có khóa hoặc KDF, từ chối lưu nó.
+Đây chắc chắn là lỗi, vui lòng báo cáo cho nhà phát triển.</translation>
     </message>
     <message>
         <source>KeePass 2 Database</source>
-        <translation>KeePass 2-Datenbank</translation>
+        <translation>Cơ sở dữ liệu KeePass 2</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Open database</source>
-        <translation>Datenbank öffnen</translation>
+        <translation>Mở cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Failed to open %1. It either does not exist or is not accessible.</source>
-        <translation>Fehler beim Öffnen von %1: Nicht vorhanden oder nicht zugänglich.</translation>
+        <translation>Không thể mở %1. Nó không tồn tại hoặc không thể truy cập.</translation>
     </message>
     <message>
         <source>CSV file</source>
-        <translation>CSV-Datei</translation>
+        <translation>Tệp CSV</translation>
     </message>
     <message>
         <source>Merge database</source>
-        <translation>Datenbank zusammenführen</translation>
+        <translation>Hợp nhất cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Export database to CSV file</source>
-        <translation>Datenbank als CSV-Datei exportieren</translation>
+        <translation>Xuất cơ sở dữ liệu ra tệp CSV</translation>
     </message>
     <message>
         <source>Writing the CSV file failed.</source>
-        <translation>Fehler beim Schreiben der CSV-Datei.</translation>
+        <translation>Ghi tệp CSV thất bại.</translation>
     </message>
     <message>
         <source>Writing the HTML file failed.</source>
-        <translation>Fehler beim Schreiben der HTML-Datei.</translation>
+        <translation>Ghi tệp HTML thất bại.</translation>
     </message>
     <message>
         <source>Export Confirmation</source>
-        <translation>Export bestätigen</translation>
+        <translation>Xác nhận xuất</translation>
     </message>
     <message>
         <source>You are about to export your database to an unencrypted file. This will leave your passwords and sensitive information vulnerable! Are you sure you want to continue?</source>
-        <translation>Ihre Datenbank wird in eine unverschlüsselte Datei exportiert. Dadurch werden Ihre Passwörter und anderen Daten anfällig! Wollen Sie wirklich fortfahren?</translation>
+        <translation>Bạn sắp xuất cơ sở dữ liệu của mình ra tệp không được mã hóa. Điều này sẽ khiến mật khẩu và thông tin nhạy cảm của bạn dễ bị tấn công! Bạn có chắc chắn muốn tiếp tục không?</translation>
     </message>
     <message>
         <source>%1 [Locked]</source>
         <comment>Database tab name modifier</comment>
-        <translation>%1 [Gesperrt]</translation>
+        <translation>%1 [Đã khóa]</translation>
     </message>
     <message>
         <source>Export database to XML file</source>
-        <translation>Datenbank in XML-Datei exportieren</translation>
+        <translation>Xuất cơ sở dữ liệu ra tệp XML</translation>
     </message>
     <message>
         <source>XML file</source>
-        <translation>XML-Datei</translation>
+        <translation>Tệp XML</translation>
     </message>
     <message>
         <source>Writing the XML file failed</source>
-        <translation>Fehler beim Schreiben der XML-Datei.</translation>
+        <translation>Ghi tệp XML thất bại</translation>
     </message>
 </context>
 <context>
     <name>DatabaseWidget</name>
     <message>
         <source>Searching…</source>
-        <translation>Suche …</translation>
+        <translation>Đang tìm kiếm…</translation>
     </message>
     <message>
         <source>Shared group…</source>
-        <translation>Gemeinsam genutzte Gruppe ...</translation>
+        <translation>Nhóm được chia sẻ…</translation>
     </message>
     <message>
         <source>Confirm Auto-Type</source>
-        <translation>Auto-Type bestätigen</translation>
+        <translation>Xác nhận Tự động nhập</translation>
     </message>
     <message>
         <source>Perform Auto-Type into the previously active window?</source>
-        <translation>Auto-Type in das zuvor aktive Fenster ausführen?</translation>
+        <translation>Thực hiện Tự động nhập vào cửa sổ hoạt động trước đó?</translation>
     </message>
     <message>
         <source>Execute command?</source>
-        <translation>Befehl ausführen?</translation>
+        <translation>Thực thi lệnh?</translation>
     </message>
     <message>
         <source>Do you really want to execute the following command?&lt;br&gt;&lt;br&gt;%1&lt;br&gt;</source>
-        <translation>Folgenden Befehl ausführen? &lt;br&gt;&lt;br&gt;%1&lt;br&gt;</translation>
+        <translation>Bạn có thực sự muốn thực thi lệnh sau không?&lt;br&gt;&lt;br&gt;%1&lt;br&gt;</translation>
     </message>
     <message>
         <source>Remember my choice</source>
-        <translation>Meine Auswahl merken</translation>
+        <translation>Ghi nhớ lựa chọn của tôi</translation>
     </message>
     <message>
         <source>Do you really want to move the group &quot;%1&quot; to the recycle bin?</source>
-        <translation>Gruppe &quot;%1&quot; wirklich in den Papierkorb verschieben?</translation>
+        <translation>Bạn có thực sự muốn di chuyển nhóm &quot;%1&quot; vào thùng rác không?</translation>
     </message>
     <message>
         <source>Expired entries</source>
-        <translation>Abgelaufene Einträge</translation>
+        <translation>Mục đã hết hạn</translation>
     </message>
     <message>
         <source>No current database.</source>
-        <translation>Keine aktuelle Datenbank.</translation>
+        <translation>Không có cơ sở dữ liệu hiện tại.</translation>
     </message>
     <message>
         <source>No source database, nothing to do.</source>
-        <translation>Keine Quelldatenbank, es gibt nichts zu tun.</translation>
+        <translation>Không có cơ sở dữ liệu nguồn, không có gì để làm.</translation>
     </message>
     <message>
         <source>Search Results (%1)</source>
-        <translation>Suchergebnisse (%1)</translation>
+        <translation>Kết quả tìm kiếm (%1)</translation>
     </message>
     <message>
         <source>No Results</source>
-        <translation>Keine Ergebnisse</translation>
+        <translation>Không có kết quả</translation>
     </message>
     <message>
         <source>Enter a unique name or overwrite an existing search from the list:</source>
-        <translation>Geben Sie einen eindeutigen Namen ein oder überschreiben Sie eine bestehende Suche aus der Liste:</translation>
+        <translation>Nhập tên duy nhất hoặc ghi đè tìm kiếm hiện có từ danh sách:</translation>
     </message>
     <message>
         <source>Save Search</source>
-        <translation>Suche speichern</translation>
+        <translation>Lưu tìm kiếm</translation>
     </message>
     <message>
         <source>Lock Database?</source>
-        <translation>Datenbank sperren?</translation>
+        <translation>Khóa cơ sở dữ liệu?</translation>
     </message>
     <message>
         <source>You are editing an entry. Discard changes and lock anyway?</source>
-        <translation>Sie bearbeiten gerade einen Eintrag.
-Änderungen verwerfen und trotzdem sperren?</translation>
+        <translation>Bạn đang chỉnh sửa mục. Bỏ qua thay đổi và vẫn khóa?</translation>
     </message>
     <message>
         <source>&quot;%1&quot; was modified.
 Save changes?</source>
-        <translation>&quot;%1&quot; wurde geändert.
-Änderungen speichern?</translation>
+        <translation>&quot;%1&quot; đã được sửa đổi.
+Lưu thay đổi?</translation>
     </message>
     <message>
         <source>Database was modified.
 Save changes?</source>
-        <translation>Datenbank wurde geändert.
-Änderungen speichern?</translation>
+        <translation>Cơ sở dữ liệu đã được sửa đổi.
+Lưu thay đổi?</translation>
     </message>
     <message>
         <source>Save changes?</source>
-        <translation>Änderungen speichern?</translation>
+        <translation>Lưu thay đổi?</translation>
     </message>
     <message>
         <source>File has changed</source>
-        <translation>Datei hat sich geändert</translation>
+        <translation>Tệp đã thay đổi</translation>
     </message>
     <message>
         <source>Disable safe saves?</source>
-        <translation>Sicheres Speichern deaktivieren?</translation>
+        <translation>Tắt lưu an toàn?</translation>
     </message>
     <message>
         <source>KeePassXC has failed to save the database multiple times. This is likely caused by file sync services holding a lock on the save file.
 Disable safe saves and try again?</source>
-        <translation>KeePassXC konnte die Datenbank nach mehrmaligem Versuch nicht erfolgreich speichern. Dies wird möglicherweise durch Synchronisierungsdienste verursacht, die die Datei geöffnet halten.
-Sicheres Speichern deaktivieren und erneut versuchen?</translation>
+        <translation>KeePassXC đã không thể lưu cơ sở dữ liệu nhiều lần. Điều này có thể do dịch vụ đồng bộ tệp đang giữ khóa trên tệp lưu.
+Tắt lưu an toàn và thử lại?</translation>
     </message>
     <message>
         <source>Writing the database failed: %1</source>
-        <translation>Schreiben der Datenbank fehlgeschlagen: %1</translation>
+        <translation>Ghi cơ sở dữ liệu thất bại: %1</translation>
     </message>
     <message>
         <source>Passwords</source>
-        <translation>Passwörter</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>Save database as</source>
-        <translation>Datenbank speichern als</translation>
+        <translation>Lưu cơ sở dữ liệu thành</translation>
     </message>
     <message>
         <source>KeePass 2 Database</source>
-        <translation>KeePass 2-Datenbank</translation>
+        <translation>Cơ sở dữ liệu KeePass 2</translation>
     </message>
     <message>
         <source>Empty recycle bin?</source>
-        <translation>Papierkorb leeren?</translation>
+        <translation>Làm trống thùng rác?</translation>
     </message>
     <message>
         <source>Are you sure you want to permanently delete everything from your recycle bin?</source>
-        <translation>Sind Sie sicher, dass Sie den Inhalt des Papierkorbs unwiederbringlich löschen wollen?</translation>
+        <translation>Bạn có chắc chắn muốn xóa vĩnh viễn mọi thứ khỏi thùng rác không?</translation>
     </message>
     <message>
         <source>Could not find database file: %1</source>
-        <translation>Datenbank-Datei nicht gefunden: %1</translation>
+        <translation>Không thể tìm thấy tệp cơ sở dữ liệu: %1</translation>
     </message>
     <message>
         <source>New Database</source>
-        <translation>Neue Datenbank</translation>
+        <translation>Cơ sở dữ liệu mới</translation>
     </message>
     <message>
         <source>%1 [New Database]</source>
         <comment>Database tab name modifier</comment>
-        <translation>%1 [Neue Datenbank]</translation>
+        <translation>%1 [Cơ sở dữ liệu mới]</translation>
     </message>
     <message>
         <source>Remove passkey from entry</source>
-        <translation>Passkey aus Eintrag entfernen</translation>
+        <translation>Xóa passkey khỏi mục</translation>
     </message>
     <message>
         <source>Do you want to remove the passkey from this entry?</source>
-        <translation>Möchten Sie den Passkey aus diesem Eintrag entfernen?</translation>
+        <translation>Bạn có muốn xóa passkey khỏi mục này không?</translation>
     </message>
     <message>
         <source>The database file &quot;%1&quot; was modified externally</source>
-        <translation>Die Datenbankdatei &quot;%1&quot; wurde extern geändert</translation>
+        <translation>Tệp cơ sở dữ liệu &quot;%1&quot; đã được sửa đổi bên ngoài</translation>
     </message>
     <message>
         <source>Do you want to load the changes?</source>
-        <translation>Möchten Sie die Änderungen laden?</translation>
+        <translation>Bạn có muốn tải các thay đổi không?</translation>
     </message>
     <message>
         <source>Reloading database…</source>
-        <translation>Datenbank wird neu geladen…</translation>
+        <translation>Đang tải lại cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>Reload canceled</source>
-        <translation>Neuladen abgebrochen</translation>
+        <translation>Đã hủy tải lại</translation>
     </message>
     <message>
         <source>Reload successful</source>
-        <translation>Neuladen erfolgreich abgeschlossen</translation>
+        <translation>Tải lại thành công</translation>
     </message>
     <message>
         <source>Reload pending user action…</source>
-        <translation>Anstehende Benutzeraktion neu laden…</translation>
+        <translation>Tải lại đang chờ hành động người dùng…</translation>
     </message>
     <message>
         <source>The database file &quot;%1&quot; was modified externally.&lt;br&gt;How would you like to proceed?&lt;br&gt;&lt;br&gt;Merge all changes&lt;br&gt;Ignore the changes on disk until save&lt;br&gt;Discard unsaved changes</source>
-        <translation>Die Datenbankdatei &quot;%1&quot; wurde extern geändert.&lt;br&gt;Wie möchten Sie vorgehen?&lt;br&gt;&lt;br&gt;Alle Änderungen zusammenführen&lt;br&gt;Änderungen auf dem Datenträger bis zum Speichern ignorieren&lt;br&gt;Nicht gespeicherte Änderungen verwerfen</translation>
+        <translation>Tệp cơ sở dữ liệu &quot;%1&quot; đã được sửa đổi từ bên ngoài.&lt;br&gt;Bạn muốn tiếp tục như thế nào?&lt;br&gt;&lt;br&gt;Hợp nhất tất cả thay đổi&lt;br&gt;Bỏ qua các thay đổi trên đĩa cho đến khi lưu&lt;br&gt;Loại bỏ các thay đổi chưa lưu</translation>
     </message>
     <message>
         <source>The database file &quot;%1&quot; was modified externally.&lt;br&gt;How would you like to proceed?&lt;br&gt;&lt;br&gt;Merge all changes then save&lt;br&gt;Overwrite the changes on disk&lt;br&gt;Discard unsaved changes</source>
-        <translation>Die Datenbankdatei &quot;%1&quot; wurde extern geändert.&lt;br&gt;Wie möchten Sie vorgehen?&lt;br&gt;&lt;br&gt;Alle Änderungen zusammenführen und dann speichern&lt;br&gt;Änderungen auf dem Datenträger überschreiben&lt;br&gt;Nicht gespeicherte Änderungen verwerfen</translation>
+        <translation>Tệp cơ sở dữ liệu &quot;%1&quot; đã được sửa đổi từ bên ngoài.&lt;br&gt;Bạn muốn tiếp tục như thế nào?&lt;br&gt;&lt;br&gt;Hợp nhất tất cả thay đổi rồi lưu&lt;br&gt;Ghi đè các thay đổi trên đĩa&lt;br&gt;Loại bỏ các thay đổi chưa lưu</translation>
     </message>
     <message>
         <source>Reload database</source>
-        <translation>Datenbank neu laden</translation>
+        <translation>Tải lại cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Database file overwritten.</source>
-        <translation>Datenbankdatei überschrieben.</translation>
+        <translation>Tệp cơ sở dữ liệu đã bị ghi đè.</translation>
     </message>
     <message>
         <source>Database file on disk cannot be unlocked with current credentials.&lt;br&gt;Enter new credentials and/or present hardware key to continue.</source>
-        <translation>Die Datenbankdatei auf dem Datenträger kann mit den aktuellen Anmeldedaten nicht entsperrt werden. Geben Sie neue Zugangsdaten ein und/oder benutzen Sie den Hardwareschlüssel, um fortzufahren.</translation>
+        <translation>Tệp cơ sở dữ liệu trên đĩa không thể mở khóa bằng thông tin xác thực hiện tại.&lt;br&gt;Nhập thông tin xác thực mới và/hoặc đưa ra khóa phần cứng để tiếp tục.</translation>
     </message>
     <message>
         <source>Failed to save backup database: %1</source>
-        <translation>Sicherung der Datenbank kann nicht gespeichert werden: %1</translation>
+        <translation>Không thể lưu cơ sở dữ liệu sao lưu: %1</translation>
     </message>
     <message>
         <source>Confirm Delete Group</source>
-        <translation>Löschen der Gruppe bestätigen</translation>
+        <translation>Xác nhận xóa nhóm</translation>
     </message>
     <message>
         <source>Do you really want to permanently delete the group &quot;%1&quot;?</source>
-        <translation>Möchten Sie wirklich die Gruppe „%1“ dauerhaft löschen?</translation>
+        <translation>Bạn có thực sự muốn xóa vĩnh viễn nhóm &quot;%1&quot; không?</translation>
     </message>
     <message>
         <source>Confirm Recycle Group</source>
-        <translation>Verschiebung der Gruppe bestätigen</translation>
+        <translation>Xác nhận chuyển nhóm vào thùng rác</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Speichern</translation>
+        <translation>Lưu</translation>
     </message>
     <message>
         <source>Save Database Backup</source>
-        <translation>Sicherungskopie der Datenbank speichern</translation>
+        <translation>Lưu sao lưu cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Successfully merged the selected database.</source>
-        <translation>Die ausgewählte Datenbank wurde erfolgreich zusammengeführt.</translation>
+        <translation>Đã hợp nhất thành công cơ sở dữ liệu đã chọn.</translation>
     </message>
     <message>
         <source>No changes were made by the merge operation.</source>
-        <translation>Durch die Zusammenführung wurden keine Änderungen vorgenommen.</translation>
+        <translation>Không có thay đổi nào được thực hiện bởi thao tác hợp nhất.</translation>
     </message>
     <message>
         <source>Merge canceled, no changes were made.</source>
-        <translation>Zusammenführung abgebrochen, keine Änderungen vorgenommen.</translation>
+        <translation>Đã hủy hợp nhất, không có thay đổi nào được thực hiện.</translation>
     </message>
     <message>
         <source>Searches and Tags</source>
-        <translation>Suchen und Tags</translation>
+        <translation>Tìm kiếm và Thẻ</translation>
     </message>
     <message numerus="yes">
         <source>Entries expiring within %1 day(s)</source>
-        <translation><numerusform>Einträge, die innerhalb von %1 Tag ablaufen.</numerusform><numerusform>Einträge, die innerhalb von %1 Tagen ablaufen.</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
     <name>EditEntryAttachmentsDialog</name>
     <message>
         <source>Edit: %1</source>
-        <translation>Bearbeiten: %1</translation>
+        <translation>Chỉnh sửa: %1</translation>
     </message>
 </context>
 <context>
     <name>EditEntryWidget</name>
     <message>
         <source>Entry</source>
-        <translation>Eintrag</translation>
+        <translation>Mục</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Fortgeschritten</translation>
+        <translation>Nâng cao</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation>Symbol</translation>
+        <translation>Biểu tượng</translation>
     </message>
     <message>
         <source>Auto-Type</source>
-        <translation>Auto-Type</translation>
+        <translation>Tự động nhập</translation>
     </message>
     <message>
         <source>Browser Integration</source>
-        <translation>Browser-Integration</translation>
+        <translation>Tích hợp trình duyệt</translation>
     </message>
     <message>
         <source>&lt;empty URL&gt;</source>
-        <translation>&lt;leere URL&gt;</translation>
+        <translation>&lt;URL trống&gt;</translation>
     </message>
     <message>
         <source>Confirm Removal</source>
-        <translation>Löschen bestätigen</translation>
+        <translation>Xác nhận xóa</translation>
     </message>
     <message>
         <source>Are you sure you want to remove this URL?</source>
-        <translation>Möchten Sie diese URL wirklich entfernen?</translation>
+        <translation>Bạn có chắc chắn muốn xóa URL này không?</translation>
     </message>
     <message>
         <source>Properties</source>
-        <translation>Eigenschaften</translation>
+        <translation>Thuộc tính</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Verlauf</translation>
+        <translation>Lịch sử</translation>
     </message>
     <message>
         <source>SSH Agent</source>
-        <translation>SSH-Agent</translation>
+        <translation>SSH Agent</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>-</translation>
+        <translation>không có</translation>
     </message>
     <message>
         <source>Select private key</source>
-        <translation>Privaten Schlüssel auswählen</translation>
+        <translation>Chọn khóa riêng</translation>
     </message>
     <message>
         <source>Entry history</source>
-        <translation>Eintragsverlauf</translation>
+        <translation>Lịch sử mục</translation>
     </message>
     <message>
         <source>Add entry</source>
-        <translation>Eintrag hinzufügen</translation>
+        <translation>Thêm mục</translation>
     </message>
     <message>
         <source>Edit entry</source>
-        <translation>Eintrag bearbeiten</translation>
+        <translation>Chỉnh sửa mục</translation>
     </message>
     <message>
         <source>Some Browser Integration settings are overridden by group settings.</source>
-        <translation>Manche Browser-Integrations-Einstellungen werden von den Gruppen-Einstellungen überschrieben.</translation>
+        <translation>Một số cài đặt Tích hợp trình duyệt bị ghi đè bởi cài đặt nhóm.</translation>
     </message>
     <message>
         <source>Invalid Entry</source>
-        <translation>Ungültiger Eintrag</translation>
+        <translation>Mục không hợp lệ</translation>
     </message>
     <message>
         <source>An external merge operation has invalidated this entry.
 Unfortunately, any changes made have been lost.</source>
-        <translation>Ein externer Zusammenführungsvorgang hat diesen Eintrag ungültig gemacht.
-Leider sind alle vorgenommenen Änderungen verloren gegangen.</translation>
+        <translation>Một thao tác hợp nhất bên ngoài đã làm mục này không hợp lệ.
+Thật không may, mọi thay đổi đã thực hiện đều bị mất.</translation>
     </message>
     <message>
         <source>Auto-Type Validation Error</source>
-        <translation>Auto-Type-Validierungsfehler</translation>
+        <translation>Lỗi xác thực Tự động nhập</translation>
     </message>
     <message>
         <source>An error occurred while validating the custom Auto-Type sequence:
 %1
 Would you like to correct it?</source>
-        <translation>Bei der Validierung der benutzerdefinierten Auto-Type-Sequenz ist ein Fehler aufgetreten:
+        <translation>Đã xảy ra lỗi khi xác thực chuỗi Tự động nhập tùy chỉnh:
 %1
-Korrigieren?</translation>
+Bạn có muốn sửa nó không?</translation>
     </message>
     <message>
         <source>An error occurred while validating the Auto-Type sequence for &quot;%1&quot;:
 %2
 Would you like to correct it?</source>
-        <translation>Bei der Validierung der Auto-Type-Sequenz für &quot;%1&quot; ist ein Fehler aufgetreten:
+        <translation>Đã xảy ra lỗi khi xác thực chuỗi Tự động nhập cho &quot;%1&quot;:
 %2
-Korrigieren?</translation>
+Bạn có muốn sửa nó không?</translation>
     </message>
     <message>
         <source>Entry updated successfully.</source>
-        <translation>Eintrag erfolgreich aktualisiert.</translation>
+        <translation>Cập nhật mục thành công.</translation>
     </message>
     <message>
         <source>Unsaved Changes</source>
-        <translation>Ungespeicherte Änderungen</translation>
+        <translation>Thay đổi chưa lưu</translation>
     </message>
     <message>
         <source>Would you like to save changes to this entry?</source>
-        <translation>Möchten Sie die Änderungen an diesem Eintrag speichern?</translation>
+        <translation>Bạn có muốn lưu thay đổi cho mục này không?</translation>
     </message>
     <message>
         <source>New attribute</source>
-        <translation>Neue Eigenschaft</translation>
+        <translation>Thuộc tính mới</translation>
     </message>
     <message>
         <source>New attribute %1</source>
-        <translation>Neue Eigenschaft %1</translation>
+        <translation>Thuộc tính mới %1</translation>
     </message>
     <message>
         <source>Are you sure you want to remove this attribute?</source>
-        <translation>Sind Sie sicher, dass Sie dieses Attribut entfernen möchten?</translation>
+        <translation>Bạn có chắc chắn muốn xóa thuộc tính này không?</translation>
     </message>
     <message>
         <source>Reveal</source>
-        <translation>Zeigen</translation>
+        <translation>Hiển thị</translation>
     </message>
     <message>
         <source>[PROTECTED] Press Reveal to view or edit</source>
-        <translation>[GESCHÜTZT] „Zeigen“ anklicken zum Anzeigen oder Bearbeiten</translation>
+        <translation>[BẢO VỆ] Nhấn Hiện để xem hoặc chỉnh sửa</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Verstecken</translation>
+        <translation>Ẩn</translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n Woche</numerusform><numerusform>%n Woche(n)</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n month(s)</source>
-        <translation><numerusform>%n Monat</numerusform><numerusform>%n Monat(e)</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n Jahre</numerusform><numerusform>%n Jahr(e)</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Failed to decrypt SSH key, ensure password is correct.</source>
-        <translation>Entschlüsselung des SSH-Schlüssels fehlgeschlagen. Stellen Sie sicher, dass das Passwort korrekt ist.</translation>
+        <translation>Không thể giải mã khóa SSH, đảm bảo mật khẩu đúng.</translation>
     </message>
 </context>
 <context>
     <name>EditEntryWidgetAdvanced</name>
     <message>
         <source>Additional attributes</source>
-        <translation>Zusätzliche Eigenschaften</translation>
+        <translation>Thuộc tính bổ sung</translation>
     </message>
     <message>
         <source>Attribute selection</source>
-        <translation>Auswahl der Eigenschaft</translation>
+        <translation>Chọn thuộc tính</translation>
     </message>
     <message>
         <source>Attribute value</source>
-        <translation>Wert der Eigenschaft</translation>
+        <translation>Giá trị thuộc tính</translation>
     </message>
     <message>
         <source>Add a new attribute</source>
-        <translation>Neue Eigenschaft hinzufügen</translation>
+        <translation>Thêm thuộc tính mới</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation>Thêm</translation>
     </message>
     <message>
         <source>Remove selected attribute</source>
-        <translation>Ausgewählte Eigenschaft entfernen</translation>
+        <translation>Xóa thuộc tính đã chọn</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Edit attribute name</source>
-        <translation>Name der Eigenschaft bearbeiten</translation>
+        <translation>Chỉnh sửa tên thuộc tính</translation>
     </message>
     <message>
         <source>Edit Name</source>
-        <translation>Name bearbeiten</translation>
+        <translation>Chỉnh sửa tên</translation>
     </message>
     <message>
         <source>Toggle attribute protection</source>
-        <translation>Schutz der Eigenschaft umschalten</translation>
+        <translation>Chuyển đổi bảo vệ thuộc tính</translation>
     </message>
     <message>
         <source>Protect</source>
-        <translation>Schützen</translation>
+        <translation>Bảo vệ</translation>
     </message>
     <message>
         <source>Show a protected attribute</source>
-        <translation>Eine geschützte Eigenschaft anzeigen</translation>
+        <translation>Hiển thị thuộc tính được bảo vệ</translation>
     </message>
     <message>
         <source>Reveal</source>
-        <translation>Zeigen</translation>
+        <translation>Hiển thị</translation>
     </message>
     <message>
         <source>Attachments</source>
-        <translation>Anhänge</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>If checked, the entry will not appear in reports like Health Check and HIBP even if it doesn&apos;t match the quality requirements.</source>
-        <translation>Wenn diese Option aktiviert ist, erscheint der Eintrag nicht in Berichten wie Health Check und HIBP, auch wenn er nicht den Qualitätsanforderungen entspricht.</translation>
+        <translation>Nếu được chọn, mục sẽ không xuất hiện trong các báo cáo như Kiểm tra sức khỏe và HIBP ngay cả khi nó không đáp ứng yêu cầu chất lượng.</translation>
     </message>
     <message>
         <source>Exclude from database reports</source>
-        <translation>Aus Datenbank-Berichten ausschließen</translation>
+        <translation>Loại trừ khỏi báo cáo cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Foreground Color:</source>
-        <translation>Textfarbe:</translation>
+        <translation>Màu nền trước:</translation>
     </message>
     <message>
         <source>Foreground color selection</source>
-        <translation>Vordergrundfarbe auswählen</translation>
+        <translation>Chọn màu nền trước</translation>
     </message>
     <message>
         <source>Background Color:</source>
-        <translation>Hintergrundfarbe:</translation>
+        <translation>Màu nền sau:</translation>
     </message>
     <message>
         <source>Background color selection</source>
-        <translation>Hintergrundfarbe auswählen</translation>
+        <translation>Chọn màu nền sau</translation>
     </message>
 </context>
 <context>
     <name>EditEntryWidgetAutoType</name>
     <message>
         <source>Enable Auto-Type for this entry</source>
-        <translation>Auto-Type für diesen Eintrag aktivieren</translation>
+        <translation>Bật Tự động nhập cho mục này</translation>
     </message>
     <message>
         <source>Inherit default Auto-Type sequence from the group</source>
-        <translation>Standard-Auto-Type-Sequenz von der Gruppe übernehmen</translation>
+        <translation>Kế thừa chuỗi Tự động nhập mặc định từ nhóm</translation>
     </message>
     <message>
         <source>Use custom Auto-Type sequence:</source>
-        <translation>Benutzerdefinierte Auto-Type-Sequenz benutzen:</translation>
+        <translation>Sử dụng chuỗi Tự động nhập tùy chỉnh:</translation>
     </message>
     <message>
         <source>Custom Auto-Type sequence</source>
-        <translation>Benutzerdefinierte Auto-Type-Sequenz</translation>
+        <translation>Chuỗi Tự động nhập tùy chỉnh</translation>
     </message>
     <message>
         <source>Open Auto-Type help webpage</source>
-        <translation>Auto-Type-Hilfe-Webseite öffnen</translation>
+        <translation>Mở trang web trợ giúp Tự động nhập</translation>
     </message>
     <message>
         <source>Window Associations</source>
-        <translation>Fenster-Zuordnungen</translation>
+        <translation>Liên kết cửa sổ</translation>
     </message>
     <message>
         <source>Existing window associations</source>
-        <translation>Bestehende Fenster-Zuordnungen</translation>
+        <translation>Liên kết cửa sổ hiện có</translation>
     </message>
     <message>
         <source>Add new window association</source>
-        <translation>Neue Fenster-Zuordnung hinzufügen</translation>
+        <translation>Thêm liên kết cửa sổ mới</translation>
     </message>
     <message>
         <source>Remove selected window association</source>
-        <translation>Ausgewählte Fenster-Zuordnung entfernen</translation>
+        <translation>Xóa liên kết cửa sổ đã chọn</translation>
     </message>
     <message>
         <source>Window title:</source>
-        <translation>Fenstertitel:</translation>
+        <translation>Tiêu đề cửa sổ:</translation>
     </message>
     <message>
         <source>You can use an asterisk (*) to match everything</source>
-        <translation>Sie können ein Sternchen (*) benutzen, um die Auswahl auf alles auszuweiten</translation>
+        <translation>Bạn có thể sử dụng dấu sao (*) để khớp mọi thứ</translation>
     </message>
     <message>
         <source>Set the window association title</source>
-        <translation>Titel der Fenster-Zuordnung festlegen</translation>
+        <translation>Đặt tiêu đề liên kết cửa sổ</translation>
     </message>
     <message>
         <source>You can use an asterisk to match everything</source>
-        <translation>Sie können ein Sternchen benutzen, um die Auswahl auf alles auszuweiten</translation>
+        <translation>Bạn có thể sử dụng dấu sao để khớp mọi thứ</translation>
     </message>
     <message>
         <source>Use a specific sequence for this association:</source>
-        <translation>Spezielle Sequenz für dieses Fenster verwenden:</translation>
+        <translation>Sử dụng chuỗi cụ thể cho liên kết này:</translation>
     </message>
     <message>
         <source>Custom Auto-Type sequence for this window</source>
-        <translation>Benutzerdefinierte Auto-Type-Sequenz für dieses Fenster</translation>
+        <translation>Chuỗi Tự động nhập tùy chỉnh cho cửa sổ này</translation>
     </message>
     <message>
         <source>+</source>
@@ -3181,157 +3176,157 @@ Korrigieren?</translation>
     <name>EditEntryWidgetBrowser</name>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <source>Hide this entry from the browser extension</source>
-        <translation>Diesen Eintrag aus der Browser-Erweiterung ausblenden</translation>
+        <translation>Ẩn mục này khỏi tiện ích mở rộng trình duyệt</translation>
     </message>
     <message>
         <source>Skip Auto-Submit for this entry</source>
-        <translation>Auto-Submit für diesen Eintrag überspringen</translation>
+        <translation>Bỏ qua Tự động gửi cho mục này</translation>
     </message>
     <message>
         <source>Use this entry only with HTTP Basic Auth</source>
-        <translation>Diesen Eintrag nur mit &quot;HTTP Basic Auth&quot; verwenden</translation>
+        <translation>Chỉ sử dụng mục này với HTTP Basic Auth</translation>
     </message>
     <message>
         <source>Do not use this entry with HTTP Basic Auth</source>
-        <translation>Diesen Eintrag nicht mit HTTP-Basic-Auth verwenden</translation>
+        <translation>Không sử dụng mục này với HTTP Basic Auth</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation>Thêm</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation>Chỉnh sửa</translation>
     </message>
     <message>
         <source>These settings affect the entry&apos;s behaviour with the browser extension.</source>
-        <translation>Diese Einstellungen beeinflussen das Verhalten des Eintrags mit der Browser-Erweiterung.</translation>
+        <translation>Các cài đặt này ảnh hưởng đến hành vi của mục với tiện ích mở rộng trình duyệt.</translation>
     </message>
     <message>
         <source>Additional URLs</source>
-        <translation>Zusätzliche URLs</translation>
+        <translation>URL bổ sung</translation>
     </message>
     <message>
         <source>Only send this entry to the browser for HTTP Auth dialogs. If enabled, normal login forms will not show this entry for selection.</source>
-        <translation>Sendet diesen Eintrag nur bei HTTP-Auth-Dialogen an den Browser. Wenn aktiviert, wird dieser Eintrag in normalen Anmeldeformularen nicht zur Auswahl angezeigt.</translation>
+        <translation>Chỉ gửi mục này đến trình duyệt cho hộp thoại HTTP Auth. Nếu được bật, biểu mẫu đăng nhập thông thường sẽ không hiển thị mục này để chọn.</translation>
     </message>
     <message>
         <source>Do not send this entry to the browser for HTTP Auth dialogs. If enabled, HTTP Auth dialogs will not show this entry for selection.</source>
-        <translation>Diesen Eintrag nicht an den Browser für HTTP-Auth-Dialoge senden. Wenn aktiviert, zeigen HTTP-Auth-Dialoge diesen Eintrag nicht zur Auswahl an.</translation>
+        <translation>Không gửi mục này đến trình duyệt cho hộp thoại HTTP Auth. Nếu được bật, hộp thoại HTTP Auth sẽ không hiển thị mục này để chọn.</translation>
     </message>
 </context>
 <context>
     <name>EditEntryWidgetHistory</name>
     <message>
         <source>Entry history selection</source>
-        <translation>Eintrags-Verlauf auswählen</translation>
+        <translation>Chọn lịch sử mục</translation>
     </message>
     <message>
         <source>Show entry at selected history state</source>
-        <translation>Eintrag zum ausgewählten Verlaufszustand anzeigen</translation>
+        <translation>Hiển thị mục ở trạng thái lịch sử đã chọn</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Anzeigen</translation>
+        <translation>Hiển thị</translation>
     </message>
     <message>
         <source>Restore entry to selected history state</source>
-        <translation>Eintrag aus ausgewähltem Verlaufszustand wiederherstellen</translation>
+        <translation>Khôi phục mục về trạng thái lịch sử đã chọn</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Wiederherstellen</translation>
+        <translation>Khôi phục</translation>
     </message>
     <message>
         <source>Delete selected history state</source>
-        <translation>Ausgewählten Verlaufszustand löschen</translation>
+        <translation>Xóa trạng thái lịch sử đã chọn</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Delete all history</source>
-        <translation>Gesamten Verlauf löschen</translation>
+        <translation>Xóa tất cả lịch sử</translation>
     </message>
     <message>
         <source>Delete all</source>
-        <translation>Alle löschen</translation>
+        <translation>Xóa tất cả</translation>
     </message>
 </context>
 <context>
     <name>EditEntryWidgetMain</name>
     <message>
         <source>Edit Entry</source>
-        <translation>Eintrag bearbeiten</translation>
+        <translation>Chỉnh sửa mục</translation>
     </message>
     <message>
         <source>Notes field</source>
-        <translation>Feld für Notizen</translation>
+        <translation>Trường ghi chú</translation>
     </message>
     <message>
         <source>Username field</source>
-        <translation>Feld für Benutzername</translation>
+        <translation>Trường tên người dùng</translation>
     </message>
     <message>
         <source>Expiration field</source>
-        <translation>Feld für Ablaufdatum</translation>
+        <translation>Trường hết hạn</translation>
     </message>
     <message>
         <source>Expiration Presets</source>
-        <translation>Vorgaben für Ablaufdatum</translation>
+        <translation>Cài đặt sẵn hết hạn</translation>
     </message>
     <message>
         <source>Expiration presets</source>
-        <translation>Vorgaben für Ablaufdatum</translation>
+        <translation>Cài đặt sẵn hết hạn</translation>
     </message>
     <message>
         <source>Presets</source>
-        <translation>Vorgaben</translation>
+        <translation>Cài đặt sẵn</translation>
     </message>
     <message>
         <source>Url field</source>
-        <translation>URL-Feld</translation>
+        <translation>Trường URL</translation>
     </message>
     <message>
         <source>Download favicon for URL</source>
-        <translation>Favicon für URL herunterladen</translation>
+        <translation>Tải favicon cho URL</translation>
     </message>
     <message>
         <source>Title field</source>
-        <translation>Titelfeld</translation>
+        <translation>Trường tiêu đề</translation>
     </message>
     <message>
         <source>Password field</source>
-        <translation>Passwort-Feld</translation>
+        <translation>Trường mật khẩu</translation>
     </message>
     <message>
         <source>Toggle expiration</source>
-        <translation>Ablaufdatum umschalten</translation>
+        <translation>Chuyển đổi hết hạn</translation>
     </message>
     <message>
         <source>Tags list</source>
-        <translation>Tag-Liste</translation>
+        <translation>Danh sách thẻ</translation>
     </message>
     <message>
         <source>&amp;Username:</source>
-        <translation>&amp;Benutzername:</translation>
+        <translation>&amp;Tên người dùng:</translation>
     </message>
     <message>
         <source>&amp;Title:</source>
-        <translation>&amp;Titel:</translation>
+        <translation>&amp;Tiêu đề:</translation>
     </message>
     <message>
         <source>&amp;Password:</source>
-        <translation>&amp;Passwort:</translation>
+        <translation>&amp;Mật khẩu:</translation>
     </message>
     <message>
         <source>UR&amp;L:</source>
@@ -3339,358 +3334,358 @@ Korrigieren?</translation>
     </message>
     <message>
         <source>&amp;Notes:</source>
-        <translation>&amp;Notizen:</translation>
+        <translation>&amp;Ghi chú:</translation>
     </message>
     <message>
         <source>Toggle notes visibility</source>
-        <translation>Sichtbarkeit der Notizen umschalten</translation>
+        <translation>Chuyển đổi hiển thị ghi chú</translation>
     </message>
     <message>
         <source>T&amp;ags:</source>
-        <translation>T&amp;ags:</translation>
+        <translation>T&amp;hẻ:</translation>
     </message>
     <message>
         <source>&amp;Expires:</source>
-        <translation>&amp;Läuft ab:</translation>
+        <translation>&amp;Hết hạn:</translation>
     </message>
 </context>
 <context>
     <name>EditEntryWidgetSSHAgent</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Biểu mẫu</translation>
     </message>
     <message>
         <source>Remove key from agent when database is closed/locked</source>
-        <translation>Schlüssel vom Agenten entfernen, wenn Datenbank geschlossen/gesperrt wird</translation>
+        <translation>Xóa khóa khỏi agent khi cơ sở dữ liệu đóng/khóa</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentar</translation>
+        <translation>Bình luận</translation>
     </message>
     <message>
         <source>Add key to agent when database is opened/unlocked</source>
-        <translation>Key zum Agenten hinzufügen, wenn Datenbank geöffnet/entsperrt wird</translation>
+        <translation>Thêm khóa vào agent khi cơ sở dữ liệu mở/mở khóa</translation>
     </message>
     <message>
         <source>Decrypt</source>
-        <translation>Entschlüsseln</translation>
+        <translation>Giải mã</translation>
     </message>
     <message>
         <source>Fingerprint</source>
-        <translation>Fingerabdruck</translation>
+        <translation>Dấu vân tay</translation>
     </message>
     <message>
         <source>Copy to clipboard</source>
-        <translation>In Zwischenablage kopieren</translation>
+        <translation>Sao chép vào clipboard</translation>
     </message>
     <message>
         <source>Public key</source>
-        <translation>Öffentlicher Schlüssel</translation>
+        <translation>Khóa công khai</translation>
     </message>
     <message>
         <source>Private key</source>
-        <translation>Privater Schlüssel</translation>
+        <translation>Khóa riêng</translation>
     </message>
     <message>
         <source>External file</source>
-        <translation>Externe Datei</translation>
+        <translation>Tệp bên ngoài</translation>
     </message>
     <message>
         <source>Browser for key file</source>
-        <translation>Browser für die Schlüsseldatei</translation>
+        <translation>Duyệt tệp khóa</translation>
     </message>
     <message>
         <source>Browse…</source>
         <extracomment>Button for opening file dialog</extracomment>
-        <translation>Durchsuchen ...</translation>
+        <translation>Duyệt…</translation>
     </message>
     <message>
         <source>Attachment</source>
-        <translation>Anhang</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>External key file</source>
-        <translation>Externe Schlüsseldatei</translation>
+        <translation>Tệp khóa bên ngoài</translation>
     </message>
     <message>
         <source>Add to agent</source>
-        <translation>Zum Agenten hinzufügen</translation>
+        <translation>Thêm vào agent</translation>
     </message>
     <message>
         <source>Remove from agent</source>
-        <translation>Vom Agenten entfernen</translation>
+        <translation>Xóa khỏi agent</translation>
     </message>
     <message>
         <source>Select attachment file</source>
-        <translation>Anhang auswählen</translation>
+        <translation>Chọn tệp đính kèm</translation>
     </message>
     <message>
         <source>Require user confirmation when this key is used</source>
-        <translation>Benutzer muss bestätigen, wenn dieser Schlüssel verwendet wird</translation>
+        <translation>Yêu cầu xác nhận người dùng khi khóa này được sử dụng</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>-</translation>
+        <translation>không có</translation>
     </message>
     <message>
         <source>Remove key from agent after</source>
-        <translation>Schlüssel vom Agenten entfernen nach</translation>
+        <translation>Xóa khóa khỏi agent sau</translation>
     </message>
     <message>
         <source>Remove key from agent after specified seconds</source>
-        <translation>Schlüssel nach angegebener Zeit vom Agenten entfernen</translation>
+        <translation>Xóa khóa khỏi agent sau số giây được chỉ định</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation>Sekunden</translation>
+        <translation> giây</translation>
     </message>
     <message>
         <source>Clear agent</source>
-        <translation>Agent löschen</translation>
+        <translation>Xóa agent</translation>
     </message>
 </context>
 <context>
     <name>EditGroupWidget</name>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation>Symbol</translation>
+        <translation>Biểu tượng</translation>
     </message>
     <message>
         <source>Browser Integration</source>
-        <translation>Browser-Integration</translation>
+        <translation>Tích hợp trình duyệt</translation>
     </message>
     <message>
         <source>Properties</source>
-        <translation>Eigenschaften</translation>
+        <translation>Thuộc tính</translation>
     </message>
     <message>
         <source>Add group</source>
-        <translation>Gruppe hinzufügen</translation>
+        <translation>Thêm nhóm</translation>
     </message>
     <message>
         <source>Edit group</source>
-        <translation>Gruppe bearbeiten</translation>
+        <translation>Chỉnh sửa nhóm</translation>
     </message>
     <message>
         <source>Group has unsaved changes</source>
-        <translation>Gruppe enthält ungespeicherte Änderungen</translation>
+        <translation>Nhóm có thay đổi chưa lưu</translation>
     </message>
     <message>
         <source>Enable</source>
-        <translation>Aktivieren</translation>
+        <translation>Bật</translation>
     </message>
     <message>
         <source>Disable</source>
-        <translation>Deaktivieren</translation>
+        <translation>Tắt</translation>
     </message>
     <message>
         <source>Inherit from parent group (%1)</source>
-        <translation>Von der übergeordneten Gruppe (%1) erben</translation>
+        <translation>Kế thừa từ nhóm cha (%1)</translation>
     </message>
 </context>
 <context>
     <name>EditGroupWidgetBrowser</name>
     <message>
         <source>These settings affect to the group&apos;s behaviour with the browser extension.</source>
-        <translation>Diese Einstellungen beeinflussen das Verhalten der Gruppe in der Browser-Erweiterung.</translation>
+        <translation>Các cài đặt này ảnh hưởng đến hành vi của nhóm với tiện ích mở rộng trình duyệt.</translation>
     </message>
     <message>
         <source>Hide entries from browser extension:</source>
-        <translation>Einträge aus Browser-Erweiterung ausblenden:</translation>
+        <translation>Ẩn mục khỏi tiện ích mở rộng trình duyệt:</translation>
     </message>
     <message>
         <source>Hide entries from browser extension toggle for this and sub groups</source>
-        <translation>Einträge vor dem Browser-Erweiterungs-Schalter für diese und Untergruppen ausblenden</translation>
+        <translation>Chuyển đổi ẩn mục khỏi tiện ích mở rộng trình duyệt cho nhóm này và nhóm con</translation>
     </message>
     <message>
         <source>Skip Auto-Submit for entries:</source>
-        <translation>Auto-Submit für diese Einträge überspringen:</translation>
+        <translation>Bỏ qua Tự động gửi cho mục:</translation>
     </message>
     <message>
         <source>Skip Auto-Submit toggle for this and sub groups</source>
-        <translation>Auto-Submit-Schalter für diese und Untergruppen überspringen</translation>
+        <translation>Chuyển đổi bỏ qua Tự động gửi cho nhóm này và nhóm con</translation>
     </message>
     <message>
         <source>Use entries only with HTTP Basic Auth:</source>
-        <translation>Diese Einträge nur mit &quot;HTTP Basic Auth&quot; verwenden:</translation>
+        <translation>Chỉ sử dụng mục với HTTP Basic Auth:</translation>
     </message>
     <message>
         <source>Only HTTP Auth toggle for this and sub groups</source>
-        <translation>Nur HTTP-Authentifizierungs-Schalter für diese und Untergruppen</translation>
+        <translation>Chuyển đổi chỉ HTTP Auth cho nhóm này và nhóm con</translation>
     </message>
     <message>
         <source>Do not use entries with HTTP Basic Auth:</source>
-        <translation>Diese Einträge nicht mit HTTP-Basic-Auth verwenden:</translation>
+        <translation>Không sử dụng mục với HTTP Basic Auth:</translation>
     </message>
     <message>
         <source>Do not use HTTP Auth toggle for this and sub groups</source>
-        <translation>Den HTTP-Authentifizierungs-Schalter nicht für diese und Untergruppen verwenden</translation>
+        <translation>Chuyển đổi không sử dụng HTTP Auth cho nhóm này và nhóm con</translation>
     </message>
     <message>
         <source>Omit WWW subdomain from matching:</source>
-        <translation>WWW-Subdomain beim Abgleich weglassen:</translation>
+        <translation>Bỏ qua tên miền phụ WWW khỏi khớp:</translation>
     </message>
     <message>
         <source>Omit WWW subdomain from matching toggle for this and sub groups</source>
-        <translation>WWW-Subdomain aus dem entsprechenden Abgleich für diese und die Untergruppen weglassen</translation>
+        <translation>Chuyển đổi bỏ qua tên miền phụ WWW khỏi khớp cho nhóm này và nhóm con</translation>
     </message>
     <message>
         <source>Restrict matching to given browser key:</source>
-        <translation>Einschränkung des Abgleichs auf den angegebenen Browserschlüssel:</translation>
+        <translation>Hạn chế khớp với khóa trình duyệt đã cho:</translation>
     </message>
     <message>
         <source>Restrict matching to given browser key toggle for this and sub groups</source>
-        <translation>Einschränkung des Abgleichs auf bestimmte Browserschlüssel-Schalter für diese und Untergruppen</translation>
+        <translation>Chuyển đổi hạn chế khớp với khóa trình duyệt đã cho cho nhóm này và nhóm con</translation>
     </message>
 </context>
 <context>
     <name>EditGroupWidgetKeeShare</name>
     <message>
         <source>Sharing mode field</source>
-        <translation>Feld für Freigabemodus</translation>
+        <translation>Trường chế độ chia sẻ</translation>
     </message>
     <message>
         <source>Password field</source>
-        <translation>Passwort-Feld</translation>
+        <translation>Trường mật khẩu</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Typ:</translation>
+        <translation>Loại:</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>Passwort:</translation>
+        <translation>Mật khẩu:</translation>
     </message>
     <message>
         <source>Path:</source>
-        <translation>Pfad:</translation>
+        <translation>Đường dẫn:</translation>
     </message>
     <message>
         <source>Path to share file field</source>
-        <translation>Feld für Pfad der Freigabe-Datei</translation>
+        <translation>Trường đường dẫn đến tệp chia sẻ</translation>
     </message>
     <message>
         <source>Browse for share file</source>
-        <translation>Nach Freigabe-Datei durchsuchen</translation>
+        <translation>Duyệt tệp chia sẻ</translation>
     </message>
     <message>
         <source>Browse…</source>
-        <translation>Durchsuchen ...</translation>
+        <translation>Duyệt…</translation>
     </message>
     <message>
         <source>Clear fields</source>
-        <translation>Felder leeren</translation>
+        <translation>Xóa các trường</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Löschen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation>Inaktiv</translation>
+        <translation>Không hoạt động</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation>Nhập</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation>Exportieren</translation>
+        <translation>Xuất</translation>
     </message>
     <message>
         <source>Synchronize</source>
-        <translation>Synchronisieren</translation>
+        <translation>Đồng bộ</translation>
     </message>
     <message>
         <source>Your KeePassXC version does not support sharing this container type.
 Supported extensions are: %1.</source>
-        <translation>Ihre Version von KeePassXC unterstützt das Teilen dieses Containertyps nicht.
-Unterstützte Erweiterungen sind: %1.</translation>
+        <translation>Phiên bản KeePassXC của bạn không hỗ trợ chia sẻ loại container này.
+Các phần mở rộng được hỗ trợ là: %1.</translation>
     </message>
     <message>
         <source>%1 is already being exported by this database.</source>
-        <translation>%1 wird von dieser Datenbank bereits exportiert.</translation>
+        <translation>%1 đã được xuất bởi cơ sở dữ liệu này.</translation>
     </message>
     <message>
         <source>%1 is already being imported by this database.</source>
-        <translation>%1 wird von dieser Datenbank bereits importiert.</translation>
+        <translation>%1 đã được nhập bởi cơ sở dữ liệu này.</translation>
     </message>
     <message>
         <source>%1 is being imported and exported by different groups in this database.</source>
-        <translation>%1 wird von verschiedenen Gruppen in dieser Datenbank importiert und exportiert.</translation>
+        <translation>%1 đang được nhập và xuất bởi các nhóm khác nhau trong cơ sở dữ liệu này.</translation>
     </message>
     <message>
         <source>KeeShare is currently disabled. You can enable import/export in the application settings.</source>
         <comment>KeeShare is a proper noun</comment>
-        <translation>KeeShare is derzeit deaktiviert. Sie können den Import/Export in den Anwendungseinstellungen aktivieren.</translation>
+        <translation>KeeShare hiện đang bị tắt. Bạn có thể bật nhập/xuất trong cài đặt ứng dụng.</translation>
     </message>
     <message>
         <source>Database export is currently disabled by application settings.</source>
-        <translation>Der Export von Datenbanken ist in den Anwendungseinstellungen deaktiviert.</translation>
+        <translation>Xuất cơ sở dữ liệu hiện đang bị tắt bởi cài đặt ứng dụng.</translation>
     </message>
     <message>
         <source>Database import is currently disabled by application settings.</source>
-        <translation>Der Import von Datenbanken ist in den Anwendungseinstellungen deaktiviert.</translation>
+        <translation>Nhập cơ sở dữ liệu hiện đang bị tắt bởi cài đặt ứng dụng.</translation>
     </message>
     <message>
         <source>KeeShare container</source>
-        <translation>KeeShare-Container</translation>
+        <translation>Container KeeShare</translation>
     </message>
     <message>
         <source>KeeShare signed container</source>
-        <translation>KeeShare signierter Container</translation>
+        <translation>Container KeeShare đã ký</translation>
     </message>
     <message>
         <source>Select import source</source>
-        <translation>Importquelle auswählen</translation>
+        <translation>Chọn nguồn nhập</translation>
     </message>
     <message>
         <source>Select export target</source>
-        <translation>Exportziel auswählen</translation>
+        <translation>Chọn đích xuất</translation>
     </message>
     <message>
         <source>Select import/export file</source>
-        <translation>Datei für Import/Export auswählen</translation>
+        <translation>Chọn tệp nhập/xuất</translation>
     </message>
     <message>
         <source>Maintain group structure with shared database</source>
-        <translation>Gruppenstruktur mit gemeinsam genutzter Datenbank beibehalten</translation>
+        <translation>Duy trì cấu trúc nhóm với cơ sở dữ liệu được chia sẻ</translation>
     </message>
     <message>
         <source>Keep Group Structure</source>
-        <translation>Gruppenstruktur beibehalten</translation>
+        <translation>Giữ cấu trúc nhóm</translation>
     </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
     <message>
         <source>Edit Group</source>
-        <translation>Gruppe bearbeiten</translation>
+        <translation>Chỉnh sửa nhóm</translation>
     </message>
     <message>
         <source>Toggle expiration</source>
-        <translation>Ablaufdatum umschalten</translation>
+        <translation>Chuyển đổi hết hạn</translation>
     </message>
     <message>
         <source>Expires:</source>
-        <translation>Läuft ab:</translation>
+        <translation>Hết hạn:</translation>
     </message>
     <message>
         <source>Name field</source>
-        <translation>Namensfeld</translation>
+        <translation>Trường tên</translation>
     </message>
     <message>
         <source>Expiration field</source>
-        <translation>Feld für Ablaufdatum</translation>
+        <translation>Trường hết hạn</translation>
     </message>
     <message>
         <source>Use default Auto-Type sequence of parent group</source>
-        <translation>Standard-Auto-Type-Sequenz der übergeordneten Gruppe verwenden</translation>
+        <translation>Sử dụng chuỗi Auto-Type mặc định của nhóm cha</translation>
     </message>
     <message>
         <source>Auto-Type:</source>
@@ -3698,198 +3693,198 @@ Unterstützte Erweiterungen sind: %1.</translation>
     </message>
     <message>
         <source>Search:</source>
-        <translation>Suche:</translation>
+        <translation>Tìm kiếm:</translation>
     </message>
     <message>
         <source>Auto-Type toggle for this and sub groups</source>
-        <translation>Auto-Type umschalten für diese und Untergruppen</translation>
+        <translation>Chuyển đổi Auto-Type cho nhóm này và nhóm con</translation>
     </message>
     <message>
         <source>Notes:</source>
-        <translation>Notizen:</translation>
+        <translation>Ghi chú:</translation>
     </message>
     <message>
         <source>Default auto-type sequence field</source>
-        <translation>Feld für Standard-Auto-Type-Sequenz</translation>
+        <translation>Trường chuỗi auto-type mặc định</translation>
     </message>
     <message>
         <source>Notes field</source>
-        <translation>Feld für Notizen</translation>
+        <translation>Trường ghi chú</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Name:</translation>
+        <translation>Tên:</translation>
     </message>
     <message>
         <source>Set default Auto-Type sequence</source>
-        <translation>Standard-Auto-Type-Sequenz festlegen</translation>
+        <translation>Đặt chuỗi Auto-Type mặc định</translation>
     </message>
     <message>
         <source>Search toggle for this and sub groups</source>
-        <translation>Suche umschalten für diese und Untergruppen</translation>
+        <translation>Chuyển đổi tìm kiếm cho nhóm này và nhóm con</translation>
     </message>
 </context>
 <context>
     <name>EditWidgetIcons</name>
     <message>
         <source>Use default icon</source>
-        <translation>Standard-Icon verwenden</translation>
+        <translation>Sử dụng biểu tượng mặc định</translation>
     </message>
     <message>
         <source>Use custom icon</source>
-        <translation>Benutzerdefiniertes Icon verwenden</translation>
+        <translation>Sử dụng biểu tượng tùy chỉnh</translation>
     </message>
     <message>
         <source>Choose icon…</source>
-        <translation>Icon auswählen…</translation>
+        <translation>Chọn biểu tượng…</translation>
     </message>
     <message>
         <source>Set the URL to use to search for a favicon</source>
-        <translation>URL für die Favicon-Suche festlegen</translation>
+        <translation>Đặt URL để sử dụng để tìm kiếm favicon</translation>
     </message>
     <message>
         <source>Favicon URL</source>
-        <translation>URL für Favicon</translation>
+        <translation>URL Favicon</translation>
     </message>
     <message>
         <source>Download favicon for URL</source>
-        <translation>Favicon für URL herunterladen</translation>
+        <translation>Tải favicon cho URL</translation>
     </message>
     <message>
         <source>Download favicon</source>
-        <translation>Favicon herunterladen</translation>
+        <translation>Tải xuống favicon</translation>
     </message>
     <message>
         <source>Apply selected icon to subgroups and entries</source>
-        <translation>Ausgewähltes Icon für Untergruppen und Einträge verwenden</translation>
+        <translation>Áp dụng biểu tượng đã chọn cho nhóm con và mục</translation>
     </message>
     <message>
         <source>Apply icon to…</source>
-        <translation>Icon verwenden für ...</translation>
+        <translation>Áp dụng biểu tượng cho…</translation>
     </message>
     <message>
         <source>Apply to this group only</source>
-        <translation>Nur auf diese Gruppe anwenden</translation>
+        <translation>Chỉ áp dụng cho nhóm này</translation>
     </message>
     <message>
         <source>Also apply to child groups</source>
-        <translation>Auch auf Untergruppen anwenden</translation>
+        <translation>Cũng áp dụng cho nhóm con</translation>
     </message>
     <message>
         <source>Also apply to child entries</source>
-        <translation>Auch auf Untereinträge anwenden</translation>
+        <translation>Cũng áp dụng cho mục con</translation>
     </message>
     <message>
         <source>Also apply to all children</source>
-        <translation>Auch auf alle Untereinträge anwenden</translation>
+        <translation>Cũng áp dụng cho tất cả con</translation>
     </message>
     <message>
         <source>Unable to fetch favicon.</source>
-        <translation>Kann Favicon nicht herunterladen.</translation>
+        <translation>Không thể tải favicon.</translation>
     </message>
     <message>
         <source>Existing icon selected.</source>
-        <translation>Bestehendes Symbol ausgewählt.</translation>
+        <translation>Đã chọn biểu tượng hiện có.</translation>
     </message>
     <message>
         <source>Images</source>
-        <translation>Bilder</translation>
+        <translation>Hình ảnh</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Select Image(s)</source>
-        <translation>Bild(er) auswählen</translation>
+        <translation>Chọn hình ảnh</translation>
     </message>
     <message numerus="yes">
         <source>Successfully loaded %1 of %n icon(s)</source>
-        <translation><numerusform>%1 von %n Symbol(en) erfolgreiche heruntergeladen</numerusform><numerusform>%1 von %n Symbol(en) erfolgreich geladen</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>No icons were loaded</source>
-        <translation>Keine Symbole geladen</translation>
+        <translation>Không có biểu tượng nào được tải</translation>
     </message>
     <message numerus="yes">
         <source>%n icon(s) already exist in the database</source>
-        <translation><numerusform>%n Symbol(e) gibt es bereits in der Datenbank</numerusform><numerusform>%n Symbol(e) gibt es bereits in der Datenbank</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <source>The following icon(s) failed:</source>
-        <translation><numerusform>Das Laden der folgenden Symbole ist fehlgeschlagen:</numerusform><numerusform>Das Laden der folgenden Symbole ist fehlgeschlagen:</numerusform></translation>
+        <translation><numerusform>Các biểu tượng sau thất bại:</numerusform></translation>
     </message>
     <message>
         <source>You can enable the DuckDuckGo website icon service under Application Settings -&gt; Security</source>
-        <translation>Sie können den DuckDuckGo-Webseitensymbol-Dienst unter „Anwendungseinstellungen → Sicherheit“ aktivieren</translation>
+        <translation>Bạn có thể bật dịch vụ biểu tượng trang web DuckDuckGo trong Cài đặt ứng dụng -&gt; Bảo mật</translation>
     </message>
 </context>
 <context>
     <name>EditWidgetProperties</name>
     <message>
         <source>Created:</source>
-        <translation>Erstellt:</translation>
+        <translation>Đã tạo:</translation>
     </message>
     <message>
         <source>Datetime created</source>
-        <translation>Erstellungs-Zeitpunkt</translation>
+        <translation>Ngày giờ tạo</translation>
     </message>
     <message>
         <source>Modified:</source>
-        <translation>Bearbeitet:</translation>
+        <translation>Đã sửa đổi:</translation>
     </message>
     <message>
         <source>Datetime modified</source>
-        <translation>Änderungs-Zeitpunkt</translation>
+        <translation>Ngày giờ sửa đổi</translation>
     </message>
     <message>
         <source>Uuid:</source>
-        <translation>UUID:</translation>
+        <translation>Uuid:</translation>
     </message>
     <message>
         <source>Unique ID</source>
-        <translation>Eindeutige ID</translation>
+        <translation>ID duy nhất</translation>
     </message>
     <message>
         <source>Plugin Data</source>
-        <translation>Plugin-Daten</translation>
+        <translation>Dữ liệu Plugin</translation>
     </message>
     <message>
         <source>Plugin data</source>
-        <translation>Plugin-Daten</translation>
+        <translation>Dữ liệu plugin</translation>
     </message>
     <message>
         <source>Remove selected plugin data</source>
-        <translation>Ausgewählte Plugin-Daten entfernen</translation>
+        <translation>Xóa dữ liệu plugin đã chọn</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Delete plugin data?</source>
-        <translation>Plugin-Daten löschen?</translation>
+        <translation>Xóa dữ liệu plugin?</translation>
     </message>
     <message>
         <source>Do you really want to delete the selected plugin data?
 This may cause the affected plugins to malfunction.</source>
-        <translation>Möchten Sie die ausgewählten Plugin-Daten wirklich löschen?
-Das kann dazu führen, dass die betroffenen Plugins nicht mehr richtig funktionieren.</translation>
+        <translation>Bạn có thực sự muốn xóa dữ liệu plugin đã chọn không?
+Điều này có thể khiến các plugin bị ảnh hưởng hoạt động sai.</translation>
     </message>
     <message>
         <source>Key</source>
-        <translation>Schlüssel</translation>
+        <translation>Khóa</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>Giá trị</translation>
     </message>
 </context>
 <context>
     <name>Entry</name>
     <message>
         <source>%1 - Clone</source>
-        <translation>%1 - Klon</translation>
+        <translation>%1 - Nhân bản</translation>
     </message>
     <message>
         <source>Passkey</source>
@@ -3897,29 +3892,29 @@ Das kann dazu führen, dass die betroffenen Plugins nicht mehr richtig funktioni
     </message>
     <message>
         <source>Invalid conversion type: %1</source>
-        <translation>Ungültiger Konvertierungstyp: %1</translation>
+        <translation>Loại chuyển đổi không hợp lệ: %1</translation>
     </message>
     <message>
         <source>Invalid conversion syntax: %1</source>
-        <translation>Ungültige Konvertierungssyntax: %1</translation>
+        <translation>Cú pháp chuyển đổi không hợp lệ: %1</translation>
     </message>
     <message>
         <source>Invalid regular expression syntax %1
 %2</source>
-        <translation>Ungültige Syntax des regulären Ausdrucks %1
+        <translation>Cú pháp biểu thức chính quy không hợp lệ %1
 %2</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>URL</source>
@@ -3927,23 +3922,23 @@ Das kann dazu führen, dass die betroffenen Plugins nicht mehr richtig funktioni
     </message>
     <message>
         <source>Notes</source>
-        <translation>Notizen</translation>
+        <translation>Ghi chú</translation>
     </message>
     <message>
         <source>Custom Attributes</source>
-        <translation>Benutzerdefinierte Eigenschaften</translation>
+        <translation>Thuộc tính tùy chỉnh</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation>Symbol</translation>
+        <translation>Biểu tượng</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Farbe</translation>
+        <translation>Màu sắc</translation>
     </message>
     <message>
         <source>Expiration</source>
-        <translation>Ablaufdatum</translation>
+        <translation>Hết hạn</translation>
     </message>
     <message>
         <source>TOTP</source>
@@ -3951,229 +3946,228 @@ Das kann dazu führen, dass die betroffenen Plugins nicht mehr richtig funktioni
     </message>
     <message>
         <source>Custom Data</source>
-        <translation>Plugin-Daten</translation>
+        <translation>Dữ liệu tùy chỉnh</translation>
     </message>
     <message>
         <source>Attachments</source>
-        <translation>Anhänge</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>Auto-Type</source>
-        <translation>Auto-Type</translation>
+        <translation>Tự động nhập</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Tags</translation>
+        <translation>Thẻ</translation>
     </message>
 </context>
 <context>
     <name>EntryAttachments</name>
     <message>
         <source>Cannot open file &quot;%1&quot;</source>
-        <translation>Kann Datei &quot;%1&quot; nicht öffnen</translation>
+        <translation>Không thể mở tệp &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
     <name>EntryAttachmentsModel</name>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Tên</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Größe</translation>
+        <translation>Kích thước</translation>
     </message>
 </context>
 <context>
     <name>EntryAttachmentsWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Biểu mẫu</translation>
     </message>
     <message>
         <source>Attachments</source>
-        <translation>Anhänge</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>Add new attachment</source>
-        <translation>Neuen Anhang hinzufügen</translation>
+        <translation>Thêm tệp đính kèm mới</translation>
     </message>
     <message>
         <source>Remove selected attachment</source>
-        <translation>Ausgewählten Anhang entfernen</translation>
+        <translation>Xóa tệp đính kèm đã chọn</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Open selected attachment</source>
-        <translation>Ausgewählten Anhang öffnen</translation>
+        <translation>Mở tệp đính kèm đã chọn</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Öffnen</translation>
+        <translation>Mở</translation>
     </message>
     <message>
         <source>Save selected attachment to disk</source>
-        <translation>Ausgewählten Anhang speichern</translation>
+        <translation>Lưu tệp đính kèm đã chọn vào đĩa</translation>
     </message>
     <message>
         <source>Select files</source>
-        <translation>Dateien auswählen</translation>
+        <translation>Chọn tệp</translation>
     </message>
     <message>
         <source>Confirm remove</source>
-        <translation>Entfernen bestätigen</translation>
+        <translation>Xác nhận xóa</translation>
     </message>
     <message numerus="yes">
         <source>Are you sure you want to remove %n attachment(s)?</source>
-        <translation><numerusform>Sind Sie sicher, dass Sie einen Anhang löschen möchten?</numerusform><numerusform>Sind Sie sicher, dass Sie %n Anhänge löschen möchten?</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Save attachments</source>
-        <translation>Anhänge speichern</translation>
+        <translation>Lưu tệp đính kèm</translation>
     </message>
     <message>
         <source>Unable to create directory:
 %1</source>
-        <translation>Kann Verzeichnis nicht erstellen:
+        <translation>Không thể tạo thư mục:
 %1</translation>
     </message>
     <message>
         <source>Are you sure you want to overwrite the existing file &quot;%1&quot; with the attachment?</source>
-        <translation>Sind Sie sicher, dass sie die existierende Datei „%1“ mit dem Anhang überschreiben wollen?</translation>
+        <translation>Bạn có chắc chắn muốn ghi đè tệp hiện có &quot;%1&quot; bằng tệp đính kèm không?</translation>
     </message>
     <message>
         <source>Confirm overwrite</source>
-        <translation>Überschreiben bestätigen</translation>
+        <translation>Xác nhận ghi đè</translation>
     </message>
     <message>
         <source>Unable to save attachments:
 %1</source>
-        <translation>Speichern der Anhänge nicht möglich:
+        <translation>Không thể lưu tệp đính kèm:
 %1</translation>
     </message>
     <message>
         <source>Unable to open attachment:
 %1</source>
-        <translation>Öffnen des Anhangs nicht möglich:
+        <translation>Không thể mở tệp đính kèm:
 %1</translation>
     </message>
     <message>
         <source>Unable to open attachments:
 %1</source>
-        <translation>Öffnen der Anhänge nicht möglich:
+        <translation>Không thể mở tệp đính kèm:
 %1</translation>
     </message>
     <message numerus="yes">
         <source>Unable to open file(s):
 %1</source>
-        <translation><numerusform>Öffnen der Datei(en) nicht möglich:
-%1</numerusform><numerusform>Datei(en) können nicht geöffnet werden:
+        <translation><numerusform>Không thể mở tệp:
 %1</numerusform></translation>
     </message>
     <message>
         <source>Confirm Overwrite Attachment</source>
-        <translation>Anhang überschreiben?</translation>
+        <translation>Xác nhận ghi đè tệp đính kèm</translation>
     </message>
     <message>
         <source>Confirm Attachment</source>
-        <translation>Anhang bestätigen</translation>
+        <translation>Xác nhận tệp đính kèm</translation>
     </message>
     <message>
         <source>%1 is a big file (%2 MB).
 Your database may get very large and reduce performance.
 
 Are you sure to add this file?</source>
-        <translation>%1 ist eine große Datei (%2 MB).
-Ihre Datenbank könnte sehr groß und langsam werden.
+        <translation>%1 là tệp lớn (%2 MB).
+Cơ sở dữ liệu của bạn có thể trở nên rất lớn và giảm hiệu suất.
 
-Wollen Sie diese Datei wirklich hinzufügen?</translation>
+Bạn có chắc chắn muốn thêm tệp này không?</translation>
     </message>
     <message>
         <source>Attachment modified</source>
-        <translation>Anhang geändert</translation>
+        <translation>Tệp đính kèm đã sửa đổi</translation>
     </message>
     <message>
         <source>The attachment '%1' was modified.
 Do you want to save the changes to your database?</source>
-        <translation>Der Anhang &apos;%1&apos; wurde geändert.
-Möchten Sie die Änderungen in der Datenbank speichern?</translation>
+        <translation>Tệp đính kèm &apos;%1&apos; đã được sửa đổi.
+Bạn có muốn lưu thay đổi vào cơ sở dữ liệu của bạn không?</translation>
     </message>
     <message>
         <source>Saving attachment failed</source>
-        <translation>Speichern des Anhangs ist fehlgeschlagen</translation>
+        <translation>Lưu tệp đính kèm thất bại</translation>
     </message>
     <message>
         <source>Saving updated attachment failed.
 Error: %1</source>
-        <translation>Speichern des aktualisierten Anhangs ist fehlgeschlagen.
-Fehler: %1</translation>
+        <translation>Lưu tệp đính kèm đã cập nhật thất bại.
+Lỗi: %1</translation>
     </message>
     <message>
         <source>Attachment &quot;%1&quot; already exists. 
 Would you like to overwrite the existing attachment?</source>
-        <translation>Anhang &quot;%1&quot; existiert bereits.
-Existierenden Anhang überschreiben?</translation>
+        <translation>Tệp đính kèm &quot;%1&quot; đã tồn tại. 
+Bạn có muốn ghi đè tệp đính kèm hiện có không?</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Vorschau</translation>
+        <translation>Xem trước</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation>Chỉnh sửa</translation>
     </message>
     <message>
         <source>New Text Document</source>
-        <translation>Neues Textdokument</translation>
+        <translation>Tài liệu văn bản mới</translation>
     </message>
     <message>
         <source>Add file…</source>
-        <translation>Datei hinzufügen…</translation>
+        <translation>Thêm tệp…</translation>
     </message>
     <message>
         <source>Load from Disk…</source>
-        <translation>Vom Datenträger laden…</translation>
+        <translation>Tải từ đĩa…</translation>
     </message>
     <message>
         <source>Save…</source>
-        <translation>Speichern…</translation>
+        <translation>Lưu…</translation>
     </message>
     <message>
         <source>New Attachment</source>
-        <translation>Neuer Anhang</translation>
+        <translation>Tệp đính kèm mới</translation>
     </message>
 </context>
 <context>
     <name>EntryAttributesModel</name>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Tên</translation>
     </message>
 </context>
 <context>
     <name>EntryHistoryModel</name>
     <message>
         <source>Current (%1)</source>
-        <translation>Aktuell (%1)</translation>
+        <translation>Hiện tại (%1)</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation>Zuletzt geändert</translation>
+        <translation>Sửa đổi lần cuối</translation>
     </message>
     <message>
         <source>Age</source>
-        <translation>Alter</translation>
+        <translation>Tuổi</translation>
     </message>
     <message>
         <source>Difference</source>
-        <translation>Unterschied</translation>
+        <translation>Khác biệt</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Größe</translation>
+        <translation>Kích thước</translation>
     </message>
 </context>
 <context>
@@ -4181,27 +4175,27 @@ Existierenden Anhang überschreiben?</translation>
     <message>
         <source>Ref: </source>
         <comment>Reference abbreviation</comment>
-        <translation>Ref:</translation>
+        <translation>Tham chiếu: </translation>
     </message>
     <message>
         <source>Never</source>
-        <translation>Nie</translation>
+        <translation>Không bao giờ</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>URL</source>
@@ -4209,118 +4203,118 @@ Existierenden Anhang überschreiben?</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation>Notizen</translation>
+        <translation>Ghi chú</translation>
     </message>
     <message>
         <source>Expires</source>
-        <translation>Läuft ab</translation>
+        <translation>Hết hạn</translation>
     </message>
     <message>
         <source>Created</source>
-        <translation>Erstellt</translation>
+        <translation>Đã tạo</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Geändert</translation>
+        <translation>Đã sửa</translation>
     </message>
     <message>
         <source>Attachments</source>
-        <translation>Anhänge</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Größe</translation>
+        <translation>Kích thước</translation>
     </message>
     <message>
         <source>Group name</source>
-        <translation>Gruppenname</translation>
+        <translation>Tên nhóm</translation>
     </message>
     <message>
         <source>Entry title</source>
-        <translation>Eintragstitel</translation>
+        <translation>Tiêu đề mục</translation>
     </message>
     <message>
         <source>Password Strength</source>
-        <translation>Passwortstärke</translation>
+        <translation>Độ mạnh mật khẩu</translation>
     </message>
     <message>
         <source>Entry notes</source>
-        <translation>Eintragsnotizen</translation>
+        <translation>Ghi chú mục</translation>
     </message>
     <message>
         <source>Entry expires at</source>
-        <translation>Eintrag läuft ab</translation>
+        <translation>Mục hết hạn vào</translation>
     </message>
     <message>
         <source>Creation date</source>
-        <translation>Erzeugungsdatum</translation>
+        <translation>Ngày tạo</translation>
     </message>
     <message>
         <source>Last modification date</source>
-        <translation>Datum der letzten Änderung</translation>
+        <translation>Ngày sửa đổi cuối cùng</translation>
     </message>
     <message>
         <source>Attached files</source>
-        <translation>Angehängte Dateien</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>Entry size</source>
-        <translation>Eintragsgröße</translation>
+        <translation>Kích thước mục</translation>
     </message>
     <message>
         <source>Has attachments</source>
-        <translation>Hat Anhänge</translation>
+        <translation>Có tệp đính kèm</translation>
     </message>
     <message>
         <source>Has TOTP</source>
-        <translation>Hat TOTP</translation>
+        <translation>Có TOTP</translation>
     </message>
     <message>
         <source>Background Color</source>
-        <translation>Hintergrundfarbe</translation>
+        <translation>Màu nền sau</translation>
     </message>
     <message>
         <source>Group Path</source>
-        <translation>Gruppenpfad</translation>
+        <translation>Đường dẫn nhóm</translation>
     </message>
 </context>
 <context>
     <name>EntryPreviewWidget</name>
     <message>
         <source>Display current TOTP value</source>
-        <translation>Aktuellen TOTP-Wert anzeigen</translation>
+        <translation>Hiển thị giá trị TOTP hiện tại</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Đóng</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation>Notizen</translation>
+        <translation>Ghi chú</translation>
     </message>
     <message>
         <source>Expiration</source>
-        <translation>Ablaufdatum</translation>
+        <translation>Hết hạn</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Tags</translation>
+        <translation>Thẻ</translation>
     </message>
     <message>
         <source>Tags list</source>
-        <translation>Tag-Liste</translation>
+        <translation>Danh sách thẻ</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>URL</source>
@@ -4328,200 +4322,201 @@ Existierenden Anhang überschreiben?</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Fortgeschritten</translation>
+        <translation>Nâng cao</translation>
     </message>
     <message>
         <source>Attachments</source>
-        <translation>Anhänge</translation>
+        <translation>Tệp đính kèm</translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation>Attribute</translation>
+        <translation>Thuộc tính</translation>
     </message>
     <message>
         <source>Autotype</source>
-        <translation>Auto-Type</translation>
+        <translation>Tự động nhập</translation>
     </message>
     <message>
         <source>Default Sequence</source>
-        <translation>Standard-Sequenz</translation>
+        <translation>Chuỗi mặc định</translation>
     </message>
     <message>
         <source>Window</source>
-        <translation>Fenster</translation>
+        <translation>Cửa sổ</translation>
     </message>
     <message>
         <source>Sequence</source>
-        <translation>Sequenz</translation>
+        <translation>Chuỗi</translation>
     </message>
     <message>
         <source>Searching</source>
-        <translation>Suche</translation>
+        <translation>Đang tìm kiếm</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation>Teilen</translation>
+        <translation>Chia sẻ</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Suche</translation>
+        <translation>Tìm kiếm</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Löschen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation>Nie</translation>
+        <translation>Không bao giờ</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Aktiviert</translation>
+        <translation>Đã bật</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Deaktiviert</translation>
+        <translation>Đã tắt</translation>
     </message>
     <message>
         <source>Double click to copy value</source>
-        <translation>Zum Kopieren des Wertes doppelklicken</translation>
+        <translation>Nhấp đúp để sao chép giá trị</translation>
     </message>
     <message>
         <source>Double click to copy to clipboard</source>
-        <translation>Zum Kopieren in die Zwischenablage doppelklicken</translation>
+        <translation>Nhấp đúp để sao chép vào clipboard</translation>
     </message>
 </context>
 <context>
     <name>EntryURLModel</name>
     <message>
         <source>Invalid URL</source>
-        <translation>Ungültige URL</translation>
+        <translation>URL không hợp lệ</translation>
     </message>
     <message>
         <source>Duplicate URL</source>
-        <translation>URL duplizieren</translation>
+        <translation>URL trùng lặp</translation>
     </message>
 </context>
 <context>
     <name>EntryView</name>
     <message>
         <source>Fit to window</source>
-        <translation>An Fenster anpassen</translation>
+        <translation>Vừa với cửa sổ</translation>
     </message>
     <message>
         <source>Fit to contents</source>
-        <translation>An Inhalt anpassen</translation>
+        <translation>Vừa với nội dung</translation>
     </message>
     <message>
         <source>Reset to defaults</source>
-        <translation>Auf Voreinstellung zurücksetzen</translation>
+        <translation>Đặt lại về mặc định</translation>
     </message>
     <message numerus="yes">
         <source>+ %1 entry(s)...</source>
-        <translation><numerusform>+ %1 Eintrag...</numerusform><numerusform>+ %1 Einträge...</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
     <name>ExportDialog</name>
     <message>
         <source>Export options</source>
-        <translation>Exportoptionen</translation>
+        <translation>Tùy chọn xuất</translation>
     </message>
     <message>
         <source>Sort entries by...</source>
-        <translation>Einträge sortieren nach ...</translation>
+        <translation>Sắp xếp mục theo...</translation>
     </message>
     <message>
         <source>You are about to export your database to an unencrypted file.
 This will leave your passwords and sensitive information vulnerable!
 </source>
-        <translation>Sie sind dabei, Ihre Datenbank in eine unverschlüsselte Datei zu exportieren.
-Dadurch sind Ihre Kennwörter und sensiblen Informationen ungeschützt!</translation>
+        <translation>Bạn sắp xuất cơ sở dữ liệu của mình sang tệp không được mã hóa.
+Điều này sẽ khiến mật khẩu và thông tin nhạy cảm của bạn dễ bị tấn công!
+</translation>
     </message>
     <message>
         <source>database order</source>
-        <translation>Datenbankreihenfolge</translation>
+        <translation>thứ tự cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>name (ascending)</source>
-        <translation>Name (aufsteigend)</translation>
+        <translation>tên (tăng dần)</translation>
     </message>
     <message>
         <source>name (descending)</source>
-        <translation>Name (absteigend)</translation>
+        <translation>tên (giảm dần)</translation>
     </message>
     <message>
         <source>Export database to HTML file</source>
-        <translation>Datenbank in HTML-Datei exportieren</translation>
+        <translation>Xuất cơ sở dữ liệu ra tệp HTML</translation>
     </message>
     <message>
         <source>HTML file</source>
-        <translation>HTML-Datei</translation>
+        <translation>Tệp HTML</translation>
     </message>
     <message>
         <source>invalid sort order</source>
-        <translation>Ungültige Sortierreihenfolge</translation>
+        <translation>thứ tự sắp xếp không hợp lệ</translation>
     </message>
 </context>
 <context>
     <name>FdoSecrets::DBusMgr</name>
     <message>
         <source>Failed to deliver message</source>
-        <translation>Nachricht konnte nicht zugestellt werden</translation>
+        <translation>Không thể gửi thông điệp</translation>
     </message>
     <message>
         <source>Failed to send reply on DBus</source>
-        <translation>Antwort auf DBus konnte nicht gesendet werden</translation>
+        <translation>Không thể gửi phản hồi trên DBus</translation>
     </message>
     <message>
         <source>Unknown</source>
         <comment>Unknown PID</comment>
-        <translation>Unbekannt</translation>
+        <translation>Không xác định</translation>
     </message>
     <message>
         <source>Unknown</source>
         <comment>Unknown executable path</comment>
-        <translation>Unbekannt</translation>
+        <translation>Không xác định</translation>
     </message>
     <message>
         <source>&lt;i&gt;PID: %1, Executable: %2&lt;/i&gt;</source>
         <comment>&lt;i&gt;PID: 1234, Executable: /path/to/exe&lt;/i&gt;</comment>
-        <translation>&lt;i&gt;PID: %1, Programmdatei: %2&lt;/i&gt;</translation>
+        <translation>&lt;i&gt;PID: %1, Thực thi: %2&lt;/i&gt;</translation>
     </message>
     <message>
         <source>Another secret service is running (%1).&lt;br/&gt;Please stop/remove it before re-enabling the Secret Service Integration.</source>
-        <translation>Ein anderer Secret Service läuft bereits (%1).&lt;br/&gt;Bitte stoppen/entfernen Sie ihn, bevor Sie die Secret-Service-Integration erneut aktivieren.</translation>
+        <translation>Một dịch vụ bí mật khác đang chạy (%1).&lt;br/&gt;Vui lòng dừng/xóa nó trước khi bật lại Tích hợp Dịch vụ Bí mật.</translation>
     </message>
     <message>
         <source>Failed to register DBus service at %1.&lt;br/&gt;</source>
-        <translation>Registrierung des DBus-Service auf %1 fehlgeschlagen.&lt;br/&gt;</translation>
+        <translation>Không thể đăng ký dịch vụ DBus tại %1.&lt;br/&gt;</translation>
     </message>
     <message>
         <source>Failed to register service on DBus at path &apos;%1&apos;</source>
-        <translation>Dienst auf DBus unter Pfad &apos;%1&apos; konnte nicht registriert werden</translation>
+        <translation>Không thể đăng ký dịch vụ trên DBus tại đường dẫn &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Failed to register database on DBus under the name &apos;%1&apos;</source>
-        <translation>Registrierung der Datenbank bei DBus unter dem Namen &apos;%1&apos; fehlgeschlagen</translation>
+        <translation>Không thể đăng ký cơ sở dữ liệu trên DBus dưới tên &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Failed to register session on DBus at path &apos;%1&apos;</source>
-        <translation>Registrierung der Sitzung bei DBus unter dem Pfad &apos;%1&apos; fehlgeschlagen</translation>
+        <translation>Không thể đăng ký phiên trên DBus tại đường dẫn &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Failed to register item on DBus at path &apos;%1&apos;</source>
-        <translation>Registrierung des Objekts bei DBus unter dem Pfad &apos;%1&apos; fehlgeschlagen</translation>
+        <translation>Không thể đăng ký mục trên DBus tại đường dẫn &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Failed to register prompt object on DBus at path &apos;%1&apos;</source>
-        <translation>Registrierung des Prompt-Objekts auf dem DBus unter dem Pfad &apos;%1&apos; fehlgeschlagen</translation>
+        <translation>Không thể đăng ký đối tượng nhắc trên DBus tại đường dẫn &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>FdoSecrets::Item</name>
     <message>
         <source>Entry &quot;%1&quot; from database &quot;%2&quot; was used by %3</source>
-        <translation>Eintrag &quot;%1&quot; aus Datenbank &quot;%2&quot; wurde von %3 verwendet</translation>
+        <translation>Mục &quot;%1&quot; từ cơ sở dữ liệu &quot;%2&quot; đã được sử dụng bởi %3</translation>
     </message>
 </context>
 <context>
@@ -4529,29 +4524,29 @@ Dadurch sind Ihre Kennwörter und sensiblen Informationen ungeschützt!</transla
     <message numerus="yes">
         <source>%n Entry(s) was used by %1</source>
         <comment>%1 is the name of an application</comment>
-        <translation><numerusform>%n Eintrag wurde von %1 verwendet</numerusform><numerusform>%n Einträge wurden von %1 verwendet</numerusform></translation>
+        <translation><numerusform>%n mục đã được sử dụng bởi %1</numerusform></translation>
     </message>
 </context>
 <context>
     <name>FdoSecrets::SettingsClientModel</name>
     <message>
         <source>Unknown</source>
-        <translation>Unbekannt</translation>
+        <translation>Không xác định</translation>
     </message>
     <message>
         <source>Non-existing/inaccessible executable path. Please double-check the client is legit.</source>
-        <translation>Nicht vorhandener/unerreichbarer Pfad der ausführbaren Datei. Bitte überprüfen Sie, ob der Client korrekt ist.</translation>
+        <translation>Đường dẫn thực thi không tồn tại/không thể truy cập. Vui lòng kiểm tra kỹ xem ứng dụng có hợp lệ không.</translation>
     </message>
 </context>
 <context>
     <name>FdoSecrets::SettingsDatabaseModel</name>
     <message>
         <source>Unlock to show</source>
-        <translation>Entsperren zum Anzeigen</translation>
+        <translation>Mở khóa để hiển thị</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Không có</translation>
     </message>
 </context>
 <context>
@@ -4565,7 +4560,7 @@ Dadurch sind Ihre Kennwörter und sensiblen Informationen ungeschützt!</transla
     <name>FdoSecretsPlugin</name>
     <message>
         <source>&lt;b&gt;Fdo Secret Service:&lt;/b&gt; %1</source>
-        <translation>&lt;b&gt;Fdo Secret Service:&lt;/b&gt; %1</translation>
+        <translation>&lt;b&gt;Dịch vụ bí mật Fdo:&lt;/b&gt; %1</translation>
     </message>
 </context>
 <context>
@@ -4573,39 +4568,39 @@ Dadurch sind Ihre Kennwörter und sensiblen Informationen ungeschützt!</transla
     <message>
         <source>[empty]</source>
         <comment>group has no children</comment>
-        <translation>[leer]</translation>
+        <translation>[trống]</translation>
     </message>
     <message>
         <source>%1 - Clone</source>
-        <translation>%1 - Klon</translation>
+        <translation>%1 - Nhân bản</translation>
     </message>
 </context>
 <context>
     <name>HibpDownloader</name>
     <message>
         <source>Online password validation failed</source>
-        <translation>Online-Passwortvalidierung fehlgeschlagen</translation>
+        <translation>Xác thực mật khẩu trực tuyến thất bại</translation>
     </message>
 </context>
 <context>
     <name>IconDownloaderDialog</name>
     <message>
         <source>Download Favicons</source>
-        <translation>Favicons herunterladen</translation>
+        <translation>Tải xuống Favicon</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Having trouble downloading icons?
 You can enable the DuckDuckGo website icon service in the security section of the application settings.</source>
-        <translation>Probleme beim Herunterladen der Icons?
-Sie können den DuckDuckGo-Dienst im Abschnitt &quot;Sicherheit&quot; der Anwendungseinstellungen aktivieren.</translation>
+        <translation>Gặp sự cố khi tải xuống biểu tượng?
+Bạn có thể bật dịch vụ biểu tượng trang web DuckDuckGo trong phần bảo mật của cài đặt ứng dụng.</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Đóng</translation>
     </message>
     <message>
         <source>URL</source>
@@ -4613,76 +4608,76 @@ Sie können den DuckDuckGo-Dienst im Abschnitt &quot;Sicherheit&quot; der Anwend
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Trạng thái</translation>
     </message>
     <message>
         <source>Please wait, processing entry list…</source>
-        <translation>Bitte warten, Eintragsliste wird verarbeitet ...</translation>
+        <translation>Vui lòng đợi, đang xử lý danh sách mục…</translation>
     </message>
     <message>
         <source>Downloading…</source>
-        <translation>Herunterladen ...</translation>
+        <translation>Đang tải xuống…</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation>Ok</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Already Exists</source>
-        <translation>Existiert bereits</translation>
+        <translation>Đã tồn tại</translation>
     </message>
     <message>
         <source>Download Failed</source>
-        <translation>Herunterladen fehlgeschlagen</translation>
+        <translation>Tải xuống thất bại</translation>
     </message>
     <message>
         <source>Downloading favicons (%1/%2)…</source>
-        <translation>Favicons (%1/%2) werden heruntergeladen ...</translation>
+        <translation>Đang tải xuống favicon (%1/%2)…</translation>
     </message>
 </context>
 <context>
     <name>ImageAttachmentsWidget</name>
     <message>
         <source>Zoom:</source>
-        <translation>Zoom:</translation>
+        <translation>Thu phóng:</translation>
     </message>
     <message>
         <source>Fit</source>
-        <translation>Passt</translation>
+        <translation>Vừa</translation>
     </message>
 </context>
 <context>
     <name>ImportWizard</name>
     <message>
         <source>Import Wizard</source>
-        <translation>Assistent für den Import</translation>
+        <translation>Trình hướng dẫn nhập</translation>
     </message>
 </context>
 <context>
     <name>ImportWizardPageReview</name>
     <message>
         <source>WizardPage</source>
-        <translation>Assistent</translation>
+        <translation>Trang hướng dẫn</translation>
     </message>
     <message>
         <source>Entry count: %1</source>
-        <translation>Anzahl der Einträge: %1</translation>
+        <translation>Số lượng mục: %1</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>Url</source>
@@ -4693,55 +4688,55 @@ Sie können den DuckDuckGo-Dienst im Abschnitt &quot;Sicherheit&quot; der Anwend
     <name>ImportWizardPageSelect</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Biểu mẫu</translation>
     </message>
     <message>
         <source>Import File Selection</source>
-        <translation>Auswahl der Importdatei</translation>
+        <translation>Chọn tệp nhập</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>Passwort:</translation>
+        <translation>Mật khẩu:</translation>
     </message>
     <message>
         <source>Key File:</source>
-        <translation>Schlüsseldatei:</translation>
+        <translation>Tệp khóa:</translation>
     </message>
     <message>
         <source>Browse…</source>
-        <translation>Durchsuchen…</translation>
+        <translation>Duyệt…</translation>
     </message>
     <message>
         <source>Import Into:</source>
-        <translation>Importieren in:</translation>
+        <translation>Nhập vào:</translation>
     </message>
     <message>
         <source>New Database</source>
-        <translation>Neue Datenbank</translation>
+        <translation>Cơ sở dữ liệu mới</translation>
     </message>
     <message>
         <source>No unlocked databases available</source>
-        <translation>Keine entsperrten Datenbanken verfügbar</translation>
+        <translation>Không có cơ sở dữ liệu đã mở khóa nào</translation>
     </message>
     <message>
         <source>Existing Database:</source>
-        <translation>Existierende Datenbank:</translation>
+        <translation>Cơ sở dữ liệu hiện có:</translation>
     </message>
     <message>
         <source>Import File:</source>
-        <translation>Importdatei:</translation>
+        <translation>Tệp nhập:</translation>
     </message>
     <message>
         <source>Comma Separated Values (.csv)</source>
-        <translation>Kommagetrennte Werte (.csv)</translation>
+        <translation>Giá trị phân cách bằng dấu phẩy (.csv)</translation>
     </message>
     <message>
         <source>1Password Export (.1pux)</source>
-        <translation>1Password (.1pux) exportieren</translation>
+        <translation>Xuất 1Password (.1pux)</translation>
     </message>
     <message>
         <source>1Password Vault (.opvault)</source>
-        <translation>1Password-Tresor (.opvault)</translation>
+        <translation>Kho 1Password (.opvault)</translation>
     </message>
     <message>
         <source>Bitwarden (.json)</source>
@@ -4749,47 +4744,47 @@ Sie können den DuckDuckGo-Dienst im Abschnitt &quot;Sicherheit&quot; der Anwend
     </message>
     <message>
         <source>KeePass 1 Database (.kdb)</source>
-        <translation>KeePass 1-Datenbank (.kdb)</translation>
+        <translation>Cơ sở dữ liệu KeePass 1 (.kdb)</translation>
     </message>
     <message>
         <source>Open OPVault</source>
-        <translation>OPVault öffnen</translation>
+        <translation>Mở OPVault</translation>
     </message>
     <message>
         <source>Select import file</source>
-        <translation>Importdatei auswählen</translation>
+        <translation>Chọn tệp nhập</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Key files</source>
-        <translation>Schlüsseldateien</translation>
+        <translation>Tệp khóa</translation>
     </message>
     <message>
         <source>Select key file</source>
-        <translation>Schlüsseldatei auswählen</translation>
+        <translation>Chọn tệp khóa</translation>
     </message>
     <message>
         <source>Comma Separated Values</source>
-        <translation>Kommagetrennte Werte</translation>
+        <translation>Giá trị phân cách bằng dấu phẩy</translation>
     </message>
     <message>
         <source>1Password Export</source>
-        <translation>1Password exportieren</translation>
+        <translation>Xuất 1Password</translation>
     </message>
     <message>
         <source>Bitwarden JSON Export</source>
-        <translation>Bitwarden JSON exportieren</translation>
+        <translation>Xuất JSON Bitwarden</translation>
     </message>
     <message>
         <source>1Password Vault</source>
-        <translation>1Password-Tresor</translation>
+        <translation>Kho 1Password</translation>
     </message>
     <message>
         <source>KeePass1 Database</source>
-        <translation>KeePass 1-Datenbank</translation>
+        <translation>Cơ sở dữ liệu KeePass1</translation>
     </message>
     <message>
         <source>Proton Pass (.json)</source>
@@ -4797,55 +4792,55 @@ Sie können den DuckDuckGo-Dienst im Abschnitt &quot;Sicherheit&quot; der Anwend
     </message>
     <message>
         <source>Proton Pass JSON Export</source>
-        <translation>Proton Pass JSON exportieren</translation>
+        <translation>Xuất JSON Proton Pass</translation>
     </message>
 </context>
 <context>
     <name>KMessageWidget</name>
     <message>
         <source>&amp;Close</source>
-        <translation>S&amp;chließen</translation>
+        <translation>&amp;Đóng</translation>
     </message>
     <message>
         <source>Close message</source>
-        <translation>Meldung schließen</translation>
+        <translation>Đóng thông báo</translation>
     </message>
 </context>
 <context>
     <name>Kdbx3Reader</name>
     <message>
         <source>Missing database headers</source>
-        <translation>Fehlende Datenbankheader</translation>
+        <translation>Thiếu header cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Unable to calculate database key</source>
-        <translation>Berechnung des Datenbankschlüssels fehlgeschlagen</translation>
+        <translation>Không thể tính toán khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Unable to issue challenge-response: %1</source>
-        <translation>Fehler beim Challenge-Response-Verfahren: %1</translation>
+        <translation>Không thể thực hiện thách thức-phản hồi: %1</translation>
     </message>
     <message>
         <source>Invalid credentials were provided, please try again.
 If this reoccurs, then your database file may be corrupt.</source>
-        <translation>Ungültige Anmeldedaten, bitte versuchen Sie es noch einmal.
-Falls dies wiederholt passiert, könnte Ihre Datenbank beschädigt sein.</translation>
+        <translation>Thông tin đăng nhập không hợp lệ, vui lòng thử lại.
+Nếu điều này xảy ra lại, tệp cơ sở dữ liệu của bạn có thể bị hỏng.</translation>
     </message>
     <message>
         <source>Header doesn&apos;t match hash</source>
-        <translation>Header stimmt nicht mit Hash überein</translation>
+        <translation>Tiêu đề không khớp với hash</translation>
     </message>
     <message>
         <source>Invalid header id size</source>
-        <translation>Ungültige Größe der Header-ID</translation>
+        <translation>Kích thước id header không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid header field length: field %1</source>
-        <translation>Ungültige Header-Feldlänge: Feld %1</translation>
+        <translation>Độ dài trường header không hợp lệ: trường %1</translation>
     </message>
     <message>
         <source>Invalid header data length: field %1, %2 expected, %3 found</source>
-        <translation>Ungültige Header-Feldlänge:  %1, %2 erwartet, %3 gefunden</translation>
+        <translation>Độ dài dữ liệu header không hợp lệ: trường %1, mong đợi %2, tìm thấy %3</translation>
     </message>
 </context>
 <context>
@@ -4853,758 +4848,758 @@ Falls dies wiederholt passiert, könnte Ihre Datenbank beschädigt sein.</transl
     <message>
         <source>Invalid symmetric cipher IV size.</source>
         <comment>IV = Initialization Vector for symmetric cipher</comment>
-        <translation>Ungültige symmetrische Verschlüsselungs-IV-Größe.</translation>
+        <translation>Kích thước IV mã hóa đối xứng không hợp lệ.</translation>
     </message>
     <message>
         <source>Unable to issue challenge-response: %1</source>
-        <translation>Fehler beim Challenge-Response-Verfahren: %1</translation>
+        <translation>Không thể thực hiện thách thức-phản hồi: %1</translation>
     </message>
     <message>
         <source>Unable to calculate database key</source>
-        <translation>Berechnung des Datenbankschlüssels fehlgeschlagen</translation>
+        <translation>Không thể tính toán khóa cơ sở dữ liệu</translation>
     </message>
 </context>
 <context>
     <name>Kdbx4Reader</name>
     <message>
         <source>missing database headers</source>
-        <translation>fehlende Datenbank-Header</translation>
+        <translation>thiếu tiêu đề cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Unable to calculate database key: %1</source>
-        <translation>Berechnung des Datenbankschlüssels fehlgeschlagen: %1</translation>
+        <translation>Không thể tính toán khóa cơ sở dữ liệu: %1</translation>
     </message>
     <message>
         <source>Invalid header checksum size</source>
-        <translation>Ungültige Größe der Header-Prüfsumme</translation>
+        <translation>Kích thước checksum header không hợp lệ</translation>
     </message>
     <message>
         <source>Header SHA256 mismatch</source>
-        <translation>Ungültige SHA256-Prüfsumme für Header</translation>
+        <translation>Header SHA256 không khớp</translation>
     </message>
     <message>
         <source>Invalid credentials were provided, please try again.
 If this reoccurs, then your database file may be corrupt.</source>
-        <translation>Ungültige Anmeldedaten, bitte versuchen Sie es noch einmal.
-Falls dies wiederholt passiert, könnte Ihre Datenbank beschädigt sein.</translation>
+        <translation>Thông tin đăng nhập không hợp lệ, vui lòng thử lại.
+Nếu điều này xảy ra lại, tệp cơ sở dữ liệu của bạn có thể bị hỏng.</translation>
     </message>
     <message>
         <source>(HMAC mismatch)</source>
-        <translation>(HMAC stimmt nicht überein)</translation>
+        <translation>(HMAC không khớp)</translation>
     </message>
     <message>
         <source>Unknown cipher</source>
-        <translation>Unbekannter Verschlüsselungsalgorithmus</translation>
+        <translation>Mã hóa không xác định</translation>
     </message>
     <message>
         <source>Invalid header id size</source>
-        <translation>Ungültige Größe der Header-ID</translation>
+        <translation>Kích thước id header không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid header field length: field %1</source>
-        <translation>Ungültige Header-Feldlänge: Feld %1</translation>
+        <translation>Độ dài trường header không hợp lệ: trường %1</translation>
     </message>
     <message>
         <source>Invalid header data length: field %1, %2 expected, %3 found</source>
-        <translation>Ungültige Header-Datenlänge:  %1, %2 erwartet, %3 gefunden</translation>
+        <translation>Độ dài dữ liệu header không hợp lệ: trường %1, mong đợi %2, tìm thấy %3</translation>
     </message>
     <message>
         <source>Failed to open buffer for KDF parameters in header</source>
-        <translation>Konnte Puffer mit KDF-Parametern im Header nicht öffnen</translation>
+        <translation>Không thể mở bộ đệm cho tham số KDF trong header</translation>
     </message>
     <message>
         <source>Unsupported key derivation function (KDF) or invalid parameters</source>
-        <translation>Nicht unterstützte Schlüssel-Ableitungsfunktion (KDF) oder ungültige Parameter</translation>
+        <translation>Hàm dẫn xuất khóa (KDF) không được hỗ trợ hoặc tham số không hợp lệ</translation>
     </message>
     <message>
         <source>Legacy header fields found in KDBX4 file.</source>
-        <translation>Veraltete Header-Felder in KDBX4-Datei gefunden.</translation>
+        <translation>Tìm thấy trường header cũ trong tệp KDBX4.</translation>
     </message>
     <message>
         <source>Invalid inner header id size</source>
-        <translation>Ungültige Größe der Inner-Header-ID</translation>
+        <translation>Kích thước id header bên trong không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid inner header field length: field %1</source>
-        <translation>Ungültige Inner-Header-Feldlänge: Feld %1</translation>
+        <translation>Độ dài trường header bên trong không hợp lệ: trường %1</translation>
     </message>
     <message>
         <source>Invalid inner header data length: field %1, %2 expected, %3 found</source>
-        <translation>Ungültige Inner-Header-Datenlänge: Feld %1, %2 erwartet, %3 gefunden</translation>
+        <translation>Độ dài dữ liệu header bên trong không hợp lệ: trường %1, mong đợi %2, tìm thấy %3</translation>
     </message>
     <message>
         <source>Invalid inner header binary size</source>
-        <translation>Ungültige Inner-Header-Binärgröße</translation>
+        <translation>Kích thước nhị phân tiêu đề bên trong không hợp lệ</translation>
     </message>
     <message>
         <source>Unsupported KeePass variant map version.</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige KeePass-Variant-Map-Version</translation>
+        <translation>Phiên bản bản đồ biến thể KeePass không được hỗ trợ.</translation>
     </message>
     <message>
         <source>Invalid variant map entry name length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài tên mục bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map entry name data</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Variant-Map-Eintragsdaten</translation>
+        <translation>Dữ liệu tên mục bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map entry value length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài giá trị mục bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map entry value data</source>
         <extracomment>Translation comment: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Variant-Map-Eintragsdaten</translation>
+        <translation>Dữ liệu giá trị mục bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map Bool entry value length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Bool Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài giá trị mục Bool bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map Int32 entry value length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Int32 Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài giá trị mục Int32 bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map UInt32 entry value length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige UInt32 Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài giá trị mục UInt32 bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map Int64 entry value length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige Int64 Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài giá trị mục Int64 bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map UInt64 entry value length</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültige UInt64 Variant-Map-Eintragslänge</translation>
+        <translation>Độ dài giá trị mục UInt64 bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map entry type</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Ungültiger Variant-Map-Eintragstyp</translation>
+        <translation>Loại mục bản đồ biến thể không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid variant map field type size</source>
         <extracomment>Translation: variant map = data structure for storing meta data</extracomment>
-        <translation>Falsche Feldgröße für Variant-Map-Feldtyp</translation>
+        <translation>Kích thước loại trường bản đồ biến thể không hợp lệ</translation>
     </message>
 </context>
 <context>
     <name>Kdbx4Writer</name>
     <message>
         <source>Invalid symmetric cipher algorithm.</source>
-        <translation>Ungültiger symmetrischer Verschlüsselungsalgorithmus</translation>
+        <translation>Thuật toán mã hóa đối xứng không hợp lệ.</translation>
     </message>
     <message>
         <source>Invalid symmetric cipher IV size.</source>
         <comment>IV = Initialization Vector for symmetric cipher</comment>
-        <translation>Ungültige symmetrische Verschlüsselungs-IV-Größe.</translation>
+        <translation>Kích thước IV mã hóa đối xứng không hợp lệ.</translation>
     </message>
     <message>
         <source>Unable to calculate database key: %1</source>
-        <translation>Berechnung des Datenbankschlüssels fehlgeschlagen: %1</translation>
+        <translation>Không thể tính toán khóa cơ sở dữ liệu: %1</translation>
     </message>
     <message>
         <source>Failed to serialize KDF parameters variant map</source>
         <extracomment>Translation comment: variant map = data structure for storing meta data</extracomment>
-        <translation>KDF-Parameter aus Variant-Map konnten nicht serialisiert werden</translation>
+        <translation>Không thể tuần tự hóa bản đồ biến thể tham số KDF</translation>
     </message>
 </context>
 <context>
     <name>KdbxReader</name>
     <message>
         <source>Invalid cipher uuid length: %1 (length=%2)</source>
-        <translation>Ungültige Länge der Cipher-UUID: %1 (Länge: %2)</translation>
+        <translation>Độ dài uuid mã hóa không hợp lệ: %1 (độ dài=%2)</translation>
     </message>
     <message>
         <source>Unable to parse UUID: %1</source>
-        <translation>UUID konnte nicht gelesen werden: %1</translation>
+        <translation>Không thể phân tích cú pháp UUID: %1</translation>
     </message>
     <message>
         <source>Unsupported cipher</source>
-        <translation>Nicht unterstützter Verschlüsselungsalgorithmus</translation>
+        <translation>Mã hóa không được hỗ trợ</translation>
     </message>
     <message>
         <source>Invalid compression flags length</source>
-        <translation>Ungültige Komprimierungs-Flag-Länge</translation>
+        <translation>Độ dài cờ nén không hợp lệ</translation>
     </message>
     <message>
         <source>Unsupported compression algorithm</source>
-        <translation>Nicht unterstütztes Komprimierungsverfahren</translation>
+        <translation>Thuật toán nén không được hỗ trợ</translation>
     </message>
     <message>
         <source>Invalid master seed size</source>
-        <translation>Ungültige Master-Seed-Länge</translation>
+        <translation>Kích thước seed chính không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid transform seed size</source>
-        <translation>Ungültige Transform-Seed-Länge</translation>
+        <translation>Kích thước seed biến đổi không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid transform rounds size</source>
-        <translation>Ungültige Transformations-Runden-Länge</translation>
+        <translation>Kích thước vòng biến đổi không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid start bytes size</source>
-        <translation>Ungültige Start-Byte-Länge</translation>
+        <translation>Kích thước byte bắt đầu không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid random stream id size</source>
-        <translation>Ungültige Random-Stream-ID-Länge</translation>
+        <translation>Kích thước id luồng ngẫu nhiên không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid inner random stream cipher</source>
-        <translation>Ungültige Inner-Random-Stream-Cipher</translation>
+        <translation>Mã hóa luồng ngẫu nhiên bên trong không hợp lệ</translation>
     </message>
     <message>
         <source>Failed to read database file.</source>
-        <translation>Fehler beim Lesen der Datenbank-Datei.</translation>
+        <translation>Không thể đọc tệp cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>The selected file is an old KeePass 1 database (.kdb).
 
 You can import it by clicking on Database &gt; 'Import KeePass 1 database…'.
 This is a one-way migration. You won&apos;t be able to open the imported database with the old KeePassX 0.4 version.</source>
-        <translation>Die ausgewählte Datei ist eine alte KeePass 1-Datenbank (.kdb).
+        <translation>Tệp đã chọn là cơ sở dữ liệu KeePass 1 cũ (.kdb).
 
-Sie können sie importieren, indem Sie auf &quot;Datenbank -&gt; KeePass 1-Datenbank&quot; klicken.
-Diese Migration ist nur in eine Richtung möglich. Sie werden die importierte Datenbank nicht mit der alten KeePassX 0.4-Version öffnen können.</translation>
+Bạn có thể nhập nó bằng cách nhấp vào Cơ sở dữ liệu &gt; &apos;Nhập cơ sở dữ liệu KeePass 1…&apos;.
+Đây là di chuyển một chiều. Bạn sẽ không thể mở cơ sở dữ liệu đã nhập bằng phiên bản KeePassX 0.4 cũ.</translation>
     </message>
     <message>
         <source>Not a KeePass database.</source>
-        <translation>Keine KeePass-Datenbank.</translation>
+        <translation>Không phải cơ sở dữ liệu KeePass.</translation>
     </message>
     <message>
         <source>Unsupported KeePass 2 database version.</source>
-        <translation>Nicht unterstützte KeePass 2-Datenbank-Version.</translation>
+        <translation>Phiên bản cơ sở dữ liệu KeePass 2 không được hỗ trợ.</translation>
     </message>
 </context>
 <context>
     <name>KdbxXmlReader</name>
     <message>
         <source>XML parsing failure: %1</source>
-        <translation>XML-Parser-Fehler: %1</translation>
+        <translation>Lỗi phân tích cú pháp XML: %1</translation>
     </message>
     <message>
         <source>No root group</source>
-        <translation>Keine Root-Gruppe</translation>
+        <translation>Không có nhóm gốc</translation>
     </message>
     <message>
         <source>XML error:
 %1
 Line %2, column %3</source>
-        <translation>XML Fehler:
+        <translation>Lỗi XML:
 %1
-Zeile %2, Spalte %3</translation>
+Dòng %2, cột %3</translation>
     </message>
     <message>
         <source>Missing icon uuid or data</source>
-        <translation>Fehlende Symbol-UUID oder -Daten</translation>
+        <translation>Thiếu uuid hoặc dữ liệu biểu tượng</translation>
     </message>
     <message>
         <source>Missing custom data key or value</source>
-        <translation>Fehlender benutzerdefinierter Datenschlüssel oder -wert</translation>
+        <translation>Thiếu khóa hoặc giá trị dữ liệu tùy chỉnh</translation>
     </message>
     <message>
         <source>Multiple group elements</source>
-        <translation>Mehrere Gruppen-Elemente</translation>
+        <translation>Nhiều phần tử nhóm</translation>
     </message>
     <message>
         <source>Null group uuid</source>
-        <translation>Nicht gesetzte Gruppen-UUID</translation>
+        <translation>Uuid nhóm null</translation>
     </message>
     <message>
         <source>Invalid group icon number</source>
-        <translation>Ungültige Gruppen-Symbol-Anzahl</translation>
+        <translation>Số biểu tượng nhóm không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid EnableAutoType value</source>
-        <translation>Ungültiger Wert für EnableAutoType</translation>
+        <translation>Giá trị EnableAutoType không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid EnableSearching value</source>
-        <translation>Ungültiger Wert für EnableSearching</translation>
+        <translation>Giá trị EnableSearching không hợp lệ</translation>
     </message>
     <message>
         <source>No group uuid found</source>
-        <translation>Keine Gruppen-UUID gefunden</translation>
+        <translation>Không tìm thấy uuid nhóm</translation>
     </message>
     <message>
         <source>Null DeleteObject uuid</source>
-        <translation>Fehlende DeleteObject-UUID</translation>
+        <translation>Uuid DeleteObject null</translation>
     </message>
     <message>
         <source>Missing DeletedObject uuid or time</source>
-        <translation>Fehlende DeletedObject-UUID oder -Zeit</translation>
+        <translation>Thiếu uuid hoặc thời gian DeletedObject</translation>
     </message>
     <message>
         <source>Null entry uuid</source>
-        <translation>Fehlende Eintrags-UUID</translation>
+        <translation>Uuid mục null</translation>
     </message>
     <message>
         <source>Invalid entry icon number</source>
-        <translation>Ungültige Eintrags-Symbol-Nummer</translation>
+        <translation>Số biểu tượng mục không hợp lệ</translation>
     </message>
     <message>
         <source>History element in history entry</source>
-        <translation>Verlaufselement in Eintragsverlauf</translation>
+        <translation>Phần tử lịch sử trong mục lịch sử</translation>
     </message>
     <message>
         <source>No entry uuid found</source>
-        <translation>Keine Eintrags-UUID gefunden</translation>
+        <translation>Không tìm thấy uuid mục</translation>
     </message>
     <message>
         <source>History element with different uuid</source>
-        <translation>Verlaufselement mit anderer UUID</translation>
+        <translation>Phần tử lịch sử với uuid khác</translation>
     </message>
     <message>
         <source>Duplicate custom attribute found</source>
-        <translation>Doppeltes Benutzerattribut gefunden</translation>
+        <translation>Tìm thấy thuộc tính tùy chỉnh trùng lặp</translation>
     </message>
     <message>
         <source>Entry string key or value missing</source>
-        <translation>Eintrags-Schlüssel oder -Wert fehlt</translation>
+        <translation>Thiếu khóa hoặc giá trị chuỗi mục</translation>
     </message>
     <message>
         <source>Entry binary key or value missing</source>
-        <translation>Eintrags-Binärschlüssel oder -Wert fehlt</translation>
+        <translation>Thiếu khóa hoặc giá trị nhị phân mục</translation>
     </message>
     <message>
         <source>Auto-type association window or sequence missing</source>
-        <translation>Auto-Type-Fensterangabe oder -Sequenz fehlt</translation>
+        <translation>Thiếu cửa sổ hoặc chuỗi liên kết tự động nhập</translation>
     </message>
     <message>
         <source>Invalid bool value</source>
-        <translation>Ungültiger Bool-Wert</translation>
+        <translation>Giá trị bool không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid date time value</source>
-        <translation>Ungültiger Datums-Zeit-Wert</translation>
+        <translation>Giá trị ngày giờ không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid color value</source>
-        <translation>Ungültiger Farbwert</translation>
+        <translation>Giá trị màu không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid color rgb part</source>
-        <translation>Ungültiger RGB-Farbteil</translation>
+        <translation>Phần rgb màu không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid number value</source>
-        <translation>Ungültiger Zahlwert</translation>
+        <translation>Giá trị số không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid uuid value</source>
-        <translation>Ungültiger UUID-Wert</translation>
+        <translation>Giá trị uuid không hợp lệ</translation>
     </message>
     <message>
         <source>Unable to decompress binary</source>
         <extracomment>Translator meant is a binary data inside an entry</extracomment>
-        <translation>Binärdatei konnte nicht entkomprimiert werden</translation>
+        <translation>Không thể giải nén nhị phân</translation>
     </message>
 </context>
 <context>
     <name>KeeAgentSettings</name>
     <message>
         <source>Invalid KeeAgent settings file structure.</source>
-        <translation>Ungültige Struktur der KeeAgent-Einstellungsdatei.</translation>
+        <translation>Cấu trúc tệp cài đặt KeeAgent không hợp lệ.</translation>
     </message>
     <message>
         <source>Private key is an attachment but no attachments provided.</source>
-        <translation>Privater Schlüssel ist ein Anhang, aber es wurde kein Anhang angegeben.</translation>
+        <translation>Khóa riêng là tệp đính kèm nhưng không có tệp đính kèm nào được cung cấp.</translation>
     </message>
     <message>
         <source>Private key is empty</source>
-        <translation>Privater Schlüssel ist leer</translation>
+        <translation>Khóa riêng trống</translation>
     </message>
     <message>
         <source>File too large to be a private key</source>
-        <translation>Datei zu groß für einen privaten Schlüssel</translation>
+        <translation>Tệp quá lớn để là khóa riêng</translation>
     </message>
     <message>
         <source>Failed to open private key</source>
-        <translation>Fehler beim Öffnen des privaten Schlüssels</translation>
+        <translation>Không thể mở khóa riêng</translation>
     </message>
 </context>
 <context>
     <name>KeePass1Reader</name>
     <message>
         <source>Unable to read keyfile.</source>
-        <translation>Fehler beim Lesen der Schlüsseldatei.</translation>
+        <translation>Không thể đọc tệp khóa.</translation>
     </message>
     <message>
         <source>Not a KeePass database.</source>
-        <translation>Keine KeePass-Datenbank.</translation>
+        <translation>Không phải cơ sở dữ liệu KeePass.</translation>
     </message>
     <message>
         <source>Unsupported encryption algorithm.</source>
-        <translation>Nicht unterstützter Verschlüsselungsalgorithmus.</translation>
+        <translation>Thuật toán mã hóa không được hỗ trợ.</translation>
     </message>
     <message>
         <source>Unsupported KeePass database version.</source>
-        <translation>Nicht unterstützte KeePass-Datenbankversion.</translation>
+        <translation>Phiên bản cơ sở dữ liệu KeePass không được hỗ trợ.</translation>
     </message>
     <message>
         <source>Unable to read encryption IV</source>
         <comment>IV = Initialization Vector for symmetric cipher</comment>
-        <translation>Verschlüsselungs-IV konnte nicht gelesen werden</translation>
+        <translation>Không thể đọc IV mã hóa</translation>
     </message>
     <message>
         <source>Invalid number of groups</source>
-        <translation>Ungültige Anzahl Gruppen</translation>
+        <translation>Số lượng nhóm không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid number of entries</source>
-        <translation>Ungültige Anzahl Einträge</translation>
+        <translation>Số lượng mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid content hash size</source>
-        <translation>Ungültige Inhalts-Hashlänge</translation>
+        <translation>Kích thước hash nội dung không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid transform seed size</source>
-        <translation>Ungültige Transform-Seed-Länge</translation>
+        <translation>Kích thước seed biến đổi không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid number of transform rounds</source>
-        <translation>Ungültige Anzahl Transform-Runden</translation>
+        <translation>Số vòng biến đổi không hợp lệ</translation>
     </message>
     <message>
         <source>Unable to construct group tree</source>
-        <translation>Gruppen-Baum konnte nicht erzeugt werden</translation>
+        <translation>Không thể xây dựng cây nhóm</translation>
     </message>
     <message>
         <source>Root</source>
-        <translation>Root</translation>
+        <translation>Gốc</translation>
     </message>
     <message>
         <source>Unable to calculate database key</source>
-        <translation>Berechnung des Datenbankschlüssels fehlgeschlagen</translation>
+        <translation>Không thể tính toán khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>unable to seek to content position</source>
-        <translation>Kann nicht zur Inhaltsposition spulen</translation>
+        <translation>không thể tìm đến vị trí nội dung</translation>
     </message>
     <message>
         <source>Invalid credentials were provided, please try again.
 If this reoccurs, then your database file may be corrupt.</source>
-        <translation>Ungültige Anmeldedaten, bitte versuchen Sie es noch einmal.
-Falls dies wiederholt passiert, könnte Ihre Datenbank beschädigt sein.</translation>
+        <translation>Thông tin đăng nhập không hợp lệ, vui lòng thử lại.
+Nếu điều này xảy ra lại, tệp cơ sở dữ liệu của bạn có thể bị hỏng.</translation>
     </message>
     <message>
         <source>Key transformation failed</source>
-        <translation>Schlüssel-Transformation fehlgeschlagen</translation>
+        <translation>Biến đổi khóa thất bại</translation>
     </message>
     <message>
         <source>Invalid group field type number</source>
-        <translation>Ungültige Gruppen-Typanzahl</translation>
+        <translation>Số loại trường nhóm không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid group field size</source>
-        <translation>Falsche Feldgröße für Gruppe</translation>
+        <translation>Kích thước trường nhóm không hợp lệ</translation>
     </message>
     <message>
         <source>Read group field data doesn&apos;t match size</source>
-        <translation>Falsche Feldgröße für Gruppenfeld</translation>
+        <translation>Dữ liệu trường nhóm đọc không khớp kích thước</translation>
     </message>
     <message>
         <source>Incorrect group id field size</source>
-        <translation>Falsche Feldgröße für Gruppen-ID</translation>
+        <translation>Kích thước trường id nhóm không đúng</translation>
     </message>
     <message>
         <source>Incorrect group creation time field size</source>
-        <translation>Falsche Feldgröße für Gruppen-Erstellungs-Zeit</translation>
+        <translation>Kích thước trường thời gian tạo nhóm không đúng</translation>
     </message>
     <message>
         <source>Incorrect group modification time field size</source>
-        <translation>Falsche Feldgröße für Gruppen-Änderungszeit</translation>
+        <translation>Kích thước trường thời gian sửa đổi nhóm không đúng</translation>
     </message>
     <message>
         <source>Incorrect group access time field size</source>
-        <translation>Falsche Feldgröße für Gruppen-Zugriffszeit</translation>
+        <translation>Kích thước trường thời gian truy cập nhóm không đúng</translation>
     </message>
     <message>
         <source>Incorrect group expiry time field size</source>
-        <translation>Falsche Feldgröße für Gruppen-Ablaufzeit</translation>
+        <translation>Kích thước trường thời gian hết hạn nhóm không đúng</translation>
     </message>
     <message>
         <source>Incorrect group icon field size</source>
-        <translation>Falsche Feldgröße für Gruppen-Symbol</translation>
+        <translation>Kích thước trường biểu tượng nhóm không đúng</translation>
     </message>
     <message>
         <source>Incorrect group level field size</source>
-        <translation>Falsche Feldgröße für Gruppen-Level</translation>
+        <translation>Kích thước trường cấp độ nhóm không đúng</translation>
     </message>
     <message>
         <source>Invalid group field type</source>
-        <translation>Falsche Feldtyp für Gruppe</translation>
+        <translation>Loại trường nhóm không hợp lệ</translation>
     </message>
     <message>
         <source>Missing group id or level</source>
-        <translation>Fehlende Gruppen-ID oder -Level</translation>
+        <translation>Thiếu id hoặc cấp độ nhóm</translation>
     </message>
     <message>
         <source>Missing entry field type number</source>
-        <translation>Fehlende Eintragsfeld-Typnummer</translation>
+        <translation>Thiếu số loại trường mục</translation>
     </message>
     <message>
         <source>Invalid entry field size</source>
-        <translation>Falsche Feldgröße für Eintrag</translation>
+        <translation>Kích thước trường mục không hợp lệ</translation>
     </message>
     <message>
         <source>Read entry field data doesn&apos;t match size</source>
-        <translation>Gelesene Eintrags-Felddaten haben falsche Größe</translation>
+        <translation>Dữ liệu trường mục đọc không khớp kích thước</translation>
     </message>
     <message>
         <source>Invalid entry UUID field size</source>
-        <translation>Ungültige UUID Feldgröße des Eintrags</translation>
+        <translation>Kích thước trường UUID mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid entry group id field size</source>
-        <translation>Falsche Feldgröße für Eintrags-Gruppen-ID</translation>
+        <translation>Kích thước trường id nhóm mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid entry icon field size</source>
-        <translation>Falsche Feldgröße für Eintrags-Symbol</translation>
+        <translation>Kích thước trường biểu tượng mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid entry creation time field size</source>
-        <translation>Falsche Feldgröße für Eintrags-Erstellungszeit</translation>
+        <translation>Kích thước trường thời gian tạo mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid entry modification time field size</source>
-        <translation>Falsche Feldgröße für Eintrags-Änderungszeit</translation>
+        <translation>Kích thước trường thời gian sửa đổi mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid entry expiry time field size</source>
-        <translation>Falsche Feldgröße für Eintrags-Ablaufdatum</translation>
+        <translation>Kích thước trường thời gian hết hạn mục không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid entry field type</source>
-        <translation>Ungültiger Eintrags-Feldtyp</translation>
+        <translation>Loại trường mục không hợp lệ</translation>
     </message>
 </context>
 <context>
     <name>KeeShare</name>
     <message>
         <source>Invalid sharing reference</source>
-        <translation>Ungültige Freigabe-Referenz</translation>
+        <translation>Tham chiếu chia sẻ không hợp lệ</translation>
     </message>
     <message>
         <source>Inactive share %1</source>
-        <translation>Inaktive Freigabe %1</translation>
+        <translation>Chia sẻ không hoạt động %1</translation>
     </message>
     <message>
         <source>Imported from %1</source>
-        <translation>Importiert aus %1</translation>
+        <translation>Đã nhập từ %1</translation>
     </message>
     <message>
         <source>Exported to %1</source>
-        <translation>Exportiert nach %1</translation>
+        <translation>Đã xuất đến %1</translation>
     </message>
     <message>
         <source>Synchronized with %1</source>
-        <translation>Synchronisiert mit %1</translation>
+        <translation>Đã đồng bộ với %1</translation>
     </message>
     <message>
         <source>Import is disabled in settings</source>
-        <translation>Der Import ist in den Einstellungen deaktiviert</translation>
+        <translation>Nhập bị tắt trong cài đặt</translation>
     </message>
     <message>
         <source>Export is disabled in settings</source>
-        <translation>Der Export ist in den Einstellungen deaktiviert</translation>
+        <translation>Xuất bị tắt trong cài đặt</translation>
     </message>
     <message>
         <source>Inactive share</source>
-        <translation>Inaktive Freigabe</translation>
+        <translation>Chia sẻ không hoạt động</translation>
     </message>
     <message>
         <source>Imported from</source>
-        <translation>Importiert von</translation>
+        <translation>Đã nhập từ</translation>
     </message>
     <message>
         <source>Exported to</source>
-        <translation>Exportiert nach</translation>
+        <translation>Đã xuất đến</translation>
     </message>
     <message>
         <source>Synchronized with</source>
-        <translation>Synchronisiert mit</translation>
+        <translation>Đã đồng bộ với</translation>
     </message>
 </context>
 <context>
     <name>KeyComponentWidget</name>
     <message>
         <source>Key Component</source>
-        <translation>Schlüsselkomponente</translation>
+        <translation>Thành phần khóa</translation>
     </message>
     <message>
         <source>Key Component Description</source>
-        <translation>Beschreibung der Schlüsselkomponente</translation>
+        <translation>Mô tả thành phần khóa</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Key Component set, click to change or remove</source>
-        <translation>Schlüsselkomponente ausgewählt, klicken zum Ändern oder Entfernen</translation>
+        <translation>Thành phần khóa đã đặt, nhấp để thay đổi hoặc xóa</translation>
     </message>
 </context>
 <context>
     <name>KeyFileEditWidget</name>
     <message>
         <source>Generate a new key file</source>
-        <translation>Neue Schlüsseldatei erzeugen</translation>
+        <translation>Tạo tệp khóa mới</translation>
     </message>
     <message>
         <source>Generate</source>
-        <translation>Erzeugen</translation>
+        <translation>Tạo</translation>
     </message>
     <message>
         <source>Generate a new key file or choose an existing one to protect your database.</source>
-        <translation>Erzeugen Sie eine neue Schlüsseldatei oder wählen Sie eine vorhandene aus, um Ihre Datenbank zu schützen.</translation>
+        <translation>Tạo tệp khóa mới hoặc chọn tệp hiện có để bảo vệ cơ sở dữ liệu của bạn.</translation>
     </message>
     <message>
         <source>Note: Do NOT use a file that may change as that will prevent you from unlocking your database.</source>
-        <translation>Hinweis: Verwenden Sie KEINE Datei, die sich ändern kann, da Sie dann Ihre Datenbank nicht mehr freischalten können.</translation>
+        <translation>Lưu ý: KHÔNG sử dụng tệp có thể thay đổi vì điều đó sẽ ngăn bạn mở khóa cơ sở dữ liệu của mình.</translation>
     </message>
     <message>
         <source>Browse for key file</source>
-        <translation>Schlüsseldatei auswählen</translation>
+        <translation>Duyệt tệp khóa</translation>
     </message>
     <message>
         <source>Browse…</source>
-        <translation>Durchsuchen ...</translation>
+        <translation>Duyệt…</translation>
     </message>
     <message>
         <source>Old key file format</source>
-        <translation>Schlüsseldateiformat im alten Format</translation>
+        <translation>Định dạng tệp khóa cũ</translation>
     </message>
     <message>
         <source>You selected a key file in an old format which KeePassXC&lt;br&gt;may stop supporting in the future.&lt;br&gt;&lt;br&gt;Please consider generating a new key file instead.</source>
-        <translation>Sie verwenden ein altes Schlüsseldateiformat, das KeePassXC möglicherweise&lt;br&gt;in Zukunft nicht mehr unterstützen wird.&lt;br&gt;&lt;br&gt;Bitte erwägen Sie, eine neue Schlüsseldatei zu erzeugen.</translation>
+        <translation>Bạn đã chọn tệp khóa ở định dạng cũ mà KeePassXC&lt;br&gt;có thể ngừng hỗ trợ trong tương lai.&lt;br&gt;&lt;br&gt;Vui lòng xem xét tạo tệp khóa mới thay thế.</translation>
     </message>
     <message>
         <source>Error loading the key file '%1'
 Message: %2</source>
-        <translation>Fehler beim Laden der Schlüsseldatei &apos;%1&apos;:
-%2</translation>
+        <translation>Lỗi tải tệp khóa &apos;%1&apos;
+Thông điệp: %2</translation>
     </message>
     <message>
         <source>Key File</source>
-        <translation>Schlüsseldatei</translation>
+        <translation>Tệp khóa</translation>
     </message>
     <message>
         <source>Add Key File</source>
-        <translation>Schlüsseldatei hinzufügen</translation>
+        <translation>Thêm tệp khóa</translation>
     </message>
     <message>
         <source>Change Key File</source>
-        <translation>Schlüsseldatei bearbeiten</translation>
+        <translation>Thay đổi tệp khóa</translation>
     </message>
     <message>
         <source>Remove Key File</source>
-        <translation>Schlüsseldatei entfernen</translation>
+        <translation>Xóa tệp khóa</translation>
     </message>
     <message>
         <source>Key File set, click to change or remove</source>
-        <translation>Schlüsseldatei festgelegt, klicken zum Ändern oder Entfernen</translation>
+        <translation>Tệp khóa đã đặt, nhấp để thay đổi hoặc xóa</translation>
     </message>
     <message>
         <source>&lt;p&gt;You can add a key file containing random bytes for additional security.&lt;/p&gt;&lt;p&gt;You must keep it secret and never lose it or you will be locked out.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Zur zusätzlichen Sicherheit können Sie eine Schlüsseldatei mit Zufallsdaten hinzufügen.&lt;/p&gt;&lt;p&gt;Sie müssen diese geheim halten und dürfen sie niemals verlieren, sonst verlieren Sie den Zugriff auf die Datenbank.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Bạn có thể thêm tệp khóa chứa các byte ngẫu nhiên để tăng cường bảo mật.&lt;/p&gt;&lt;p&gt;Bạn phải giữ bí mật và không bao giờ mất nó hoặc bạn sẽ bị khóa.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Key files</source>
-        <translation>Schlüsseldateien</translation>
+        <translation>Tệp khóa</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Create Key File…</source>
-        <translation>Schlüsseldatei erzeugen</translation>
+        <translation>Tạo tệp khóa…</translation>
     </message>
     <message>
         <source>Error creating key file</source>
-        <translation>Fehler beim Erstellen der Schlüsseldatei </translation>
+        <translation>Lỗi tạo tệp khóa</translation>
     </message>
     <message>
         <source>Unable to create key file: %1</source>
-        <translation>Schlüsseldatei kann nicht erzeugt werden: %1</translation>
+        <translation>Không thể tạo tệp khóa: %1</translation>
     </message>
     <message>
         <source>Select a key file</source>
-        <translation>Schlüsseldatei auswählen</translation>
+        <translation>Chọn tệp khóa</translation>
     </message>
     <message>
         <source>Invalid Key File</source>
-        <translation>Ungültige Schlüsseldatei</translation>
+        <translation>Tệp khóa không hợp lệ</translation>
     </message>
     <message>
         <source>You cannot use the current database as its own keyfile. Please choose a different file or generate a new key file.</source>
-        <translation>Sie können die aktuelle Datenbank nicht als ihre eigene Schlüsseldatei verwenden. Bitte wählen Sie eine andere Datei oder erzeugen Sie eine neue Schlüsseldatei.</translation>
+        <translation>Bạn không thể sử dụng cơ sở dữ liệu hiện tại làm tệp khóa của chính nó. Vui lòng chọn tệp khác hoặc tạo tệp khóa mới.</translation>
     </message>
     <message>
         <source>Suspicious Key File</source>
-        <translation>Verdächtige Schlüsseldatei</translation>
+        <translation>Tệp khóa đáng ngờ</translation>
     </message>
     <message>
         <source>The chosen key file looks like a password database file. A key file must be a static file that never changes or you will lose access to your database forever.
 Are you sure you want to continue with this file?</source>
-        <translation>Die gewählte Schlüsseldatei sieht aus wie eine Passwort-Datenbank. Eine Schlüsseldatei darf sich niemals ändern, sonst verlieren Sie für immer den Zugriff auf Ihre Datenbank.
-Wollen Sie wirklich mit dieser Datei fortfahren?</translation>
+        <translation>Tệp khóa đã chọn trông giống như tệp cơ sở dữ liệu mật khẩu. Tệp khóa phải là tệp tĩnh không bao giờ thay đổi hoặc bạn sẽ mất quyền truy cập vào cơ sở dữ liệu của mình mãi mãi.
+Bạn có chắc chắn muốn tiếp tục với tệp này không?</translation>
     </message>
 </context>
 <context>
     <name>MacUtils</name>
     <message>
         <source>Invalid key code</source>
-        <translation>Ungültiger Key-Code</translation>
+        <translation>Mã khóa không hợp lệ</translation>
     </message>
     <message>
         <source>Global shortcut already registered to %1</source>
-        <translation>Globales Tastenkürzel bereits registriert auf %1</translation>
+        <translation>Phím tắt toàn cục đã được đăng ký cho %1</translation>
     </message>
     <message>
         <source>Could not register global shortcut</source>
-        <translation>Globales Tastaturkürzel konnte nicht registriert werden</translation>
+        <translation>Không thể đăng ký phím tắt toàn cục</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>&amp;Database</source>
-        <translation>&amp;Datenbank</translation>
+        <translation>&amp;Cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>&amp;Recent Databases</source>
-        <translation>&amp;Zuletzt verwendete Datenbanken</translation>
+        <translation>Cơ sở dữ liệu &amp;gần đây</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Export</translation>
+        <translation>&amp;Xuất</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
+        <translation>&amp;Trợ giúp</translation>
     </message>
     <message>
         <source>&amp;Entries</source>
-        <translation>&amp;Einträge</translation>
+        <translation>&amp;Mục</translation>
     </message>
     <message>
         <source>Copy Att&amp;ribute</source>
-        <translation>Att&amp;ribut kopieren</translation>
+        <translation>Sao chép th&amp;uộc tính</translation>
     </message>
     <message>
         <source>TOTP</source>
@@ -5612,425 +5607,425 @@ Wollen Sie wirklich mit dieser Datei fortfahren?</translation>
     </message>
     <message>
         <source>&amp;Groups</source>
-        <translation>&amp;Gruppen</translation>
+        <translation>&amp;Nhóm</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Werkzeuge</translation>
+        <translation>&amp;Công cụ</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Ansicht</translation>
+        <translation>Xem</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation>Design</translation>
+        <translation>Giao diện</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>&amp;Beenden</translation>
+        <translation>&amp;Thoát</translation>
     </message>
     <message>
         <source>&amp;About</source>
-        <translation>&amp;Über</translation>
+        <translation>&amp;Giới thiệu</translation>
     </message>
     <message>
         <source>&amp;Check for Updates</source>
-        <translation>Nach Updates &amp;suchen</translation>
+        <translation>&amp;Kiểm tra cập nhật</translation>
     </message>
     <message>
         <source>&amp;Open Database…</source>
-        <translation>Datenbank &amp;öffnen …</translation>
+        <translation>&amp;Mở cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>&amp;Save Database</source>
-        <translation>Datenbank &amp;speichern</translation>
+        <translation>&amp;Lưu cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>&amp;Close Database</source>
-        <translation>Datenbank &amp;schließen</translation>
+        <translation>&amp;Đóng cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>&amp;New Database…</source>
-        <translation>&amp;Neue Datenbank …</translation>
+        <translation>Cơ sở dữ liệu &amp;mới…</translation>
     </message>
     <message>
         <source>Create a new database</source>
-        <translation>Neue Datenbank erstellen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Merge From Database…</source>
-        <translation>Mit Datenbank &amp;zusammenführen …</translation>
+        <translation>&amp;Hợp nhất từ cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>Merge from another KDBX database</source>
-        <translation>Mit einer anderen KDBX-Datenbank zusammenführen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;New Entry…</source>
-        <translation>&amp;Neuer Eintrag …</translation>
+        <translation>Mục &amp;mới…</translation>
     </message>
     <message>
         <source>&amp;Edit Entry…</source>
-        <translation>Eintrag &amp;bearbeiten …</translation>
+        <translation>&amp;Chỉnh sửa mục…</translation>
     </message>
     <message>
         <source>&amp;New Group…</source>
-        <translation>&amp;Neue Gruppe …</translation>
+        <translation>Nhóm &amp;mới…</translation>
     </message>
     <message>
         <source>Add a new group</source>
-        <translation>Neue Gruppe hinzufügen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Edit Group…</source>
-        <translation>Gruppe &amp;bearbeiten …</translation>
+        <translation>&amp;Chỉnh sửa nhóm…</translation>
     </message>
     <message>
         <source>&amp;Delete Group…</source>
-        <translation>Gruppe &amp;löschen …</translation>
+        <translation>&amp;Xóa nhóm…</translation>
     </message>
     <message>
         <source>Download All &amp;Favicons…</source>
-        <translation>Alle &amp;Favicons herunterladen …</translation>
+        <translation>Tải xuống tất cả &amp;Favicon…</translation>
     </message>
     <message>
         <source>Sort &amp;A-Z</source>
-        <translation>Sortieren &amp;A-Z</translation>
+        <translation>Sắp xếp &amp;A-Z</translation>
     </message>
     <message>
         <source>Sort &amp;Z-A</source>
-        <translation>Sortieren &amp;Z-A</translation>
+        <translation>Sắp xếp &amp;Z-A</translation>
     </message>
     <message>
         <source>Sa&amp;ve Database As…</source>
-        <translation>Datenbank s&amp;peichern als …</translation>
+        <translation>Lưu cơ sở dữ liệu &amp;thành…</translation>
     </message>
     <message>
         <source>Database &amp;Security…</source>
-        <translation>Datenbank-&amp;Sicherheit …</translation>
+        <translation>&amp;Bảo mật cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>Database &amp;Reports…</source>
-        <translation>Datenbank-&amp;Berichte …</translation>
+        <translation>&amp;Báo cáo cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>Statistics, health check, etc.</source>
-        <translation>Statistiken, Gesundheitscheck usw.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Database Settings…</source>
-        <translation>&amp;Datenbank-Einstellungen …</translation>
+        <translation>Cài đặt &amp;cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>Database settings</source>
-        <translation>Datenbank-Einstellungen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Clone Entry…</source>
-        <translation>Eintrag &amp;klonen …</translation>
+        <translation>&amp;Nhân bản mục…</translation>
     </message>
     <message>
         <source>Move u&amp;p</source>
-        <translation>Nach &amp;oben verschieben</translation>
+        <translation>Di chuyển &amp;lên</translation>
     </message>
     <message>
         <source>Move entry one step up</source>
-        <translation>Eintrag einen Schritt nach oben verschieben</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Move do&amp;wn</source>
-        <translation>Nach &amp;unten verschieben</translation>
+        <translation>Di chuyển &amp;xuống</translation>
     </message>
     <message>
         <source>Move entry one step down</source>
-        <translation>Eintrag einen Schritt nach unten verschieben</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy &amp;Username</source>
-        <translation>&amp;Benutzername kopieren</translation>
+        <translation>Sao chép tên &amp;người dùng</translation>
     </message>
     <message>
         <source>Copy username to clipboard</source>
-        <translation>Benutzername in Zwischenablage kopieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy &amp;Password</source>
-        <translation>Passwort kopieren</translation>
+        <translation>Sao chép &amp;mật khẩu</translation>
     </message>
     <message>
         <source>Copy password to clipboard</source>
-        <translation>Passwort in Zwischenablage kopieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Einstellungen</translation>
+        <translation>&amp;Cài đặt</translation>
     </message>
     <message>
         <source>&amp;Password Generator</source>
-        <translation>&amp;Passwortgenerator</translation>
+        <translation>Trình tạo &amp;mật khẩu</translation>
     </message>
     <message>
         <source>Perform &amp;Auto-Type</source>
-        <translation>Auto-Ausfüllen</translation>
+        <translation>Thực hiện &amp;Auto-Type</translation>
     </message>
     <message>
         <source>Download &amp;Favicon</source>
-        <translation>&amp;Favicon herunterladen</translation>
+        <translation>Tải xuống &amp;Favicon</translation>
     </message>
     <message>
         <source>Open &amp;URL</source>
-        <translation>&amp;URL öffnen</translation>
+        <translation>Mở &amp;URL</translation>
     </message>
     <message>
         <source>&amp;Lock Database</source>
-        <translation>Datenbank &amp;sperren</translation>
+        <translation>&amp;Khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Lock &amp;All Databases</source>
-        <translation>&amp;Alle Datenbanken sperren</translation>
+        <translation>Khóa &amp;tất cả cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>&amp;Title</source>
-        <translation>&amp;Titel</translation>
+        <translation>&amp;Tiêu đề</translation>
     </message>
     <message>
         <source>Copy title to clipboard</source>
-        <translation>Titel in Zwischenablage kopieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy URL to clipboard</source>
-        <translation>URL in Zwischenablage kopieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Notes</source>
-        <translation>&amp;Notizen</translation>
+        <translation>&amp;Ghi chú</translation>
     </message>
     <message>
         <source>Copy notes to clipboard</source>
-        <translation>Notizen in Zwischenablage kopieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;CSV File…</source>
-        <translation>&amp;CSV-Datei …</translation>
+        <translation>Tệp &amp;CSV…</translation>
     </message>
     <message>
         <source>&amp;HTML File…</source>
-        <translation>&amp;HTML-Datei …</translation>
+        <translation>Tệp &amp;HTML…</translation>
     </message>
     <message>
         <source>KeePass 1 Database…</source>
-        <translation>KeePass 1-Datenbank …</translation>
+        <translation>Cơ sở dữ liệu KeePass 1…</translation>
     </message>
     <message>
         <source>Import a KeePass 1 database</source>
-        <translation>KeePass 1-Datenbank importieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>1Password Vault…</source>
-        <translation>1Password-Tresor …</translation>
+        <translation>Kho 1Password…</translation>
     </message>
     <message>
         <source>Import a 1Password Vault</source>
-        <translation>1Passwort-Tresor importieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>CSV File…</source>
-        <translation>CSV-Datei …</translation>
+        <translation>Tệp CSV…</translation>
     </message>
     <message>
         <source>Import a CSV file</source>
-        <translation>CSV-Datei importieren</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Show TOTP</source>
-        <translation>TOTP anzeigen</translation>
+        <translation>Hiển thị TOTP</translation>
     </message>
     <message>
         <source>Show QR Code</source>
-        <translation>QR-Code anzeigen</translation>
+        <translation>Hiển thị mã QR</translation>
     </message>
     <message>
         <source>Set up TOTP…</source>
-        <translation>TOTP einrichten …</translation>
+        <translation>Thiết lập TOTP…</translation>
     </message>
     <message>
         <source>Copy &amp;TOTP</source>
-        <translation>&amp;TOTP kopieren</translation>
+        <translation>Sao chép &amp;TOTP</translation>
     </message>
     <message>
         <source>E&amp;mpty recycle bin</source>
-        <translation>Papierkorb l&amp;eeren</translation>
+        <translation>L&amp;àm trống thùng rác</translation>
     </message>
     <message>
         <source>&amp;Donate</source>
-        <translation>&amp;Spenden</translation>
+        <translation>&amp;Quyên góp</translation>
     </message>
     <message>
         <source>Report a &amp;Bug</source>
-        <translation>Einen &amp;Fehler melden</translation>
+        <translation>Báo cáo &amp;lỗi</translation>
     </message>
     <message>
         <source>&amp;Getting Started</source>
-        <translation>&amp;Erste Schritte</translation>
+        <translation>&amp;Bắt đầu</translation>
     </message>
     <message>
         <source>Open Getting Started Guide</source>
-        <translation>Erste Schritte öffnen</translation>
+        <translation>Mở hướng dẫn bắt đầu</translation>
     </message>
     <message>
         <source>&amp;Online Help</source>
-        <translation>&amp;Online-Hilfe</translation>
+        <translation>Trợ giúp &amp;trực tuyến</translation>
     </message>
     <message>
         <source>Go to online documentation</source>
-        <translation>Online-Dokumentation aufrufen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;User Guide</source>
-        <translation>&amp;Benutzerhandbuch</translation>
+        <translation>Hướng dẫn &amp;người dùng</translation>
     </message>
     <message>
         <source>Open User Guide</source>
-        <translation>Benutzerhandbuch öffnen</translation>
+        <translation>Mở hướng dẫn người dùng</translation>
     </message>
     <message>
         <source>&amp;Keyboard Shortcuts</source>
-        <translation>&amp;Tastenkombinationen</translation>
+        <translation>Phím &amp;tắt</translation>
     </message>
     <message>
         <source>Save Database Backup…</source>
-        <translation>Datenbank-Backup speichern</translation>
+        <translation>Lưu sao lưu cơ sở dữ liệu…</translation>
     </message>
     <message>
         <source>Add key to SSH Agent</source>
-        <translation>Schlüssel zum SSH-Agent hinzufügen</translation>
+        <translation>Thêm khóa vào SSH Agent</translation>
     </message>
     <message>
         <source>Remove key from SSH Agent</source>
-        <translation>Schlüssel vom SSH-Agent entfernen</translation>
+        <translation>Xóa khóa khỏi SSH Agent</translation>
     </message>
     <message>
         <source>Compact Mode</source>
-        <translation>Kompakter Modus</translation>
+        <translation>Chế độ thu gọn</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>Automatisch</translation>
+        <translation>Tự động</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Hell</translation>
+        <translation>Sáng</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Dunkel</translation>
+        <translation>Tối</translation>
     </message>
     <message>
         <source>Classic (Platform-native)</source>
-        <translation>Klassisch (Plattform-nativ)</translation>
+        <translation>Cổ điển (Gốc nền tảng)</translation>
     </message>
     <message>
         <source>Show Menubar</source>
-        <translation>Menüleiste anzeigen</translation>
+        <translation>Hiển thị thanh menu</translation>
     </message>
     <message>
         <source>Show Toolbar</source>
-        <translation>Symbolleiste anzeigen</translation>
+        <translation>Hiển thị thanh công cụ</translation>
     </message>
     <message>
         <source>Show Preview Panel</source>
-        <translation>Vorschau-Panel anzeigen</translation>
+        <translation>Hiển thị bảng xem trước</translation>
     </message>
     <message>
         <source>Always on Top</source>
-        <translation>Immer oben</translation>
+        <translation>Luôn ở trên cùng</translation>
     </message>
     <message>
         <source>Hide Usernames</source>
-        <translation>Benutzernamen ausblenden</translation>
+        <translation>Ẩn tên người dùng</translation>
     </message>
     <message>
         <source>Hide Passwords</source>
-        <translation>Passwörter ausblenden</translation>
+        <translation>Ẩn mật khẩu</translation>
     </message>
     <message>
         <source>Clone Group...</source>
-        <translation>Gruppe klonen …</translation>
+        <translation>Nhân bản nhóm...</translation>
     </message>
     <message>
         <source>Clear history</source>
-        <translation>Verlauf löschen</translation>
+        <translation>Xóa lịch sử</translation>
     </message>
     <message>
         <source>Access error for config file %1</source>
-        <translation>Zugriffsfehler bei Konfigurationsdatei %1</translation>
+        <translation>Lỗi truy cập tệp cấu hình %1</translation>
     </message>
     <message>
         <source>Don&apos;t show again for this version</source>
-        <translation>Für diese Version nicht erneut anzeigen</translation>
+        <translation>Không hiển thị lại cho phiên bản này</translation>
     </message>
     <message>
         <source>WARNING: You are using an unstable build of KeePassXC.
 There is a high risk of corruption, maintain a backup of your databases.
 This version is not meant for production use.</source>
-        <translation>WARNUNG: Sie verwenden eine instabile Entwicklerversion von KeePassXC.
-Es besteht ein hohes Risiko für Datenverlust. Erstellen Sie eine Sicherungskopie Ihrer Datenbanken.
-Diese Version ist nicht für den Produktiveinsatz gedacht.</translation>
+        <translation>CẢNH BÁO: Bạn đang sử dụng bản dựng không ổn định của KeePassXC.
+Có nguy cơ cao bị hỏng, hãy duy trì bản sao lưu cơ sở dữ liệu của bạn.
+Phiên bản này không dành cho sử dụng sản xuất.</translation>
     </message>
     <message>
         <source>NOTE: You are using a pre-release version of KeePassXC.
 Expect some bugs and minor issues, this version is meant for testing purposes.</source>
-        <translation>HINWEIS: Sie verwenden eine Vorabversion von KeePassXC.
-Rechnen Sie mit Fehlern und kleineren Problemen. Diese Version ist für Testzwecke gedacht.</translation>
+        <translation>LƯU Ý: Bạn đang sử dụng phiên bản tiền phát hành của KeePassXC.
+Mong đợi một số lỗi và vấn đề nhỏ, phiên bản này dành cho mục đích thử nghiệm.</translation>
     </message>
     <message>
         <source>No Tags</source>
-        <translation>Keine Tags</translation>
+        <translation>Không có thẻ</translation>
     </message>
     <message numerus="yes">
         <source>Restore Entry(s)</source>
-        <translation><numerusform>Eintrag wiederherstellen</numerusform><numerusform>Einträge wiederherstellen</numerusform></translation>
+        <translation><numerusform>Khôi phục mục</numerusform></translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation>Cài đặt</translation>
     </message>
     <message>
         <source>Check for updates on startup?</source>
-        <translation>Bei Programmstart nach Updates suchen?</translation>
+        <translation>Kiểm tra cập nhật khi khởi động?</translation>
     </message>
     <message>
         <source>Would you like KeePassXC to check for updates on startup?</source>
-        <translation>Soll KeePassXC bei Programmstart nach neuen Programmversionen suchen?</translation>
+        <translation>Bạn có muốn KeePassXC kiểm tra cập nhật khi khởi động không?</translation>
     </message>
     <message>
         <source>You can always check for updates manually from the application menu.</source>
-        <translation>Sie können im Menü jederzeit selbst nach Updates suchen.</translation>
+        <translation>Bạn luôn có thể kiểm tra cập nhật thủ công từ menu ứng dụng.</translation>
     </message>
     <message>
         <source>Toggle window</source>
-        <translation>Fenster zeigen/verstecken</translation>
+        <translation>Chuyển đổi cửa sổ</translation>
     </message>
     <message>
         <source>Quit KeePassXC</source>
-        <translation>KeePassXC beenden</translation>
+        <translation>Thoát KeePassXC</translation>
     </message>
     <message>
         <source>Please present or touch your YubiKey to continue…</source>
-        <translation>Bitte YubiKey vorhalten oder berühren, um fortzufahren …</translation>
+        <translation>Vui lòng đưa hoặc chạm YubiKey của bạn để tiếp tục…</translation>
     </message>
     <message>
         <source>Restart Application?</source>
-        <translation>Anwendung neustarten?</translation>
+        <translation>Khởi động lại ứng dụng?</translation>
     </message>
     <message>
         <source>You must restart the application to apply this setting. Would you like to restart now?</source>
-        <translation>Sie müssen die Anwendung neustarten, um diese Einstellung anzuwenden. Möchten Sie jetzt neustarten?</translation>
+        <translation>Bạn phải khởi động lại ứng dụng để áp dụng cài đặt này. Bạn có muốn khởi động lại ngay bây giờ không?</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Tags</translation>
+        <translation>Thẻ</translation>
     </message>
     <message>
         <source>1Password 1PUX...</source>
@@ -6038,176 +6033,176 @@ Rechnen Sie mit Fehlern und kleineren Problemen. Diese Version ist für Testzwec
     </message>
     <message>
         <source>Import a 1Password 1PUX file</source>
-        <translation>Importieren einer 1Password 1PUX-Datei</translation>
+        <translation>Nhập tệp 1Password 1PUX</translation>
     </message>
     <message>
         <source>Import…</source>
-        <translation>Importieren…</translation>
+        <translation>Nhập…</translation>
     </message>
     <message>
         <source>Passkeys…</source>
-        <translation>Passkeys…</translation>
+        <translation>Passkey…</translation>
     </message>
     <message numerus="yes">
         <source>%1 Entry(s)</source>
-        <translation><numerusform>%1 Eintrag</numerusform><numerusform>%1 Einträge</numerusform></translation>
+        <translation><numerusform>%1 mục</numerusform></translation>
     </message>
     <message>
         <source>&amp;XML File…</source>
-        <translation>&amp;XML-Datei …</translation>
+        <translation>Tệp &amp;XML…</translation>
     </message>
     <message>
         <source>XML File…</source>
-        <translation>XML-Datei …</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy &amp;URL</source>
-        <translation>&amp;URL kopieren</translation>
+        <translation>Sao chép &amp;URL</translation>
     </message>
     <message>
         <source>Allow Screen Capture</source>
-        <translation>Bildschirmaufnahmen zulassen</translation>
+        <translation>Cho phép chụp màn hình</translation>
     </message>
     <message>
         <source>Passkeys</source>
-        <translation>Passkeys</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Import Passkey</source>
-        <translation>Passkey importieren</translation>
+        <translation>Nhập Passkey</translation>
     </message>
     <message>
         <source>Delete Entry</source>
-        <translation>Eintrag löschen</translation>
+        <translation>Xóa mục</translation>
     </message>
     <message>
         <source>Remove Passkey From Entry</source>
-        <translation>Passkey aus Eintrag entfernen</translation>
+        <translation>Xóa Passkey khỏi mục</translation>
     </message>
     <message>
         <source>Empty Recycle Bin</source>
-        <translation>Papierkorb leeren</translation>
+        <translation>Làm trống thùng rác</translation>
     </message>
     <message>
         <source>Toggle Show Menubar</source>
-        <translation>Menüleiste ausblenden</translation>
+        <translation>Chuyển đổi hiển thị thanh menu</translation>
     </message>
     <message>
         <source>Show Group Panel</source>
-        <translation>Gruppen-Panel anzeigen</translation>
+        <translation>Hiển thị bảng nhóm</translation>
     </message>
     <message>
         <source>Toggle Show Group Panel</source>
-        <translation>&apos;Gruppen-Panel anzeigen&apos; umschalten</translation>
+        <translation>Chuyển đổi hiển thị bảng nhóm</translation>
     </message>
     <message>
         <source>Password Generator</source>
-        <translation>Passwortgenerator</translation>
+        <translation>Trình tạo mật khẩu</translation>
     </message>
     <message>
         <source>Clear SSH Agent</source>
-        <translation>SSH-Agent löschen</translation>
+        <translation>Xóa SSH Agent</translation>
     </message>
     <message>
         <source>Clear all identities in ssh-agent</source>
-        <translation>Alle Identitäten im SSH-Agent löschen</translation>
+        <translation>Xóa tất cả danh tính trong ssh-agent</translation>
     </message>
     <message>
         <source>New Entry</source>
-        <translation>Neuer Eintrag</translation>
+        <translation>Mục mới</translation>
     </message>
     <message>
         <source>Edit Entry…</source>
-        <translation>Eintrag bearbeiten…</translation>
+        <translation>Chỉnh sửa mục…</translation>
     </message>
     <message>
         <source>E&amp;xpire Entry</source>
-        <translation>Abge&amp;laufener Eintrag</translation>
+        <translation>Hết hạn &amp;mục</translation>
     </message>
     <message>
         <source>Expire Entry</source>
-        <translation>Abgelaufener Eintrag</translation>
+        <translation>Hết hạn mục</translation>
     </message>
     <message>
         <source>&amp;Delete Entry</source>
-        <translation>Eintrag &amp;löschen…</translation>
+        <translation>&amp;Xóa mục</translation>
     </message>
     <message numerus="yes">
         <source>Move selected entry(s) to the recycle bin</source>
-        <translation><numerusform>Ausgewählten Eintrag in den Papierkorb verschieben</numerusform><numerusform>Ausgewählte Einträge in den Papierkorb verschieben</numerusform></translation>
+        <translation><numerusform>Di chuyển mục đã chọn vào thùng rác</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Permanently delete the selected entry(s)</source>
-        <translation><numerusform>Ausgewählten Eintrag dauerhaft löschen</numerusform><numerusform>Ausgewählte Einträge dauerhaft löschen</numerusform></translation>
+        <translation><numerusform>Xóa vĩnh viễn mục đã chọn</numerusform></translation>
     </message>
     <message>
         <source>View or edit entry</source>
-        <translation>Eintrag anzeigen oder bearbeiten</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy Password and TOTP</source>
-        <translation>Passwort und TOTP kopieren</translation>
+        <translation>Sao chép mật khẩu và TOTP</translation>
     </message>
 </context>
 <context>
     <name>ManageDatabase</name>
     <message>
         <source>Database settings</source>
-        <translation>Datenbank-Einstellungen</translation>
+        <translation>Cài đặt cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Edit database settings</source>
-        <translation>Datenbank-Einstellungen bearbeiten</translation>
+        <translation>Chỉnh sửa cài đặt cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Unlock database</source>
-        <translation>Datenbank entsperren</translation>
+        <translation>Mở khóa cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Unlock database to show more information</source>
-        <translation>Datenbank entsperren, um mehr Informationen anzuzeigen</translation>
+        <translation>Mở khóa cơ sở dữ liệu để hiển thị thêm thông tin</translation>
     </message>
     <message>
         <source>Lock database</source>
-        <translation>Datenbank sperren</translation>
+        <translation>Khóa cơ sở dữ liệu</translation>
     </message>
 </context>
 <context>
     <name>ManageSession</name>
     <message>
         <source>Disconnect</source>
-        <translation>Trennen</translation>
+        <translation>Ngắt kết nối</translation>
     </message>
     <message>
         <source>Disconnect this application</source>
-        <translation>Diese Anwendung trennen</translation>
+        <translation>Ngắt kết nối ứng dụng này</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>Đặt lại</translation>
     </message>
     <message>
         <source>Reset any remembered decisions for this application</source>
-        <translation>Zurücksetzen aller bereits gemerkten Entscheidungen für diese Anwendung</translation>
+        <translation>Đặt lại mọi quyết định đã ghi nhớ cho ứng dụng này</translation>
     </message>
 </context>
 <context>
     <name>MergeDialog</name>
     <message>
         <source>Database Merge Confirmation</source>
-        <translation>Bestätigung der Datenbankzusammenführung</translation>
+        <translation>Xác nhận hợp nhất cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation>Zusammenführen</translation>
+        <translation>Hợp nhất</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>UUID</source>
@@ -6215,381 +6210,381 @@ Rechnen Sie mit Fehlern und kleineren Problemen. Diese Version ist für Testzwec
     </message>
     <message>
         <source>Details</source>
-        <translation>Details</translation>
+        <translation>Chi tiết</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation>Ändern</translation>
+        <translation>Thay đổi</translation>
     </message>
 </context>
 <context>
     <name>Merger</name>
     <message>
         <source>Changed deleted objects</source>
-        <translation>Gelöschte Einträge geändert</translation>
+        <translation>Đối tượng đã xóa đã thay đổi</translation>
     </message>
     <message>
         <source>Removed custom data %1 [%2]</source>
-        <translation>Plugin-Daten %1 entfernt [%2]</translation>
+        <translation>Đã xóa dữ liệu tùy chỉnh %1 [%2]</translation>
     </message>
     <message>
         <source>Adding custom data %1 [%2]</source>
-        <translation>Plugin-Daten %1 werden hinzugefügt [%2]</translation>
+        <translation>Đang thêm dữ liệu tùy chỉnh %1 [%2]</translation>
     </message>
     <message>
         <source>Added</source>
-        <translation>Hinzugefügt</translation>
+        <translation>Đã thêm</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Geändert</translation>
+        <translation>Đã sửa</translation>
     </message>
     <message>
         <source>Moved</source>
-        <translation>Verschoben</translation>
+        <translation>Đã di chuyển</translation>
     </message>
     <message>
         <source>Deleted</source>
-        <translation>Gelöscht</translation>
+        <translation>Đã xóa</translation>
     </message>
     <message>
         <source>Previous location: %1</source>
-        <translation>Vorheriger Speicherort: %1</translation>
+        <translation>Vị trí trước đó: %1</translation>
     </message>
     <message>
         <source>Number of entries in group: %1</source>
-        <translation>Anzahl der Einträge in der Gruppe: %1</translation>
+        <translation>Số lượng mục trong nhóm: %1</translation>
     </message>
     <message>
         <source>Group name</source>
-        <translation>Gruppenname</translation>
+        <translation>Tên nhóm</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation>Notizen</translation>
+        <translation>Ghi chú</translation>
     </message>
     <message>
         <source>Icon (UUID)</source>
-        <translation>Symbol (UUID)</translation>
+        <translation>Biểu tượng (UUID)</translation>
     </message>
     <message>
         <source>Icon (Number)</source>
-        <translation>Symbol (Anzahl)</translation>
+        <translation>Biểu tượng (Số)</translation>
     </message>
     <message>
         <source>Expiry time</source>
-        <translation>Ablaufzeit</translation>
+        <translation>Thời gian hết hạn</translation>
     </message>
     <message>
         <source>Modification time</source>
-        <translation>Änderungszeit</translation>
+        <translation>Thời gian sửa đổi</translation>
     </message>
     <message>
         <source>%1 (Add local modifications to new entry)</source>
-        <translation>%1 (lokale Änderungen zum neuen Eintrag hinzufügen)</translation>
+        <translation>%1 (Thêm sửa đổi cục bộ vào mục mới)</translation>
     </message>
     <message>
         <source>%1 (Add new modifications to existing entry)</source>
-        <translation>%1 (neue Änderungen zum bestehenden Eintrag hinzufügen)</translation>
+        <translation>%1 (Thêm sửa đổi mới vào mục hiện có)</translation>
     </message>
     <message>
         <source>Explicit deletion</source>
-        <translation>Explizite Löschung</translation>
+        <translation>Xóa rõ ràng</translation>
     </message>
     <message>
         <source>Implicit deletion (e.g. removal of parent group)</source>
-        <translation>Implizite Löschung (z. B. Entfernen der übergeordneten Gruppe)</translation>
+        <translation>Xóa ngầm định (ví dụ: xóa nhóm cha)</translation>
     </message>
     <message>
         <source>Adding new icon %1</source>
-        <translation>Neues Symbol %1 wird hinzugefügt</translation>
+        <translation>Đang thêm biểu tượng mới %1</translation>
     </message>
 </context>
 <context>
     <name>NewDatabaseWizard</name>
     <message>
         <source>Create a new KeePassXC database…</source>
-        <translation>Neue KeePassXC-Datenbank erstellen …</translation>
+        <translation>Tạo cơ sở dữ liệu KeePassXC mới…</translation>
     </message>
     <message>
         <source>Root</source>
         <comment>Root group</comment>
-        <translation>Root</translation>
+        <translation>Gốc</translation>
     </message>
 </context>
 <context>
     <name>NewDatabaseWizardPage</name>
     <message>
         <source>WizardPage</source>
-        <translation>Assistent</translation>
+        <translation>Trang hướng dẫn</translation>
     </message>
     <message>
         <source>Encryption Settings</source>
-        <translation>Verschlüsselungs-Einstellungen</translation>
+        <translation>Cài đặt mã hóa</translation>
     </message>
     <message>
         <source>Here you can adjust the database encryption settings. Don&apos;t worry, you can change them later in the database settings.</source>
-        <translation>Hier werden die Details der Verschlüsselung eingestellt. Sie können diese Details auch später in den Datenbank-Einstellungen ändern.</translation>
+        <translation>Tại đây bạn có thể điều chỉnh cài đặt mã hóa cơ sở dữ liệu. Đừng lo lắng, bạn có thể thay đổi chúng sau trong cài đặt cơ sở dữ liệu.</translation>
     </message>
 </context>
 <context>
     <name>NewDatabaseWizardPageDatabaseKey</name>
     <message>
         <source>Database Credentials</source>
-        <translation>Datenbank-Anmeldedaten</translation>
+        <translation>Thông tin đăng nhập cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>A set of credentials known only to you that protects your database.</source>
-        <translation>Ein Satz von nur Ihnen bekannten Anmeldedaten, der Ihre Datenbank schützt.</translation>
+        <translation>Một bộ thông tin xác thực chỉ bạn biết để bảo vệ cơ sở dữ liệu của bạn.</translation>
     </message>
 </context>
 <context>
     <name>NewDatabaseWizardPageEncryption</name>
     <message>
         <source>Encryption Settings</source>
-        <translation>Verschlüsselungs-Einstellungen</translation>
+        <translation>Cài đặt mã hóa</translation>
     </message>
     <message>
         <source>Here you can adjust the database encryption settings. Don&apos;t worry, you can change them later in the database settings.</source>
-        <translation>Hier werden die Details der Verschlüsselung eingestellt. Sie können diese Details auch später in den Datenbank-Einstellungen ändern.</translation>
+        <translation>Tại đây bạn có thể điều chỉnh cài đặt mã hóa cơ sở dữ liệu. Đừng lo lắng, bạn có thể thay đổi chúng sau trong cài đặt cơ sở dữ liệu.</translation>
     </message>
 </context>
 <context>
     <name>NewDatabaseWizardPageMetaData</name>
     <message>
         <source>General Database Information</source>
-        <translation>Allgemeine Informationen zur Datenbank</translation>
+        <translation>Thông tin cơ sở dữ liệu chung</translation>
     </message>
     <message>
         <source>Please fill in the display name and an optional description for your new database:</source>
-        <translation>Bitte geben Sie den Namen und (optional) eine Beschreibung der neuen Datenbank ein:</translation>
+        <translation>Vui lòng điền tên hiển thị và mô tả tùy chọn cho cơ sở dữ liệu mới của bạn:</translation>
     </message>
 </context>
 <context>
     <name>NixUtils</name>
     <message>
         <source>Password Manager</source>
-        <translation>Passwortmanager</translation>
+        <translation>Trình quản lý mật khẩu</translation>
     </message>
     <message>
         <source>Global shortcut already registered to %1</source>
-        <translation>Globales Tastenkürzel bereits registriert auf %1</translation>
+        <translation>Phím tắt toàn cục đã được đăng ký cho %1</translation>
     </message>
     <message>
         <source>Could not register global shortcut</source>
-        <translation>Globales Tastaturkürzel konnte nicht registriert werden</translation>
+        <translation>Không thể đăng ký phím tắt toàn cục</translation>
     </message>
 </context>
 <context>
     <name>OpData01</name>
     <message>
         <source>Invalid OpData01, does not contain header</source>
-        <translation>Ungültiges OpData01, enthält keinen Header</translation>
+        <translation>OpData01 không hợp lệ, không chứa tiêu đề</translation>
     </message>
     <message>
         <source>Unable to read all IV bytes, wanted 16 but got %1</source>
-        <translation>Konnte nicht alle IV-Bytes lesen, wollte 16, aber bekam %1</translation>
+        <translation>Không thể đọc tất cả byte IV, muốn 16 nhưng nhận được %1</translation>
     </message>
     <message>
         <source>Unable to init cipher for opdata01: %1</source>
-        <translation>Kann Cipher für opdata01 nicht initialisieren: %1</translation>
+        <translation>Không thể khởi tạo mã hóa cho opdata01: %1</translation>
     </message>
     <message>
         <source>Unable to read all HMAC signature bytes</source>
-        <translation>Kann nicht alle HMAC-Signatur-Bytes lesen</translation>
+        <translation>Không thể đọc tất cả byte chữ ký HMAC</translation>
     </message>
     <message>
         <source>Malformed OpData01 due to a failed HMAC</source>
-        <translation>Fehlerhaftes OpData01 aufgrund von fehlgeschlagenem HMAC</translation>
+        <translation>OpData01 bị lỗi do HMAC thất bại</translation>
     </message>
     <message>
         <source>Unable to process clearText in place</source>
-        <translation>Kann clearText nicht direkt verarbeiten</translation>
+        <translation>Không thể xử lý clearText tại chỗ</translation>
     </message>
     <message>
         <source>Expected %1 bytes of clear-text, found %2</source>
-        <translation>%1 Bytes Klartext erwartet, %2 gefunden</translation>
+        <translation>Mong đợi %1 byte văn bản rõ, tìm thấy %2</translation>
     </message>
 </context>
 <context>
     <name>OpVaultReader</name>
     <message>
         <source>Directory .opvault must exist</source>
-        <translation>Ordner .opvault muss existieren</translation>
+        <translation>Thư mục .opvault phải tồn tại</translation>
     </message>
     <message>
         <source>Directory .opvault must be readable</source>
-        <translation>Ordner .opvault muss lesbar sein</translation>
+        <translation>Thư mục .opvault phải có thể đọc</translation>
     </message>
     <message>
         <source>Directory .opvault/default must exist</source>
-        <translation>Ordner .opvault/default muss existieren</translation>
+        <translation>Thư mục .opvault/default phải tồn tại</translation>
     </message>
     <message>
         <source>Directory .opvault/default must be readable</source>
-        <translation>Ordner .opvault/default muss lesbar sein</translation>
+        <translation>Thư mục .opvault/default phải có thể đọc</translation>
     </message>
     <message>
         <source>Unable to decode masterKey: %1</source>
-        <translation>MasterKey: %1 konnte nicht entschlüsselt werden</translation>
+        <translation>Không thể giải mã masterKey: %1</translation>
     </message>
     <message>
         <source>Unable to derive master key: %1</source>
-        <translation>Master-Passwort kann nicht abgeleitet werden: %1</translation>
+        <translation>Không thể dẫn xuất khóa chính: %1</translation>
     </message>
 </context>
 <context>
     <name>OpenSSHKey</name>
     <message>
         <source>Invalid key file, expecting an OpenSSH key</source>
-        <translation>Ungültige Schlüsseldatei, erwartet: OpenSSH-Schlüssel</translation>
+        <translation>Tệp khóa không hợp lệ, mong đợi khóa OpenSSH</translation>
     </message>
     <message>
         <source>PEM boundary mismatch</source>
-        <translation>Falsche PEM-Boundarys</translation>
+        <translation>Ranh giới PEM không khớp</translation>
     </message>
     <message>
         <source>Base64 decoding failed</source>
-        <translation>Base64-Dekodierung fehlgeschlagen</translation>
+        <translation>Giải mã Base64 thất bại</translation>
     </message>
     <message>
         <source>Key file way too small.</source>
-        <translation>Schlüsseldatei ist viel zu klein.</translation>
+        <translation>Tệp khóa quá nhỏ.</translation>
     </message>
     <message>
         <source>Key file magic header id invalid</source>
-        <translation>Magic-Header-ID der Schlüsseldatei ungültig</translation>
+        <translation>Id tiêu đề magic của tệp khóa không hợp lệ</translation>
     </message>
     <message>
         <source>Found zero keys</source>
-        <translation>Keine Schlüssel gefunden</translation>
+        <translation>Tìm thấy không có khóa</translation>
     </message>
     <message>
         <source>Corrupted key file, reading private key failed</source>
-        <translation>Defekte Schlüsseldatei, Lesen des privaten Schlüssels fehlgeschlagen</translation>
+        <translation>Tệp khóa bị hỏng, đọc khóa riêng thất bại</translation>
     </message>
     <message>
         <source>Unsupported key type: %1</source>
-        <translation>Nicht unterstützter Schlüssel-Typ: %1</translation>
+        <translation>Loại khóa không được hỗ trợ: %1</translation>
     </message>
     <message>
         <source>No private key payload to decrypt</source>
-        <translation>Keine private Schlüsselsignatur zum Entschlüsseln</translation>
+        <translation>Không có dữ liệu khóa riêng để giải mã</translation>
     </message>
     <message>
         <source>Unknown cipher: %1</source>
-        <translation>Unbekannter Verschlüsselungsalgorithmus: %1</translation>
+        <translation>Mã hóa không xác định: %1</translation>
     </message>
     <message>
         <source>Passphrase is required to decrypt this key</source>
-        <translation>Passphrase zum Entschlüsseln des Schlüssels benötigt</translation>
+        <translation>Cần cụm mật khẩu để giải mã khóa này</translation>
     </message>
     <message>
         <source>Key derivation failed: %1</source>
-        <translation>Schlüsselableitung fehlgeschlagen: %1</translation>
+        <translation>Dẫn xuất khóa thất bại: %1</translation>
     </message>
     <message>
         <source>Cipher IV is too short for MD5 kdf</source>
-        <translation>Verschlüsselungs-IV ist zur kurz für MD5-KDF</translation>
+        <translation>IV mã hóa quá ngắn cho MD5 kdf</translation>
     </message>
     <message>
         <source>Unknown KDF: %1</source>
-        <translation>Unbekannte KDF: %1</translation>
+        <translation>KDF không xác định: %1</translation>
     </message>
     <message>
         <source>Failed to initialize cipher: %1</source>
-        <translation>Initialisierung der Chiffre fehlgeschlagen: %1</translation>
+        <translation>Không thể khởi tạo mã hóa: %1</translation>
     </message>
     <message>
         <source>Decryption failed: %1</source>
-        <translation>Entschlüsselung fehlgeschlagen: %1</translation>
+        <translation>Giải mã thất bại: %1</translation>
     </message>
     <message>
         <source>Decryption failed, wrong passphrase?</source>
-        <translation>Entschlüsselung fehlgeschlagen, falsche Passphrase?</translation>
+        <translation>Giải mã thất bại, cụm mật khẩu sai?</translation>
     </message>
     <message>
         <source>Unexpected EOF while reading key</source>
-        <translation>Unerwartetes Dateiende beim Lesen des Schlüssels</translation>
+        <translation>EOF không mong đợi khi đọc khóa</translation>
     </message>
     <message>
         <source>Unsupported key part</source>
-        <translation>Nicht unterstützter Schlüsselteil</translation>
+        <translation>Phần khóa không được hỗ trợ</translation>
     </message>
     <message>
         <source>Unexpected EOF while reading public key</source>
-        <translation>Unerwartetes Dateiende beim Lesen des öffentlichen Schlüssels</translation>
+        <translation>EOF không mong đợi khi đọc khóa công khai</translation>
     </message>
     <message>
         <source>Unknown key type: %1</source>
-        <translation>Unbekannter Schlüsseltyp: %1</translation>
+        <translation>Loại khóa không xác định: %1</translation>
     </message>
     <message>
         <source>Unexpected EOF while reading private key</source>
-        <translation>Unerwartetes Dateiende beim Lesen des privaten Schlüssels</translation>
+        <translation>EOF không mong đợi khi đọc khóa riêng</translation>
     </message>
     <message>
         <source>Can&apos;t write public key as it is empty</source>
-        <translation>Öffentlicher Schlüssel kann nicht geschrieben werden, da er leer ist</translation>
+        <translation>Không thể ghi khóa công khai vì nó trống</translation>
     </message>
     <message>
         <source>Unexpected EOF when writing public key</source>
-        <translation>Unerwartetes Dateiende beim Schreiben des öffentlichen Schlüssels</translation>
+        <translation>EOF không mong đợi khi ghi khóa công khai</translation>
     </message>
     <message>
         <source>Can&apos;t write private key as it is empty</source>
-        <translation>Privatschlüssel konnte nicht geschrieben werden, da er leer ist</translation>
+        <translation>Không thể ghi khóa riêng vì nó trống</translation>
     </message>
     <message>
         <source>Unexpected EOF when writing private key</source>
-        <translation>Unerwartetes Dateiende beim Schreiben des privaten Schlüssels</translation>
+        <translation>EOF không mong đợi khi ghi khóa riêng</translation>
     </message>
     <message>
         <source>(encrypted)</source>
-        <translation>(verschlüsselt)</translation>
+        <translation>(đã mã hóa)</translation>
     </message>
     <message>
         <source>Failed to read key file: %1</source>
-        <translation>Fehler beim Lesen der Schlüsseldatei: %1</translation>
+        <translation>Không thể đọc tệp khóa: %1</translation>
     </message>
     <message>
         <source>Failed to read public key: %1</source>
-        <translation>Fehler beim Lesen des öffentlichen Schlüssels: %1</translation>
+        <translation>Không thể đọc khóa công khai: %1</translation>
     </message>
     <message>
         <source>AES-256/GCM is currently not supported</source>
-        <translation>AES-256/GCM wird momentan nicht unterstützt</translation>
+        <translation>AES-256/GCM hiện không được hỗ trợ</translation>
     </message>
 </context>
 <context>
     <name>PasskeyExportDialog</name>
     <message>
         <source>KeePassXC - Passkey Export</source>
-        <translation>KeePassXC - Passkey-Export</translation>
+        <translation>KeePassXC - Xuất Passkey</translation>
     </message>
     <message>
         <source>Filenames will be generated with title and .passkey file extension.</source>
-        <translation>Dateinamen werden mit dem Titel und der Dateierweiterung .passkey generiert.</translation>
+        <translation>Tên tệp sẽ được tạo với tiêu đề và phần mở rộng tệp .passkey.</translation>
     </message>
     <message>
         <source>Export entries</source>
-        <translation>Einträge exportieren</translation>
+        <translation>Xuất mục</translation>
     </message>
     <message>
         <source>Export Selected</source>
-        <translation>Auswahl exportieren</translation>
+        <translation>Xuất đã chọn</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Export to folder</source>
-        <translation>In Ordner exportieren</translation>
+        <translation>Xuất vào thư mục</translation>
     </message>
     <message>
         <source>Export the following passkey entries.</source>
-        <translation>Die folgenden Passkey-Einträge exportieren.</translation>
+        <translation>Xuất các mục passkey sau.</translation>
     </message>
 </context>
 <context>
@@ -6598,190 +6593,190 @@ Rechnen Sie mit Fehlern und kleineren Problemen. Diese Version ist für Testzwec
         <source>File &quot;%1.passkey&quot; already exists.
 Do you want to overwrite it?
 </source>
-        <translation>Datei „%1.passkey“ existiert bereits.
-Möchten Sie sie überschreiben?
+        <translation>Tệp &quot;%1.passkey&quot; đã tồn tại.
+Bạn có muốn ghi đè nó không?
 </translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation>Datei kann nicht geöffnet werden</translation>
+        <translation>Không thể mở tệp</translation>
     </message>
     <message>
         <source>Cannot open file &quot;%1&quot; for writing.</source>
-        <translation>Datei „%1“ kann nicht zum Schreiben geöffnet werden.</translation>
+        <translation>Không thể mở tệp &quot;%1&quot; để ghi.</translation>
     </message>
     <message>
         <source>Cannot write to file</source>
-        <translation>Datei kann nicht geschrieben werden</translation>
+        <translation>Không thể ghi vào tệp</translation>
     </message>
     <message>
         <source>Overwrite Existing File?</source>
-        <translation>Bestehende Datei überschreiben?</translation>
+        <translation>Ghi đè tệp hiện có?</translation>
     </message>
 </context>
 <context>
     <name>PasskeyImportDialog</name>
     <message>
         <source>KeePassXC - Passkey Import</source>
-        <translation>KeePassXC - Passkey-Import</translation>
+        <translation>KeePassXC - Nhập Passkey</translation>
     </message>
     <message>
         <source>Username: %1</source>
-        <translation>Benutzername: %1</translation>
+        <translation>Tên người dùng: %1</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation>Datenbank</translation>
+        <translation>Cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Import Passkey</source>
-        <translation>Passkey importieren</translation>
+        <translation>Nhập Passkey</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation>Nhập</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>Entry</source>
-        <translation>Eintrag</translation>
+        <translation>Mục</translation>
     </message>
     <message>
         <source>Create new entry</source>
-        <translation>Neuen Eintrag erstellen</translation>
+        <translation>Tạo mục mới</translation>
     </message>
     <message>
         <source>Relying Party: %1</source>
-        <translation>Verlässliche Gegenseite: %1</translation>
+        <translation>Bên phụ thuộc: %1</translation>
     </message>
     <message>
         <source>Import the following passkey:</source>
-        <translation>Den folgenden Passkey importieren:</translation>
+        <translation>Nhập passkey sau:</translation>
     </message>
     <message>
         <source>Import the following passkey to this entry:</source>
-        <translation>Den folgenden Passkey in diesen Eintrag importieren:</translation>
+        <translation>Nhập passkey sau vào mục này:</translation>
     </message>
     <message>
         <source>Default passkeys group (Imported Passkeys)</source>
-        <translation>Standard-Passkeys-Gruppe (importierte Passkeys)</translation>
+        <translation>Nhóm passkey mặc định (Passkey đã nhập)</translation>
     </message>
 </context>
 <context>
     <name>PasskeyImporter</name>
     <message>
         <source>Passkey file</source>
-        <translation>Passkey-Datei</translation>
+        <translation>Tệp Passkey</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation>Datei kann nicht geöffnet werden</translation>
+        <translation>Không thể mở tệp</translation>
     </message>
     <message>
         <source>Cannot open file &quot;%1&quot; for reading.</source>
-        <translation>Datei „%1“ kann nicht zum Lesen geöffnet werden.</translation>
+        <translation>Không thể mở tệp &quot;%1&quot; để đọc.</translation>
     </message>
     <message>
         <source>Cannot import passkey file &quot;%1&quot;. Data is missing.</source>
-        <translation>Passkey-Datei „%1“ kann nicht importiert werden. Es fehlen Daten.</translation>
+        <translation>Không thể nhập tệp passkey &quot;%1&quot;. Dữ liệu bị thiếu.</translation>
     </message>
     <message>
         <source>Cannot import passkey file &quot;%1&quot;.
 The following data is missing:
 %2</source>
-        <translation>Passkey-Datei „%1“ kann nicht importiert werden.
-Die folgenden Daten fehlen:
+        <translation>Không thể nhập tệp passkey &quot;%1&quot;.
+Dữ liệu sau bị thiếu:
 %2</translation>
     </message>
     <message>
         <source>Cannot import passkey file &quot;%1&quot;. Private key is missing or malformed.</source>
-        <translation>Passkey-Datei „%1“ kann nicht importiert werden. Privater Schlüssel fehlt oder ist beschädigt.</translation>
+        <translation>Không thể nhập tệp passkey &quot;%1&quot;. Khóa riêng bị thiếu hoặc không đúng định dạng.</translation>
     </message>
     <message>
         <source>Open Passkey File</source>
-        <translation>Passkey-Datei öffnen</translation>
+        <translation>Mở tệp Passkey</translation>
     </message>
     <message>
         <source>Passkey Import Failed</source>
-        <translation>Passkey-Import fehlgeschlagen</translation>
+        <translation>Nhập Passkey thất bại</translation>
     </message>
 </context>
 <context>
     <name>PasswordEditWidget</name>
     <message>
         <source>Enter password:</source>
-        <translation>Passwort eingeben:</translation>
+        <translation>Nhập mật khẩu:</translation>
     </message>
     <message>
         <source>Password field</source>
-        <translation>Passwort-Feld</translation>
+        <translation>Trường mật khẩu</translation>
     </message>
     <message>
         <source>Confirm password:</source>
-        <translation>Passwort bestätigen:</translation>
+        <translation>Xác nhận mật khẩu:</translation>
     </message>
     <message>
         <source>Repeat password field</source>
-        <translation>Feld zum Wiederholen des Passworts</translation>
+        <translation>Trường lặp lại mật khẩu</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>Add Password</source>
-        <translation>Passwort hinzufügen</translation>
+        <translation>Thêm mật khẩu</translation>
     </message>
     <message>
         <source>Change Password</source>
-        <translation>Passwort bearbeiten</translation>
+        <translation>Thay đổi mật khẩu</translation>
     </message>
     <message>
         <source>Remove Password</source>
-        <translation>Passwort entfernen</translation>
+        <translation>Xóa mật khẩu</translation>
     </message>
     <message>
         <source>Password set, click to change or remove</source>
-        <translation>Passwort festgelegt, zum Ändern oder Entfernen anklicken</translation>
+        <translation>Mật khẩu đã đặt, nhấp để thay đổi hoặc xóa</translation>
     </message>
     <message>
         <source>&lt;p&gt;A password is the primary method for securing your database.&lt;/p&gt;&lt;p&gt;Good passwords are long and unique. KeePassXC can generate one for you.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Ein Passwort ist der wichtigste Weg, Ihre Datenbank abzusichern.&lt;/p&gt;&lt;p&gt;Gute Passwörter sind lang und werden nur ein einziges Mal benutzt. KeePassXC kann eins für Sie generieren.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Mật khẩu là phương pháp chính để bảo mật cơ sở dữ liệu của bạn.&lt;/p&gt;&lt;p&gt;Mật khẩu tốt là dài và duy nhất. KeePassXC có thể tạo một mật khẩu cho bạn.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Passwords do not match.</source>
-        <translation>Die Passwörter stimmen nicht überein.</translation>
+        <translation>Mật khẩu không khớp.</translation>
     </message>
 </context>
 <context>
     <name>PasswordGeneratorWidget</name>
     <message>
         <source>Generate Password</source>
-        <translation>Passwort erzeugen</translation>
+        <translation>Tạo mật khẩu</translation>
     </message>
     <message>
         <source>strength</source>
         <comment>Password strength</comment>
-        <translation>Stärke</translation>
+        <translation>độ mạnh</translation>
     </message>
     <message>
         <source>entropy</source>
-        <translation>Entropie</translation>
+        <translation>entropy</translation>
     </message>
     <message>
         <source>Generated password</source>
-        <translation>Erzeugtes Passwort</translation>
+        <translation>Mật khẩu đã tạo</translation>
     </message>
     <message>
         <source>%p%</source>
@@ -6789,95 +6784,95 @@ Die folgenden Daten fehlen:
     </message>
     <message>
         <source>Regenerate password</source>
-        <translation>Neu erzeugen</translation>
+        <translation>Tạo lại mật khẩu</translation>
     </message>
     <message>
         <source>Copy password</source>
-        <translation>Passwort kopieren</translation>
+        <translation>Sao chép mật khẩu</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>&amp;Length:</source>
-        <translation>&amp;Länge:</translation>
+        <translation>&amp;Độ dài:</translation>
     </message>
     <message>
         <source>Password length</source>
-        <translation>Passwortlänge</translation>
+        <translation>Độ dài mật khẩu</translation>
     </message>
     <message>
         <source>Switch to advanced mode</source>
-        <translation>Zum fortgeschrittenen Modus wechseln</translation>
+        <translation>Chuyển sang chế độ nâng cao</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Fortgeschritten</translation>
+        <translation>Nâng cao</translation>
     </message>
     <message>
         <source>Character Types</source>
-        <translation>Zeichentypen</translation>
+        <translation>Loại ký tự</translation>
     </message>
     <message>
         <source>Special characters</source>
-        <translation>Sonderzeichen</translation>
+        <translation>Ký tự đặc biệt</translation>
     </message>
     <message>
         <source>Quotes</source>
-        <translation>Anführungszeichen</translation>
+        <translation>Dấu ngoặc kép</translation>
     </message>
     <message>
         <source>Punctuation</source>
-        <translation>Interpunktion</translation>
+        <translation>Dấu câu</translation>
     </message>
     <message>
         <source>Dashes and Slashes</source>
-        <translation>Binde- und Schrägstriche</translation>
+        <translation>Dấu gạch ngang và gạch chéo</translation>
     </message>
     <message>
         <source>Upper-case letters</source>
-        <translation>Großbuchstaben</translation>
+        <translation>Chữ cái viết hoa</translation>
     </message>
     <message>
         <source>Numbers</source>
-        <translation>Zahlen</translation>
+        <translation>Số</translation>
     </message>
     <message>
         <source>Lower-case letters</source>
-        <translation>Kleinbuchstaben</translation>
+        <translation>Chữ cái viết thường</translation>
     </message>
     <message>
         <source>Math Symbols</source>
-        <translation>Mathematische Symbole</translation>
+        <translation>Ký hiệu toán học</translation>
     </message>
     <message>
         <source>Extended ASCII</source>
-        <translation>Erweitertes ASCII</translation>
+        <translation>ASCII mở rộng</translation>
     </message>
     <message>
         <source>Braces</source>
-        <translation>Klammern</translation>
+        <translation>Dấu ngoặc nhọn</translation>
     </message>
     <message>
         <source>Do not include:</source>
-        <translation>Nicht einbeziehen:</translation>
+        <translation>Không bao gồm:</translation>
     </message>
     <message>
         <source>Additional characters to use for the generated password</source>
-        <translation>Zusätzliche Zeichen für die Passwort-Erzeugung</translation>
+        <translation>Ký tự bổ sung để sử dụng cho mật khẩu được tạo</translation>
     </message>
     <message>
         <source>Additional characters</source>
-        <translation>Zusätzliche Zeichen</translation>
+        <translation>Ký tự bổ sung</translation>
     </message>
     <message>
         <source>Add non-hex letters to &quot;do not include&quot; list</source>
-        <translation>Nicht-Hex-Buchstaben zu der &quot;Nicht-Hinzufügen&quot;-Liste hinzufügen</translation>
+        <translation>Thêm chữ cái không phải hex vào danh sách &quot;không bao gồm&quot;</translation>
     </message>
     <message>
         <source>Hex Passwords</source>
-        <translation>Hexadezimale Passwörter</translation>
+        <translation>Mật khẩu Hex</translation>
     </message>
     <message>
         <source>Hex</source>
@@ -6885,55 +6880,55 @@ Die folgenden Daten fehlen:
     </message>
     <message>
         <source>Character set to exclude from generated password</source>
-        <translation>Zeichen, die nicht im Passwort enthalten sein sollen</translation>
+        <translation>Bộ ký tự loại trừ khỏi mật khẩu được tạo</translation>
     </message>
     <message>
         <source>Excluded characters</source>
-        <translation>Ausgenommene Zeichen</translation>
+        <translation>Ký tự bị loại trừ</translation>
     </message>
     <message>
         <source>Also choose from:</source>
-        <translation>Auch wählen aus:</translation>
+        <translation>Cũng chọn từ:</translation>
     </message>
     <message>
         <source>Exclude look-alike characters</source>
-        <translation>Gleichaussehende Zeichen ausschließen</translation>
+        <translation>Loại trừ ký tự giống nhau</translation>
     </message>
     <message>
         <source>Pick characters from every group</source>
-        <translation>Zeichen aus allen Gruppen verwenden</translation>
+        <translation>Chọn ký tự từ mỗi nhóm</translation>
     </message>
     <message>
         <source>Passphrase</source>
-        <translation>Passphrase</translation>
+        <translation>Cụm mật khẩu</translation>
     </message>
     <message>
         <source>Word Separator:</source>
-        <translation>Worttrenner:</translation>
+        <translation>Dấu phân cách từ:</translation>
     </message>
     <message>
         <source>Wordlist:</source>
-        <translation>Wortliste</translation>
+        <translation>Danh sách từ:</translation>
     </message>
     <message>
         <source>Word Count:</source>
-        <translation>Wort-Anzahl</translation>
+        <translation>Số từ:</translation>
     </message>
     <message>
         <source>Word Case:</source>
-        <translation>Groß-/Kleinschreibung:</translation>
+        <translation>Kiểu chữ từ:</translation>
     </message>
     <message>
         <source>Delete selected wordlist</source>
-        <translation>Ausgewählte Wortliste löschen</translation>
+        <translation>Xóa danh sách từ đã chọn</translation>
     </message>
     <message>
         <source>Add custom wordlist</source>
-        <translation>Benutzerdefinierte Wortliste hinzufügen</translation>
+        <translation>Thêm danh sách từ tùy chỉnh</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Đóng</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -6941,336 +6936,336 @@ Die folgenden Daten fehlen:
     </message>
     <message>
         <source>Apply Password</source>
-        <translation>Passwort anwenden</translation>
+        <translation>Áp dụng mật khẩu</translation>
     </message>
     <message>
         <source>Regenerate password (%1)</source>
-        <translation>Passwort neu erzeugen (%1)</translation>
+        <translation>Tạo lại mật khẩu (%1)</translation>
     </message>
     <message>
         <source>lower case</source>
-        <translation>Kleinbuchstaben</translation>
+        <translation>chữ thường</translation>
     </message>
     <message>
         <source>UPPER CASE</source>
-        <translation>GROẞBUCHSTABEN</translation>
+        <translation>CHỮ HOA</translation>
     </message>
     <message>
         <source>Title Case</source>
-        <translation>Anfangsbuchstaben groß</translation>
+        <translation>Viết hoa đầu từ</translation>
     </message>
     <message>
         <source>(SYSTEM)</source>
-        <translation>(SYSTEM)</translation>
+        <translation>(HỆ THỐNG)</translation>
     </message>
     <message>
         <source>Entropy: %1 bit</source>
-        <translation>Entropie: %1 bit</translation>
+        <translation>Entropy: %1 bit</translation>
     </message>
     <message>
         <source>Failed to delete wordlist</source>
-        <translation>Löschen der Wortliste ist fehlgeschlagen</translation>
+        <translation>Không thể xóa danh sách từ</translation>
     </message>
     <message>
         <source>Wordlists</source>
-        <translation>Wortlisten</translation>
+        <translation>Danh sách từ</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Alle Dateien</translation>
+        <translation>Tất cả tệp</translation>
     </message>
     <message>
         <source>Failed to add wordlist</source>
-        <translation>Fehler bim Hinzufügen der Wortliste</translation>
+        <translation>Không thể thêm danh sách từ</translation>
     </message>
     <message>
         <source>Logograms</source>
-        <translation>Kürzel</translation>
+        <translation>Chữ tượng hình</translation>
     </message>
     <message>
         <source>Special Characters</source>
-        <translation>Sonderzeichen</translation>
+        <translation>Ký tự đặc biệt</translation>
     </message>
     <message>
         <source>Password Quality: %1</source>
-        <translation>Passwort-Qualität: %1</translation>
+        <translation>Chất lượng mật khẩu: %1</translation>
     </message>
     <message>
         <source>Poor</source>
         <comment>Password quality</comment>
-        <translation>Schlecht</translation>
+        <translation>Kém</translation>
     </message>
     <message>
         <source>Weak</source>
         <comment>Password quality</comment>
-        <translation>Schwach</translation>
+        <translation>Yếu</translation>
     </message>
     <message>
         <source>Good</source>
         <comment>Password quality</comment>
-        <translation>Gut</translation>
+        <translation>Tốt</translation>
     </message>
     <message>
         <source>Excellent</source>
         <comment>Password quality</comment>
-        <translation>Ausgezeichnet</translation>
+        <translation>Xuất sắc</translation>
     </message>
     <message>
         <source>passwordLength</source>
-        <translation>Passwortlänge</translation>
+        <translation>độ dài mật khẩu</translation>
     </message>
     <message>
         <source>Characters: %1</source>
-        <translation>Zeichen: %1</translation>
+        <translation>Ký tự: %1</translation>
     </message>
     <message>
         <source>MIXED case</source>
-        <translation>Groß- und Kleinbuchstaben</translation>
+        <translation>Chữ HOA thường</translation>
     </message>
     <message>
         <source>Excluded characters: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</source>
-        <translation>Ausgeschlossene Zeichen: „0“, „1“, „l“, „I“, „O“, „|“, „﹒“, „B“, „8“, „G“, „6“</translation>
+        <translation>Ký tự bị loại trừ: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</translation>
     </message>
     <message>
         <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
-        <translation>Warnung: Die ausgewählte Wortliste ist kleiner als die empfohlene Mindestgröße!</translation>
+        <translation>Cảnh báo: danh sách từ đã chọn nhỏ hơn kích thước tối thiểu được khuyến nghị!</translation>
     </message>
     <message>
         <source>Confirm Remove Wordlist</source>
-        <translation>Entfernen der Wortliste bestätigen</translation>
+        <translation>Xác nhận xóa danh sách từ</translation>
     </message>
     <message>
         <source>Do you really want to remove the wordlist &quot;%1&quot;?</source>
-        <translation>Möchten Sie wirklich die Wortliste „%1“ entfernen?</translation>
+        <translation>Bạn có thực sự muốn xóa danh sách từ &quot;%1&quot; không?</translation>
     </message>
     <message>
         <source>Select Custom Wordlist</source>
-        <translation>Benutzerdefinierte Wortliste auswählen</translation>
+        <translation>Chọn danh sách từ tùy chỉnh</translation>
     </message>
     <message>
         <source>Overwrite Wordlist?</source>
-        <translation>Wortliste überschreiben?</translation>
+        <translation>Ghi đè danh sách từ?</translation>
     </message>
     <message>
         <source>Wordlist &quot;%1&quot; already exists as a custom wordlist.
 Do you want to overwrite it?</source>
-        <translation>Die Wortliste &quot;%1&quot; existiert bereits als benutzerdefinierte Wortliste.
-Möchten Sie diese überschreiben?</translation>
+        <translation>Danh sách từ &quot;%1&quot; đã tồn tại dưới dạng danh sách từ tùy chỉnh.
+Bạn có muốn ghi đè nó không?</translation>
     </message>
 </context>
 <context>
     <name>PasswordWidget</name>
     <message>
         <source>Passwords do not match</source>
-        <translation>Passwörter stimmen nicht überein</translation>
+        <translation>Mật khẩu không khớp</translation>
     </message>
     <message>
         <source>Passwords match so far</source>
-        <translation>Passwörter stimmen bisher überein</translation>
+        <translation>Mật khẩu khớp cho đến nay</translation>
     </message>
     <message>
         <source>Toggle Password (%1)</source>
-        <translation>Passwort umschalten (%1)</translation>
+        <translation>Chuyển đổi mật khẩu (%1)</translation>
     </message>
     <message>
         <source>Generate Password (%1)</source>
-        <translation>Passwort erzeugen (%1)</translation>
+        <translation>Tạo mật khẩu (%1)</translation>
     </message>
     <message>
         <source>Warning: Caps Lock enabled!</source>
-        <translation>Warnung: Feststelltaste aktiviert!</translation>
+        <translation>Cảnh báo: Caps Lock đang bật!</translation>
     </message>
     <message>
         <source>Quality: %1</source>
-        <translation>Qualität: %1</translation>
+        <translation>Chất lượng: %1</translation>
     </message>
     <message>
         <source>Poor</source>
         <comment>Password quality</comment>
-        <translation>Schlecht</translation>
+        <translation>Kém</translation>
     </message>
     <message>
         <source>Weak</source>
         <comment>Password quality</comment>
-        <translation>Schwach</translation>
+        <translation>Yếu</translation>
     </message>
     <message>
         <source>Good</source>
         <comment>Password quality</comment>
-        <translation>Gut</translation>
+        <translation>Tốt</translation>
     </message>
     <message>
         <source>Excellent</source>
         <comment>Password quality</comment>
-        <translation>Ausgezeichnet</translation>
+        <translation>Xuất sắc</translation>
     </message>
     <message>
         <source>Toggle password visibilty using Control + H. Open the password generator using Control + G.</source>
-        <translation>Sichtbarkeit des Passworts mit Strg+H umschalten. Passwortgenerator mit Strg+G öffnen.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>PickcharsDialog</name>
     <message>
         <source>KeePassXC - Pick Characters</source>
-        <translation>KeePassXC - Zeichen auswählen</translation>
+        <translation>KeePassXC - Chọn ký tự</translation>
     </message>
     <message>
         <source>Select characters to type, navigate with arrow keys, Ctrl + S submits.</source>
-        <translation>Zu tippende Zeichen auswählen, mit Pfeiltasten navigieren, Strg + S sendet.</translation>
+        <translation>Chọn ký tự để nhập, điều hướng bằng phím mũi tên, Ctrl + S để gửi.</translation>
     </message>
     <message>
         <source>Press &amp;Tab between characters</source>
-        <translation>Taste &amp;Tab zwischen Zeichen drücken</translation>
+        <translation>Nhấn &amp;Tab giữa các ký tự</translation>
     </message>
 </context>
 <context>
     <name>PreviewEntryAttachmentsDialog</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Biểu mẫu</translation>
     </message>
     <message>
         <source>Preview: %1</source>
-        <translation>Vorschau: %1</translation>
+        <translation>Xem trước: %1</translation>
     </message>
     <message>
         <source>Save…</source>
-        <translation>Speichern…</translation>
+        <translation>Lưu…</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Overwrite</source>
-        <translation>Überschreiben</translation>
+        <translation>Ghi đè</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Verschieben</translation>
+        <translation>Di chuyển</translation>
     </message>
     <message>
         <source>Empty</source>
-        <translation>Leeren</translation>
+        <translation>Trống</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Xóa</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation>Überspringen</translation>
+        <translation>Bỏ qua</translation>
     </message>
     <message>
         <source>Disable</source>
-        <translation>Deaktivieren</translation>
+        <translation>Tắt</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation>Zusammenführen</translation>
+        <translation>Hợp nhất</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Fortsetzen</translation>
+        <translation>Tiếp tục</translation>
     </message>
     <message>
         <source>Continue with weak password</source>
-        <translation>Weiter mit schwachem Passwort</translation>
+        <translation>Tiếp tục với mật khẩu yếu</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Database not opened</source>
-        <translation>Datenbank nicht geöffnet</translation>
+        <translation>Cơ sở dữ liệu chưa mở</translation>
     </message>
     <message>
         <source>Database hash not available</source>
-        <translation>Datenbank-Hash nicht verfügbar</translation>
+        <translation>Hash cơ sở dữ liệu không khả dụng</translation>
     </message>
     <message>
         <source>Client public key not received</source>
-        <translation>Öffentlichen Schlüssel des Clients nicht empfangen</translation>
+        <translation>Khóa công khai của máy khách chưa nhận được</translation>
     </message>
     <message>
         <source>Cannot decrypt message</source>
-        <translation>Nachricht konnte nicht entschlüsselt werden</translation>
+        <translation>Không thể giải mã thông điệp</translation>
     </message>
     <message>
         <source>Action cancelled or denied</source>
-        <translation>Aktion abgebrochen oder verweigert</translation>
+        <translation>Hành động bị hủy hoặc từ chối</translation>
     </message>
     <message>
         <source>Message encryption failed.</source>
-        <translation>Nachrichtenverschlüsselung fehlgeschlagen</translation>
+        <translation>Mã hóa thông điệp thất bại.</translation>
     </message>
     <message>
         <source>KeePassXC association failed, try again</source>
-        <translation>KeePassXC-Verbindung fehlgeschlagen, bitte erneut versuchen</translation>
+        <translation>Liên kết KeePassXC thất bại, thử lại</translation>
     </message>
     <message>
         <source>Encryption key is not recognized</source>
-        <translation>Schlüssel nicht erkannt</translation>
+        <translation>Khóa mã hóa không được nhận dạng</translation>
     </message>
     <message>
         <source>Incorrect action</source>
-        <translation>Falsche Aktion</translation>
+        <translation>Hành động không đúng</translation>
     </message>
     <message>
         <source>Empty message received</source>
-        <translation>Leere Nachricht erhalten</translation>
+        <translation>Nhận được thông điệp trống</translation>
     </message>
     <message>
         <source>No URL provided</source>
-        <translation>Keine URL angegeben</translation>
+        <translation>Không có URL được cung cấp</translation>
     </message>
     <message>
         <source>No logins found</source>
-        <translation>Keine Anmeldedaten gefunden</translation>
+        <translation>Không tìm thấy thông tin đăng nhập</translation>
     </message>
     <message>
         <source>No groups found</source>
-        <translation>Keine Gruppe gefunden</translation>
+        <translation>Không tìm thấy nhóm</translation>
     </message>
     <message>
         <source>Cannot create new group</source>
-        <translation>Neue Gruppe kann nicht erstellt werden</translation>
+        <translation>Không thể tạo nhóm mới</translation>
     </message>
     <message>
         <source>No valid UUID provided</source>
-        <translation>Keine gültige UUID angegeben</translation>
+        <translation>Không có UUID hợp lệ được cung cấp</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Unbekannter Fehler</translation>
+        <translation>Lỗi không xác định</translation>
     </message>
     <message>
         <source>Browser Integration</source>
-        <translation>Browser-Integration</translation>
+        <translation>Tích hợp trình duyệt</translation>
     </message>
     <message>
         <source>Browser Plugin Failure</source>
-        <translation>Browser-Plugin-Fehler</translation>
+        <translation>Lỗi plugin trình duyệt</translation>
     </message>
     <message>
         <source>Could not save the native messaging script file for %1.</source>
-        <translation>Speichern des Native-Messaging-Skripts für %1 fehlgeschlagen.</translation>
+        <translation>Không thể lưu tệp script nhắn tin gốc cho %1.</translation>
     </message>
     <message>
         <source>Username for the entry.</source>
-        <translation>Benutzername für den Eintrag.</translation>
+        <translation>Tên người dùng cho mục.</translation>
     </message>
     <message>
         <source>username</source>
-        <translation>Benutzername</translation>
+        <translation>tên người dùng</translation>
     </message>
     <message>
         <source>URL for the entry.</source>
-        <translation>URL für den Eintrag.</translation>
+        <translation>URL cho mục.</translation>
     </message>
     <message>
         <source>URL</source>
@@ -7278,79 +7273,79 @@ Möchten Sie diese überschreiben?</translation>
     </message>
     <message>
         <source>Notes for the entry.</source>
-        <translation>Notizen für den Eintrag.</translation>
+        <translation>Ghi chú cho mục.</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation>Notizen</translation>
+        <translation>Ghi chú</translation>
     </message>
     <message>
         <source>Prompt for the entry&apos;s password.</source>
-        <translation>Nach dem Passwort des Eintrags fragen.</translation>
+        <translation>Nhắc nhập mật khẩu của mục.</translation>
     </message>
     <message>
         <source>Generate a password for the entry.</source>
-        <translation>Passwort für den Eintrag generieren.</translation>
+        <translation>Tạo mật khẩu cho mục.</translation>
     </message>
     <message>
         <source>Add a new entry to a database.</source>
-        <translation>Neuen Eintrag zur Datenbank hinzufügen.</translation>
+        <translation>Thêm mục mới vào cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Path of the entry to add.</source>
-        <translation>Pfad des hinzuzufügenden Eintrags.</translation>
+        <translation>Đường dẫn của mục cần thêm.</translation>
     </message>
     <message>
         <source>Cannot generate a password and prompt at the same time.</source>
-        <translation>Kann nicht gleichzeitig ein Passwort und eine Eingabeaufforderung erzeugen.</translation>
+        <translation>Không thể tạo mật khẩu và nhắc cùng lúc.</translation>
     </message>
     <message>
         <source>Could not create entry with path %1.</source>
-        <translation>Eintrag mit dem Pfad %1 kann nicht erstellt werden.</translation>
+        <translation>Không thể tạo mục với đường dẫn %1.</translation>
     </message>
     <message>
         <source>Enter password for new entry: </source>
-        <translation>Passwort für neuen Eintrag eingeben:</translation>
+        <translation>Nhập mật khẩu cho mục mới: </translation>
     </message>
     <message>
         <source>Writing the database failed %1.</source>
-        <translation>Schreiben der Datenbank fehlgeschlagen: %1</translation>
+        <translation>Ghi cơ sở dữ liệu thất bại %1.</translation>
     </message>
     <message>
         <source>Successfully added entry %1.</source>
-        <translation>Eintrag %1 erfolgreich hinzugefügt.</translation>
+        <translation>Đã thêm mục %1 thành công.</translation>
     </message>
     <message>
         <source>Adds a new group to a database.</source>
-        <translation>Fügt der Datenbank eine neue Gruppe hinzu.</translation>
+        <translation>Thêm nhóm mới vào cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Path of the group to add.</source>
-        <translation>Pfad der hinzuzufügenden Gruppe.</translation>
+        <translation>Đường dẫn của nhóm cần thêm.</translation>
     </message>
     <message>
         <source>Group %1 already exists!</source>
-        <translation>Gruppe %1 existiert bereits!</translation>
+        <translation>Nhóm %1 đã tồn tại!</translation>
     </message>
     <message>
         <source>Group %1 not found.</source>
-        <translation>Gruppe %1 nicht gefunden.</translation>
+        <translation>Không tìm thấy nhóm %1.</translation>
     </message>
     <message>
         <source>Successfully added group %1.</source>
-        <translation>Gruppe %1 erfolgreich hinzugefügt.</translation>
+        <translation>Đã thêm nhóm %1 thành công.</translation>
     </message>
     <message>
         <source>Check if any passwords have been publicly leaked. FILENAME must be the path of a file listing SHA-1 hashes of leaked passwords in HIBP format, as available from https://haveibeenpwned.com/Passwords.</source>
-        <translation>Überprüfen, ob irgenwelche Passwörter in öffentlichen Datenlecks vorkommen. DATEINAME muss der der Pfad der Datei sein, die SHA-1-Hashes der Passwörter im HIBP-Format enthält, wie zu finden unter https://haveibeenpwned.com/Passwords.</translation>
+        <translation>Kiểm tra xem có mật khẩu nào bị rò rỉ công khai không. FILENAME phải là đường dẫn của tệp liệt kê hash SHA-1 của mật khẩu bị rò rỉ ở định dạng HIBP, có sẵn từ https://haveibeenpwned.com/Passwords.</translation>
     </message>
     <message>
         <source>FILENAME</source>
-        <translation>DATEINAME</translation>
+        <translation>TÊN TỆP</translation>
     </message>
     <message>
         <source>Path to okon-cli to search a formatted HIBP file</source>
-        <translation>Pfad zu okon-cli, um eine formatierte HIBP-Datei zu suchen </translation>
+        <translation>Đường dẫn đến okon-cli để tìm kiếm tệp HIBP đã định dạng</translation>
     </message>
     <message>
         <source>okon-cli</source>
@@ -7358,364 +7353,364 @@ Möchten Sie diese überschreiben?</translation>
     </message>
     <message>
         <source>Analyze passwords for weaknesses and problems.</source>
-        <translation>Passwörter auf Schwächen und Probleme prüfen.</translation>
+        <translation>Phân tích mật khẩu để tìm điểm yếu và vấn đề.</translation>
     </message>
     <message>
         <source>Cannot find HIBP file: %1</source>
-        <translation>HIBP-Datei nicht gefunden: %1</translation>
+        <translation>Không thể tìm thấy tệp HIBP: %1</translation>
     </message>
     <message>
         <source>Evaluating database entries using okon…</source>
-        <translation>Auswerten von Datenbankeinträgen mit okon ...</translation>
+        <translation>Đang đánh giá mục cơ sở dữ liệu bằng okon…</translation>
     </message>
     <message>
         <source>Failed to open HIBP file %1: %2</source>
-        <translation>HIBP-Datei %1 konnte nicht geöffnet werden: %2</translation>
+        <translation>Không thể mở tệp HIBP %1: %2</translation>
     </message>
     <message>
         <source>Evaluating database entries against HIBP file, this will take a while…</source>
-        <translation>Datenbankeinträge gegen HIBP-Datei auswerten, das dauert eine Weile ...</translation>
+        <translation>Đang đánh giá mục cơ sở dữ liệu với tệp HIBP, điều này sẽ mất một lúc…</translation>
     </message>
     <message numerus="yes">
         <source>Password for &apos;%1&apos; has been leaked %2 time(s)!</source>
-        <translation><numerusform>Passwort für &apos;%1&apos; wurde %2 Mal in Datenlecks gefunden!</numerusform><numerusform>Passwort für &apos;%1&apos; wurde %2 Mal in Datenlecks gefunden!</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Password for &apos;%1&apos; has been leaked!</source>
-        <translation>Passwort für &apos;%1&apos; wurde in Datenlecks gefunden!</translation>
+        <translation>Mật khẩu cho &apos;%1&apos; đã bị rò rỉ!</translation>
     </message>
     <message>
         <source>Export an attachment of an entry.</source>
-        <translation>Anhang eines Eintrags exportieren.</translation>
+        <translation>Xuất tệp đính kèm của mục.</translation>
     </message>
     <message>
         <source>Path of the entry with the target attachment.</source>
-        <translation>Pfad des Eintrags mit dem Zielanhang.</translation>
+        <translation>Đường dẫn của mục có tệp đính kèm đích.</translation>
     </message>
     <message>
         <source>Name of the attachment to be exported.</source>
-        <translation>Name des zu exportierenden Anhangs.</translation>
+        <translation>Tên của tệp đính kèm cần xuất.</translation>
     </message>
     <message>
         <source>Path to which the attachment should be exported.</source>
-        <translation>Pfad, in den der Anhang exportiert werden soll.</translation>
+        <translation>Đường dẫn mà tệp đính kèm nên được xuất.</translation>
     </message>
     <message>
         <source>Could not find entry with path %1.</source>
-        <translation>Eintrag mit dem Pfad %1 nicht gefunden.</translation>
+        <translation>Không thể tìm thấy mục với đường dẫn %1.</translation>
     </message>
     <message>
         <source>Could not find attachment with name %1.</source>
-        <translation>Anhang mit dem Namen %1 nicht gefunden.</translation>
+        <translation>Không thể tìm thấy tệp đính kèm với tên %1.</translation>
     </message>
     <message>
         <source>No export target given. Please use &apos;--stdout&apos; or specify an &apos;export-file&apos;.</source>
-        <translation>Kein Exportziel angegeben. Bitte verwenden Sie &apos;--stdout&apos; oder geben Sie ein &apos;export-file&apos; an.</translation>
+        <translation>Không có đích xuất được cung cấp. Vui lòng sử dụng &apos;--stdout&apos; hoặc chỉ định &apos;export-file&apos;.</translation>
     </message>
     <message>
         <source>Could not open output file %1.</source>
-        <translation>Ausgabedatei %1 konnte nicht geöffnet werden.</translation>
+        <translation>Không thể mở tệp đầu ra %1.</translation>
     </message>
     <message>
         <source>Successfully exported attachment %1 of entry %2 to %3.</source>
-        <translation>Anhang %1 von Eintrag %2 nach %3 exportiert.</translation>
+        <translation>Đã xuất thành công tệp đính kèm %1 của mục %2 đến %3.</translation>
     </message>
     <message>
         <source>Overwrite existing attachments.</source>
-        <translation>Bestehende Anhänge überschreiben.</translation>
+        <translation>Ghi đè tệp đính kèm hiện có.</translation>
     </message>
     <message>
         <source>Imports an attachment to an entry.</source>
-        <translation>Einen Anhang zu einem Eintrag importieren.</translation>
+        <translation>Nhập tệp đính kèm vào mục.</translation>
     </message>
     <message>
         <source>Path of the entry.</source>
-        <translation>Pfad des Eintrags.</translation>
+        <translation>Đường dẫn của mục.</translation>
     </message>
     <message>
         <source>Name of the attachment to be added.</source>
-        <translation>Name des hinzuzufügenden Anhangs.</translation>
+        <translation>Tên của tệp đính kèm cần thêm.</translation>
     </message>
     <message>
         <source>Path of the attachment to be imported.</source>
-        <translation>Pfad des zu importierenden Anhangs.</translation>
+        <translation>Đường dẫn của tệp đính kèm cần nhập.</translation>
     </message>
     <message>
         <source>Attachment %1 already exists for entry %2.</source>
-        <translation>Anhang %1 existiert bereits für Eintrag %2.</translation>
+        <translation>Tệp đính kèm %1 đã tồn tại cho mục %2.</translation>
     </message>
     <message>
         <source>Could not open attachment file %1.</source>
-        <translation>Kann Anhang %1 nicht öffnen.</translation>
+        <translation>Không thể mở tệp đính kèm %1.</translation>
     </message>
     <message>
         <source>Successfully imported attachment %1 as %2 to entry %3.</source>
-        <translation>Anhang %1 als %2 zu Eintrag %3 importiert.</translation>
+        <translation>Đã nhập thành công tệp đính kèm %1 dưới dạng %2 vào mục %3.</translation>
     </message>
     <message>
         <source>Remove an attachment of an entry.</source>
-        <translation>Anhang eines Eintrages entfernen.</translation>
+        <translation>Xóa tệp đính kèm của mục.</translation>
     </message>
     <message>
         <source>Name of the attachment to be removed.</source>
-        <translation>Name des zu entfernenden Anhangs.</translation>
+        <translation>Tên của tệp đính kèm cần xóa.</translation>
     </message>
     <message>
         <source>Successfully removed attachment %1 from entry %2.</source>
-        <translation>Anhang %1 von Eintrag %2 entfernt.</translation>
+        <translation>Đã xóa thành công tệp đính kèm %1 khỏi mục %2.</translation>
     </message>
     <message>
         <source>Copy the given attribute to the clipboard. Defaults to &quot;password&quot; if not specified.</source>
         <comment>Don't translate &quot;password&quot;, it refers to the attribute.</comment>
-        <translation>Angegebene Eigenschaft in die Zwischenablage kopieren. Voreinstellung ist &quot;Passwort&quot;.</translation>
+        <translation>Sao chép thuộc tính đã cho vào clipboard. Mặc định là &quot;password&quot; nếu không chỉ định.</translation>
     </message>
     <message>
         <source>Copy the current TOTP to the clipboard (equivalent to &quot;-a totp&quot;).</source>
-        <translation>Aktuelles TOTP in die Zwischenablage kopieren (äquivalent zu &quot;-a totp&quot;).</translation>
+        <translation>Sao chép TOTP hiện tại vào clipboard (tương đương với &quot;-a totp&quot;).</translation>
     </message>
     <message>
         <source>Must match only one entry, otherwise a list of possible matches is shown.</source>
-        <translation>Darf nur mit einem Eintrag übereinstimmen, sonst wird eine Liste mit möglichen Übereinstimmungen angezeigt.</translation>
+        <translation>Phải khớp chỉ một mục, nếu không danh sách các kết quả khớp có thể sẽ được hiển thị.</translation>
     </message>
     <message>
         <source>Copy an entry&apos;s attribute to the clipboard.</source>
-        <translation>Eigenschaft eines Eintrags in die Zwischenablage kopieren.</translation>
+        <translation>Sao chép thuộc tính của mục vào clipboard.</translation>
     </message>
     <message>
         <source>Path of the entry to clip.</source>
         <comment>clip = copy to clipboard</comment>
-        <translation>Pfad des in die Zwischenablage zu kopierenden Eintrags</translation>
+        <translation>Đường dẫn của mục cần sao chép.</translation>
     </message>
     <message>
         <source>Timeout before clearing the clipboard (default is %1 seconds, set to 0 for unlimited).</source>
-        <translation>Timeout vor dem Löschen der Zwischenablage (Standard ist %1 Sekunden, für unbegrenzt auf 0 gesetzt).</translation>
+        <translation>Hết thời gian trước khi xóa clipboard (mặc định là %1 giây, đặt thành 0 để không giới hạn).</translation>
     </message>
     <message>
         <source>Invalid timeout value %1.</source>
-        <translation>Ungültiger Timeout-Wert %1</translation>
+        <translation>Giá trị hết thời gian không hợp lệ %1.</translation>
     </message>
     <message>
         <source>Multiple entries matching:</source>
-        <translation>Mehrere Einträge passen:</translation>
+        <translation>Nhiều mục khớp:</translation>
     </message>
     <message>
         <source>Using matching entry: %1</source>
-        <translation>Passender Eintrag wird verwendet: %1</translation>
+        <translation>Sử dụng mục khớp: %1</translation>
     </message>
     <message>
         <source>Entry %1 not found.</source>
-        <translation>Eintrag %1 nicht gefunden.</translation>
+        <translation>Không tìm thấy mục %1.</translation>
     </message>
     <message>
         <source>ERROR: Please specify one of --attribute or --totp, not both.</source>
-        <translation>FEHLER: Geben Sie entweder --attribute oder --totp an, nicht beides.</translation>
+        <translation>LỖI: Vui lòng chỉ định một trong --attribute hoặc --totp, không phải cả hai.</translation>
     </message>
     <message>
         <source>Entry with path %1 has no TOTP set up.</source>
-        <translation>Zu Eintrag %1 wurde kein TOTP eingerichtet.</translation>
+        <translation>Mục với đường dẫn %1 không có TOTP được thiết lập.</translation>
     </message>
     <message>
         <source>ERROR: attribute %1 is ambiguous, it matches %2.</source>
-        <translation>FEHLER: Eigenschaft %1 ist uneindeutig, passt auf %2.</translation>
+        <translation>LỖI: thuộc tính %1 không rõ ràng, nó khớp với %2.</translation>
     </message>
     <message>
         <source>Attribute &quot;%1&quot; not found.</source>
-        <translation>Eigenschaft &quot;%1&quot; nicht gefunden.</translation>
+        <translation>Không tìm thấy thuộc tính &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Entry&apos;s &quot;%1&quot; attribute copied to the clipboard!</source>
-        <translation>Eigenschaft &quot;%1&quot; des Eintrags wurde in die Zwischenablage kopiert!</translation>
+        <translation>Thuộc tính &quot;%1&quot; của mục đã được sao chép vào clipboard!</translation>
     </message>
     <message numerus="yes">
         <source>Clearing the clipboard in %1 second(s)...</source>
-        <translation><numerusform>Zwischenablage wird in %1 Sekunde(n) geleert…</numerusform><numerusform>Zwischenablage wird in %1 Sekunde(n) gelöscht ...</numerusform></translation>
+        <translation><numerusform>Xóa clipboard sau %1 giây...</numerusform></translation>
     </message>
     <message>
         <source>Clipboard cleared!</source>
-        <translation>Zwischenablage gelöscht.</translation>
+        <translation>Đã xóa clipboard!</translation>
     </message>
     <message>
         <source>Close the currently opened database.</source>
-        <translation>Die aktuell geöffnete Datenbank schließen.</translation>
+        <translation>Đóng cơ sở dữ liệu hiện đang mở.</translation>
     </message>
     <message>
         <source>Display this help.</source>
-        <translation>Diese Hilfe anzeigen.</translation>
+        <translation>Hiển thị trợ giúp này.</translation>
     </message>
     <message>
         <source>Silence password prompt and other secondary outputs.</source>
-        <translation>Passwortnachfrage und andere Ausgaben unterdrücken.</translation>
+        <translation>Im lặng nhắc mật khẩu và các đầu ra phụ khác.</translation>
     </message>
     <message>
         <source>Key file of the database.</source>
-        <translation>Schlüsseldatei der Datenbank</translation>
+        <translation>Tệp khóa của cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>path</source>
-        <translation>Pfad</translation>
+        <translation>đường dẫn</translation>
     </message>
     <message>
         <source>Deactivate password key for the database.</source>
-        <translation>Passwort-Schlüssel für die Datenbank deaktivieren.</translation>
+        <translation>Hủy kích hoạt khóa mật khẩu cho cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Yubikey slot and optional serial used to access the database (e.g., 1:7370001).</source>
-        <translation>Yubikey-Slot und optional Seriennummer zum Zugriff auf die Datenbank (z.B. 1:7370001).</translation>
+        <translation>Khe Yubikey và số sê-ri tùy chọn được sử dụng để truy cập cơ sở dữ liệu (ví dụ: 1:7370001).</translation>
     </message>
     <message>
         <source>slot[:serial]</source>
-        <translation>Slot[:Seriennummer]</translation>
+        <translation>khe[:số sê-ri]</translation>
     </message>
     <message>
         <source>Missing positional argument(s).</source>
-        <translation>Fehlende(s) positionale(s) Argument(e).</translation>
+        <translation>Thiếu đối số vị trí.</translation>
     </message>
     <message>
         <source>Too many arguments provided.</source>
-        <translation>Zu viele Argumente angegeben.</translation>
+        <translation>Quá nhiều đối số được cung cấp.</translation>
     </message>
     <message>
         <source>Target decryption time in MS for the database.</source>
-        <translation>Ziel-Entschlüsselungsdauer für die Datenbank in ms.</translation>
+        <translation>Thời gian giải mã mục tiêu tính bằng MS cho cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>time</source>
-        <translation>Zeit</translation>
+        <translation>thời gian</translation>
     </message>
     <message>
         <source>Set the key file for the database.</source>
-        <translation>Schlüsseldatei für die Datenbank festlegen.</translation>
+        <translation>Đặt tệp khóa cho cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Set a password for the database.</source>
-        <translation>Passwort für die Datenbank festlegen.</translation>
+        <translation>Đặt mật khẩu cho cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Create a new database.</source>
-        <translation>Neue Datenbank erstellen.</translation>
+        <translation>Tạo cơ sở dữ liệu mới.</translation>
     </message>
     <message>
         <source>Path of the database.</source>
-        <translation>Pfad der Datenbank.</translation>
+        <translation>Đường dẫn của cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Invalid decryption time %1.</source>
-        <translation>Ungültige Entschlüsselungsdauer %1.</translation>
+        <translation>Thời gian giải mã không hợp lệ %1.</translation>
     </message>
     <message>
         <source>Target decryption time must be between %1 and %2.</source>
-        <translation>Ziel-Entschlüsselungsdauer muss zwischen %1 und %2 sein.</translation>
+        <translation>Thời gian giải mã mục tiêu phải nằm giữa %1 và %2.</translation>
     </message>
     <message>
         <source>Failed to set database password.</source>
-        <translation>Festlegen des Datenbank-Passworts fehlgeschlagen.</translation>
+        <translation>Không thể đặt mật khẩu cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Loading the key file failed</source>
-        <translation>Schlüsseldatei kann nicht geladen werden</translation>
+        <translation>Tải tệp khóa thất bại</translation>
     </message>
     <message>
         <source>No key is set. Aborting database creation.</source>
-        <translation>Kein Schlüssel festgelegt. Datenbankerstellung wird abgebrochen.</translation>
+        <translation>Không có khóa nào được đặt. Hủy tạo cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Benchmarking key derivation function for %1ms delay.</source>
-        <translation>Messe Schlüssel-Ableitungsfunktion für %1 ms Verzögerung.</translation>
+        <translation>Đánh giá hàm dẫn xuất khóa cho độ trễ %1ms.</translation>
     </message>
     <message>
         <source>Setting %1 rounds for key derivation function.</source>
-        <translation>Stelle %1 Runden für Schlüssel-Ableitungsfunktion ein.</translation>
+        <translation>Đặt %1 vòng cho hàm dẫn xuất khóa.</translation>
     </message>
     <message>
         <source>error while setting database key derivation settings.</source>
-        <translation>Fehler beim Setzen der Datenbank-Schlüsselableitungs-Einstellungen.</translation>
+        <translation>lỗi khi đặt cài đặt dẫn xuất khóa cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>File %1 already exists.</source>
-        <translation>Datei %1 existiert bereits.</translation>
+        <translation>Tệp %1 đã tồn tại.</translation>
     </message>
     <message>
         <source>Failed to save the database: %1.</source>
-        <translation>Datenbank kann nicht gespeichert werden: %1.</translation>
+        <translation>Không thể lưu cơ sở dữ liệu: %1.</translation>
     </message>
     <message>
         <source>Successfully created new database.</source>
-        <translation>Datenbank erfolgreich erstellt.</translation>
+        <translation>Đã tạo cơ sở dữ liệu mới thành công.</translation>
     </message>
     <message>
         <source>Word count for the diceware passphrase.</source>
-        <translation>Wortanzahl für die Diceware-Passphrase.</translation>
+        <translation>Số từ cho cụm mật khẩu diceware.</translation>
     </message>
     <message>
         <source>count</source>
         <comment>CLI parameter</comment>
-        <translation>Anzahl</translation>
+        <translation>đếm</translation>
     </message>
     <message>
         <source>Wordlist for the diceware generator.
 [Default: EFF English]</source>
-        <translation>Wortliste für den Diceware-Generator.
-[Standard: EFF Englisch]</translation>
+        <translation>Danh sách từ cho trình tạo diceware.
+[Mặc định: EFF English]</translation>
     </message>
     <message>
         <source>Generate a new random diceware passphrase.</source>
-        <translation>Neue zufällige Diceware-Passphrase erzeugen.</translation>
+        <translation>Tạo cụm mật khẩu diceware ngẫu nhiên mới.</translation>
     </message>
     <message>
         <source>Invalid word count %1</source>
-        <translation>Ungültige Wortanzahl %1</translation>
+        <translation>Số từ không hợp lệ %1</translation>
     </message>
     <message>
         <source>Title for the entry.</source>
-        <translation>Titel für diesen Eintrag.</translation>
+        <translation>Tiêu đề cho mục.</translation>
     </message>
     <message>
         <source>title</source>
-        <translation>Titel</translation>
+        <translation>tiêu đề</translation>
     </message>
     <message>
         <source>Edit an entry.</source>
-        <translation>Einen Eintrag bearbeiten.</translation>
+        <translation>Chỉnh sửa mục.</translation>
     </message>
     <message>
         <source>Path of the entry to edit.</source>
-        <translation>Pfad des zu bearbeitenden Eintrags.</translation>
+        <translation>Đường dẫn của mục cần chỉnh sửa.</translation>
     </message>
     <message>
         <source>Not changing any field for entry %1.</source>
-        <translation>Eintrag %1 wurde nicht geändert.</translation>
+        <translation>Không thay đổi trường nào cho mục %1.</translation>
     </message>
     <message>
         <source>Enter new password for entry: </source>
-        <translation>Neues Passwort für Eintrag eingeben:</translation>
+        <translation>Nhập mật khẩu mới cho mục: </translation>
     </message>
     <message>
         <source>Writing the database failed: %1</source>
-        <translation>Schreiben der Datenbank fehlgeschlagen: %1</translation>
+        <translation>Ghi cơ sở dữ liệu thất bại: %1</translation>
     </message>
     <message>
         <source>Successfully edited entry %1.</source>
-        <translation>Eintrag %1 erfolgreich bearbeitet.</translation>
+        <translation>Đã chỉnh sửa mục %1 thành công.</translation>
     </message>
     <message>
         <source>Perform advanced analysis on the password.</source>
-        <translation>Fortgeschrittene Analyse des Passworts ausführen.</translation>
+        <translation>Thực hiện phân tích nâng cao trên mật khẩu.</translation>
     </message>
     <message>
         <source>Password for which to estimate the entropy.</source>
-        <translation>Passwort, für das die Entropie abgeschätzt werden soll.</translation>
+        <translation>Mật khẩu để ước tính entropy.</translation>
     </message>
     <message>
         <source>Estimate the entropy of a password.</source>
-        <translation>Entropie des Passworts abschätzen.</translation>
+        <translation>Ước tính entropy của mật khẩu.</translation>
     </message>
     <message>
         <source>Length %1</source>
-        <translation>Länge: %1</translation>
+        <translation>Độ dài %1</translation>
     </message>
     <message>
         <source>Entropy %1</source>
-        <translation>Entropie %1</translation>
+        <translation>Entropy %1</translation>
     </message>
     <message>
         <source>Log10 %1</source>
@@ -7723,287 +7718,287 @@ Möchten Sie diese überschreiben?</translation>
     </message>
     <message>
         <source>Multi-word extra bits %1</source>
-        <translation>Multi-Wort-Zusatzbits %1</translation>
+        <translation>Bit bổ sung nhiều từ %1</translation>
     </message>
     <message>
         <source>Type: Bruteforce</source>
-        <translation>Typ: Bruteforce</translation>
+        <translation>Loại: Vét cạn</translation>
     </message>
     <message>
         <source>Type: Dictionary</source>
-        <translation>Typ: Wörterbuch</translation>
+        <translation>Loại: Từ điển</translation>
     </message>
     <message>
         <source>Type: Dict+Leet</source>
-        <translation>Typ: Wörterbuch und Leet</translation>
+        <translation>Loại: Từ điển+Leet</translation>
     </message>
     <message>
         <source>Type: User Words</source>
-        <translation>Typ: Benutzerdefinierte Wörter</translation>
+        <translation>Loại: Từ người dùng</translation>
     </message>
     <message>
         <source>Type: User+Leet</source>
-        <translation>Type: Benutzerdefinierte Wörter und Leet</translation>
+        <translation>Loại: Người dùng+Leet</translation>
     </message>
     <message>
         <source>Type: Repeated</source>
-        <translation>Typ: Wiederholt</translation>
+        <translation>Loại: Lặp lại</translation>
     </message>
     <message>
         <source>Type: Sequence</source>
-        <translation>Typ: Sequenz</translation>
+        <translation>Loại: Chuỗi</translation>
     </message>
     <message>
         <source>Type: Spatial</source>
-        <translation>Typ: Räumlich</translation>
+        <translation>Loại: Không gian</translation>
     </message>
     <message>
         <source>Type: Date</source>
-        <translation>Typ: Datum</translation>
+        <translation>Loại: Ngày</translation>
     </message>
     <message>
         <source>Type: Bruteforce(Rep)</source>
-        <translation>Typ: Bruteforce</translation>
+        <translation>Loại: Vét cạn(Lặp)</translation>
     </message>
     <message>
         <source>Type: Dictionary(Rep)</source>
-        <translation>Typ: Wörterbuch</translation>
+        <translation>Loại: Từ điển(Lặp)</translation>
     </message>
     <message>
         <source>Type: Dict+Leet(Rep)</source>
-        <translation>Typ: Wörterbuch und Leet</translation>
+        <translation>Loại: Từ điển+Leet(Lặp)</translation>
     </message>
     <message>
         <source>Type: User Words(Rep)</source>
-        <translation>Typ: Benutzerdefinierte Wörter</translation>
+        <translation>Loại: Từ người dùng(Lặp)</translation>
     </message>
     <message>
         <source>Type: User+Leet(Rep)</source>
-        <translation>Type: Benutzerdefinierte Wörter und Leet</translation>
+        <translation>Loại: Người dùng+Leet(Lặp)</translation>
     </message>
     <message>
         <source>Type: Repeated(Rep)</source>
-        <translation>Typ: Wiederholt</translation>
+        <translation>Loại: Lặp lại(Lặp)</translation>
     </message>
     <message>
         <source>Type: Sequence(Rep)</source>
-        <translation>Typ: Sequenz</translation>
+        <translation>Loại: Chuỗi(Lặp)</translation>
     </message>
     <message>
         <source>Type: Spatial(Rep)</source>
-        <translation>Typ: Räumlich</translation>
+        <translation>Loại: Không gian(Lặp)</translation>
     </message>
     <message>
         <source>Entropy %1 (%2)</source>
-        <translation>Entropie %1 (%2)</translation>
+        <translation>Entropy %1 (%2)</translation>
     </message>
     <message>
         <source>*** Password length (%1) != sum of length of parts (%2) ***</source>
-        <translation>*** Passwortlänge (%1) ist nicht die Summe ihrer Teile (%2) ***</translation>
+        <translation>*** Độ dài mật khẩu (%1) != tổng độ dài các phần (%2) ***</translation>
     </message>
     <message>
         <source>Exit interactive mode.</source>
-        <translation>Interaktiven Modus verlassen.</translation>
+        <translation>Thoát chế độ tương tác.</translation>
     </message>
     <message>
         <source>Exports the content of a database to standard output in the specified format.</source>
-        <translation>Exportiert den Inhalt einer Datenbank im angegebenen Format auf die Standardausgabe.</translation>
+        <translation>Xuất nội dung cơ sở dữ liệu ra đầu ra chuẩn theo định dạng được chỉ định.</translation>
     </message>
     <message>
         <source>Unable to export database to XML: %1</source>
-        <translation>Fehler beim Exportieren der Datenbank nach XML: %1</translation>
+        <translation>Không thể xuất cơ sở dữ liệu ra XML: %1</translation>
     </message>
     <message>
         <source>Unsupported format %1</source>
-        <translation>Nicht unterstütztes Format %1</translation>
+        <translation>Định dạng không được hỗ trợ %1</translation>
     </message>
     <message>
         <source>Length of the generated password</source>
-        <translation>Länge des erzeugten Passworts</translation>
+        <translation>Độ dài của mật khẩu được tạo</translation>
     </message>
     <message>
         <source>length</source>
-        <translation>Länge</translation>
+        <translation>độ dài</translation>
     </message>
     <message>
         <source>Use lowercase characters</source>
-        <translation>Kleinbuchstaben verwenden</translation>
+        <translation>Sử dụng ký tự viết thường</translation>
     </message>
     <message>
         <source>Use uppercase characters</source>
-        <translation>Großbuchstaben verwenden</translation>
+        <translation>Sử dụng ký tự viết hoa</translation>
     </message>
     <message>
         <source>Use numbers</source>
-        <translation>Zahlen verwenden</translation>
+        <translation>Sử dụng số</translation>
     </message>
     <message>
         <source>Use special characters</source>
-        <translation>Sonderzeichen verwenden</translation>
+        <translation>Sử dụng ký tự đặc biệt</translation>
     </message>
     <message>
         <source>Use extended ASCII</source>
-        <translation>Erweitertes ASCII verwenden</translation>
+        <translation>Sử dụng ASCII mở rộng</translation>
     </message>
     <message>
         <source>Exclude character set</source>
-        <translation>Zeichen ausschließen</translation>
+        <translation>Loại trừ bộ ký tự</translation>
     </message>
     <message>
         <source>chars</source>
-        <translation>Zeichen</translation>
+        <translation>ký tự</translation>
     </message>
     <message>
         <source>Use custom character set</source>
-        <translation>Benutzerdefinierte Zeichen verwenden</translation>
+        <translation>Sử dụng bộ ký tự tùy chỉnh</translation>
     </message>
     <message>
         <source>Exclude similar looking characters</source>
-        <translation>Gleichaussehende Zeichen ausschließen</translation>
+        <translation>Loại trừ ký tự trông giống nhau</translation>
     </message>
     <message>
         <source>Include characters from every selected group</source>
-        <translation>Zeichen aus allen ausgewählten Gruppen verwenden</translation>
+        <translation>Bao gồm ký tự từ mỗi nhóm đã chọn</translation>
     </message>
     <message>
         <source>Generate a new random password.</source>
-        <translation>Neues zufälliges Passwort erzeugen.</translation>
+        <translation>Tạo mật khẩu ngẫu nhiên mới.</translation>
     </message>
     <message>
         <source>Invalid password length %1</source>
-        <translation>Ungültige Passwortlänge %1</translation>
+        <translation>Độ dài mật khẩu không hợp lệ %1</translation>
     </message>
     <message>
         <source>Invalid password generator after applying all options</source>
-        <translation>Ungültiger Passwortgenerator nach Anwendung aller Optionen</translation>
+        <translation>Trình tạo mật khẩu không hợp lệ sau khi áp dụng tất cả tùy chọn</translation>
     </message>
     <message>
         <source>Display command help.</source>
-        <translation>Hilfe zu diesem Befehl anzeigen.</translation>
+        <translation>Hiển thị trợ giúp lệnh.</translation>
     </message>
     <message>
         <source>Available commands:</source>
-        <translation>Verfügbare Befehle:</translation>
+        <translation>Các lệnh khả dụng:</translation>
     </message>
     <message>
         <source>Import the contents of an XML database.</source>
-        <translation>Die Inhalte einer XML-Datenbank importieren.</translation>
+        <translation>Nhập nội dung của cơ sở dữ liệu XML.</translation>
     </message>
     <message>
         <source>Path of the XML database export.</source>
-        <translation>Pfad des XML-Datenbank-Exports.</translation>
+        <translation>Đường dẫn của xuất cơ sở dữ liệu XML.</translation>
     </message>
     <message>
         <source>Path of the new database.</source>
-        <translation>Pfad zur neuen Datenbank.</translation>
+        <translation>Đường dẫn của cơ sở dữ liệu mới.</translation>
     </message>
     <message>
         <source>Unable to import XML database: %1</source>
-        <translation>Fehler beim Importieren der XML-Datenbank: %1</translation>
+        <translation>Không thể nhập cơ sở dữ liệu XML: %1</translation>
     </message>
     <message>
         <source>Successfully imported database.</source>
-        <translation>Datenbank erfolgreich importiert.</translation>
+        <translation>Đã nhập cơ sở dữ liệu thành công.</translation>
     </message>
     <message>
         <source>Show a database&apos;s information.</source>
-        <translation>Datenbankinformationen anzeigen.</translation>
+        <translation>Hiển thị thông tin cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>UUID: </source>
-        <translation>UUID:</translation>
+        <translation>UUID: </translation>
     </message>
     <message>
         <source>Name: </source>
-        <translation>Name: </translation>
+        <translation>Tên: </translation>
     </message>
     <message>
         <source>Description: </source>
-        <translation>Beschreibung:</translation>
+        <translation>Mô tả: </translation>
     </message>
     <message>
         <source>Cipher: </source>
-        <translation>Verschlüsselungsalgorithmus:</translation>
+        <translation>Mã hóa: </translation>
     </message>
     <message>
         <source>KDF: </source>
-        <translation>KDF:</translation>
+        <translation>KDF: </translation>
     </message>
     <message>
         <source>Recycle bin is enabled.</source>
-        <translation>Papierkorb ist aktiviert.</translation>
+        <translation>Thùng rác đã được bật.</translation>
     </message>
     <message>
         <source>Recycle bin is not enabled.</source>
-        <translation>Papierkorb ist nicht aktiviert.</translation>
+        <translation>Thùng rác chưa được bật.</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Speicherort</translation>
+        <translation>Vị trí</translation>
     </message>
     <message>
         <source>Database created</source>
-        <translation>Datenbank erstellt</translation>
+        <translation>Đã tạo cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Last saved</source>
-        <translation>Zuletzt gespeichert</translation>
+        <translation>Lưu lần cuối</translation>
     </message>
     <message>
         <source>Unsaved changes</source>
-        <translation>Ungespeicherte Änderungen</translation>
+        <translation>Thay đổi chưa lưu</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>ja</translation>
+        <translation>có</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nein</translation>
+        <translation>không</translation>
     </message>
     <message>
         <source>Number of groups</source>
-        <translation>Anzahl der Gruppen</translation>
+        <translation>Số lượng nhóm</translation>
     </message>
     <message>
         <source>Number of entries</source>
-        <translation>Anzahl der Einträge</translation>
+        <translation>Số lượng mục</translation>
     </message>
     <message>
         <source>Number of expired entries</source>
-        <translation>Anzahl der abgelaufenen Einträge</translation>
+        <translation>Số lượng mục đã hết hạn</translation>
     </message>
     <message>
         <source>Unique passwords</source>
-        <translation>Eindeutige Passwörter</translation>
+        <translation>Mật khẩu duy nhất</translation>
     </message>
     <message>
         <source>Non-unique passwords</source>
-        <translation>Nicht eindeutige Passwörter</translation>
+        <translation>Mật khẩu không duy nhất</translation>
     </message>
     <message>
         <source>Maximum password reuse</source>
-        <translation>Maximale Wiederverwendung eines Passworts</translation>
+        <translation>Sử dụng lại mật khẩu tối đa</translation>
     </message>
     <message>
         <source>Number of short passwords</source>
-        <translation>Anzahl der kurzen Passwörter</translation>
+        <translation>Số lượng mật khẩu ngắn</translation>
     </message>
     <message>
         <source>Number of weak passwords</source>
-        <translation>Anzahl der schwachen Passwörter</translation>
+        <translation>Số lượng mật khẩu yếu</translation>
     </message>
     <message>
         <source>Entries excluded from reports</source>
-        <translation>Von Berichten ausgeschlossene Einträge</translation>
+        <translation>Mục bị loại trừ khỏi báo cáo</translation>
     </message>
     <message>
         <source>Average password length</source>
-        <translation>Durchschnittliche Passwortlänge</translation>
+        <translation>Độ dài mật khẩu trung bình</translation>
     </message>
     <message>
         <source>Unknown command %1</source>
-        <translation>Unbekannter Befehl %1</translation>
+        <translation>Lệnh không xác định %1</translation>
     </message>
     <message>
         <source>
@@ -8012,374 +8007,374 @@ Available commands:
 </source>
         <translation>
 
-Verfügbare Kommandos:
+Các lệnh khả dụng:
 </translation>
     </message>
     <message>
         <source>Name of the command to execute.</source>
-        <translation>Name des auszuführenden Befehls.</translation>
+        <translation>Tên của lệnh cần thực thi.</translation>
     </message>
     <message>
         <source>Displays debugging information.</source>
-        <translation>Zeigt Informationen zur Fehlerbehebung an.</translation>
+        <translation>Hiển thị thông tin gỡ lỗi.</translation>
     </message>
     <message>
         <source>Invalid command %1.</source>
-        <translation>Ungültiger Befehl %1.</translation>
+        <translation>Lệnh không hợp lệ %1.</translation>
     </message>
     <message>
         <source>Recursively list the elements of the group.</source>
-        <translation>Rekursiv alle Elemente der Gruppe auflisten</translation>
+        <translation>Liệt kê đệ quy các phần tử của nhóm.</translation>
     </message>
     <message>
         <source>Flattens the output to single lines.</source>
-        <translation>Wandelt Ausgabe in einzelne Zeilen um.</translation>
+        <translation>Làm phẳng đầu ra thành các dòng đơn.</translation>
     </message>
     <message>
         <source>List database entries.</source>
-        <translation>Datenbankeinträge auflisten.</translation>
+        <translation>Liệt kê mục cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Path of the group to list. Default is /</source>
-        <translation>Pfad der aufzulistenden Gruppe. Standard ist /.</translation>
+        <translation>Đường dẫn của nhóm cần liệt kê. Mặc định là /</translation>
     </message>
     <message>
         <source>Cannot find group %1.</source>
-        <translation>Gruppe %1 nicht gefunden.</translation>
+        <translation>Không thể tìm thấy nhóm %1.</translation>
     </message>
     <message>
         <source>Use the same credentials for both database files.</source>
-        <translation>Dieselben Anmeldedaten für beide Datenbanken verwenden.</translation>
+        <translation>Sử dụng cùng thông tin xác thực cho cả hai tệp cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Key file of the database to merge from.</source>
-        <translation>Schlüsseldatei der Datenbank, aus der zusammengeführt werden soll.</translation>
+        <translation>Tệp khóa của cơ sở dữ liệu cần hợp nhất.</translation>
     </message>
     <message>
         <source>Deactivate password key for the database to merge from.</source>
-        <translation>Passwort-Schlüssel für die Quell-Datenbank der Zusammenführung deaktivieren.</translation>
+        <translation>Hủy kích hoạt khóa mật khẩu cho cơ sở dữ liệu cần hợp nhất.</translation>
     </message>
     <message>
         <source>Only print the changes detected by the merge operation.</source>
-        <translation>Nur die bei der Zusammenführung erkannten Änderungen ausgeben.</translation>
+        <translation>Chỉ in các thay đổi được phát hiện bởi thao tác hợp nhất.</translation>
     </message>
     <message>
         <source>Yubikey slot for the second database.</source>
-        <translation>Yubikey-Slot für die zweite Datenbank.</translation>
+        <translation>Khe Yubikey cho cơ sở dữ liệu thứ hai.</translation>
     </message>
     <message>
         <source>slot</source>
-        <translation>Slot</translation>
+        <translation>khe</translation>
     </message>
     <message>
         <source>Merge two databases.</source>
-        <translation>Zwei Datenbanken zusammenführen</translation>
+        <translation>Hợp nhất hai cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Path of the database to merge from.</source>
-        <translation>Pfad der Datenbank, aus der zusammengeführt werden soll.</translation>
+        <translation>Đường dẫn của cơ sở dữ liệu cần hợp nhất.</translation>
     </message>
     <message>
         <source>Error reading merge file:
 %1</source>
-        <translation>Fehler beim Öffnen der zuzusammenzuführenden Datei:
+        <translation>Lỗi đọc tệp hợp nhất:
 %1</translation>
     </message>
     <message>
         <source>Unable to save database to file : %1</source>
-        <translation>Datenbank kann nicht gespeichert werden: %1</translation>
+        <translation>Không thể lưu cơ sở dữ liệu vào tệp : %1</translation>
     </message>
     <message>
         <source>Successfully merged %1 into %2.</source>
-        <translation>%1 erfolgreich nach %2 zusammengeführt.</translation>
+        <translation>Đã hợp nhất thành công %1 vào %2.</translation>
     </message>
     <message>
         <source>Database was not modified by merge operation.</source>
-        <translation>Datenbank wurde beim Zusammenführen nicht verändert.</translation>
+        <translation>Cơ sở dữ liệu không được sửa đổi bởi thao tác hợp nhất.</translation>
     </message>
     <message>
         <source>Moves an entry to a new group.</source>
-        <translation>Verschiebt einen Eintrag in eine neue Gruppe.</translation>
+        <translation>Di chuyển mục đến nhóm mới.</translation>
     </message>
     <message>
         <source>Path of the entry to move.</source>
-        <translation>Pfad des zu verschiebenden Eintrags.</translation>
+        <translation>Đường dẫn của mục cần di chuyển.</translation>
     </message>
     <message>
         <source>Path of the destination group.</source>
-        <translation>Pfad der Zielgruppe.</translation>
+        <translation>Đường dẫn của nhóm đích.</translation>
     </message>
     <message>
         <source>Could not find group with path %1.</source>
-        <translation>Gruppe mit Pfad %1 nicht gefunden.</translation>
+        <translation>Không thể tìm thấy nhóm với đường dẫn %1.</translation>
     </message>
     <message>
         <source>Entry is already in group %1.</source>
-        <translation>Eintrag ist bereits in Gruppe %1.</translation>
+        <translation>Mục đã có trong nhóm %1.</translation>
     </message>
     <message>
         <source>Successfully moved entry %1 to group %2.</source>
-        <translation>Eintrag %1 erfolgreich in Gruppe %2 verschoben.</translation>
+        <translation>Đã di chuyển thành công mục %1 đến nhóm %2.</translation>
     </message>
     <message>
         <source>Open a database.</source>
-        <translation>Datenbank öffnen.</translation>
+        <translation>Mở cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Path of the entry to remove.</source>
-        <translation>Pfad des zu entfernenden Eintrags.</translation>
+        <translation>Đường dẫn của mục cần xóa.</translation>
     </message>
     <message>
         <source>Unable to save database to file: %1</source>
-        <translation>Datenbank kann nicht gespeichert werden: %1</translation>
+        <translation>Không thể lưu cơ sở dữ liệu vào tệp: %1</translation>
     </message>
     <message>
         <source>Successfully recycled entry %1.</source>
-        <translation>Eintrag %1 erfolgreich in Papierkorb verschoben.</translation>
+        <translation>Đã chuyển mục %1 vào thùng rác thành công.</translation>
     </message>
     <message>
         <source>Successfully deleted entry %1.</source>
-        <translation>Eintrag %1 erfolgreich gelöscht.</translation>
+        <translation>Đã xóa mục %1 thành công.</translation>
     </message>
     <message>
         <source>Path of the group to remove.</source>
-        <translation>Pfad der zu entfernenden Gruppe.</translation>
+        <translation>Đường dẫn của nhóm cần xóa.</translation>
     </message>
     <message>
         <source>Cannot remove root group from database.</source>
-        <translation>Kann Root-Gruppe nicht aus Datenbank entfernen.</translation>
+        <translation>Không thể xóa nhóm gốc khỏi cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Successfully recycled group %1.</source>
-        <translation>Gruppe %1 erfolgreich in Papierkorb verschoben.</translation>
+        <translation>Đã chuyển nhóm %1 vào thùng rác thành công.</translation>
     </message>
     <message>
         <source>Successfully deleted group %1.</source>
-        <translation>Gruppe %1 erfolgreich gelöscht.</translation>
+        <translation>Đã xóa nhóm %1 thành công.</translation>
     </message>
     <message>
         <source>Find entries quickly.</source>
-        <translation>Einträge schnell finden.</translation>
+        <translation>Tìm mục nhanh chóng.</translation>
     </message>
     <message>
         <source>Search term.</source>
-        <translation>Suchbegriff.</translation>
+        <translation>Từ khóa tìm kiếm.</translation>
     </message>
     <message>
         <source>Show the entry&apos;s current TOTP.</source>
-        <translation>Aktuelles TOTP des Eintrags anzeigen.</translation>
+        <translation>Hiển thị TOTP hiện tại của mục.</translation>
     </message>
     <message>
         <source>Show the protected attributes in clear text.</source>
-        <translation>Geschützte Eigenschaften im Klartext anzeigen.</translation>
+        <translation>Hiển thị các thuộc tính được bảo vệ dưới dạng văn bản rõ.</translation>
     </message>
     <message>
         <source>Show the attachments of the entry.</source>
-        <translation>Anhänge des Eintrags anzeigen.</translation>
+        <translation>Hiển thị các tệp đính kèm của mục.</translation>
     </message>
     <message>
         <source>Names of the attributes to show. This option can be specified more than once, with each attribute shown one-per-line in the given order. If no attributes are specified, a summary of the default attributes is given.</source>
-        <translation>Namen der anzuzeigenden Attribute. Diese Option kann mehr als einmal angegeben werden, wobei jedes Attribut in einer eigenen Zeile in der gegebenen Reihenfolge angegeben wird. Wenn keine Attribute angegeben sind, wird eine Zusammenfassung der Standardattribute gegeben.</translation>
+        <translation>Tên của các thuộc tính cần hiển thị. Tùy chọn này có thể được chỉ định nhiều lần, với mỗi thuộc tính hiển thị một dòng theo thứ tự đã cho. Nếu không chỉ định thuộc tính nào, một tóm tắt của các thuộc tính mặc định sẽ được đưa ra.</translation>
     </message>
     <message>
         <source>attribute</source>
-        <translation>Eigenschaft</translation>
+        <translation>thuộc tính</translation>
     </message>
     <message>
         <source>Show an entry&apos;s information.</source>
-        <translation>Informationen eines Eintrags anzeigen.</translation>
+        <translation>Hiển thị thông tin của mục.</translation>
     </message>
     <message>
         <source>Name of the entry to show.</source>
-        <translation>Name des anzuzeigenden Eintrags.</translation>
+        <translation>Tên của mục cần hiển thị.</translation>
     </message>
     <message>
         <source>ERROR: unknown attribute %1.</source>
-        <translation>FEHLER: Unbekannte Eigenschaft %1.</translation>
+        <translation>LỖI: thuộc tính không xác định %1.</translation>
     </message>
     <message>
         <source>No attachments present.</source>
-        <translation>Keine Anhänge vorhanden.</translation>
+        <translation>Không có tệp đính kèm.</translation>
     </message>
     <message>
         <source>Attachments:</source>
-        <translation>Anhänge:</translation>
+        <translation>Tệp đính kèm:</translation>
     </message>
     <message>
         <source>Failed to open database file %1: not found</source>
-        <translation>Fehler beim Öffnen der Datenbank-Datei %1: Nicht gefunden</translation>
+        <translation>Không thể mở tệp cơ sở dữ liệu %1: không tìm thấy</translation>
     </message>
     <message>
         <source>Failed to open database file %1: not a plain file</source>
-        <translation>Fehler beim Öffnen der Datenbank-Datei %1: Keine normale Datei</translation>
+        <translation>Không thể mở tệp cơ sở dữ liệu %1: không phải tệp thông thường</translation>
     </message>
     <message>
         <source>Failed to open database file %1: not readable</source>
-        <translation>Fehler beim Öffnen der Datenbank-Datei %1: Nicht lesbar</translation>
+        <translation>Không thể mở tệp cơ sở dữ liệu %1: không thể đọc</translation>
     </message>
     <message>
         <source>Enter password to unlock %1: </source>
-        <translation>Passwort zum Entsperren von %1 eingeben:</translation>
+        <translation>Nhập mật khẩu để mở khóa %1: </translation>
     </message>
     <message>
         <source>Failed to load key file %1: %2</source>
-        <translation>Schlüsseldatei %1 kann nicht geladen werden: %2</translation>
+        <translation>Không thể tải tệp khóa %1: %2</translation>
     </message>
     <message>
         <source>WARNING: You are using an old key file format which KeePassXC may
 stop supporting in the future.
 
 Please consider generating a new key file.</source>
-        <translation>WARNUNG: Sie verwenden ein altes Schlüsseldateiformat, das KeePassXC möglicherweise
-in Zukunft nicht mehr unterstützen wird.
+        <translation>CẢNH BÁO: Bạn đang sử dụng định dạng tệp khóa cũ mà KeePassXC có thể
+ngừng hỗ trợ trong tương lai.
 
-Bitte erwägen Sie, eine neue Schlüsseldatei zu erzeugen.</translation>
+Vui lòng xem xét tạo tệp khóa mới.</translation>
     </message>
     <message>
         <source>Invalid YubiKey slot %1</source>
-        <translation>Ungültiger YubiKey-Slot %1</translation>
+        <translation>Khe YubiKey không hợp lệ %1</translation>
     </message>
     <message>
         <source>Invalid YubiKey serial %1</source>
-        <translation>Ungültige YubiKey-Seriennummer %1</translation>
+        <translation>Số sê-ri YubiKey không hợp lệ %1</translation>
     </message>
     <message>
         <source>Enter password to encrypt database (optional): </source>
-        <translation>Passwort eingeben, um Datenbank zu verschlüsseln (optional):</translation>
+        <translation>Nhập mật khẩu để mã hóa cơ sở dữ liệu (tùy chọn): </translation>
     </message>
     <message>
         <source>Do you want to create a database with an empty password? [y/N]: </source>
-        <translation>Wollen Sie eine Datenbank mit einem leeren Passwort erstellen? [y/N]:</translation>
+        <translation>Bạn có muốn tạo cơ sở dữ liệu với mật khẩu trống không? [y/N]: </translation>
     </message>
     <message>
         <source>Repeat password: </source>
-        <translation>Passwort wiederholen:</translation>
+        <translation>Nhập lại mật khẩu: </translation>
     </message>
     <message>
         <source>Error: Passwords do not match.</source>
-        <translation>Fehler: Passwörter stimmen nicht überein.</translation>
+        <translation>Lỗi: Mật khẩu không khớp.</translation>
     </message>
     <message>
         <source>No program defined for clipboard manipulation</source>
-        <translation>Kein Programm zur Manipulation der Zwischenablage angegeben.</translation>
+        <translation>Không có chương trình được định nghĩa để thao tác clipboard</translation>
     </message>
     <message>
         <source>All clipping programs failed. Tried %1
 </source>
-        <translation>Alle Clipping-Programme fehlgeschlagen. %1 versucht
+        <translation>Tất cả các chương trình sao chép đều thất bại. Đã thử %1
 </translation>
     </message>
     <message>
         <source>Creating KeyFile %1 failed: %2</source>
-        <translation>Schlüsseldatei %1 kann nicht erstellt werden: %2</translation>
+        <translation>Tạo tệp khóa %1 thất bại: %2</translation>
     </message>
     <message>
         <source>Loading KeyFile %1 failed: %2</source>
-        <translation>Schlüsseldatei %1 kann nicht geladen werden: %2</translation>
+        <translation>Tải tệp khóa %1 thất bại: %2</translation>
     </message>
     <message>
         <source>HIBP file, line %1: parse error</source>
-        <translation>HIBP-Datei, Zeile %1: Parse-Fehler</translation>
+        <translation>Tệp HIBP, dòng %1: lỗi phân tích cú pháp</translation>
     </message>
     <message>
         <source>To use okon, you must provide a post-processed file (e.g. file.okon)</source>
-        <translation>Um okon zu verwenden, müssen Sie eine nachbearbeitete Datei (z. B. file.okon) bereitstellen</translation>
+        <translation>Để sử dụng okon, bạn phải cung cấp tệp đã xử lý (ví dụ: file.okon)</translation>
     </message>
     <message>
         <source>Could not start okon process: %1</source>
-        <translation>Okon-Prozess: %1 konnte nicht gestartet werden</translation>
+        <translation>Không thể khởi động tiến trình okon: %1</translation>
     </message>
     <message>
         <source>Error: okon process did not finish</source>
-        <translation>Fehler: Okon-Prozess wurde nicht abgeschlossen</translation>
+        <translation>Lỗi: tiến trình okon không kết thúc</translation>
     </message>
     <message>
         <source>Failed to load okon processed database: %1</source>
-        <translation>Okon-eigene Datenbank: %1 konnte nicht geladen werden</translation>
+        <translation>Không thể tải cơ sở dữ liệu đã xử lý okon: %1</translation>
     </message>
     <message>
         <source>Very weak password</source>
-        <translation>Sehr schwaches Passwort</translation>
+        <translation>Mật khẩu rất yếu</translation>
     </message>
     <message>
         <source>Password entropy is %1 bits</source>
-        <translation>Passwort-Entropie ist %1 Bits</translation>
+        <translation>Entropy mật khẩu là %1 bit</translation>
     </message>
     <message>
         <source>Weak password</source>
-        <translation>Schwaches Passwort</translation>
+        <translation>Mật khẩu yếu</translation>
     </message>
     <message>
         <source>Used in %1/%2</source>
-        <translation>Verwendet in %1/%2</translation>
+        <translation>Được sử dụng trong %1/%2</translation>
     </message>
     <message numerus="yes">
         <source>Password is used %1 time(s)</source>
-        <translation><numerusform>Passwort wird %1 Mal verwendet</numerusform><numerusform>Passwort wird %1 Mal verwendet</numerusform></translation>
+        <translation><numerusform>Mật khẩu được sử dụng %1 lần</numerusform></translation>
     </message>
     <message>
         <source>Password has expired</source>
-        <translation>Passwort ist abgelaufen</translation>
+        <translation>Mật khẩu đã hết hạn</translation>
     </message>
     <message>
         <source>Password expiry was %1</source>
-        <translation>Passwort-Ablauf war %1</translation>
+        <translation>Mật khẩu hết hạn vào %1</translation>
     </message>
     <message>
         <source>Password expires on %1</source>
-        <translation>Passwort läuft am %1 ab</translation>
+        <translation>Mật khẩu hết hạn vào %1</translation>
     </message>
     <message>
         <source>Password is about to expire</source>
-        <translation>Passwort läuft bald ab</translation>
+        <translation>Mật khẩu sắp hết hạn</translation>
     </message>
     <message numerus="yes">
         <source>Password expires in %1 day(s)</source>
-        <translation><numerusform>Passwort läuft in %1 Tag ab</numerusform><numerusform>Passwort läuft in %1 Tag(en) ab</numerusform></translation>
+        <translation><numerusform>Mật khẩu hết hạn sau %1 ngày</numerusform></translation>
     </message>
     <message>
         <source>Password will expire soon</source>
-        <translation>Passwort läuft bald ab</translation>
+        <translation>Mật khẩu sẽ sớm hết hạn</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>Phiên bản %1</translation>
     </message>
     <message>
         <source>Build Type: %1</source>
-        <translation>Build-Typ: %1</translation>
+        <translation>Loại bản dựng: %1</translation>
     </message>
     <message>
         <source>Revision: %1</source>
-        <translation>Revision: %1</translation>
+        <translation>Bản sửa đổi: %1</translation>
     </message>
     <message>
         <source>Distribution: %1</source>
-        <translation>Distribution: %1</translation>
+        <translation>Phân phối: %1</translation>
     </message>
     <message>
         <source>Debugging mode is disabled.</source>
-        <translation>Diagnosemodus ist deaktiviert.</translation>
+        <translation>Chế độ gỡ lỗi đã tắt.</translation>
     </message>
     <message>
         <source>Debugging mode is enabled.</source>
-        <translation>Diagnosemodus ist aktiviert.</translation>
+        <translation>Chế độ gỡ lỗi đã bật.</translation>
     </message>
     <message>
         <source>Operating system: %1
 CPU architecture: %2
 Kernel: %3 %4</source>
-        <translation>Betriebssystem: %1
-CPU-Architektur: %2
+        <translation>Hệ điều hành: %1
+Kiến trúc CPU: %2
 Kernel: %3 %4</translation>
     </message>
     <message>
         <source>Auto-Type</source>
-        <translation>Auto-Type</translation>
+        <translation>Tự động nhập</translation>
     </message>
     <message>
         <source>SSH Agent</source>
-        <translation>SSH-Agent</translation>
+        <translation>SSH Agent</translation>
     </message>
     <message>
         <source>KeeShare</source>
@@ -8391,95 +8386,95 @@ Kernel: %3 %4</translation>
     </message>
     <message>
         <source>Quick Unlock</source>
-        <translation>Schnelle Entsperrung</translation>
+        <translation>Mở khóa nhanh</translation>
     </message>
     <message>
         <source>Secret Service Integration</source>
-        <translation>Secret-Service-Integration</translation>
+        <translation>Tích hợp Secret Service</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Không có</translation>
     </message>
     <message>
         <source>Enabled extensions:</source>
-        <translation>Aktivierte Erweiterungen:</translation>
+        <translation>Tiện ích mở rộng đã bật:</translation>
     </message>
     <message numerus="yes">
         <source>over %1 year(s)</source>
-        <translation><numerusform>über %1 Jahr</numerusform><numerusform>über %1 Jahr(e)</numerusform></translation>
+        <translation><numerusform>hơn %1 năm</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>about %1 month(s)</source>
-        <translation><numerusform>ca. %1 Monat</numerusform><numerusform>ca. %1 Monat(e)</numerusform></translation>
+        <translation><numerusform>khoảng %1 tháng</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%1 week(s)</source>
-        <translation><numerusform>%1 Woche</numerusform><numerusform>%1 Woche(n)</numerusform></translation>
+        <translation><numerusform>%1 tuần</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
-        <translation><numerusform>%1 Tag</numerusform><numerusform>%1 Tag(e)</numerusform></translation>
+        <translation><numerusform>%1 ngày</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%1 hour(s)</source>
-        <translation><numerusform>%1 Stunde</numerusform><numerusform>%1 Stunde(n)</numerusform></translation>
+        <translation><numerusform>%1 giờ</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%1 minute(s)</source>
-        <translation><numerusform>%1 Minute</numerusform><numerusform>%1 Minute(n)</numerusform></translation>
+        <translation><numerusform>%1 phút</numerusform></translation>
     </message>
     <message>
         <source>Botan library must be at least %1, found %2.%3.%4</source>
-        <translation>Botan-Bibliothek muss mindestens %1 sein, gefunden %2.%3.%4</translation>
+        <translation>Thư viện Botan phải ít nhất %1, tìm thấy %2.%3.%4</translation>
     </message>
     <message>
         <source>Cryptographic libraries:</source>
-        <translation>Kryptographische Bibliotheken:</translation>
+        <translation>Thư viện mật mã:</translation>
     </message>
     <message>
         <source>AES (%1 rounds)</source>
-        <translation>AES (%1 Runden)</translation>
+        <translation>AES (%1 vòng)</translation>
     </message>
     <message>
         <source>Argon2%1 (%2 rounds, %3 KB)</source>
-        <translation>Argon2%1 (%2 Runden, %3 KB)</translation>
+        <translation>Argon2%1 (%2 vòng, %3 KB)</translation>
     </message>
     <message>
         <source>SymmetricCipher::init: Invalid cipher mode.</source>
-        <translation>SymmetricCipher::init: Ungültiger Verschlüsselungsmodus.</translation>
+        <translation>SymmetricCipher::init: Chế độ mã hóa không hợp lệ.</translation>
     </message>
     <message>
         <source>SymmetricCipher::init: Invalid IV size of %1 for %2.</source>
-        <translation>SymmetricCipher::init: Ungültige IV-Größe von  of %1 für %2.</translation>
+        <translation>SymmetricCipher::init: Kích thước IV không hợp lệ %1 cho %2.</translation>
     </message>
     <message>
         <source>Cipher not initialized prior to use.</source>
-        <translation>Verschlüsselung vor der Verwendung nicht initialisiert.</translation>
+        <translation>Mã hóa chưa được khởi tạo trước khi sử dụng.</translation>
     </message>
     <message>
         <source>Cannot process 0 length data.</source>
-        <translation>Daten der Länge 0 können nicht verarbeitet werden.</translation>
+        <translation>Không thể xử lý dữ liệu có độ dài 0.</translation>
     </message>
     <message>
         <source>unknown executable (DBus address %1)</source>
-        <translation>unbekannte ausführbare Datei (DBus-Adresse %1)</translation>
+        <translation>tệp thực thi không xác định (địa chỉ DBus %1)</translation>
     </message>
     <message>
         <source>%1 (invalid executable path)</source>
-        <translation>%1 (ungültiger ausführbarer Pfad)</translation>
+        <translation>%1 (đường dẫn thực thi không hợp lệ)</translation>
     </message>
     <message>
         <source>NULL device</source>
-        <translation>NULL-Gerät</translation>
+        <translation>Thiết bị NULL</translation>
     </message>
     <message>
         <source>error reading from device</source>
-        <translation>Fehler beim Lesen vom Gerät</translation>
+        <translation>lỗi đọc từ thiết bị</translation>
     </message>
     <message>
         <source>file empty</source>
-        <translation>Datei leer</translation>
+        <translation>tệp trống</translation>
     </message>
     <message>
         <source>AES 256-bit</source>
@@ -8491,11 +8486,11 @@ Kernel: %3 %4</translation>
     </message>
     <message>
         <source>ChaCha20 256-bit</source>
-        <translation>ChaCha20 256-Bit</translation>
+        <translation>ChaCha20 256-bit</translation>
     </message>
     <message>
         <source>Argon2d (KDBX 4 – recommended)</source>
-        <translation>Argon2d (KDBX 4 – empfohlen)</translation>
+        <translation>Argon2d (KDBX 4 – được khuyến nghị)</translation>
     </message>
     <message>
         <source>Argon2id (KDBX 4)</source>
@@ -8511,31 +8506,31 @@ Kernel: %3 %4</translation>
     </message>
     <message>
         <source>Existing single-instance lock file is invalid. Launching new instance.</source>
-        <translation>Vorhandene Einmal-Sperrdatei ist ungültig. Starte neue Instanz.  </translation>
+        <translation>Tệp khóa phiên bản đơn hiện có không hợp lệ. Khởi chạy phiên bản mới.</translation>
     </message>
     <message>
         <source>The lock file could not be created. Single-instance mode disabled.</source>
-        <translation>Sperrdatei konnte nicht erstellt werden. Einzelinstanzmodus ist deaktiviert.</translation>
+        <translation>Không thể tạo tệp khóa. Chế độ phiên bản đơn đã tắt.</translation>
     </message>
     <message numerus="yes">
         <source>Clearing the clipboard in %1 second(s)…</source>
-        <translation><numerusform>Zwischenablage wird in %1 Sekunde gelöscht…</numerusform><numerusform>Zwischenablage wird in %1 Sekunden gelöscht …</numerusform></translation>
+        <translation><numerusform>Xóa clipboard sau %1 giây…</numerusform></translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Passwort</translation>
+        <translation>Mật khẩu</translation>
     </message>
     <message>
         <source>TOTP</source>
@@ -8543,53 +8538,53 @@ Kernel: %3 %4</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation>Symbol</translation>
+        <translation>Biểu tượng</translation>
     </message>
     <message>
         <source>Last Modified</source>
-        <translation>Zuletzt bearbeitet</translation>
+        <translation>Sửa đổi lần cuối</translation>
     </message>
     <message>
         <source>Created</source>
-        <translation>Erstellt</translation>
+        <translation>Đã tạo</translation>
     </message>
     <message>
         <source>Benchmark %1 delay</source>
-        <translation>Verzögerung von %1 messen</translation>
+        <translation>Đánh giá độ trễ %1</translation>
     </message>
     <message numerus="yes">
         <source>%1 ms</source>
         <comment>milliseconds</comment>
-        <translation><numerusform>%1 ms</numerusform><numerusform>%1 ms</numerusform></translation>
+        <translation><numerusform>%1 ms</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%1 s</source>
         <comment>seconds</comment>
-        <translation><numerusform>%1 s</numerusform><numerusform>%1 s</numerusform></translation>
+        <translation><numerusform>%1 giây</numerusform></translation>
     </message>
     <message>
         <source>Do you really want to move entry &quot;%1&quot; to the recycle bin?</source>
-        <translation>Wollen Sie den Eintrag &quot;%1&quot; wirklich in den Papierkorb verschieben?</translation>
+        <translation>Bạn có thực sự muốn di chuyển mục &quot;%1&quot; vào thùng rác không?</translation>
     </message>
     <message numerus="yes">
         <source>Do you really want to move %n entry(s) to the recycle bin?</source>
-        <translation><numerusform>Möchten Sie wirklich %n Eintrag in den Papierkorb verschieben?</numerusform><numerusform>Möchten Sie wirklich %n Einträge in den Papierkorb verschieben?</numerusform></translation>
+        <translation><numerusform>Bạn có thực sự muốn di chuyển %n mục vào thùng rác không?</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Entry &quot;%1&quot; has %2 reference(s). Do you want to overwrite references with values, skip this entry, or delete anyway?</source>
-        <translation><numerusform>Eintrag &quot;%1&quot; hat %2 Referenz. Möchten Sie die Referenz mit Werten überschreiben, diesen Eintrag überspringen oder trotzdem löschen?</numerusform><numerusform>Eintrag &quot;%1&quot; hat %2 Referenzen. Möchten Sie die Referenzen mit Werten überschreiben, diesen Eintrag überspringen oder trotzdem löschen?</numerusform></translation>
+        <translation><numerusform>Mục &quot;%1&quot; có %2 tham chiếu. Bạn có muốn ghi đè tham chiếu bằng giá trị, bỏ qua mục này, hay vẫn xóa?</numerusform></translation>
     </message>
     <message>
         <source>User name</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>Browser Statistics</source>
-        <translation>Browser-Statistiken</translation>
+        <translation>Thống kê trình duyệt</translation>
     </message>
     <message>
         <source>Health Check</source>
-        <translation>Gesundheitscheck</translation>
+        <translation>Kiểm tra sức khỏe</translation>
     </message>
     <message>
         <source>HIBP</source>
@@ -8597,313 +8592,313 @@ Kernel: %3 %4</translation>
     </message>
     <message>
         <source>Statistics</source>
-        <translation>Statistiken</translation>
+        <translation>Thống kê</translation>
     </message>
     <message>
         <source>Unsupported key file version: %1</source>
-        <translation>Nicht unterstützte Version der Schlüsseldatei: %1</translation>
+        <translation>Phiên bản tệp khóa không được hỗ trợ: %1</translation>
     </message>
     <message>
         <source>Checksum mismatch! Key file may be corrupt.</source>
-        <translation>Prüfsumme stimmt nicht überein! Die Schlüsseldatei ist möglicherweise beschädigt.</translation>
+        <translation>Checksum không khớp! Tệp khóa có thể bị hỏng.</translation>
     </message>
     <message>
         <source>Unexpected key file data! Key file may be corrupt.</source>
-        <translation>Unerwartete Schlüsseldateidaten! Die Schlüsseldatei ist möglicherweise beschädigt.</translation>
+        <translation>Dữ liệu tệp khóa không mong đợi! Tệp khóa có thể bị hỏng.</translation>
     </message>
     <message>
         <source>KeePassXC - cross-platform password manager</source>
-        <translation>KeePassXC - Plattformübergreifender Passwort-Manager</translation>
+        <translation>KeePassXC - trình quản lý mật khẩu đa nền tảng</translation>
     </message>
     <message>
         <source>filenames of the password databases to open (*.kdbx)</source>
-        <translation>Dateinamen der zu öffnenden Datenbanken (*.kdbx)</translation>
+        <translation>tên tệp của cơ sở dữ liệu mật khẩu cần mở (*.kdbx)</translation>
     </message>
     <message>
         <source>path to a custom config file</source>
-        <translation>Pfad zu einer benutzerdefinierten Konfigurationsdatei</translation>
+        <translation>đường dẫn đến tệp cấu hình tùy chỉnh</translation>
     </message>
     <message>
         <source>path to a custom local config file</source>
-        <translation>Pfad zu einer benutzerdefinierten lokalen Konfigurationsdatei</translation>
+        <translation>đường dẫn đến tệp cấu hình cục bộ tùy chỉnh</translation>
     </message>
     <message>
         <source>lock all open databases</source>
-        <translation>alle offenen Datenbanken sperren</translation>
+        <translation>khóa tất cả cơ sở dữ liệu đang mở</translation>
     </message>
     <message>
         <source>key file of the database</source>
-        <translation>Schlüsseldatei der Datenbank</translation>
+        <translation>tệp khóa của cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>read password of the database from stdin</source>
-        <translation>Passwort der Datenbank von stdin lesen</translation>
+        <translation>đọc mật khẩu của cơ sở dữ liệu từ stdin</translation>
     </message>
     <message>
         <source>Database failed to lock.</source>
-        <translation>Datenbank kann nicht gesperrt werden.</translation>
+        <translation>Không thể khóa cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Another instance of KeePassXC is already running.</source>
-        <translation>Eine andere KeePassXC-Instanz läuft bereits.</translation>
+        <translation>Một phiên bản khác của KeePassXC đang chạy.</translation>
     </message>
     <message>
         <source>Fatal error while testing the cryptographic functions.</source>
-        <translation>Kritischer Fehler beim Testen der kryptografischen Funktionen.</translation>
+        <translation>Lỗi nghiêm trọng khi kiểm tra các hàm mã hóa.</translation>
     </message>
     <message>
         <source>KeePassXC - Error</source>
-        <translation>KeePassXC - Fehler</translation>
+        <translation>KeePassXC - Lỗi</translation>
     </message>
     <message>
         <source>Database password: </source>
-        <translation>Datenbank-Passwort:</translation>
+        <translation>Mật khẩu cơ sở dữ liệu: </translation>
     </message>
     <message>
         <source>Invalid Settings</source>
         <comment>TOTP</comment>
-        <translation>Ungültige Einstellungen</translation>
+        <translation>Cài đặt không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid Key</source>
         <comment>TOTP</comment>
-        <translation>Ungültiger Schlüssel</translation>
+        <translation>Khóa không hợp lệ</translation>
     </message>
     <message>
         <source>Failed to create Windows Hello credential.</source>
-        <translation>Windows Hello-Anmeldedaten konnten nicht erstellt werden.</translation>
+        <translation>Không thể tạo thông tin xác thực Windows Hello.</translation>
     </message>
     <message>
         <source>Failed to sign challenge using Windows Hello.</source>
-        <translation>Anmeldung mit Windows Hello fehlgeschlagen.</translation>
+        <translation>Không thể ký thách thức bằng Windows Hello.</translation>
     </message>
     <message>
         <source>Warning: Failed to block screenshot capture on a top-level window.</source>
-        <translation>Warnung: Die Bildschirmaufnahme in einem Fenster der obersten Ebene konnte nicht blockiert werden.</translation>
+        <translation>Cảnh báo: Không thể chặn chụp màn hình trên cửa sổ cấp cao nhất.</translation>
     </message>
     <message>
         <source>Invalid Cipher</source>
-        <translation>Ungültige Verschlüsselung</translation>
+        <translation>Mã hóa không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid KDF</source>
-        <translation>Ungültige KDF</translation>
+        <translation>KDF không hợp lệ</translation>
     </message>
     <message>
         <source>Please present or touch your YubiKey to continue.</source>
-        <translation>Bitte halten oder berühren Sie Ihren YubiKey, um fortzufahren.</translation>
+        <translation>Vui lòng đưa ra hoặc chạm vào YubiKey của bạn để tiếp tục.</translation>
     </message>
     <message>
         <source>Show all the attributes of the entry.</source>
-        <translation>Alle Eigenschaften des Eintrags anzeigen.</translation>
+        <translation>Hiển thị tất cả các thuộc tính của mục.</translation>
     </message>
     <message>
         <source>Set the key file for the database.
 This option is deprecated, use --set-key-file instead.</source>
-        <translation>Legt die Schlüsseldatei für die Datenbank fest.
-Diese Option ist veraltet, verwenden Sie stattdessen --set-key-file.</translation>
+        <translation>Đặt tệp khóa cho cơ sở dữ liệu.
+Tùy chọn này đã lỗi thời, sử dụng --set-key-file thay thế.</translation>
     </message>
     <message>
         <source>Databases have been locked.</source>
-        <translation>Datenbanken wurden gesperrt.</translation>
+        <translation>Các cơ sở dữ liệu đã được khóa.</translation>
     </message>
     <message>
         <source>Attestation not supported</source>
-        <translation>Beglaubigung nicht unterstützt</translation>
+        <translation>Không hỗ trợ xác thực</translation>
     </message>
     <message>
         <source>Loading the new key file failed: %1</source>
-        <translation>Laden der neuen Schlüsseldatei fehlgeschlagen: %1</translation>
+        <translation>Tải tệp khóa mới thất bại: %1</translation>
     </message>
     <message>
         <source>Unset the password for the database.</source>
-        <translation>Löscht das Passwort für die Datenbank.</translation>
+        <translation>Bỏ đặt mật khẩu cho cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Unset the key file for the database.</source>
-        <translation>Löscht die Schlüsseldatei für die Datenbank.</translation>
+        <translation>Bỏ đặt tệp khóa cho cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Cannot use %1 and %2 at the same time.</source>
-        <translation>%1 und %2 können nicht gleichzeitig verwendet werden.</translation>
+        <translation>Không thể sử dụng %1 và %2 cùng lúc.</translation>
     </message>
     <message>
         <source>Cannot remove all the keys from a database.</source>
-        <translation>Es können nicht alle Schlüssel aus einer Datenbank entfernt werden.</translation>
+        <translation>Không thể xóa tất cả các khóa khỏi cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Passkeys</source>
-        <translation>Passkeys</translation>
+        <translation>Passkey</translation>
     </message>
     <message>
         <source>Found unexpected Key type %1</source>
-        <translation>Unerwarteter Schlüsseltyp %1 gefunden</translation>
+        <translation>Tìm thấy loại khóa không mong đợi %1</translation>
     </message>
     <message>
         <source>KeePassXC is not running. No open database to lock</source>
-        <translation>KeePassXC läuft im Moment nicht. Keine offene Datenbank zum Sperren</translation>
+        <translation>KeePassXC không chạy. Không có cơ sở dữ liệu nào đang mở để khóa</translation>
     </message>
     <message>
         <source>allow screenshots and app recording (Windows/macOS)</source>
-        <translation>Bildschirmfotos und App-Aufnahmen erlauben (Windows/macOS)</translation>
+        <translation>cho phép chụp màn hình và ghi ứng dụng (Windows/macOS)</translation>
     </message>
     <message>
         <source>Origin is empty or not allowed</source>
-        <translation>Ursprung ist leer oder nicht erlaubt</translation>
+        <translation>Origin trống hoặc không được phép</translation>
     </message>
     <message>
         <source>Effective domain is not a valid domain</source>
-        <translation>Tatsächliche Domain ist keine gültige Domain</translation>
+        <translation>Miền hiệu lực không phải là miền hợp lệ</translation>
     </message>
     <message>
         <source>Origin and RP ID do not match</source>
-        <translation>Ursprung und RP-ID stimmen nicht überein</translation>
+        <translation>Origin và RP ID không khớp</translation>
     </message>
     <message>
         <source>No supported algorithms were provided</source>
-        <translation>Keine unterstützten Algorithmen wurden bereitgestellt</translation>
+        <translation>Không có thuật toán được hỗ trợ nào được cung cấp</translation>
     </message>
     <message>
         <source>Wait for timer to expire</source>
-        <translation>Warten, bis der Timer abgelaufen ist</translation>
+        <translation>Đợi bộ đếm thời gian hết hạn</translation>
     </message>
     <message>
         <source>Challenge is shorter than required minimum length</source>
-        <translation>Challenge ist kürzer als die erforderliche Mindestlänge</translation>
+        <translation>Thách thức ngắn hơn độ dài tối thiểu yêu cầu</translation>
     </message>
     <message>
         <source>user.id does not match the required length</source>
-        <translation>user.id entspricht nicht der erforderlichen Länge</translation>
+        <translation>user.id không khớp với độ dài yêu cầu</translation>
     </message>
     <message>
         <source>Access to all entries is denied</source>
-        <translation>Zugriff auf alle Einträge wird verweigert</translation>
+        <translation>Quyền truy cập vào tất cả mục bị từ chối</translation>
     </message>
     <message>
         <source>Favorite</source>
         <comment>Tag for favorite entries</comment>
-        <translation>Favorit</translation>
+        <translation>Yêu thích</translation>
     </message>
     <message>
         <source>File does not exist.</source>
-        <translation>Datei existiert nicht.</translation>
+        <translation>Tệp không tồn tại.</translation>
     </message>
     <message>
         <source>Cannot open file: %1</source>
-        <translation>Datei kann nicht geöffnet werden: %1</translation>
+        <translation>Không thể mở tệp: %1</translation>
     </message>
     <message>
         <source>Cannot parse file: %1 at position %2</source>
-        <translation>Datei kann nicht verarbeitet werden: %1 an Position %2</translation>
+        <translation>Không thể phân tích tệp: %1 tại vị trí %2</translation>
     </message>
     <message>
         <source>Failed to decrypt json file: %1</source>
-        <translation>JSON-Datei konnte nicht entschlüsselt werden: %1</translation>
+        <translation>Không thể giải mã tệp json: %1</translation>
     </message>
     <message>
         <source>Invalid encKeyValidation field</source>
-        <translation>Ungültiges encKeyValidation-Feld</translation>
+        <translation>Trường encKeyValidation không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid cipher list within encKeyValidation field</source>
-        <translation>Ungültige Verschlüsselungsliste im Feld encKeyValidation</translation>
+        <translation>Danh sách mã hóa không hợp lệ trong trường encKeyValidation</translation>
     </message>
     <message>
         <source>Wrong password</source>
-        <translation>Falsches Passwort</translation>
+        <translation>Mật khẩu sai</translation>
     </message>
     <message>
         <source>Invalid encrypted data field</source>
-        <translation>Ungültiges verschlüsseltes Datenfeld</translation>
+        <translation>Trường dữ liệu mã hóa không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid cipher list within encrypted data field</source>
-        <translation>Ungültige Verschlüsselungsliste im verschlüsselten Datenfeld</translation>
+        <translation>Danh sách mã hóa không hợp lệ trong trường dữ liệu mã hóa</translation>
     </message>
     <message>
         <source>Cannot initialize cipher</source>
-        <translation>Kann Verschlüsselungsalgorithmus nicht initialisieren</translation>
+        <translation>Không thể khởi tạo mã hóa</translation>
     </message>
     <message>
         <source>Cannot decrypt data</source>
-        <translation>Daten können nicht entschlüsselt werden</translation>
+        <translation>Không thể giải mã dữ liệu</translation>
     </message>
     <message>
         <source>Bitwarden Import</source>
-        <translation>Bitwarden importieren</translation>
+        <translation>Nhập Bitwarden</translation>
     </message>
     <message>
         <source>Archived</source>
         <comment>Tag for archived entries</comment>
-        <translation>Archiviert</translation>
+        <translation>Đã lưu trữ</translation>
     </message>
     <message>
         <source>Invalid 1PUX file format: Not a valid ZIP file.</source>
-        <translation>Ungültiges 1PUX-Dateiformat: Keine gültige ZIP-Datei.</translation>
+        <translation>Định dạng tệp 1PUX không hợp lệ: Không phải là tệp ZIP hợp lệ.</translation>
     </message>
     <message>
         <source>Invalid 1PUX file format: Missing export.data</source>
-        <translation>Ungültiges 1PUX-Dateiformat: Fehlende export.data</translation>
+        <translation>Định dạng tệp 1PUX không hợp lệ: Thiếu export.data</translation>
     </message>
     <message>
         <source>1Password Import</source>
-        <translation>1Password importieren</translation>
+        <translation>Nhập 1Password</translation>
     </message>
     <message>
         <source>Credential is excluded</source>
-        <translation>Anmeldedaten sind ausgeschlossen</translation>
+        <translation>Thông tin xác thực bị loại trừ</translation>
     </message>
     <message>
         <source>Passkeys request canceled</source>
-        <translation>Anfrage für Passkeys abgebrochen</translation>
+        <translation>Yêu cầu Passkey đã bị hủy</translation>
     </message>
     <message>
         <source>Invalid user verification</source>
-        <translation>Ungültige Benutzerverifikation</translation>
+        <translation>Xác minh người dùng không hợp lệ</translation>
     </message>
     <message>
         <source>Empty public key</source>
-        <translation>Leerer öffentlicher Schlüssel</translation>
+        <translation>Khóa công khai trống</translation>
     </message>
     <message>
         <source>Invalid URL provided</source>
-        <translation>Ungültige URL angegeben</translation>
+        <translation>URL được cung cấp không hợp lệ</translation>
     </message>
     <message>
         <source>Edit a database.</source>
-        <translation>Eine Datenbank bearbeiten.</translation>
+        <translation>Chỉnh sửa cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Could not change the database key.</source>
-        <translation>Datenbankschlüssel konnte nicht geändert werden.</translation>
+        <translation>Không thể thay đổi khóa cơ sở dữ liệu.</translation>
     </message>
     <message>
         <source>Database was not modified.</source>
-        <translation>Datenbank wurde nicht geändert.</translation>
+        <translation>Cơ sở dữ liệu không được sửa đổi.</translation>
     </message>
     <message>
         <source>Successfully edited the database.</source>
-        <translation>Datenbank wurde erfolgreich bearbeitet.</translation>
+        <translation>Đã chỉnh sửa cơ sở dữ liệu thành công.</translation>
     </message>
     <message>
         <source>Cannot remove password: The database does not have a password.</source>
-        <translation>Passwort kann nicht entfernt werden: Die Datenbank hat kein Passwort.</translation>
+        <translation>Không thể xóa mật khẩu: Cơ sở dữ liệu không có mật khẩu.</translation>
     </message>
     <message>
         <source>Cannot remove file key: The database does not have a file key.</source>
-        <translation>Der Dateischlüssel kann nicht entfernt werden: Die Datenbank hat keinen Dateischlüssel.</translation>
+        <translation>Không thể xóa tệp khóa: Cơ sở dữ liệu không có tệp khóa.</translation>
     </message>
     <message>
         <source>Unknown passkeys error</source>
-        <translation>Unbekannter Passkey-Fehler</translation>
+        <translation>Lỗi passkey không xác định</translation>
     </message>
     <message>
         <source>Encrypted files are not supported.</source>
-        <translation>Verschlüsselte Dateien werden nicht unterstützt.</translation>
+        <translation>Tệp mã hóa không được hỗ trợ.</translation>
     </message>
     <message>
         <source>Proton Pass Import</source>
-        <translation>Proton Pass importieren</translation>
+        <translation>Nhập Proton Pass</translation>
     </message>
     <message>
         <source>Passkey</source>
@@ -8911,739 +8906,739 @@ Diese Option ist veraltet, verwenden Sie stattdessen --set-key-file.</translatio
     </message>
     <message>
         <source>Format to use when exporting. Available choices are &apos;xml&apos;, &apos;csv&apos; or &apos;html&apos;. Defaults to &apos;xml&apos;.</source>
-        <translation>Für den Export zu verwendendes Format. Zur Auswahl stehen „xml“, „csv“ oder „html“. Standard ist „xml“.</translation>
+        <translation>Định dạng sử dụng khi xuất. Các lựa chọn có sẵn là &apos;xml&apos;, &apos;csv&apos; hoặc &apos;html&apos;. Mặc định là &apos;xml&apos;.</translation>
     </message>
     <message>
         <source>start minimized to the system tray</source>
-        <translation>Minimiert in der Taskleiste starten</translation>
+        <translation>khởi động thu nhỏ vào khay hệ thống</translation>
     </message>
     <message>
         <source>malformed string, possible unescaped delimiter</source>
-        <translation>Fehlerhafte Zeichenfolge, möglicherweise nicht maskiertes Trennzeichen</translation>
+        <translation>chuỗi không đúng định dạng, có thể có dấu phân cách chưa được escape</translation>
     </message>
     <message>
         <source>missing closing delimiter</source>
-        <translation>Schließendes Trennzeichen fehlt</translation>
+        <translation>thiếu dấu phân cách đóng</translation>
     </message>
     <message>
         <source>%1, row: %2, column: %3</source>
-        <translation>%1, Zeile: %2, Spalte: %3</translation>
+        <translation>%1, hàng: %2, cột: %3</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Tags</translation>
+        <translation>Thẻ</translation>
     </message>
     <message>
         <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
-        <translation>Warnung: Die ausgewählte Wortliste ist kleiner als die empfohlene Mindestgröße!</translation>
+        <translation>Cảnh báo: danh sách từ đã chọn nhỏ hơn kích thước tối thiểu được khuyến nghị!</translation>
     </message>
     <message>
         <source>Invalid Step</source>
         <comment>TOTP</comment>
-        <translation>Ungültiger Schritt</translation>
+        <translation>Bước không hợp lệ</translation>
     </message>
     <message>
         <source>Invalid Digits</source>
         <comment>TOTP</comment>
-        <translation>Ungültige Ziffern</translation>
+        <translation>Chữ số không hợp lệ</translation>
     </message>
     <message numerus="yes">
         <source>%1 character(s)</source>
-        <translation><numerusform>%1 Zeichen</numerusform><numerusform>%1 Zeichen</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Do you really want to permanently delete the entry &quot;%1&quot;?</source>
-        <translation>Möchten Sie wirklich den Eintrag „%1“ dauerhaft löschen?</translation>
+        <translation>Bạn có thực sự muốn xóa vĩnh viễn mục &quot;%1&quot; không?</translation>
     </message>
     <message numerus="yes">
         <source>Do you really want to permanently delete %n entry(s)?</source>
-        <translation><numerusform>Möchten Sie wirklich %n Eintrag dauerhaft löschen?</numerusform><numerusform>Möchten Sie wirklich %n Einträge dauerhaft löschen?</numerusform></translation>
+        <translation><numerusform>Bạn có thực sự muốn xóa vĩnh viễn %n mục không?</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Confirm Delete Entry(s)</source>
-        <translation><numerusform>Löschen des Eintrags bestätigen</numerusform><numerusform>Löschen der Einträge bestätigen</numerusform></translation>
+        <translation><numerusform>Xác nhận xóa mục</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Confirm Recycle Entry(s)</source>
-        <translation><numerusform>Wiederverwendung des Eintrags bestätigen</numerusform><numerusform>Wiederverwendung der Einträge bestätigen</numerusform></translation>
+        <translation><numerusform>Xác nhận chuyển mục vào thùng rác</numerusform></translation>
     </message>
     <message>
         <source>Confirm Delete Plugin Data</source>
-        <translation>Löschen der Plugin-Daten bestätigen</translation>
+        <translation>Xác nhận xóa dữ liệu plugin</translation>
     </message>
     <message numerus="yes">
         <source>Delete plugin data from the selected entry(s)?</source>
-        <translation><numerusform>Plugin-Daten aus ausgewähltem Eintrag löschen?</numerusform><numerusform>Plugin-Daten aus ausgewählten Einträgen löschen?</numerusform></translation>
+        <translation><numerusform>Xóa dữ liệu plugin khỏi mục đã chọn?</numerusform></translation>
     </message>
     <message>
         <source>Confirm Replace Entry References</source>
-        <translation>Ersetzen der Eintragsreferenzen bestätigen</translation>
+        <translation>Xác nhận thay thế tham chiếu mục</translation>
     </message>
     <message>
         <source>Type: Date(Rep)</source>
-        <translation>Typ: Datum</translation>
+        <translation>Loại: Ngày(Lặp)</translation>
     </message>
     <message>
         <source>Type: Unknown (%1)</source>
-        <translation>Typ: Unbekannt (%1)</translation>
+        <translation>Loại: Không xác định (%1)</translation>
     </message>
     <message>
         <source>Unsupported format, ensure your Bitwarden export is password-protected</source>
-        <translation>Nicht unterstütztes Format, stelle sicher, dass dein Bitwarden-Export passwortgeschützt ist.</translation>
+        <translation>Định dạng không được hỗ trợ, đảm bảo xuất Bitwarden của bạn được bảo vệ bằng mật khẩu</translation>
     </message>
     <message>
         <source>Invalid KDF iterations, cannot decrypt json file</source>
-        <translation>Ungültige KDF-Iterationen, JSON-Datei kann nicht entschlüsselt werden.</translation>
+        <translation>Số lần lặp KDF không hợp lệ, không thể giải mã tệp json</translation>
     </message>
     <message>
         <source>Only PBKDF and Argon2 are supported, cannot decrypt json file</source>
-        <translation>Nur PBKDF und Argon2 werden unterstützt, JSON-Datei kann nicht entschlüsselt werden.</translation>
+        <translation>Chỉ hỗ trợ PBKDF và Argon2, không thể giải mã tệp json</translation>
     </message>
 </context>
 <context>
     <name>QtIOCompressor</name>
     <message>
         <source>Internal zlib error when compressing: </source>
-        <translation>Interner Fehler in zlib beim Komprimieren:</translation>
+        <translation>Lỗi zlib nội bộ khi nén: </translation>
     </message>
     <message>
         <source>Error writing to underlying device: </source>
-        <translation>Fehler beim Schreiben aufs Gerät: </translation>
+        <translation>Lỗi ghi vào thiết bị cơ bản: </translation>
     </message>
     <message>
         <source>Error opening underlying device: </source>
-        <translation>Fehler beim Öffnen des Gerätes: </translation>
+        <translation>Lỗi mở thiết bị cơ bản: </translation>
     </message>
     <message>
         <source>Error reading data from underlying device: </source>
-        <translation>Fehler beim Lesen der Daten vom Gerät: </translation>
+        <translation>Lỗi đọc dữ liệu từ thiết bị cơ bản: </translation>
     </message>
     <message>
         <source>Internal zlib error when decompressing: </source>
-        <translation>Interner Fehler in zlib beim Dekomprimieren:</translation>
+        <translation>Lỗi zlib nội bộ khi giải nén: </translation>
     </message>
 </context>
 <context>
     <name>QtIOCompressor::open</name>
     <message>
         <source>The gzip format not supported in this version of zlib.</source>
-        <translation>Das gzip-Format wird von dieser zlib-Version nicht unterstützt.</translation>
+        <translation>Định dạng gzip không được hỗ trợ trong phiên bản zlib này.</translation>
     </message>
     <message>
         <source>Internal zlib error: </source>
-        <translation>Interner Fehler in zlib:</translation>
+        <translation>Lỗi zlib nội bộ: </translation>
     </message>
 </context>
 <context>
     <name>ReportsWidgetBrowserStatistics</name>
     <message>
         <source>Double-click entries to edit.</source>
-        <translation>Einträge zum Bearbeiten doppelklicken</translation>
+        <translation>Nhấp đúp vào mục để chỉnh sửa.</translation>
     </message>
     <message>
         <source>List of entry URLs</source>
-        <translation>Liste der Eintrags-URLs</translation>
+        <translation>Danh sách URL của mục</translation>
     </message>
     <message>
         <source>Entry has no URLs set</source>
-        <translation>Eintrag hat keine festgelegten URLs</translation>
+        <translation>Mục không có URL nào được đặt</translation>
     </message>
     <message>
         <source>Allowed URLs</source>
-        <translation>Zulässige URLs</translation>
+        <translation>URL được cho phép</translation>
     </message>
     <message>
         <source>Entry has no Browser Integration settings</source>
-        <translation>Eintrag hat keine Einstellungen für Browser-Integration</translation>
+        <translation>Mục không có cài đặt Tích hợp trình duyệt</translation>
     </message>
     <message>
         <source>Denied URLs</source>
-        <translation>Nicht zulässige URLs</translation>
+        <translation>URL bị từ chối</translation>
     </message>
     <message>
         <source> (Excluded)</source>
-        <translation> (ausgeschlossen)</translation>
+        <translation> (Đã loại trừ)</translation>
     </message>
     <message>
         <source>This entry is being excluded from reports</source>
-        <translation>Dieser Eintrag wird von Berichten ausgeschlossen</translation>
+        <translation>Mục này đang bị loại trừ khỏi báo cáo</translation>
     </message>
     <message>
         <source>Please wait, browser statistics is being calculated…</source>
-        <translation>Bitte warten Sie, die Browser-Statistik wird gerade berechnet …</translation>
+        <translation>Vui lòng đợi, thống kê trình duyệt đang được tính toán…</translation>
     </message>
     <message>
         <source>No entries with a URL, or none has browser extension settings saved.</source>
-        <translation>Keine Einträge mit einer URL oder keine Einstellungen für Browser-Erweiterung gespeichert.</translation>
+        <translation>Không có mục nào có URL, hoặc không có mục nào lưu cài đặt tiện ích mở rộng trình duyệt.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Đường dẫn</translation>
     </message>
     <message>
         <source>URLs</source>
-        <translation>URLs</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Edit Entry…</source>
-        <translation>Eintrag bearbeiten …</translation>
+        <translation>Chỉnh sửa mục…</translation>
     </message>
     <message numerus="yes">
         <source>Delete Entry(s)…</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform>Einträge löschen…</numerusform></translation>
+        <translation><numerusform>Xóa mục…</numerusform></translation>
     </message>
     <message>
         <source>Exclude from reports</source>
-        <translation>Von Berichten ausschließen</translation>
+        <translation>Loại trừ khỏi báo cáo</translation>
     </message>
     <message numerus="yes">
         <source>Expire Entry(s)…</source>
-        <translation><numerusform>Abgelaufener Eintrag…</numerusform><numerusform>Abgelaufene Einträge…</numerusform></translation>
+        <translation><numerusform>Hết hạn mục…</numerusform></translation>
     </message>
     <message>
         <source>Only show entries that have a URL</source>
-        <translation>Nur Einträge anzeigen, die eine URL enthalten</translation>
+        <translation>Chỉ hiển thị các mục có URL</translation>
     </message>
     <message>
         <source>Only show entries that have been explicitly allowed or denied</source>
-        <translation>Nur Einträge anzeigen, die explizit erlaubt oder verweigert wurden</translation>
+        <translation>Chỉ hiển thị các mục đã được cho phép hoặc từ chối rõ ràng</translation>
     </message>
     <message>
         <source>Show expired entries</source>
-        <translation>Abgelaufene Einträge anzeigen</translation>
+        <translation>Hiển thị mục đã hết hạn</translation>
     </message>
     <message>
         <source> (Expired)</source>
-        <translation> (abgelaufen)</translation>
+        <translation> (Đã hết hạn)</translation>
     </message>
     <message numerus="yes">
         <source>Delete plugin data from Entry(s)…</source>
-        <translation><numerusform>Plugin-Daten aus Eintrag löschen…</numerusform><numerusform>Plugin-Daten aus Einträgen löschen...</numerusform></translation>
+        <translation><numerusform>Xóa dữ liệu plugin khỏi mục…</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ReportsWidgetHealthcheck</name>
     <message>
         <source>Show expired entries</source>
-        <translation>Abgelaufene Einträge anzeigen</translation>
+        <translation>Hiển thị mục đã hết hạn</translation>
     </message>
     <message>
         <source> (Expired)</source>
-        <translation> (abgelaufen)</translation>
+        <translation> (Đã hết hạn)</translation>
     </message>
     <message>
         <source>Hover over reason to show additional details. Double-click entries to edit.</source>
-        <translation>Für weitere Informationen mit der Maus über den Grund fahren. Doppelklick auf Einträge zum Bearbeiten.</translation>
+        <translation>Di chuột qua lý do để hiển thị chi tiết bổ sung. Nhấp đúp vào mục để chỉnh sửa.</translation>
     </message>
     <message>
         <source>Bad — password must be changed</source>
-        <translation>Sehr schlecht —Passwort muss geändert werden</translation>
+        <translation>Tệ — mật khẩu phải được thay đổi</translation>
     </message>
     <message>
         <source>Poor — password should be changed</source>
-        <translation>Schlecht — Passwort sollte geändert werden</translation>
+        <translation>Kém — mật khẩu nên được thay đổi</translation>
     </message>
     <message>
         <source>Weak — consider changing the password</source>
-        <translation>Schwach — Passwortänderung sollte erwägt werden</translation>
+        <translation>Yếu — xem xét thay đổi mật khẩu</translation>
     </message>
     <message>
         <source> (Excluded)</source>
-        <translation> (ausgeschlossen)</translation>
+        <translation> (Đã loại trừ)</translation>
     </message>
     <message>
         <source>This entry is being excluded from reports</source>
-        <translation>Dieser Eintrag wird von Berichten ausgeschlossen</translation>
+        <translation>Mục này đang bị loại trừ khỏi báo cáo</translation>
     </message>
     <message>
         <source>Please wait, health data is being calculated…</source>
-        <translation>Bitte warten, der Gesundheitszustand wird berechnet ...</translation>
+        <translation>Vui lòng đợi, dữ liệu sức khỏe đang được tính toán…</translation>
     </message>
     <message>
         <source>Congratulations, everything is healthy!</source>
-        <translation>Glückwunsch, alles ist gesund!</translation>
+        <translation>Chúc mừng, mọi thứ đều tốt!</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Đường dẫn</translation>
     </message>
     <message>
         <source>Score</source>
-        <translation>Bewertung</translation>
+        <translation>Điểm</translation>
     </message>
     <message>
         <source>Reason</source>
-        <translation>Grund</translation>
+        <translation>Lý do</translation>
     </message>
     <message>
         <source>Edit Entry…</source>
-        <translation>Eintrag bearbeiten …</translation>
+        <translation>Chỉnh sửa mục…</translation>
     </message>
     <message numerus="yes">
         <source>Delete Entry(s)…</source>
-        <translation><numerusform>Eintrag löschen…</numerusform><numerusform>Einträge löschen…</numerusform></translation>
+        <translation><numerusform>Xóa mục…</numerusform></translation>
     </message>
     <message>
         <source>Exclude from reports</source>
-        <translation>Von Berichten ausschließen</translation>
+        <translation>Loại trừ khỏi báo cáo</translation>
     </message>
     <message numerus="yes">
         <source>Expire Entry(s)…</source>
-        <translation><numerusform>Abgelaufener Eintrag…</numerusform><numerusform>Abgelaufene Einträge…</numerusform></translation>
+        <translation><numerusform>Hết hạn mục…</numerusform></translation>
     </message>
     <message>
         <source>Show entries that have been excluded from reports</source>
-        <translation>Einträge anzeigen, die von Berichten ausgeschlossen wurden</translation>
+        <translation>Hiển thị các mục đã bị loại trừ khỏi báo cáo</translation>
     </message>
 </context>
 <context>
     <name>ReportsWidgetHibp</name>
     <message>
         <source>CAUTION: This report requires sending information to the Have I Been Pwned online service (https://haveibeenpwned.com). If you proceed, your database passwords will be cryptographically hashed and the first five characters of those hashes will be sent securely to this service. Your database remains secure and cannot be reconstituted from this information. However, the number of passwords you send and your IP address will be exposed to this service.</source>
-        <translation>ACHTUNG: Dieser Bericht erfordert, dass Informationen an den &quot;Have I Been Pwned&quot;-Onlinedienst (https://haveibeenpwned.com) gesendet werden. Wenn Sie fortfahren, werden Ihre Datenbank-Passwörter kryptografisch gehasht, und die ersten fünf Zeichen dieser Hashes werden sicher an diesen Dienst übertragen. Ihre Datenbank bleibt sicher und kann nicht aus diesen Informationen rekonstruiert werden. Jedoch werden die Anzahl der gesendeten Passwörter und Ihre IP-Adresse dem Dienst offengelegt.</translation>
+        <translation>CẢNH BÁO: Báo cáo này yêu cầu gửi thông tin đến dịch vụ trực tuyến Have I Been Pwned (https://haveibeenpwned.com). Nếu bạn tiếp tục, mật khẩu cơ sở dữ liệu của bạn sẽ được băm mật mã và năm ký tự đầu tiên của các hash đó sẽ được gửi an toàn đến dịch vụ này. Cơ sở dữ liệu của bạn vẫn an toàn và không thể được tái tạo từ thông tin này. Tuy nhiên, số lượng mật khẩu bạn gửi và địa chỉ IP của bạn sẽ bị lộ cho dịch vụ này.</translation>
     </message>
     <message>
         <source>Perform Online Analysis</source>
-        <translation>Online-Analyse durchführen</translation>
+        <translation>Thực hiện phân tích trực tuyến</translation>
     </message>
     <message>
         <source>Also show entries that have been excluded from reports</source>
-        <translation>Auch Einträge zeigen, die von Berichten ausgeschlossen wurden</translation>
+        <translation>Cũng hiển thị các mục đã bị loại trừ khỏi báo cáo</translation>
     </message>
     <message>
         <source>This build of KeePassXC does not have network functions. Networking is required to check your passwords against Have I Been Pwned databases.</source>
-        <translation>Diese Version von KeePassXC hat keine Netzwerkfunktionalität. Die ist aber erforderlich, um Ihre Passwörter gegen die Datenbanken von Have I Been Pwned zu überprüfen.</translation>
+        <translation>Bản dựng KeePassXC này không có chức năng mạng. Cần có mạng để kiểm tra mật khẩu của bạn với cơ sở dữ liệu Have I Been Pwned.</translation>
     </message>
     <message>
         <source>Congratulations, no exposed passwords!</source>
-        <translation>Glückwunsch, keine offengelegten Passwörter!</translation>
+        <translation>Chúc mừng, không có mật khẩu bị lộ!</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Đường dẫn</translation>
     </message>
     <message>
         <source>Password exposed…</source>
-        <translation>Passwort offengelegt …</translation>
+        <translation>Mật khẩu bị lộ…</translation>
     </message>
     <message>
         <source> (Excluded)</source>
-        <translation> (ausgeschlossen)</translation>
+        <translation> (Đã loại trừ)</translation>
     </message>
     <message>
         <source>This entry is being excluded from reports</source>
-        <translation>Dieser Eintrag wird von Berichten ausgeschlossen</translation>
+        <translation>Mục này đang bị loại trừ khỏi báo cáo</translation>
     </message>
     <message>
         <source>once</source>
         <comment>Password exposure amount</comment>
-        <translation>einmal</translation>
+        <translation>một lần</translation>
     </message>
     <message>
         <source>up to 10 times</source>
         <comment>Password exposure amount</comment>
-        <translation>bis zu 10 Mal</translation>
+        <translation>tối đa 10 lần</translation>
     </message>
     <message>
         <source>up to 100 times</source>
         <comment>Password exposure amount</comment>
-        <translation>bis zu 100 Mal</translation>
+        <translation>tối đa 100 lần</translation>
     </message>
     <message>
         <source>up to 1000 times</source>
         <comment>Password exposure amount</comment>
-        <translation>bis zu 1000 Mal</translation>
+        <translation>tối đa 1000 lần</translation>
     </message>
     <message>
         <source>up to 10,000 times</source>
         <comment>Password exposure amount</comment>
-        <translation>bis zu 10.000 Mal</translation>
+        <translation>tối đa 10.000 lần</translation>
     </message>
     <message>
         <source>up to 100,000 times</source>
         <comment>Password exposure amount</comment>
-        <translation>bis zu 100.000 Mal</translation>
+        <translation>tối đa 100.000 lần</translation>
     </message>
     <message>
         <source>up to a million times</source>
         <comment>Password exposure amount</comment>
-        <translation>bis zu einer Million Mal</translation>
+        <translation>tối đa một triệu lần</translation>
     </message>
     <message>
         <source>millions of times</source>
         <comment>Password exposure amount</comment>
-        <translation>Millionen Mal</translation>
+        <translation>hàng triệu lần</translation>
     </message>
     <message>
         <source>Edit Entry…</source>
-        <translation>Eintrag bearbeiten ...</translation>
+        <translation>Chỉnh sửa mục…</translation>
     </message>
     <message numerus="yes">
         <source>Delete Entry(s)…</source>
-        <translation><numerusform>Eintrag löschen...</numerusform><numerusform>Einträge löschen ...</numerusform></translation>
+        <translation><numerusform>Xóa mục…</numerusform></translation>
     </message>
     <message>
         <source>Exclude from reports</source>
-        <translation>Von Berichten ausschließen</translation>
+        <translation>Loại trừ khỏi báo cáo</translation>
     </message>
     <message numerus="yes">
         <source>Expire Entry(s)…</source>
-        <translation><numerusform>Abgelaufener Eintrag…</numerusform><numerusform>Abgelaufene Einträge…</numerusform></translation>
+        <translation><numerusform>Hết hạn mục…</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ReportsWidgetPasskeys</name>
     <message>
         <source>Export</source>
-        <translation>Export</translation>
+        <translation>Xuất</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importieren</translation>
+        <translation>Nhập</translation>
     </message>
     <message>
         <source>List of entry URLs</source>
-        <translation>Liste der Eintrags-URLs</translation>
+        <translation>Danh sách URL của mục</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titel</translation>
+        <translation>Tiêu đề</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Đường dẫn</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Benutzername</translation>
+        <translation>Tên người dùng</translation>
     </message>
     <message>
         <source>URLs</source>
-        <translation>URLs</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <source>Edit Entry…</source>
-        <translation>Eintrag bearbeiten…</translation>
+        <translation>Chỉnh sửa mục…</translation>
     </message>
     <message numerus="yes">
         <source>Delete Entry(s)…</source>
-        <translation><numerusform>Eintrag löschen…</numerusform><numerusform>Einträge löschen…</numerusform></translation>
+        <translation><numerusform>Xóa mục…</numerusform></translation>
     </message>
     <message>
         <source>Relying Party</source>
-        <translation>Verlässliche Gegenseite</translation>
+        <translation>Bên phụ thuộc</translation>
     </message>
     <message>
         <source>Show expired entries</source>
-        <translation>Abgelaufene Einträge anzeigen</translation>
+        <translation>Hiển thị mục đã hết hạn</translation>
     </message>
     <message>
         <source> (Expired)</source>
-        <translation> (abgelaufen)</translation>
+        <translation> (Đã hết hạn)</translation>
     </message>
     <message>
         <source>Export Confirmation</source>
-        <translation>Export bestätigen</translation>
+        <translation>Xác nhận xuất</translation>
     </message>
     <message>
         <source>The passkey file will be vulnerable to theft and unauthorized use, if left unsecured. Are you sure you want to continue?</source>
-        <translation>Die Passkey-Datei ist anfällig für Diebstahl und unbefugte Nutzung, wenn sie nicht gesichert ist. Sind Sie sicher, dass Sie fortfahren möchten?</translation>
+        <translation>Tệp passkey sẽ dễ bị đánh cắp và sử dụng trái phép nếu không được bảo mật. Bạn có chắc chắn muốn tiếp tục không?</translation>
     </message>
     <message>
         <source>Please wait, list of entries with passkeys is being updated…</source>
-        <translation>Bitte warten Sie, die Liste der Einträge mit Passkeys wird gerade aktualisiert…</translation>
+        <translation>Vui lòng đợi, danh sách mục có passkey đang được cập nhật…</translation>
     </message>
     <message>
         <source>No entries with passkeys.</source>
-        <translation>Keine Einträge mit Passkeys.</translation>
+        <translation>Không có mục nào có passkey.</translation>
     </message>
 </context>
 <context>
     <name>ReportsWidgetStatistics</name>
     <message>
         <source>Hover over lines with error icons for further information.</source>
-        <translation>Fahren Sie für weitere Informationen mit der Maus über die Zeilen mit Fehlersymbolen.</translation>
+        <translation>Di chuột qua các dòng có biểu tượng lỗi để biết thêm thông tin.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Tên</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>Giá trị</translation>
     </message>
     <message>
         <source>Please wait, database statistics are being calculated…</source>
-        <translation>Bitte warten Sie, die Datenbankstatistik wird berechnet ...</translation>
+        <translation>Vui lòng đợi, thống kê cơ sở dữ liệu đang được tính toán…</translation>
     </message>
     <message>
         <source>Database name</source>
-        <translation>Name der Datenbank</translation>
+        <translation>Tên cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation>Beschreibung</translation>
+        <translation>Mô tả</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Speicherort</translation>
+        <translation>Vị trí</translation>
     </message>
     <message>
         <source>Database created</source>
-        <translation>Datenbank erstellt</translation>
+        <translation>Đã tạo cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Last saved</source>
-        <translation>Zuletzt gespeichert</translation>
+        <translation>Lưu lần cuối</translation>
     </message>
     <message>
         <source>Unsaved changes</source>
-        <translation>Ungespeicherte Änderungen</translation>
+        <translation>Thay đổi chưa lưu</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>ja</translation>
+        <translation>có</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nein</translation>
+        <translation>không</translation>
     </message>
     <message>
         <source>The database was modified, but the changes have not yet been saved to disk.</source>
-        <translation>Die Datenbank wurde geändert, aber die Änderungen wurden noch nicht auf dem Datenträger gespeichert.</translation>
+        <translation>Cơ sở dữ liệu đã được sửa đổi, nhưng các thay đổi chưa được lưu vào đĩa.</translation>
     </message>
     <message>
         <source>Number of groups</source>
-        <translation>Anzahl der Gruppen</translation>
+        <translation>Số lượng nhóm</translation>
     </message>
     <message>
         <source>Number of entries</source>
-        <translation>Anzahl der Einträge</translation>
+        <translation>Số lượng mục</translation>
     </message>
     <message>
         <source>Number of expired entries</source>
-        <translation>Anzahl der abgelaufenen Einträge</translation>
+        <translation>Số lượng mục đã hết hạn</translation>
     </message>
     <message>
         <source>The database contains entries that have expired.</source>
-        <translation>Die Datenbank enthält abgelaufene Einträge.</translation>
+        <translation>Cơ sở dữ liệu chứa các mục đã hết hạn.</translation>
     </message>
     <message>
         <source>Unique passwords</source>
-        <translation>Eindeutige Passwörter</translation>
+        <translation>Mật khẩu duy nhất</translation>
     </message>
     <message>
         <source>Non-unique passwords</source>
-        <translation>Nicht eindeutige Passwörter</translation>
+        <translation>Mật khẩu không duy nhất</translation>
     </message>
     <message>
         <source>More than 10% of passwords are reused. Use unique passwords when possible.</source>
-        <translation>Mehr als 10 % der Passwörter werden wiederverwendet. Verwenden Sie nach Möglichkeit eindeutige Passwörter.</translation>
+        <translation>Hơn 10% mật khẩu được sử dụng lại. Sử dụng mật khẩu duy nhất khi có thể.</translation>
     </message>
     <message>
         <source>Maximum password reuse</source>
-        <translation>Maximale Wiederverwendung eines Passworts</translation>
+        <translation>Sử dụng lại mật khẩu tối đa</translation>
     </message>
     <message>
         <source>Some passwords are used more than three times. Use unique passwords when possible.</source>
-        <translation>Einige Passwörter werden mehr als dreimal verwendet. Verwenden Sie nach Möglichkeit eindeutige Passwörter.</translation>
+        <translation>Một số mật khẩu được sử dụng hơn ba lần. Sử dụng mật khẩu duy nhất khi có thể.</translation>
     </message>
     <message>
         <source>Number of short passwords</source>
-        <translation>Anzahl der kurzen Passwörter</translation>
+        <translation>Số lượng mật khẩu ngắn</translation>
     </message>
     <message>
         <source>Recommended minimum password length is at least 8 characters.</source>
-        <translation>Empfohlene minimale Passwortlänge beträgt mindestens 8 Zeichen.</translation>
+        <translation>Độ dài mật khẩu tối thiểu được khuyến nghị là ít nhất 8 ký tự.</translation>
     </message>
     <message>
         <source>Number of weak passwords</source>
-        <translation>Anzahl der schwachen Passwörter</translation>
+        <translation>Số lượng mật khẩu yếu</translation>
     </message>
     <message>
         <source>Recommend using long, randomized passwords with a rating of &apos;good&apos; or &apos;excellent&apos;.</source>
-        <translation>Wir empfehlen die Verwendung langer, zufällig erzeugter Passwörter mit der Bewertung &quot;gut&quot; oder &quot;hervorragend&quot;.</translation>
+        <translation>Khuyến nghị sử dụng mật khẩu dài, ngẫu nhiên với xếp hạng &apos;tốt&apos; hoặc &apos;xuất sắc&apos;.</translation>
     </message>
     <message>
         <source>Entries excluded from reports</source>
-        <translation>Von Berichten ausgeschlossene Einträge</translation>
+        <translation>Mục bị loại trừ khỏi báo cáo</translation>
     </message>
     <message>
         <source>Excluding entries from reports, e. g. because they are known to have a poor password, isn&apos;t necessarily a problem but you should keep an eye on them.</source>
-        <translation>Das Ausschließen von Einträgen aus Berichten, z. B. weil sie bekannterweise schlechte Passwörter haben, ist nicht unbedingt ein Problem, aber Sie sollten ein Auge darauf haben.</translation>
+        <translation>Loại trừ mục khỏi báo cáo, ví dụ vì chúng được biết là có mật khẩu kém, không nhất thiết là vấn đề nhưng bạn nên theo dõi chúng.</translation>
     </message>
     <message>
         <source>Average password length</source>
-        <translation>Durchschnittliche Passwortlänge</translation>
+        <translation>Độ dài mật khẩu trung bình</translation>
     </message>
     <message>
         <source>Average password length is less than ten characters. Longer passwords provide more security.</source>
-        <translation>Die durchschnittliche Passwortlänge beträgt weniger als zehn Zeichen. Längere Passwörter bieten mehr Sicherheit.</translation>
+        <translation>Độ dài mật khẩu trung bình ít hơn mười ký tự. Mật khẩu dài hơn cung cấp nhiều bảo mật hơn.</translation>
     </message>
     <message numerus="yes">
         <source>%1 character(s)</source>
-        <translation><numerusform>%1 Zeichen</numerusform><numerusform>%1 Zeichen</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
     <name>SSHAgent</name>
     <message>
         <source>Agent connection failed.</source>
-        <translation>Agent-Verbindung fehlgeschlagen.</translation>
+        <translation>Kết nối agent thất bại.</translation>
     </message>
     <message>
         <source>Agent protocol error.</source>
-        <translation>Agent-Protokollfehler.</translation>
+        <translation>Lỗi giao thức agent.</translation>
     </message>
     <message>
         <source>No agent running, cannot add identity.</source>
-        <translation>Kein Agent ausgeführt, kann keine Identität hinzufügen.</translation>
+        <translation>Không có agent đang chạy, không thể thêm danh tính.</translation>
     </message>
     <message>
         <source>Key identity ownership conflict. Refusing to add.</source>
-        <translation>Konflikt beim Schlüssel-Identitäts-Besitz. Füge nicht hinzu.</translation>
+        <translation>Xung đột quyền sở hữu danh tính khóa. Từ chối thêm.</translation>
     </message>
     <message>
         <source>Agent refused this identity. Possible reasons include:</source>
-        <translation>Agent lehnt diese Identität ab. Mögliche Gründe sind:</translation>
+        <translation>Agent từ chối danh tính này. Các lý do có thể bao gồm:</translation>
     </message>
     <message>
         <source>The key has already been added.</source>
-        <translation>Der Schlüssel wurde bereits hinzugefügt.</translation>
+        <translation>Khóa đã được thêm.</translation>
     </message>
     <message>
         <source>Restricted lifetime is not supported by the agent (check options).</source>
-        <translation>Eingeschränkte Lebensdauer wird durch den Agenten nicht unterstützt (Optionen prüfen).</translation>
+        <translation>Thời gian sống hạn chế không được agent hỗ trợ (kiểm tra tùy chọn).</translation>
     </message>
     <message>
         <source>A confirmation request is not supported by the agent (check options).</source>
-        <translation>Eine Bestätigungsanfrage wird durch den Agenten nicht unterstützt (Optionen prüfen).</translation>
+        <translation>Yêu cầu xác nhận không được agent hỗ trợ (kiểm tra tùy chọn).</translation>
     </message>
     <message>
         <source>Security keys are not supported by the agent or the security key provider is unavailable.</source>
-        <translation>Sicherheitsschlüssel werden vom Agenten nicht unterstützt oder der Sicherheitsschlüsselanbieter ist nicht verfügbar.</translation>
+        <translation>Khóa bảo mật không được agent hỗ trợ hoặc nhà cung cấp khóa bảo mật không khả dụng.</translation>
     </message>
     <message>
         <source>No agent running, cannot remove identity.</source>
-        <translation>Kein Agent ausgeführt, kann keine Identität entfernen.</translation>
+        <translation>Không có agent đang chạy, không thể xóa danh tính.</translation>
     </message>
     <message>
         <source>No agent running, cannot list identities.</source>
-        <translation>Agent läuft nicht, kann keine Identitäten auflisten.</translation>
+        <translation>Không có agent đang chạy, không thể liệt kê danh tính.</translation>
     </message>
     <message>
         <source>Failed to remove all SSH identities from agent.</source>
-        <translation>Das Entfernen aller SSH-Identitäten vom Agent ist fehlgeschlagen.</translation>
+        <translation>Không thể xóa tất cả danh tính SSH khỏi agent.</translation>
     </message>
     <message>
         <source>All SSH identities removed from agent.</source>
-        <translation>Alle SSH-Identitäten wurden vom Agent entfernt.</translation>
+        <translation>Đã xóa tất cả danh tính SSH khỏi agent.</translation>
     </message>
 </context>
 <context>
     <name>SearchHelpWidget</name>
     <message>
         <source>Search Help</source>
-        <translation>Hilfe durchsuchen</translation>
+        <translation>Trợ giúp tìm kiếm</translation>
     </message>
     <message>
         <source>Search terms are as follows: [modifiers][field:][&quot;]term[&quot;]</source>
-        <translation>Suchbegriffe: [Modifikator][Feld:][&quot;]Suchwort[&quot;]</translation>
+        <translation>Các từ khóa tìm kiếm như sau: [bộ sửa đổi][trường:][&quot;]từ khóa[&quot;]</translation>
     </message>
     <message>
         <source>Every search term must match (ie, logical AND)</source>
-        <translation>Jeder Suchbegriff muss zutreffen (logisches UND)</translation>
+        <translation>Mọi từ khóa tìm kiếm phải khớp (tức là, AND logic)</translation>
     </message>
     <message>
         <source>Modifiers</source>
-        <translation>Modifikatoren</translation>
+        <translation>Bộ sửa đổi</translation>
     </message>
     <message>
         <source>exclude term from results</source>
-        <translation>Ausdruck von Ergebnissen ausschließen</translation>
+        <translation>loại trừ từ khóa khỏi kết quả</translation>
     </message>
     <message>
         <source>match term exactly</source>
-        <translation>Exakter Ausdruck</translation>
+        <translation>khớp từ khóa chính xác</translation>
     </message>
     <message>
         <source>use regex in term</source>
-        <translation>Reguläre Ausdrücke benutzen</translation>
+        <translation>sử dụng regex trong từ khóa</translation>
     </message>
     <message>
         <source>Fields</source>
-        <translation>Felder</translation>
+        <translation>Trường</translation>
     </message>
     <message>
         <source>Term Wildcards</source>
-        <translation>Platzhalter</translation>
+        <translation>Ký tự đại diện từ khóa</translation>
     </message>
     <message>
         <source>match anything</source>
-        <translation>Entspreche irgendwas</translation>
+        <translation>khớp bất cứ thứ gì</translation>
     </message>
     <message>
         <source>match one</source>
-        <translation>Entspreche einem</translation>
+        <translation>khớp một</translation>
     </message>
     <message>
         <source>logical OR</source>
-        <translation>logisches ODER</translation>
+        <translation>OR logic</translation>
     </message>
     <message>
         <source>Examples</source>
-        <translation>Beispiele</translation>
+        <translation>Ví dụ</translation>
     </message>
 </context>
 <context>
     <name>SearchWidget</name>
     <message>
         <source>Search</source>
-        <translation>Suche</translation>
+        <translation>Tìm kiếm</translation>
     </message>
     <message>
         <source>Search Help</source>
-        <translation>Hilfe durchsuchen</translation>
+        <translation>Trợ giúp tìm kiếm</translation>
     </message>
     <message>
         <source>Search (%1)…</source>
         <comment>Search placeholder text, %1 is the keyboard shortcut</comment>
-        <translation>Suchen (%1) …</translation>
+        <translation>Tìm kiếm (%1)…</translation>
     </message>
     <message>
         <source>Case sensitive</source>
-        <translation>Groß-/Kleinschreibung beachten</translation>
+        <translation>Phân biệt chữ hoa chữ thường</translation>
     </message>
     <message>
         <source>Limit search to selected group</source>
-        <translation>Suche auf ausgewählte Gruppe beschränken</translation>
+        <translation>Giới hạn tìm kiếm trong nhóm đã chọn</translation>
     </message>
     <message>
         <source>Press Enter to search</source>
-        <translation>Drücken Sie Enter zum Suchen</translation>
+        <translation>Nhấn Enter để tìm kiếm</translation>
     </message>
     <message>
         <source>Save Search</source>
-        <translation>Suche speichern</translation>
+        <translation>Lưu tìm kiếm</translation>
     </message>
 </context>
 <context>
     <name>SettingsClientModel</name>
     <message>
         <source>Application</source>
-        <translation>Anwendung</translation>
+        <translation>Ứng dụng</translation>
     </message>
     <message>
         <source>PID</source>
@@ -9651,568 +9646,569 @@ Diese Option ist veraltet, verwenden Sie stattdessen --set-key-file.</translatio
     </message>
     <message>
         <source>DBus Address</source>
-        <translation>DBus-Adresse</translation>
+        <translation>Địa chỉ DBus</translation>
     </message>
     <message>
         <source>Manage</source>
-        <translation>Verwalten</translation>
+        <translation>Quản lý</translation>
     </message>
 </context>
 <context>
     <name>SettingsDatabaseModel</name>
     <message>
         <source>File Name</source>
-        <translation>Dateiname</translation>
+        <translation>Tên tệp</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Nhóm</translation>
     </message>
     <message>
         <source>Manage</source>
-        <translation>Verwalten</translation>
+        <translation>Quản lý</translation>
     </message>
 </context>
 <context>
     <name>SettingsWidgetFdoSecrets</name>
     <message>
         <source>Options</source>
-        <translation>Optionen</translation>
+        <translation>Tùy chọn</translation>
     </message>
     <message>
         <source>Enable KeepassXC Freedesktop.org Secret Service integration</source>
-        <translation>Integration von KeepassXC in Freedesktop.org Secret Service aktivieren</translation>
+        <translation>Bật tích hợp Dịch vụ bí mật Freedesktop.org của KeepassXC</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Chung</translation>
     </message>
     <message>
         <source>Show notification when passwords are retrieved by clients</source>
-        <translation>Benachrichtigung anzeigen, wenn Passwörter abgerufen werden</translation>
+        <translation>Hiển thị thông báo khi mật khẩu được truy xuất bởi máy khách</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, any attempt to read a password must be confirmed. Otherwise, clients can read passwords without confirmation when the database is unlocked.&lt;/p&gt;&lt;p&gt;This option only covers the access to the password of an entry. Clients can always enumerate the items of exposed databases and query their attributes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wenn aktiviert, muss jeder Versuch, ein Passwort zu lesen, bestätigt werden. Andernfalls können Clients Passwörter ohne Bestätigung lesen, wenn die Datenbank entsperrt ist.&lt;/p&gt;&lt;p&gt;Diese Option deckt nur den Zugriff auf das Passwort eines Eintrags ab. Clients können immer die Einträge der freigegebenen Datenbanken und deren Attribute abfragen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nếu được bật, mọi nỗ lực đọc mật khẩu phải được xác nhận. Nếu không, máy khách có thể đọc mật khẩu mà không cần xác nhận khi cơ sở dữ liệu được mở khóa.&lt;/p&gt;&lt;p&gt;Tùy chọn này chỉ bao gồm quyền truy cập vào mật khẩu của một mục. Máy khách luôn có thể liệt kê các mục của cơ sở dữ liệu được hiển thị và truy vấn thuộc tính của chúng.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Confirm when passwords are retrieved by clients</source>
-        <translation>Bestätigen, wenn Passwörter abgerufen werden</translation>
+        <translation>Xác nhận khi mật khẩu được truy xuất bởi máy khách</translation>
     </message>
     <message>
         <source>Confirm when clients request entry deletion</source>
-        <translation>Bestätigen, wenn Clients das Löschen von Einträgen anfordern</translation>
+        <translation>Xác nhận khi máy khách yêu cầu xóa mục</translation>
     </message>
     <message>
         <source>Prompt to unlock database before searching</source>
-        <translation>Entsperrung der Datenbank vor der Suche anfordern</translation>
+        <translation>Nhắc mở khóa cơ sở dữ liệu trước khi tìm kiếm</translation>
     </message>
     <message>
         <source>Exposed database groups:</source>
-        <translation>Offengelegte Datenbankgruppen:</translation>
+        <translation>Nhóm cơ sở dữ liệu được hiển thị:</translation>
     </message>
     <message>
         <source>Authorization</source>
-        <translation>Autorisierung</translation>
+        <translation>Ủy quyền</translation>
     </message>
     <message>
         <source>These applications are currently connected:</source>
-        <translation>Diese Anwendungen sind derzeit verbunden:</translation>
+        <translation>Các ứng dụng này hiện đang kết nối:</translation>
     </message>
     <message>
         <source>&lt;b&gt;Warning:&lt;/b&gt; </source>
-        <translation>&lt;b&gt;Warnung:&lt;/b&gt; </translation>
+        <translation>&lt;b&gt;Cảnh báo:&lt;/b&gt; </translation>
     </message>
     <message>
         <source>Save current changes to activate the plugin and enable editing of this section.</source>
-        <translation>Aktuellen Änderungen speichern, um das Plugin zu aktivieren und Änderungen in diesem Abschnitt zu ermöglichen.</translation>
+        <translation>Lưu các thay đổi hiện tại để kích hoạt plugin và cho phép chỉnh sửa phần này.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting does not override disabling recycle bin prompts &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Diese Einstellung hat keinen Einfluss auf die Deaktivierung der Hinweise für den Papierkorb &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cài đặt này không ghi đè việc tắt nhắc thùng rác &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This improves compatibility with certain applications which search for password without unlocking the database first.&lt;/p&gt;&lt;p&gt;But enabling this may also crash the client if the database can not be unlocked within a certain timeout. (Usually 25s, but may be a different value set in applications.) &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dies verbessert die Kompatibilität mit bestimmten Anwendungen, die nach dem Passwort suchen, ohne die Datenbank vorher zu entsperren.&lt;/p&gt;&lt;p&gt;Die Aktivierung dieser Option kann jedoch auch zum Absturz des Clients führen, wenn die Datenbank nicht innerhalb einer bestimmten Zeitspanne entsperrt werden kann. (In der Regel 25s, kann aber auch ein anderer Wert sein, der in den Anwendungen eingestellt ist.) &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Điều này cải thiện khả năng tương thích với một số ứng dụng tìm kiếm mật khẩu mà không mở khóa cơ sở dữ liệu trước.&lt;/p&gt;&lt;p&gt;Nhưng việc bật điều này cũng có thể làm sập máy khách nếu cơ sở dữ liệu không thể được mở khóa trong một khoảng thời gian nhất định. (Thường là 25 giây, nhưng có thể là giá trị khác được đặt trong ứng dụng.) &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>SettingsWidgetKeeShare</name>
     <message>
         <source>Active</source>
-        <translation>Aktiv</translation>
+        <translation>Hoạt động</translation>
     </message>
     <message>
         <source>Allow KeeShare imports</source>
-        <translation>KeeShare-Importe erlauben</translation>
+        <translation>Cho phép nhập KeeShare</translation>
     </message>
     <message>
         <source>Allow import</source>
-        <translation>Import aktivieren</translation>
+        <translation>Cho phép nhập</translation>
     </message>
     <message>
         <source>Allow KeeShare exports</source>
-        <translation>KeeShare-Exporte erlauben</translation>
+        <translation>Cho phép xuất KeeShare</translation>
     </message>
     <message>
         <source>Allow export</source>
-        <translation>Export aktivieren</translation>
+        <translation>Cho phép xuất</translation>
     </message>
     <message>
         <source>Only show warnings and errors</source>
-        <translation>Nur Warnungen und Fehler anzeigen</translation>
+        <translation>Chỉ hiển thị cảnh báo và lỗi</translation>
     </message>
     <message>
         <source>Own certificate</source>
-        <translation>Eigenes Zertifikat</translation>
+        <translation>Chứng chỉ riêng</translation>
     </message>
     <message>
         <source>Signer:</source>
-        <translation>Unterzeichner:</translation>
+        <translation>Người ký:</translation>
     </message>
     <message>
         <source>Generate new certificate</source>
-        <translation>Neues Zertifikat erzeugen</translation>
+        <translation>Tạo chứng chỉ mới</translation>
     </message>
     <message>
         <source>Generate</source>
-        <translation>Erzeugen</translation>
+        <translation>Tạo</translation>
     </message>
     <message>
         <source>Fingerprint:</source>
-        <translation>Fingerabdruck:</translation>
+        <translation>Dấu vân tay:</translation>
     </message>
     <message>
         <source>Signer name field</source>
-        <translation>Unterzeichner-Namensfeld</translation>
+        <translation>Trường tên người ký</translation>
     </message>
     <message>
         <source>Fingerprint</source>
-        <translation>Fingerabdruck</translation>
+        <translation>Dấu vân tay</translation>
     </message>
 </context>
 <context>
     <name>ShareExport</name>
     <message>
         <source>Could not write export container.</source>
-        <translation>Export-Container kann nicht gespeichert werden.</translation>
+        <translation>Không thể ghi container xuất.</translation>
     </message>
 </context>
 <context>
     <name>ShareImport</name>
     <message>
         <source>Successful import</source>
-        <translation>Erfolgreicher Import</translation>
+        <translation>Nhập thành công</translation>
     </message>
 </context>
 <context>
     <name>ShareObserver</name>
     <message>
         <source>Import from %1 failed (%2)</source>
-        <translation>Import von %1 fehlgeschlagen (%2)</translation>
+        <translation>Nhập từ %1 thất bại (%2)</translation>
     </message>
     <message>
         <source>Import from %1 successful (%2)</source>
-        <translation>Import von %1 erfolgreich (%2)</translation>
+        <translation>Nhập từ %1 thành công (%2)</translation>
     </message>
     <message>
         <source>Imported from %1</source>
-        <translation>Importiert aus %1</translation>
+        <translation>Đã nhập từ %1</translation>
     </message>
     <message>
         <source>Multiple import source path to %1 in %2</source>
-        <translation>Multipler Import-Quellpfad zu %1 in %2</translation>
+        <translation>Nhiều đường dẫn nguồn nhập đến %1 trong %2</translation>
     </message>
     <message>
         <source>Conflicting export target path %1 in %2</source>
-        <translation>Konflikt beim Export-Zielpfad %1 in %2 </translation>
+        <translation>Đường dẫn đích xuất xung đột %1 trong %2</translation>
     </message>
     <message>
         <source>Export to %1 failed (%2)</source>
-        <translation>Export in %1 fehlgeschlagen (%2)</translation>
+        <translation>Xuất đến %1 thất bại (%2)</translation>
     </message>
     <message>
         <source>Export to %1 successful (%2)</source>
-        <translation>Export in %1 erfolgreich (%2)</translation>
+        <translation>Xuất đến %1 thành công (%2)</translation>
     </message>
     <message>
         <source>Export to %1</source>
-        <translation>Export in %1</translation>
+        <translation>Xuất đến %1</translation>
     </message>
 </context>
 <context>
     <name>TagModel</name>
     <message>
         <source>Expired</source>
-        <translation>Abgelaufen</translation>
+        <translation>Đã hết hạn</translation>
     </message>
     <message>
         <source>Weak Passwords</source>
-        <translation>Schwache Passwörter</translation>
+        <translation>Mật khẩu yếu</translation>
     </message>
     <message>
         <source>All Entries</source>
-        <translation>Alle Einträge</translation>
+        <translation>Tất cả mục</translation>
     </message>
     <message>
         <source>Clear Search</source>
-        <translation>Suche löschen</translation>
+        <translation>Xóa tìm kiếm</translation>
     </message>
     <message>
         <source>TOTP Entries</source>
-        <translation>TOTP-Einträge</translation>
+        <translation>Mục TOTP</translation>
     </message>
 </context>
 <context>
     <name>TagView</name>
     <message>
         <source>Remove Search</source>
-        <translation>Suche entfernen</translation>
+        <translation>Xóa tìm kiếm</translation>
     </message>
     <message>
         <source>Remove Tag</source>
-        <translation>Tag entfernen</translation>
+        <translation>Xóa thẻ</translation>
     </message>
     <message>
         <source>Confirm Remove Tag</source>
-        <translation>Tag entfernen bestätigen</translation>
+        <translation>Xác nhận xóa thẻ</translation>
     </message>
     <message>
         <source>Remove tag &quot;%1&quot; from all entries in this database?</source>
-        <translation>Tag „%1“ aus allen Einträgen in dieser Datenbank entfernen?</translation>
+        <translation>Xóa thẻ &quot;%1&quot; khỏi tất cả mục trong cơ sở dữ liệu này?</translation>
     </message>
 </context>
 <context>
     <name>TextAttachmentsEditWidget</name>
     <message>
         <source>Preview</source>
-        <translation>Vorschau</translation>
+        <translation>Xem trước</translation>
     </message>
 </context>
 <context>
     <name>TextAttachmentsPreviewWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>Biểu mẫu</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Typ:</translation>
+        <translation>Loại:</translation>
     </message>
 </context>
 <context>
     <name>TotpDialog</name>
     <message>
         <source>Timed Password</source>
-        <translation>Zeitbasiertes Passwort</translation>
+        <translation>Mật khẩu có thời hạn</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>Sao chép</translation>
     </message>
     <message numerus="yes">
         <source>Expires in &lt;b&gt;%n&lt;/b&gt; second(s)</source>
-        <translation><numerusform>Läuft in &lt;b&gt;%n&lt;/b&gt; Sekunde(n) ab</numerusform><numerusform>Läuft in &lt;b&gt;%n&lt;/b&gt; Sekunde(n) ab</numerusform></translation>
+        <translation><numerusform>Hết hạn sau &lt;b&gt;%n&lt;/b&gt; giây</numerusform></translation>
     </message>
 </context>
 <context>
     <name>TotpExportSettingsDialog</name>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>Sao chép</translation>
     </message>
     <message>
         <source>NOTE: These TOTP settings are custom and may not work with other authenticators.</source>
         <comment>TOTP QR code dialog warning</comment>
-        <translation>Anmerkung: Diese TOTP-Einstellungen funktionieren möglicherweise nicht mit anderen Authentifikatoren.</translation>
+        <translation>LƯU Ý: Các cài đặt TOTP này là tùy chỉnh và có thể không hoạt động với các trình xác thực khác.</translation>
     </message>
     <message>
         <source>There was an error creating the QR code.</source>
-        <translation>QR-Code konnte nicht erzeugt werden.</translation>
+        <translation>Đã xảy ra lỗi khi tạo mã QR.</translation>
     </message>
     <message>
         <source>Closing in %1 seconds.</source>
-        <translation>Wird in %1 Sekunde(n) geschlossen.</translation>
+        <translation>Đóng sau %1 giây.</translation>
     </message>
 </context>
 <context>
     <name>TotpSetupDialog</name>
     <message>
         <source>Setup TOTP</source>
-        <translation>TOTP einrichten</translation>
+        <translation>Thiết lập TOTP</translation>
     </message>
     <message>
         <source>Secret Key:</source>
-        <translation>Geheimer Schlüssel:</translation>
+        <translation>Khóa bí mật:</translation>
     </message>
     <message>
         <source>Secret key must be in Base32 format</source>
-        <translation>Der geheime Schlüssel muss im Base32-Format vorliegen.</translation>
+        <translation>Khóa bí mật phải ở định dạng Base32</translation>
     </message>
     <message>
         <source>Secret key field</source>
-        <translation>Feld für geheimen Schlüssel</translation>
+        <translation>Trường khóa bí mật</translation>
     </message>
     <message>
         <source>Default settings (RFC 6238)</source>
-        <translation>Standardeinstellungen (RFC 6238)</translation>
+        <translation>Cài đặt mặc định (RFC 6238)</translation>
     </message>
     <message>
         <source>Steam® settings</source>
-        <translation>Steam®-Einstellungen</translation>
+        <translation>Cài đặt Steam®</translation>
     </message>
     <message>
         <source>Custom settings:</source>
-        <translation>Benutzerdefinierte Einstellungen:</translation>
+        <translation>Cài đặt tùy chỉnh:</translation>
     </message>
     <message>
         <source>Custom Settings</source>
-        <translation>Eigene Einstellungen</translation>
+        <translation>Cài đặt tùy chỉnh</translation>
     </message>
     <message>
         <source>Algorithm:</source>
-        <translation>Algorithmus:</translation>
+        <translation>Thuật toán:</translation>
     </message>
     <message>
         <source>Time step:</source>
-        <translation>Zeitschritt:</translation>
+        <translation>Bước thời gian:</translation>
     </message>
     <message>
         <source>Time step field</source>
-        <translation>Zeitschritt-Feld</translation>
+        <translation>Trường bước thời gian</translation>
     </message>
     <message>
         <source> sec</source>
         <comment>Seconds</comment>
-        <translation> sek</translation>
+        <translation> giây</translation>
     </message>
     <message>
         <source>Code size:</source>
-        <translation>Codelänge:</translation>
+        <translation>Kích thước mã:</translation>
     </message>
     <message>
         <source> digits</source>
-        <translation>Ziffern</translation>
+        <translation> chữ số</translation>
     </message>
     <message>
         <source>Invalid TOTP Secret</source>
-        <translation>Ungültiges Einmalpasswort (TOTP)</translation>
+        <translation>Khóa bí mật TOTP không hợp lệ</translation>
     </message>
     <message>
         <source>You have entered an invalid secret key. The key must be in Base32 format.
 Example: JBSWY3DPEHPK3PXP</source>
-        <translation>Sie haben einen ungültigen geheimen Schlüssel angegeben. Der Schlüssel muss im Base32-Format sein. Beispiel: JBSWY3DPEHPK3PXP</translation>
+        <translation>Bạn đã nhập khóa bí mật không hợp lệ. Khóa phải ở định dạng Base32.
+Ví dụ: JBSWY3DPEHPK3PXP</translation>
     </message>
     <message>
         <source>Confirm Remove TOTP Settings</source>
-        <translation>Löschen der TOTP-Einstellungen bestätigen</translation>
+        <translation>Xác nhận xóa cài đặt TOTP</translation>
     </message>
     <message>
         <source>Are you sure you want to delete TOTP settings for this entry?</source>
-        <translation>Möchten Sie die TOTP-Einstellungen für diesen Eintrag wirklich löschen?</translation>
+        <translation>Bạn có chắc chắn muốn xóa cài đặt TOTP cho mục này không?</translation>
     </message>
     <message>
         <source>Error: secret key is invalid</source>
-        <translation>Fehler: geheimer Schlüssel ist ungültig</translation>
+        <translation>Lỗi: khóa bí mật không hợp lệ</translation>
     </message>
 </context>
 <context>
     <name>URLEdit</name>
     <message>
         <source>Invalid URL</source>
-        <translation>Ungültige URL</translation>
+        <translation>URL không hợp lệ</translation>
     </message>
 </context>
 <context>
     <name>UpdateCheckDialog</name>
     <message>
         <source>Checking for updates</source>
-        <translation>Nach Updates suchen</translation>
+        <translation>Đang kiểm tra cập nhật</translation>
     </message>
     <message>
         <source>Checking for updates…</source>
-        <translation>Nach Updates suchen ...</translation>
+        <translation>Đang kiểm tra cập nhật…</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Đóng</translation>
     </message>
     <message>
         <source>Software Update</source>
-        <translation>Softwareupdate</translation>
+        <translation>Cập nhật phần mềm</translation>
     </message>
     <message>
         <source>An error occurred when trying to retrieve update information, please try again later.</source>
-        <translation>Beim Abrufen der Update-Informationen ist ein Fehler aufgetreten, bitte versuchen Sie es später noch einmal.</translation>
+        <translation>Đã xảy ra lỗi khi cố gắng truy xuất thông tin cập nhật, vui lòng thử lại sau.</translation>
     </message>
     <message>
         <source>&lt;strong&gt;A new version is available.&lt;/strong&gt;&lt;br/&gt;KeePassXC %1 can be &lt;a href=&quot;https://keepassxc.org/download/&quot;&gt;downloaded here&lt;/a&gt;.</source>
-        <translation>&lt;strong&gt;Eine neue Version ist verfügbar.&lt;/strong&gt;&lt;br/&gt;KeePassXC %1 kann &lt;a href=&quot;https://keepassxc.org/download/&quot;&gt;hier heruntergeladen werden&lt;/a&gt;.</translation>
+        <translation>&lt;strong&gt;Có phiên bản mới.&lt;/strong&gt;&lt;br/&gt;KeePassXC %1 có thể được &lt;a href=&quot;https://keepassxc.org/download/&quot;&gt;tải xuống tại đây&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>You have the latest version of KeePassXC</source>
-        <translation>Sie haben die neueste Version von KeePassXC</translation>
+        <translation>Bạn đã có phiên bản mới nhất của KeePassXC</translation>
     </message>
 </context>
 <context>
     <name>WelcomeWidget</name>
     <message>
         <source>Start storing your passwords securely in a KeePassXC database</source>
-        <translation>Speichern Sie Ihre Passwörter sicher in einer KeePassXC-Datenbank</translation>
+        <translation>Bắt đầu lưu trữ mật khẩu của bạn một cách an toàn trong cơ sở dữ liệu KeePassXC</translation>
     </message>
     <message>
         <source>Recent databases</source>
-        <translation>Zuletzt verwendete Datenbanken</translation>
+        <translation>Cơ sở dữ liệu gần đây</translation>
     </message>
     <message>
         <source>Open a recent database</source>
-        <translation>Kürzlich verwendete Datenbank öffnen</translation>
+        <translation>Mở cơ sở dữ liệu gần đây</translation>
     </message>
     <message>
         <source>Welcome to KeePassXC %1</source>
-        <translation>Willkommen bei KeePassXC %1</translation>
+        <translation>Chào mừng đến với KeePassXC %1</translation>
     </message>
     <message>
         <source>Create Database</source>
-        <translation>Datenbank erstellen</translation>
+        <translation>Tạo cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Open Database</source>
-        <translation>Datenbank öffnen</translation>
+        <translation>Mở cơ sở dữ liệu</translation>
     </message>
     <message>
         <source>Import File</source>
-        <translation>Datei importieren</translation>
+        <translation>Nhập tệp</translation>
     </message>
 </context>
 <context>
     <name>WinUtils</name>
     <message>
         <source>Invalid key code</source>
-        <translation>Ungültiger Key-Code</translation>
+        <translation>Mã khóa không hợp lệ</translation>
     </message>
     <message>
         <source>Global shortcut already registered to %1</source>
-        <translation>Globales Tastenkürzel bereits registriert auf %1</translation>
+        <translation>Phím tắt toàn cục đã được đăng ký cho %1</translation>
     </message>
     <message>
         <source>Could not register global shortcut</source>
-        <translation>Globales Tastaturkürzel konnte nicht registriert werden</translation>
+        <translation>Không thể đăng ký phím tắt toàn cục</translation>
     </message>
 </context>
 <context>
     <name>WindowsHello</name>
     <message>
         <source>Failed to init KeePassXC crypto.</source>
-        <translation>KeePassXC-Krypto konnte nicht gestartet werden.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Failed to encrypt key data.</source>
-        <translation>Verschlüsselung der Schlüsseldaten fehlgeschlagen.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Failed to get Windows Hello credential.</source>
-        <translation>Windows Hello-Anmeldedaten konnten nicht abgerufen werden.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Failed to decrypt key data.</source>
-        <translation>Entschlüsselung der Schlüsseldaten fehlgeschlagen.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>YubiKey</name>
     <message>
         <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Hardwareschlüssel mit der Seriennummer %1 konnte nicht gefunden werden. Bitte schließen Sie ihn an, um fortzufahren.</translation>
+        <translation>Không thể tìm thấy khóa phần cứng với số sê-ri %1. Vui lòng kết nối nó để tiếp tục.</translation>
     </message>
 </context>
 <context>
     <name>YubiKeyEditWidget</name>
     <message>
         <source>Hardware key slot selection</source>
-        <translation>Auswahl des Hardwareschlüssel-Slots</translation>
+        <translation>Chọn khe khóa phần cứng</translation>
     </message>
     <message>
         <source>Could not find any hardware keys!</source>
-        <translation>Konnte keine Hardwareschlüssel finden!</translation>
+        <translation>Không thể tìm thấy khóa phần cứng nào!</translation>
     </message>
     <message>
         <source>Selected hardware key slot does not support challenge-response!</source>
-        <translation>Ausgewählter Hardwareschlüssel-Slot unterstützt Challenge-Response  nicht!</translation>
+        <translation>Khe khóa phần cứng đã chọn không hỗ trợ thách thức-phản hồi!</translation>
     </message>
     <message>
         <source>Challenge-Response</source>
-        <translation>Challenge-Response</translation>
+        <translation>Thách thức-Phản hồi</translation>
     </message>
     <message>
         <source>Add Challenge-Response</source>
-        <translation>Challenge-Response hinzufügen</translation>
+        <translation>Thêm Thách thức-Phản hồi</translation>
     </message>
     <message>
         <source>Change Challenge-Response</source>
-        <translation>Challenge-Response bearbeiten</translation>
+        <translation>Thay đổi Thách thức-Phản hồi</translation>
     </message>
     <message>
         <source>Remove Challenge-Response</source>
-        <translation>Challenge-Response entfernen</translation>
+        <translation>Xóa Thách thức-Phản hồi</translation>
     </message>
     <message>
         <source>Challenge-Response set, click to change or remove</source>
-        <translation>Challenge-Response eingestellt, zum Ändern oder Entfernen anklicken</translation>
+        <translation>Thách thức-Phản hồi đã đặt, nhấp để thay đổi hoặc xóa</translation>
     </message>
     <message>
         <source>Detecting hardware keys…</source>
-        <translation>Hardwareschlüssel werden gesucht …</translation>
+        <translation>Đang phát hiện khóa phần cứng…</translation>
     </message>
     <message>
         <source>Refresh hardware keys</source>
-        <translation>Hardwareschlüssel aktualisieren</translation>
+        <translation>Làm mới khóa phần cứng</translation>
     </message>
     <message>
         <source>&lt;p&gt;If you own a &lt;a href=&quot;https://www.yubico.com/&quot;&gt;YubiKey&lt;/a&gt; or &lt;a href=&quot;https://onlykey.io&quot;&gt;OnlyKey&lt;/a&gt;, you can use it for additional security.&lt;/p&gt;&lt;p&gt;The key requires one of its slots to be programmed with &lt;a href=&quot;https://keepassxc.org/docs/#faq-yubikey-howto&quot;&gt;Challenge-Response&lt;/a&gt;.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Wenn Sie einen &lt;a href=&quot;https://www.yubico.com/&quot;&gt;YubiKey&lt;/a&gt; oder &lt;a href=&quot;https://onlykey.io&quot;&gt;OnlyKey&lt;/a&gt; besitzen, können Sie ihn für zusätzliche Sicherheit verwenden.&lt;/p&gt;&lt;p&gt;Dazu muss einer seiner Slots als &lt;a href=&quot;https://keepassxc.org/docs/#faq-yubikey-howto&quot;&gt;Challenge-Response&lt;/a&gt; programmiert sein.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Nếu bạn sở hữu &lt;a href=&quot;https://www.yubico.com/&quot;&gt;YubiKey&lt;/a&gt; hoặc &lt;a href=&quot;https://onlykey.io&quot;&gt;OnlyKey&lt;/a&gt;, bạn có thể sử dụng nó để tăng cường bảo mật.&lt;/p&gt;&lt;p&gt;Khóa yêu cầu một trong các khe của nó được lập trình với &lt;a href=&quot;https://keepassxc.org/docs/#faq-yubikey-howto&quot;&gt;Challenge-Response&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>No hardware keys detected</source>
-        <translation>Keine Hardwareschlüssel gefunden</translation>
+        <translation>Không phát hiện khóa phần cứng</translation>
     </message>
     <message>
         <source>Hardware keys found, but no slots are configured</source>
-        <translation>Hardwareschlüssel gefunden, es sind aber keine Slots konfiguriert</translation>
+        <translation>Đã tìm thấy khóa phần cứng, nhưng không có khe nào được cấu hình</translation>
     </message>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
-        <translation>Hardwareschlüssel ist gesperrt oder die Zeit ist abgelaufen. Entsperren Sie ihn oder legen Sie ihn erneut ein, um fortzufahren.</translation>
+        <translation>Khóa phần cứng bị khóa hoặc hết thời gian. Mở khóa hoặc đưa ra lại để tiếp tục.</translation>
     </message>
     <message>
         <source>Hardware key was not found or is not configured.</source>
-        <translation>Hardwareschlüssel wurde nicht gefunden oder ist nicht konfiguriert.</translation>
+        <translation>Không tìm thấy khóa phần cứng hoặc chưa được cấu hình.</translation>
     </message>
     <message>
         <source>(NFC) %1 [%2] - Slot %3, %4</source>
         <comment>YubiKey display fields</comment>
-        <translation>(NFC) %1 [%2] - Slot %3, %4</translation>
+        <translation>(NFC) %1 [%2] - Khe %3, %4</translation>
     </message>
     <message>
         <source>Press</source>
         <comment>USB Challenge-Response Key interaction request</comment>
-        <translation>Drücken</translation>
+        <translation>Nhấn</translation>
     </message>
     <message>
         <source>Passive</source>
         <comment>USB Challenge-Response Key no interaction required</comment>
-        <translation>Passiv</translation>
+        <translation>Thụ động</translation>
     </message>
     <message>
         <source>The YubiKey PC/SC interface has not been initialized.</source>
-        <translation>Die YubiKey-PC/SC-Schnittstelle wurde nicht initialisiert.</translation>
+        <translation>Giao diện YubiKey PC/SC chưa được khởi tạo.</translation>
     </message>
     <message>
         <source>Failed to complete a challenge-response, the PC/SC error code was: %1</source>
-        <translation>Die Challenge-Response konnte nicht abgeschlossen werden. Der PC/SC-Fehlercode war: %1</translation>
+        <translation>Không thể hoàn thành thách thức-phản hồi, mã lỗi PC/SC là: %1</translation>
     </message>
 </context>
 <context>
@@ -10220,47 +10216,47 @@ Example: JBSWY3DPEHPK3PXP</source>
     <message>
         <source>Press</source>
         <comment>USB Challenge-Response Key interaction request</comment>
-        <translation>Drücken</translation>
+        <translation>Nhấn</translation>
     </message>
     <message>
         <source>Passive</source>
         <comment>USB Challenge-Response Key no interaction required</comment>
-        <translation>Passiv</translation>
+        <translation>Thụ động</translation>
     </message>
     <message>
         <source>The YubiKey USB interface has not been initialized.</source>
-        <translation>Die YubiKey USB-Schnittstelle wurde nicht initialisiert.</translation>
+        <translation>Giao diện YubiKey USB chưa được khởi tạo.</translation>
     </message>
     <message>
         <source>Could not find hardware key with serial number %1. Please plug it in to continue.</source>
-        <translation>Hardwareschlüssel mit Seriennummer %1 konnte nicht gefunden werden. Bitte schließen Sie ihn an, um fortzufahren.</translation>
+        <translation>Không thể tìm thấy khóa phần cứng với số sê-ri %1. Vui lòng cắm nó vào để tiếp tục.</translation>
     </message>
     <message>
         <source>Hardware key timed out waiting for user interaction.</source>
-        <translation>Der Hardwareschlüssel hatte eine Zeitüberschreitung beim Warten auf Nutzerinteraktion.</translation>
+        <translation>Khóa phần cứng hết thời gian chờ tương tác người dùng.</translation>
     </message>
     <message>
         <source>A USB error occurred when accessing the hardware key: %1</source>
-        <translation>Beim Zugriff auf den Hardwareschlüssel ist ein USB-Fehler aufgetreten: %1</translation>
+        <translation>Đã xảy ra lỗi USB khi truy cập khóa phần cứng: %1</translation>
     </message>
     <message>
         <source>Failed to complete a challenge-response, the specific error was: %1</source>
-        <translation>Abschluss von Challenge-Response ist fehlgeschlagen, der spezifische Fehler war: %1</translation>
+        <translation>Không thể hoàn thành thách thức-phản hồi, lỗi cụ thể là: %1</translation>
     </message>
     <message>
         <source>%1 [%2] - Slot %3</source>
         <comment>YubiKey NEO display fields</comment>
-        <translation>%1 [%2] - Slot %3</translation>
+        <translation>%1 [%2] - Khe %3</translation>
     </message>
     <message>
         <source>%1 [%2] - Slot %3, %4</source>
         <comment>YubiKey display fields</comment>
-        <translation>%1 [%2] - Slot %3, %4</translation>
+        <translation>%1 [%2] - Khe %3, %4</translation>
     </message>
     <message>
         <source>Unknown</source>
         <comment>Unknown hardware key name</comment>
-        <translation>Unbekannt</translation>
+        <translation>Không xác định</translation>
     </message>
 </context>
 </TS>

@@ -3631,6 +3631,14 @@ Podporovaná rozšíření jsou: %1.</translation>
         <source>Select import/export file</source>
         <translation>Vybrat importní/exportní soubor</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -8914,7 +8922,7 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message numerus="yes">
         <source>%1 character(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%1 znak</numerusform><numerusform>%1 znaky</numerusform><numerusform>%1 znaků</numerusform><numerusform>%1 znaků</numerusform></translation>
     </message>
     <message>
         <source>Do you really want to permanently delete the entry &quot;%1&quot;?</source>
@@ -9459,7 +9467,7 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message numerus="yes">
         <source>%1 character(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%1 znak</numerusform><numerusform>%1 znaky</numerusform><numerusform>%1 znaků</numerusform><numerusform>%1 znaků</numerusform></translation>
     </message>
 </context>
 <context>
@@ -10088,12 +10096,8 @@ Příklad: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Obecné: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Nepodařilo se nalézt rozhraní pro hardwarový klíč se sériovým číslem %1. Připojte ho, aby bylo možné pokračovat.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10153,10 +10157,6 @@ Příklad: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Nepodařilo se nalézt nebo přistoupit k hardwarovému klíči se sériovým číslem %1. Připojte ho, aby bylo možné pokračovat.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Hardwarový klíč je uzamčen nebo byl překročen časový limit. Odemkněte ho nebo připojte, aby bylo možné pokračovat.</translation>

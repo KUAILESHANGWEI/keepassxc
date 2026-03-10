@@ -3635,6 +3635,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>ជ្រើសរើសប្រភពឯកសារនាំចូល និងនាំចេញ</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10082,12 +10090,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>ទូទៅ៖ </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>មិនអាចស្វែងរកផ្ទៃសម្រាប់ឃីហាតវែរដែលមានលេខស៊េរី %1។ សូមភ្ជាប់លេខលេខស៊េរីដើម្បីបន្ត។</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10147,10 +10151,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>មិន​អាច​រក​ឃើញ ឬ​ចូលប្រើប្រាស់ឃីហាតវែរដែលមានលេខស៊េរី  %1 ទេ។ សូមបង្ហាញលេខលេខស៊េរីដើម្បីបន្ត។ </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>ឃីហាតវែរត្រូវបានទប់ស្កាត់ ឬអស់ពេល។ ឈប់ទប់ស្កាត់ ឬបង្ហាញវាឡើងវិញ ដើម្បីបន្ត។</translation>

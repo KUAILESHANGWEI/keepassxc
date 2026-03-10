@@ -293,11 +293,11 @@
     </message>
     <message>
         <source>Start only a single instance of KeePassXC</source>
-        <translation>Iniciar apenas uma instância do KeepassXC</translation>
+        <translation>Iniciar apenas uma instância KeepassXC</translation>
     </message>
     <message>
         <source>Automatically launch KeePassXC at system startup</source>
-        <translation>Iniciar o KeePassXC no arranque do sistema operativo</translation>
+        <translation>Iniciar KeePassXC no arranque do sistema operativo</translation>
     </message>
     <message>
         <source>Minimize window at application startup</source>
@@ -1326,7 +1326,7 @@ Gostaria de migrar agora as definições?</translation>
     </message>
     <message>
         <source>Updates KeePassXC or keepassxc-proxy binary path automatically to native messaging scripts on startup.</source>
-        <translation>Ao iniciar, atualizar automaticamente o caminho do KeePassXC ou do binário keepassxc-proxy para os &apos;sripts&apos; nativos de mensagens.</translation>
+        <translation>Ao iniciar, atualizar automaticamente o caminho do KeePassXC ou do binário keepassxc-proxy para os &apos;scripts&apos; nativos de mensagens.</translation>
     </message>
     <message>
         <source>Update native messaging manifest files at startup</source>
@@ -2132,7 +2132,7 @@ Tem a certeza de que deseja continuar?</translation>
     </message>
     <message>
         <source>Format cannot be changed: Your database uses KDBX 4 features</source>
-        <translation>O formato não pode ser alterado. A base de dados utiliza funcionalidades KDBX 4</translation>
+        <translation>O formato não pode ser alterado. A base de dados utiliza funcionalidades KDBX 4.</translation>
     </message>
     <message>
         <source>Unless you need to open your database with other programs, always use the latest format.</source>
@@ -2156,11 +2156,11 @@ Tem a certeza de que deseja continuar?</translation>
     </message>
     <message>
         <source>Key Derivation Function:</source>
-        <translation>Função derivação de chave:</translation>
+        <translation>Função de derivação de chave:</translation>
     </message>
     <message>
         <source>Key derivation function</source>
-        <translation>Função derivação de chave</translation>
+        <translation>Função de derivação de chave</translation>
     </message>
     <message>
         <source>Transform rounds:</source>
@@ -2418,7 +2418,7 @@ removidas da base de dados.</translation>
     </message>
     <message>
         <source>Display name:</source>
-        <translation>Nome exibido:</translation>
+        <translation>Nome a mostrar:</translation>
     </message>
     <message>
         <source>Database public display name</source>
@@ -2438,7 +2438,7 @@ removidas da base de dados.</translation>
     </message>
     <message>
         <source>Display icon:</source>
-        <translation>Ícone exibido:</translation>
+        <translation>Ícone a mostrar:</translation>
     </message>
     <message>
         <source>Select Database Icon</source>
@@ -2561,7 +2561,7 @@ Existe aqui um erro que deve ser reportado aos programadores.</translation>
     </message>
     <message>
         <source>KeePass 2 Database</source>
-        <translation>Base de dados do KeePass 2</translation>
+        <translation>Base de dados KeePass 2</translation>
     </message>
     <message>
         <source>All files</source>
@@ -2735,7 +2735,7 @@ Desativar salvaguardas e tentar novamente?</translation>
     </message>
     <message>
         <source>KeePass 2 Database</source>
-        <translation>Base de dados do KeePass 2</translation>
+        <translation>Base de dados KeePass 2</translation>
     </message>
     <message>
         <source>Empty recycle bin?</source>
@@ -3654,6 +3654,14 @@ As extensões suportadas são: %1.</translation>
     <message>
         <source>Select import/export file</source>
         <translation>Selecione o ficheiro de importação/exportação</translation>
+    </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Manter estrutura do grupo com a base de dados partilhada</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Manter estrutura do grupo</translation>
     </message>
 </context>
 <context>
@@ -5072,7 +5080,7 @@ Esta é uma migração unidirecional. Não será possível abrir a base de dados
     </message>
     <message>
         <source>Not a KeePass database.</source>
-        <translation>Não é uma base de dados do KeePass.</translation>
+        <translation>Não é uma base de dados KeePass.</translation>
     </message>
     <message>
         <source>Unsupported KeePass 2 database version.</source>
@@ -5234,7 +5242,7 @@ Linha %2, coluna %3</translation>
     </message>
     <message>
         <source>Not a KeePass database.</source>
-        <translation>Não é uma base de dados do KeePass.</translation>
+        <translation>Não é uma base de dados KeePass.</translation>
     </message>
     <message>
         <source>Unsupported encryption algorithm.</source>
@@ -5812,11 +5820,11 @@ Tem a certeza de que deseja utilizar este ficheiro?</translation>
     </message>
     <message>
         <source>KeePass 1 Database…</source>
-        <translation>Base de dados do KeePass 1...</translation>
+        <translation>Base de dados KeePass 1...</translation>
     </message>
     <message>
         <source>Import a KeePass 1 database</source>
-        <translation>Importar base de dados do KeePass 1</translation>
+        <translation>Importar base de dados KeePass 1</translation>
     </message>
     <message>
         <source>1Password Vault…</source>
@@ -5994,7 +6002,7 @@ Pode encontrar erros graves e esta versão não deve ser utilizada em ambientes 
     </message>
     <message>
         <source>Would you like KeePassXC to check for updates on startup?</source>
-        <translation>Deseja que o KeePassXC procure atualizações ao iniciar?</translation>
+        <translation>Deseja que KeePassXC procure atualizações ao iniciar?</translation>
     </message>
     <message>
         <source>You can always check for updates manually from the application menu.</source>
@@ -6006,7 +6014,7 @@ Pode encontrar erros graves e esta versão não deve ser utilizada em ambientes 
     </message>
     <message>
         <source>Quit KeePassXC</source>
-        <translation>Sair do KeePassXC</translation>
+        <translation>Sair de KeePassXC</translation>
     </message>
     <message>
         <source>Please present or touch your YubiKey to continue…</source>
@@ -6301,7 +6309,7 @@ Pode encontrar erros graves e esta versão não deve ser utilizada em ambientes 
     <name>NewDatabaseWizard</name>
     <message>
         <source>Create a new KeePassXC database…</source>
-        <translation>Criar uma nova base de dados do KeePassXC...</translation>
+        <translation>Criar uma nova base de dados KeePassXC…</translation>
     </message>
     <message>
         <source>Root</source>
@@ -8637,7 +8645,7 @@ Kernel: %3 %4</translation>
     </message>
     <message>
         <source>Another instance of KeePassXC is already running.</source>
-        <translation>Já está em execução uma instância do KeePassXC.</translation>
+        <translation>Já está em execução uma instância KeePassXC.</translation>
     </message>
     <message>
         <source>Fatal error while testing the cryptographic functions.</source>
@@ -10114,12 +10122,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Geral:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Não foi possível localizar a interface para o dispositivo com o número de série %1. Introduza o seu dispositivo para continuar.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Não foi possível encontrar a chave de hardware com o número de série %1. Conecte a chave de segurança e continue.</translation>
     </message>
 </context>
 <context>
@@ -10179,10 +10183,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Não foi possível aceder ao dispositivo com o número de série %1. Introduza ao seu dispositivo para continuar.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>O dispositivo está bloqueado ou o tempo limite caducou. Desbloqueie ou reintroduza o dispositivo para continuar.</translation>

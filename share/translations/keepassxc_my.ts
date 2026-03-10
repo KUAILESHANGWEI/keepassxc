@@ -3622,6 +3622,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>ထည့်သွင်းမည့်/ပို့မည့် ဖိုင်ကို ရွေးပါ</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10076,12 +10084,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>ယေဘုယျ -</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>နံပါတ်စဉ် %1 ရှိသော ဟာ့ဒ်ဝဲ စကားဝှက်သော့အတွက် အသုံးပြုသူမြင်ရမည့်ပုံစံ ရှာမတွေ့ပါ။ ကျေးဇူးပြု၍ ရှေ့ဆက်ရန် ၎င်းကို ချိတ်ဆက်ပါ။</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10141,10 +10145,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>နံပါတ်စဉ် %1 ရှိသော ဟာ့ဒ်ဝဲ စကားဝှက်သော့ကို ရှာမတွေ့ပါ သို့မဟုတ် ဝင်ရောက်သုံးစွဲ၍မရပါ။ ကျေးဇူးပြု၍ ရှေ့ဆက်ရန် ၎င်းကို တင်ပြပါ။</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>ဟာ့ဒ်ဝဲ စကားဝှက်သော့မှာ လော့ချထားသည် သို့မဟုတ် အချိန်ကျော်သွားပါပြီ။ ရှေ့ဆက်ရန် ၎င်းကို လော့ဖြည်ပါ သို့မဟုတ် ထပ်မံတင်ပြပါ။</translation>

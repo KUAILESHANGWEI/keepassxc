@@ -3655,6 +3655,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>选择导入/导出文件</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>保持群组结构与共享群组一致</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>保持群组结构</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10109,12 +10117,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>常规：</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>无法找到序列号为 %1 的硬件密钥接口。请连接后继续。</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>无法找到序列号为 %1 的硬件密钥。请连接后继续。</translation>
     </message>
 </context>
 <context>
@@ -10174,10 +10178,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>无法找到或访问序列号为 %1 的硬件密钥。请感应后继续。</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>硬件密钥已锁定或超时。解锁或重新感应以继续。</translation>

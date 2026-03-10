@@ -3655,6 +3655,14 @@ Ondersteund zijn: %1.</translation>
         <source>Select import/export file</source>
         <translation>Selecteer import-/exportbestand</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Groepsstructuur behouden met gedeelde database</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Groepsstructuur behouden</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10113,12 +10121,8 @@ Voorbeeld: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Algemeen:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Kan interface voor hardwaresleutel met serienummer %1 niet vinden. Sluit het aan om door te gaan.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Hardwaresleutel met serienummer %1 niet gevonden. Sluit deze aan om door te gaan.</translation>
     </message>
 </context>
 <context>
@@ -10178,10 +10182,6 @@ Voorbeeld: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Kan hardwaresleutel met serienummer %1 niet vinden of openen. Presenteer de hardwaresleutel om door te gaan. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>De hardwaresleutel is vergrendeld of er is een time-out. Ontgrendel of presenteer het opnieuw om door te gaan.</translation>

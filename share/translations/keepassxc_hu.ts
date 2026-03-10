@@ -3653,6 +3653,14 @@ Támogatott kiterjesztések: %1.</translation>
         <source>Select import/export file</source>
         <translation>Importálási vagy exportálási fájl kijelölése</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Csoportszerkezet megtartása megosztott adatbázissal</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Csoportszerkezet megtartása</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10111,12 +10119,8 @@ Példa: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Általános:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Nem található csatolófelület a harverkulcshoz ezzel a sorozatszámmal: %1. A folytatáshoz, kérjük, csatlakoztassa.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Nem található hardverkulcs ezzel a sorozatszámmal: %1. Csatlakoztassa a folytatáshoz.</translation>
     </message>
 </context>
 <context>
@@ -10176,10 +10180,6 @@ Példa: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Nem található vagy nem elérhető a hardverkulcs ezzel a sorozatszámmal: %1. A folytatáshoz, kérjük, tegye elérhetővé.</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>A hardverkulcs zárolva van vagy túllépte az időkorlátot. Kérjük aktiválja vagy tegye újra elérhetővé a folytatáshoz.</translation>

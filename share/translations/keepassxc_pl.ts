@@ -3655,6 +3655,14 @@ Obsługiwane rozszerzenia to: %1.</translation>
         <source>Select import/export file</source>
         <translation>Wybierz plik importu/eksportu</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation>Utrzymaj strukturę grupy ze wspólną bazą danych</translation>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation>Zachowaj strukturę grupy</translation>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10115,12 +10123,8 @@ Przykład: JBSWY3DPEHPK3PXP</translation>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>Ogólne: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>Nie można znaleźć interfejsu dla klucza sprzętowego o numerze seryjnym %1. Podłącz go, aby kontynuować.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation>Nie znaleziono klucza sprzętowego o numerze seryjnym %1. Podłącz go, aby kontynuować.</translation>
     </message>
 </context>
 <context>
@@ -10180,10 +10184,6 @@ Przykład: JBSWY3DPEHPK3PXP</translation>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>Nie można znaleźć lub uzyskać dostępu do klucza sprzętowego o numerze seryjnym %1. Proszę go okazać, aby kontynuować. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>Klucz sprzętowy jest zablokowany lub upłynął limit czasu. Odblokuj lub ponownie go okaż, aby kontynuować.</translation>

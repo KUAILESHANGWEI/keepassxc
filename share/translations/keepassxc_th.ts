@@ -3630,6 +3630,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>เลือกแฟ้มนำเข้า/ส่งออก</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10085,12 +10093,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>ทั่วไป:</translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>ไม่พบส่วนติดต่อสำหรับรหัสฮาร์ดแวร์ที่มีหมายเลขซีเรียล %1 โปรดเชื่อมต่อเพื่อดำเนินการต่อ</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10150,10 +10154,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>ไม่พบหรือเข้าถึงรหัสฮาร์ดแวร์ที่มีหมายเลขซีเรียล %1 โปรดแสดงมันเพื่อดำเนินการต่อ</translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>กุญแจฮาร์ดแวร์ถูกล็อกหรือหมดเวลา กรุณาปลดล็อกหรือแสดงใหม่เพื่อทำต่อ</translation>

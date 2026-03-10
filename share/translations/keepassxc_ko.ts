@@ -3643,6 +3643,14 @@ Supported extensions are: %1.</source>
         <source>Select import/export file</source>
         <translation>가져올/내보낼 파일 선택</translation>
     </message>
+    <message>
+        <source>Maintain group structure with shared database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Keep Group Structure</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>EditGroupWidgetMain</name>
@@ -10101,12 +10109,8 @@ Example: JBSWY3DPEHPK3PXP</source>
 <context>
     <name>YubiKey</name>
     <message>
-        <source>General: </source>
-        <translation>일반: </translation>
-    </message>
-    <message>
-        <source>Could not find interface for hardware key with serial number %1. Please connect it to continue.</source>
-        <translation>일련 번호가 %1인 하드웨어 키 인터페이스를 찾을 수 없습니다. 계속 진행하려면 연결하십시오.</translation>
+        <source>Could not find hardware key with serial number %1. Please connect it to continue.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10166,10 +10170,6 @@ Example: JBSWY3DPEHPK3PXP</source>
 </context>
 <context>
     <name>YubiKeyInterfacePCSC</name>
-    <message>
-        <source>Could not find or access hardware key with serial number %1. Please present it to continue. </source>
-        <translation>일련 번호가 %1인 하드웨어 키를 찾을 수 없거나 접근할 수 없습니다. 계속 진행하려면 연결하십시오. </translation>
-    </message>
     <message>
         <source>Hardware key is locked or timed out. Unlock or re-present it to continue.</source>
         <translation>하드웨어 키가 잠겼거나 시간이 초과되었습니다. 계속 진행하려면 잠금을 해제하거나 다시 연결하십시오.</translation>
