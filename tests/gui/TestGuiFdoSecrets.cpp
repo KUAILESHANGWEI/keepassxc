@@ -1707,13 +1707,7 @@ void TestGuiFdoSecrets::unlockDatabaseInBackend()
 
 void TestGuiFdoSecrets::processEvents()
 {
-    // Couldn't use QApplication::processEvents, because per Qt documentation:
-    //     events that are posted while the function runs will be queued until a later round of event processing.
-    // and we may post QTimer single shot events during event handling to achieve async method.
-    // So we directly call event dispatcher in a loop until no events can be handled
-    while (QAbstractEventDispatcher::instance()->processEvents(QEventLoop::AllEvents)) {
-        // pass
-    }
+    QApplication::processEvents();
 }
 
 // the following functions have return value, switch macros to the version supporting that
@@ -1825,6 +1819,8 @@ TestGuiFdoSecrets::encryptPassword(QByteArray value, QString contentType, const 
 
 bool TestGuiFdoSecrets::driveAccessControlDialog(bool remember, bool includeFutureEntries)
 {
+    // Call process events twice to ensure queued timers fire on second call
+    processEvents();
     processEvents();
     for (auto w : QApplication::topLevelWidgets()) {
         if (!w->isWindow()) {
@@ -1897,6 +1893,8 @@ bool TestGuiFdoSecrets::driveNewDatabaseWizard()
 
 bool TestGuiFdoSecrets::driveUnlockDialog(DatabaseWidget* target)
 {
+    // Call process events twice to ensure queued timers fire on second call
+    processEvents();
     processEvents();
     auto dbOpenDlg = m_tabWidget->findChild<DatabaseOpenDialog*>();
     VERIFY(dbOpenDlg);
