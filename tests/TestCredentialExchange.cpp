@@ -21,6 +21,7 @@
 #include "format/CredentialExchangeReader.h"
 #include "format/CredentialExchangeWriter.h"
 
+#include <QJsonDocument>
 #include <QJsonObject>
 #include <QTest>
 
