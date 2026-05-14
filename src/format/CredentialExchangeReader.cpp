@@ -23,6 +23,7 @@
 #include <QJsonArray>
 #include <QJsonObject>
 #include <QScopedPointer>
+#include <QTimeZone>
 
 static const auto CREDENTIAL_PASSKEY = QStringLiteral("passkey");
 
