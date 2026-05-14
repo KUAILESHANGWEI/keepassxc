@@ -35,8 +35,8 @@ namespace
         auto timeInfo = entry->timeInfo();
         const auto creationAt = item["creationAt"].toInteger();
         const auto modifiedAt = item["modifiedAt"].toInteger();
-        const auto creationTimestamp = QDateTime::fromSecsSinceEpoch(creationAt, QTimeZone::UTC);
-        const auto modifiedTimestamp = QDateTime::fromSecsSinceEpoch(modifiedAt, QTimeZone::UTC);
+        const auto creationTimestamp = QDateTime::fromSecsSinceEpoch(creationAt).toUTC();
+        const auto modifiedTimestamp = QDateTime::fromSecsSinceEpoch(modifiedAt).toUTC();
         timeInfo.setCreationTime(creationTimestamp);
         timeInfo.setLastModificationTime(modifiedTimestamp);
         entry->setTimeInfo(timeInfo);
