@@ -36,7 +36,7 @@ namespace
         }
 
         QJsonObject entryObject{
-            {"id", entry->uuidToHex()},
+            {"id", QString(entry->uuid().toByteArray().toBase64())},
             {"username", entry->username()},
             {"email", QString()}, // There is no email in KeePassXC
         };
@@ -82,8 +82,8 @@ QJsonObject CredentialExchangeWriter::writeEntries(const QList<Entry*>& entries)
     }
 
     QJsonObject version{
-        {"major", CE_MAJOR_VERSION},
-        {"minor", CE_MINOR_VERSION},
+        {"major", CXF_MAJOR_VERSION},
+        {"minor", CXF_MINOR_VERSION},
     };
 
     QJsonArray accounts;

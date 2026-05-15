@@ -63,27 +63,29 @@ namespace
         entry->attributes()->set(EntryAttributes::KPEX_PASSKEY_FLAG_BS, "1");
     }
 
-    // Account can has multiple items. Create a new entry for each item.
-    // Credentials under item can contain multple objects. Only passkey credentials are supported for now.
-    QList<Entry*> readAccount(const QJsonObject& account)
+    // Account can has multiple items. Create a new entry for an Account, and parse Items to it.
+    // Credentials under Item can contain multple objects. Only passkey credentials are supported for now.
+    // TODO: It needs to be decided if each Item needs a separate entry, or is one Account one entry, and each
+    // Item is added to it. The Account doesn't have a common title, but title can vary per each Item.
+    Entry* readAccount(const QJsonObject& account)
     {
-        QList<Entry*> entries;
+        QScopedPointer<Entry> entry(new Entry());
 
         // Account info
         const auto username = account["username"].toString();
         const auto email = account["email"].toString();
+        // KeePassXC does not have a separate email field. Use email as username if username is not set.
+        entry->setUsername(username.isEmpty() ? email : username);
 
         // Parse Item entities
         const auto items = account["items"].toArray();
         for (const auto& i : items) {
             const auto item = i.toObject();
 
-            QScopedPointer<Entry> entry(new Entry());
             entry->setEmitModified(false);
             entry->setUuid(QUuid::createUuid());
-            // KeePassXC does not have a separate email field. Use email as username if username is not set.
-            entry->setUsername(username.isEmpty() ? email : username);
 
+            // TODO: How to handle titles if there are multiple items?
             entry->setTitle(item["title"].toString());
             setTimeInfo(entry, item);
 
@@ -100,10 +102,9 @@ namespace
             }
 
             entry->setEmitModified(true);
-            entries.push_back(entry.take());
         }
 
-        return entries;
+        return entry.take();
     }
 } // namespace
 
@@ -128,7 +129,7 @@ QList<Entry*> CredentialExchangeReader::readEntries(const QJsonObject& data)
 
     // Minor versions should be compatible
     const auto majorVersion = version["major"].toInt();
-    if (majorVersion < CE_MAJOR_VERSION) {
+    if (majorVersion < CXF_MAJOR_VERSION) {
         m_error = QObject::tr("Major version %1 is not supported.").arg(majorVersion);
         return {};
     }
@@ -150,9 +151,9 @@ QList<Entry*> CredentialExchangeReader::readEntries(const QJsonObject& data)
 
     QList<Entry*> entries;
     for (const auto& account : accounts) {
-        const auto accountEntries = readAccount(account.toObject());
-        if (!accountEntries.isEmpty()) {
-            entries << accountEntries;
+        const auto accountEntry = readAccount(account.toObject());
+        if (accountEntry) {
+            entries << accountEntry;
         }
     }
 

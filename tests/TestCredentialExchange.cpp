@@ -21,6 +21,7 @@
 #include "format/CredentialExchangeReader.h"
 #include "format/CredentialExchangeWriter.h"
 
+#include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QTest>
@@ -144,5 +145,5 @@ void TestCredentialExchange::testCredentialExchangeWriter()
 
     CredentialExchangeWriter writer;
     const auto result = writer.writeEntries(entries);
-    QVERIFY(!result.isEmpty());
+    QVERIFY(result["accounts"].toArray().size() == 2);
 }
