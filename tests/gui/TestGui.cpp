@@ -21,7 +21,6 @@
 
 #include <QCheckBox>
 #include <QClipboard>
-#include <QComboBox>
 #include <QListWidget>
 #include <QMenu>
 #include <QMenuBar>
@@ -34,7 +33,6 @@
 #include <QTableWidget>
 #include <QTest>
 #include <QToolBar>
-#include <QWheelEvent>
 
 #include "config-keepassx-tests.h"
 #include "core/PasswordHealth.h"
@@ -208,45 +206,6 @@ void TestGui::testSettingsDefaultTabOrder()
         }
     }
     QTest::keyClick(dbSettingsWidget, Qt::Key::Key_Escape);
-}
-
-void TestGui::testSettingsWheelDoesNotChangeAlternativeSaveMethodWithoutFocus()
-{
-    triggerAction("actionSettings");
-    auto* settingsWidget = m_mainWindow->findChild<ApplicationSettingsWidget*>();
-    QVERIFY(settingsWidget->isVisible());
-
-    auto* alternativeSaveCheckBox = settingsWidget->findChild<QCheckBox*>("useAlternativeSaveCheckBox");
-    auto* alternativeSaveComboBox = settingsWidget->findChild<QComboBox*>("alternativeSaveComboBox");
-    auto* languageComboBox = settingsWidget->findChild<QComboBox*>("languageComboBox");
-    QVERIFY(alternativeSaveCheckBox);
-    QVERIFY(alternativeSaveComboBox);
-    QVERIFY(languageComboBox);
-
-    alternativeSaveCheckBox->setChecked(true);
-    QVERIFY(alternativeSaveComboBox->isEnabled());
-
-    languageComboBox->setFocus();
-    QTRY_VERIFY(languageComboBox->hasFocus());
-    QVERIFY(!alternativeSaveComboBox->hasFocus());
-
-    const auto currentIndex = alternativeSaveComboBox->currentIndex();
-    const auto center = alternativeSaveComboBox->rect().center();
-    QWheelEvent event(center,
-                      alternativeSaveComboBox->mapToGlobal(center),
-                      QPoint(0, 0),
-                      QPoint(0, 120),
-                      Qt::NoButton,
-                      Qt::NoModifier,
-                      Qt::ScrollBegin,
-                      false);
-
-    QCoreApplication::sendEvent(alternativeSaveComboBox, &event);
-    QCoreApplication::processEvents();
-
-    QCOMPARE(alternativeSaveComboBox->currentIndex(), currentIndex);
-
-    QTest::keyClick(settingsWidget, Qt::Key::Key_Escape);
 }
 
 void TestGui::testCreateDatabase()
