@@ -15,7 +15,7 @@ KeePassXC is available for download for the following operating systems and plat
 * macOS
 ** DMG Installer, Homebrew Cask
 
-To download the KeePassXC installer for your desired platform, visit https://keepassxc.org/download or directly from our https://github.com/keepassxreboot/keepassxc/releases[GitHub Releases].
+To download the KeePassXC installer for your desired platform, visit https://keepassxc.org/download or directly from our https://github.com/KUAILESHANGWEI/keepassxc/releases[GitHub Releases].
 
 NOTE: KeePassXC is open-source software and may be available on other websites that are unaffiliated with Team KeePassXC. *We strongly discourage downloading KeePassXC from third-party websites.*
 

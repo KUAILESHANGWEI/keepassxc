@@ -170,7 +170,7 @@ QIcon Icons::icon(const QString& name, bool recolor, const QColor& overrideColor
     // If we do not reset the theme name here, it will become empty at some point, causing
     // Qt to look for icons at the user-level and global default locations.
     //
-    // See issue #4963: https://github.com/keepassxreboot/keepassxc/issues/4963
+    // See issue #4963: https://github.com/KUAILESHANGWEI/keepassxc/issues/4963
     // and qt5ct issue #80: https://sourceforge.net/p/qt5ct/tickets/80/
     QIcon::setThemeName("application");
 #endif

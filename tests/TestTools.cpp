@@ -130,7 +130,7 @@ void TestTools::testValidUuid()
     auto nonHexUuid = Tools::uuidToHex(QUuid::createUuid()).replace(0, 1, 'p');
 
     QVERIFY(Tools::isValidUuid(validUuid));
-    /* Before https://github.com/keepassxreboot/keepassxc/pull/1770/, entry
+    /* Before https://github.com/KUAILESHANGWEI/keepassxc/pull/1770/, entry
      * UUIDs are simply random 16-byte strings. Such older entries should be
      * accepted as well. */
     QVERIFY(Tools::isValidUuid(nonRfc4122Uuid));

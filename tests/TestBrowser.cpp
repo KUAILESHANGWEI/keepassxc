@@ -742,7 +742,7 @@ void TestBrowser::testBestMatchingCredentials()
     QCOMPARE(sorted[0]->url(), QString("https://example.com"));
     QCOMPARE(sorted[1]->url(), QString("https://example.com"));
 
-    // https://github.com/keepassxreboot/keepassxc/issues/4754
+    // https://github.com/KUAILESHANGWEI/keepassxc/issues/4754
     db = QSharedPointer<Database>::create();
     root = db->rootGroup();
     QStringList fooUrls = {"https://example.com/foo", "https://example.com/bar"};
@@ -755,7 +755,7 @@ void TestBrowser::testBestMatchingCredentials()
         QCOMPARE(sorted[0]->url(), QString(url));
     }
 
-    // https://github.com/keepassxreboot/keepassxc/issues/4734
+    // https://github.com/KUAILESHANGWEI/keepassxc/issues/4734
     db = QSharedPointer<Database>::create();
     root = db->rootGroup();
     QStringList testUrls = {"http://some.domain.tld/somePath", "http://some.domain.tld/otherPath"};

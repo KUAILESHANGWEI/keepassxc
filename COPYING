@@ -36,7 +36,7 @@ Comment: The "KeePassXC Team" in every copyright notice is formed by the followi
            - varjolintu
            - hifi
            - louib
-         Every other contributor is listed on https://github.com/keepassxreboot/keepassxc/graphs/contributors
+         Every other contributor is listed on https://github.com/KUAILESHANGWEI/keepassxc/graphs/contributors
 
 Files: cmake/CodeCoverage.cmake
 Copyright: 2012 - 2015, Lars Bilke

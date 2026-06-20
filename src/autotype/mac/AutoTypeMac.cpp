@@ -63,7 +63,7 @@ QStringList AutoTypePlatformMac::windowTitles()
             QString owner = windowStringProperty(window, kCGWindowOwnerName);
 
             // Audio recording injects a "StatusIndicator" window owned by the "Window Server" process
-            // into to list in macOS 12.2 (see: https://github.com/keepassxreboot/keepassxc/issues/7418).
+            // into to list in macOS 12.2 (see: https://github.com/KUAILESHANGWEI/keepassxc/issues/7418).
             if (title == "StatusIndicator" && owner == "Window Server") {
                 continue;
             }
@@ -106,7 +106,7 @@ QString AutoTypePlatformMac::activeWindowTitle()
                 QString owner = windowStringProperty(window, kCGWindowOwnerName);
 
                 // Audio recording injects a "StatusIndicator" window owned by the "Window Server" process
-                // into to list in macOS 12.2 (see: https://github.com/keepassxreboot/keepassxc/issues/7418).
+                // into to list in macOS 12.2 (see: https://github.com/KUAILESHANGWEI/keepassxc/issues/7418).
                 if (title == "StatusIndicator" && owner == "Window Server") {
                     continue;
                 }

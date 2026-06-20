@@ -1,0 +1,128 @@
+name: Isolation delivery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  UPSTREAM_OWNER: keepassxreboot
+  UPSTREAM_REPO: keepassxc
+  TARGET_OWNER: KUAILESHANGWEI
+  TARGET_REPO: keepassxc
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  mirror-localize-and-sync-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout bootstrap tooling
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Mirror all upstream refs into isolated repository
+        env:
+          PUSH_TOKEN: ${{ secrets.MIRROR_PAT }}
+        run: |
+          set -euo pipefail
+          if [ -z "${PUSH_TOKEN}" ]; then
+            echo "Missing MIRROR_PAT secret with repo/workflow scopes." >&2
+            exit 1
+          fi
+          git clone --bare "https://github.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}.git" "$RUNNER_TEMP/upstream.git"
+          git -C "$RUNNER_TEMP/upstream.git" update-ref refs/heads/main refs/heads/develop
+          git -C "$RUNNER_TEMP/upstream.git" push --mirror "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+      - name: Create localized main branch
+        env:
+          GH_TOKEN: ${{ secrets.MIRROR_PAT }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "Missing MIRROR_PAT secret with repo/workflow scopes." >&2
+            exit 1
+          fi
+          TOOLING_DIR="$GITHUB_WORKSPACE"
+          WORK_DIR="$RUNNER_TEMP/${TARGET_REPO}-work"
+          git clone --depth=1 --branch develop "https://github.com/${UPSTREAM_OWNER}/${UPSTREAM_REPO}.git" "$WORK_DIR"
+          cd "$WORK_DIR"
+          git switch -C main
+          mkdir -p .github/workflows scripts
+          cp "$TOOLING_DIR/.github/workflows/isolation-delivery.yml" .github/workflows/isolation-delivery.yml
+          cp "$TOOLING_DIR/scripts/localize_keepassxc.py" scripts/localize_keepassxc.py
+          cp "$TOOLING_DIR/scripts/sync_third_party_release_assets.py" scripts/sync_third_party_release_assets.py
+          python3 scripts/localize_keepassxc.py \
+            --repo-root . \
+            --target-owner "$TARGET_OWNER" \
+            --target-repo "$TARGET_REPO" \
+            --upstream-owner "$UPSTREAM_OWNER" \
+            --upstream-repo "$UPSTREAM_REPO"
+          git add -A
+          git commit -m "Localize repository download sources"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin main
+          gh repo edit "$GITHUB_REPOSITORY" --default-branch main
+          python3 scripts/sync_third_party_release_assets.py .github/third-party-release-assets.tsv "$GITHUB_REPOSITORY"
+
+      - name: Verify localized source links
+        run: |
+          set -euo pipefail
+          WORK_DIR="$RUNNER_TEMP/${TARGET_REPO}-work"
+          cd "$WORK_DIR"
+          if rg -n \
+            'keepassxreboot/keepassxc|github\.com/keepassxreboot/keepassxc|raw\.githubusercontent\.com/keepassxreboot/keepassxc|cdn\.jsdelivr\.net/gh/keepassxreboot/keepassxc|keepassxc\.org/download' \
+            --glob '!.github/workflows/isolation-delivery.yml' \
+            --glob '!scripts/localize_keepassxc.py' \
+            --glob '!scripts/sync_third_party_release_assets.py'; then
+            echo "Found upstream download/update links outside allowed sync tooling." >&2
+            exit 1
+          fi
+          echo "No upstream KeePassXC download/update links remain outside sync tooling."
+
+      - name: Sync latest upstream Release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          upstream_repo="${UPSTREAM_OWNER}/${UPSTREAM_REPO}"
+          target_repo="${GITHUB_REPOSITORY}"
+          latest_json="$(gh release view --repo "$upstream_repo" --json tagName,name,body,isPrerelease)"
+          tag="$(jq -r '.tagName' <<<"$latest_json")"
+          title="$(jq -r '.name // .tagName' <<<"$latest_json")"
+          body="$(jq -r '.body // ""' <<<"$latest_json")"
+          prerelease="$(jq -r '.isPrerelease' <<<"$latest_json")"
+          if gh release view "$tag" --repo "$target_repo" >/dev/null 2>&1; then
+            gh release edit "$tag" --repo "$target_repo" --title "$title" --notes "$body"
+          else
+            args=(gh release create "$tag" --repo "$target_repo" --title "$title" --notes "$body")
+            if [ "$prerelease" = "true" ]; then
+              args+=(--prerelease)
+            fi
+            "${args[@]}"
+          fi
+          mkdir -p "$RUNNER_TEMP/release-assets"
+          gh release download "$tag" --repo "$upstream_repo" --dir "$RUNNER_TEMP/release-assets" --clobber
+          shopt -s nullglob
+          for asset in "$RUNNER_TEMP/release-assets"/*; do
+            gh release upload "$tag" "$asset" --repo "$target_repo" --clobber
+          done
+
+      - name: Verify isolation state
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          repo_json="$(gh repo view "$GITHUB_REPOSITORY" --json isFork,defaultBranchRef)"
+          jq -e '.isFork == false' <<<"$repo_json"
+          jq -e '.defaultBranchRef.name == "main"' <<<"$repo_json"
+          git ls-remote --heads "https://github.com/${GITHUB_REPOSITORY}.git" main

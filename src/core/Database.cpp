@@ -142,7 +142,7 @@ bool Database::open(const QString& filePath, QSharedPointer<const CompositeKey> 
     }
 
     // Don't autodetect read-only mode, as it triggers an upstream bug.
-    // See https://github.com/keepassxreboot/keepassxc/issues/803
+    // See https://github.com/KUAILESHANGWEI/keepassxc/issues/803
     // if (!readOnly && !dbFile.open(QIODevice::ReadWrite)) {
     //     readOnly = true;
     // }

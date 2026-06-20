@@ -74,9 +74,9 @@ int main(int argc, char** argv)
     app.setProperty("KPXC_QUALIFIED_APPNAME", "org.keepassxc.KeePassXC");
 
     // HACK: Prevent long-running threads from deadlocking the program with only 1 CPU
-    // See https://github.com/keepassxreboot/keepassxc/issues/10391
+    // See https://github.com/KUAILESHANGWEI/keepassxc/issues/10391
     // HACK: increased to a minimum of 3 threads
-    // See https://github.com/keepassxreboot/keepassxc/issues/12909
+    // See https://github.com/KUAILESHANGWEI/keepassxc/issues/12909
     if (QThreadPool::globalInstance()->maxThreadCount() < 3) {
         QThreadPool::globalInstance()->setMaxThreadCount(3);
     }

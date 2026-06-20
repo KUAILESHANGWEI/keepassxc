@@ -1158,7 +1158,7 @@ bool EditEntryWidget::commitEntry()
         return true;
     }
 
-    // HACK: Check that entry pointer is still valid, see https://github.com/keepassxreboot/keepassxc/issues/5722
+    // HACK: Check that entry pointer is still valid, see https://github.com/KUAILESHANGWEI/keepassxc/issues/5722
     if (!m_entry) {
         QMessageBox::information(this,
                                  tr("Invalid Entry"),

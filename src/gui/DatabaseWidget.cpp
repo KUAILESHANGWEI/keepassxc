@@ -258,7 +258,7 @@ DatabaseWidget::~DatabaseWidget()
     // QSharedPointer may behave differently depending on whether it is cleared by the `clear` method
     // or by its destructor. In the latter case, the ref counter may not be correctly maintained
     // if a copy of the QSharedPointer is created in any slots activated by the Database destructor.
-    // More details: https://github.com/keepassxreboot/keepassxc/issues/6393.
+    // More details: https://github.com/KUAILESHANGWEI/keepassxc/issues/6393.
     m_db.clear();
 }
 

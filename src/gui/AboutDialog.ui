@@ -100,7 +100,7 @@
        <item>
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>Report bugs at: &lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</string>
+          <string>Report bugs at: &lt;a href=&quot;https://github.com/KUAILESHANGWEI/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</string>
          </property>
          <property name="openExternalLinks">
           <bool>true</bool>
@@ -273,7 +273,7 @@
        <item>
         <widget class="QLabel" name="seeContributions">
          <property name="text">
-          <string>&lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/graphs/contributors&quot;&gt;See Contributions on GitHub&lt;/a&gt;</string>
+          <string>&lt;a href=&quot;https://github.com/KUAILESHANGWEI/keepassxc/graphs/contributors&quot;&gt;See Contributions on GitHub&lt;/a&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>

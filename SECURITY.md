@@ -4,7 +4,7 @@ The KeePassXC team takes security vulnerabilities very seriously and appreciates
 
 To report a security issue, please use one of the following methods:
 
-- **GitHub Security Advisory:** Use the ["Report a Vulnerability"](https://github.com/keepassxreboot/keepassxc/security/advisories/new) tab on our GitHub repository.
+- **GitHub Security Advisory:** Use the ["Report a Vulnerability"](https://github.com/KUAILESHANGWEI/keepassxc/security/advisories/new) tab on our GitHub repository.
 - **Private Matrix Message:** Contact any of the following KeePassXC team members privately (also encrypted):
   - [@droidmonkey_kpxc](https://matrix.to/#/@droidmonkey_kpxc:matrix.org)
   - [@varjolintu](https://matrix.to/#/@varjolintu:matrix.org)

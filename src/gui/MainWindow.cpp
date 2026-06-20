@@ -1137,7 +1137,7 @@ void MainWindow::openDonateUrl()
 
 void MainWindow::openBugReportUrl()
 {
-    customOpenUrl("https://github.com/keepassxreboot/keepassxc/issues");
+    customOpenUrl("https://github.com/KUAILESHANGWEI/keepassxc/issues");
 }
 
 void MainWindow::openGettingStartedGuide()

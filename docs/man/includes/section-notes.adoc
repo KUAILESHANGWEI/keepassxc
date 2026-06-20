@@ -24,4 +24,4 @@
   https://keepassxc.org/docs/KeePassXC_UserGuide.html
 
 *Git repository*::
-  https://github.com/keepassxreboot/keepassxc.git
+  https://github.com/KUAILESHANGWEI/keepassxc.git

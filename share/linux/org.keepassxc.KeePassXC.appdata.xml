@@ -776,13 +776,13 @@
     </release>
   </releases>
   <url type="homepage">https://keepassxc.org</url>
-  <url type="bugtracker">https://github.com/keepassxreboot/keepassxc/issues</url>
+  <url type="bugtracker">https://github.com/KUAILESHANGWEI/keepassxc/issues</url>
   <url type="faq">https://keepassxc.org/docs/#faq</url>
   <url type="help">https://keepassxc.org/docs/</url>
   <url type="donation">https://keepassxc.org/donate/</url>
   <url type="translate">https://explore.transifex.com/keepassxc/keepassxc/</url>
   <url type="contact">https://keepassxc.org/team/#contact</url>
-  <url type="vcs-browser">https://github.com/keepassxreboot/keepassxc</url>
+  <url type="vcs-browser">https://github.com/KUAILESHANGWEI/keepassxc</url>
   <url type="contribute">https://keepassxc.org/docs/#contribute</url>
   <content_rating type="oars-1.1"/>
   <launchable type="desktop-id">org.keepassxc.KeePassXC.desktop</launchable>

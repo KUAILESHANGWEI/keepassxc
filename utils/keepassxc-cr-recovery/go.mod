@@ -1,4 +1,4 @@
-module github.com/keepassxreboot/keepassxc/keepassxc-cr-recovery
+module github.com/KUAILESHANGWEI/keepassxc/keepassxc-cr-recovery
 
 go 1.24.0
 

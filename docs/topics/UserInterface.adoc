@@ -116,6 +116,6 @@ The following options can be set when running the Windows Installer MSI in an un
 Example: `msiexec.exe /q /i KeePassXC-Y.Y.Y-WinZZ.msi AUTOSTARTPROGRAM=0`
 
 == Command Line Tool
-KeePassXC comes with the command line tool *keepassxc-cli* to access, view, and manipulate your database directly from a terminal window. The tool is documented through a separate man page, which can be shown using `man keepassxc-cli`, or through the on-demand help using `keepassxc-cli [command] -h`. An online version of the man page is https://github.com/keepassxreboot/keepassxc/blob/latest/docs/man/keepassxc-cli.1.adoc[available on GitHub].
+KeePassXC comes with the command line tool *keepassxc-cli* to access, view, and manipulate your database directly from a terminal window. The tool is documented through a separate man page, which can be shown using `man keepassxc-cli`, or through the on-demand help using `keepassxc-cli [command] -h`. An online version of the man page is https://github.com/KUAILESHANGWEI/keepassxc/blob/latest/docs/man/keepassxc-cli.1.adoc[available on GitHub].
 // end::advanced[]
 // end::content[]

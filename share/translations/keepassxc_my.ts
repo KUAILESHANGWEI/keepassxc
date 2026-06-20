@@ -10,8 +10,8 @@
         <translation>အကြောင်း</translation>
     </message>
     <message>
-        <source>Report bugs at: &lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</source>
-        <translation>ပြဿနာများကို &lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt; သို့ အစီရင်ခံပါ</translation>
+        <source>Report bugs at: &lt;a href=&quot;https://github.com/KUAILESHANGWEI/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt;</source>
+        <translation>ပြဿနာများကို &lt;a href=&quot;https://github.com/KUAILESHANGWEI/keepassxc/issues&quot; style=&quot;text-decoration: underline;&quot;&gt;https://github.com&lt;/a&gt; သို့ အစီရင်ခံပါ</translation>
     </message>
     <message>
         <source>KeePassXC is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
@@ -30,8 +30,8 @@
         <translation>ပါဝင်ကူညီသူများ</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/graphs/contributors&quot;&gt;See Contributions on GitHub&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://github.com/keepassxreboot/keepassxc/graphs/contributors&quot;&gt;ကူညီပံ့ပိုးမှုများကို GitHub တွင် ကြည့်ပါ&lt;/a&gt;</translation>
+        <source>&lt;a href=&quot;https://github.com/KUAILESHANGWEI/keepassxc/graphs/contributors&quot;&gt;See Contributions on GitHub&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;https://github.com/KUAILESHANGWEI/keepassxc/graphs/contributors&quot;&gt;ကူညီပံ့ပိုးမှုများကို GitHub တွင် ကြည့်ပါ&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Debug Info</source>
