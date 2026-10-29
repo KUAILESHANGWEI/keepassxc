@@ -35,7 +35,7 @@ jobs:
           else
             gh release create "$tag" -R "$TARGET_REPO" --target main --title "$title" --draft --notes "Release assets mirrored from ${source_repo}@${tag}."
           fi
-          target_id="$(gh api "repos/${TARGET_REPO}/releases/tags/${tag}" --jq .id)"
+          target_id="$(gh release view "$tag" -R "$TARGET_REPO" --json databaseId --jq .databaseId)"
           target_json="$(gh api --paginate --slurp "repos/${TARGET_REPO}/releases/${target_id}/assets?per_page=100" | jq '[.[][]]')"
           work="$(mktemp -d)"
           trap 'rm -rf "$work"' EXIT
