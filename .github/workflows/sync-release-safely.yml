@@ -1,0 +1,72 @@
+name: Sync upstream release safely
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keepassxc-release-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Mirror latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_repo=keepassxreboot/keepassxc
+          source_json="$(gh api "repos/${source_repo}/releases/latest")"
+          tag="$(jq -r '.tag_name' <<<"$source_json")"
+          title="$(jq -r '.name // .tag_name' <<<"$source_json")"
+          count="$(jq '.assets | length' <<<"$source_json")"
+          [ "$count" -gt 0 ] || { echo 'Upstream release has no assets' >&2; exit 1; }
+          if gh release view "$tag" -R "$TARGET_REPO" >/dev/null 2>&1; then
+            echo "Using existing release $tag"
+          else
+            gh release create "$tag" -R "$TARGET_REPO" --target main --title "$title" --draft --notes "Release assets mirrored from ${source_repo}@${tag}."
+          fi
+          target_id="$(gh api "repos/${TARGET_REPO}/releases/tags/${tag}" --jq .id)"
+          target_json="$(gh api --paginate --slurp "repos/${TARGET_REPO}/releases/${target_id}/assets?per_page=100" | jq '[.[][]]')"
+          work="$(mktemp -d)"
+          trap 'rm -rf "$work"' EXIT
+          while IFS= read -r encoded; do
+            asset="$(base64 -d <<<"$encoded")"
+            name="$(jq -r '.name' <<<"$asset")"
+            size="$(jq -r '.size' <<<"$asset")"
+            digest="$(jq -r '.digest // ""' <<<"$asset")"
+            existing="$(jq -c --arg name "$name" '[.[] | select(.name == $name)] | first // null' <<<"$target_json")"
+            if [ "$existing" != null ]; then
+              old_size="$(jq -r '.size' <<<"$existing")"
+              old_digest="$(jq -r '.digest // ""' <<<"$existing")"
+              if [ "$size" = "$old_size" ] && [ -n "$digest" ] && [ "$digest" = "$old_digest" ]; then
+                echo "Already verified: $name"
+                continue
+              fi
+              echo "Existing asset differs or lacks a digest: $name; preserving it and stopping" >&2
+              exit 1
+            fi
+            gh release download "$tag" -R "$source_repo" --pattern "$name" --dir "$work"
+            file="$work/$name"
+            [ "$(stat -c %s "$file")" = "$size" ] || { echo "Incorrect download size: $name" >&2; exit 1; }
+            if [[ "$digest" == sha256:* ]]; then
+              [ "$(sha256sum "$file" | cut -d' ' -f1)" = "${digest#sha256:}" ] || { echo "Digest mismatch: $name" >&2; exit 1; }
+            fi
+            gh release upload "$tag" -R "$TARGET_REPO" "$file"
+            rm "$file"
+          done < <(jq -r '.assets[] | @base64' <<<"$source_json")
+          target_json="$(gh api --paginate --slurp "repos/${TARGET_REPO}/releases/${target_id}/assets?per_page=100" | jq '[.[][]]')"
+          jq -e --argjson source "$source_json" '. as $target | all($source.assets[]; . as $s | any($target[]; .name == $s.name and .size == $s.size))' <<<"$target_json" >/dev/null
+          if [ "$(gh api "repos/${TARGET_REPO}/releases/${target_id}" --jq .draft)" = true ]; then
+            gh release edit "$tag" -R "$TARGET_REPO" --draft=false
+          fi
+          echo "Verified $count assets for $tag"
