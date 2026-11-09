@@ -1008,7 +1008,8 @@ void DatabaseWidget::openUrlForEntry(Entry* entry)
 
         // otherwise ask user
         if (!launch && cmdString.length() > 6) {
-            QString cmdTruncated = entry->resolveMultiplePlaceholders(entry->maskPasswordPlaceholders(entry->url()));
+            QString cmdTruncated =
+                entry->resolveMultiplePlaceholders(EntryPlaceholders::maskPasswordPlaceholders(entry->url()));
             cmdTruncated = cmdTruncated.mid(6);
             if (cmdTruncated.length() > 400) {
                 cmdTruncated = cmdTruncated.left(400) + " […]";
@@ -1024,11 +1025,7 @@ void DatabaseWidget::openUrlForEntry(Entry* entry)
             auto checkbox = new QCheckBox(tr("Remember my choice"), &msgbox);
             msgbox.setCheckBox(checkbox);
             bool remember = false;
-            QObject::connect(checkbox, &QCheckBox::stateChanged, [&](int state) {
-                if (static_cast<Qt::CheckState>(state) == Qt::CheckState::Checked) {
-                    remember = true;
-                }
-            });
+            QObject::connect(checkbox, &QCheckBox::toggled, [&](bool checked) { remember = checked; });
 
             int result = msgbox.exec();
             launch = (result == QMessageBox::Yes);
@@ -2083,6 +2080,7 @@ bool DatabaseWidget::lock()
                 QApplication::processEvents();
                 disconnect(connection);
                 if (reloadTriggered) {
+                    m_attemptingLock = false;
                     return false;
                 }
             }

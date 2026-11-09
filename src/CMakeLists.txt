@@ -29,6 +29,7 @@ set(core_SOURCES
         core/Entry.cpp
         core/EntryAttachments.cpp
         core/EntryAttributes.cpp
+        core/EntryPlaceholders.cpp
         core/EntrySearcher.cpp
         core/FileWatcher.cpp
         core/Group.cpp
@@ -48,7 +49,6 @@ set(core_SOURCES
         core/Totp.cpp
         core/Translator.cpp
         cli/Utils.cpp
-        cli/TextStream.cpp
         crypto/Crypto.cpp
         crypto/CryptoHash.cpp
         crypto/Random.cpp
@@ -230,8 +230,11 @@ endif()
 
 if(UNIX AND NOT APPLE)
     list(APPEND gui_SOURCES
+            gui/osutils/nixutils/DesktopPortal.cpp
             gui/osutils/nixutils/DeviceListenerLibUsb.cpp
+            gui/osutils/nixutils/GlobalShortcutsPortal.cpp
             gui/osutils/nixutils/NixUtils.cpp
+            gui/osutils/nixutils/RemoteDesktopPortal.cpp
             gui/osutils/nixutils/ScreenLockListenerDBus.cpp
     )
     if("${CMAKE_SYSTEM}" MATCHES "Linux")
@@ -256,6 +259,26 @@ if(UNIX AND NOT APPLE)
     qt6_add_dbus_interface(core_SOURCES
         quickunlock/dbus/org.freedesktop.PolicyKit1.Authority.xml
         polkit_dbus
+    )
+    qt6_add_dbus_interface(core_SOURCES
+        gui/osutils/nixutils/dbus/org.freedesktop.portal.Request.xml
+        xdp_request
+    )
+    qt6_add_dbus_interface(core_SOURCES
+        gui/osutils/nixutils/dbus/org.freedesktop.portal.Session.xml
+        xdp_session
+    )
+    qt6_add_dbus_interface(core_SOURCES
+        gui/osutils/nixutils/dbus/org.freedesktop.portal.GlobalShortcuts.xml
+        xdp_globalshortcuts
+    )
+    qt6_add_dbus_interface(core_SOURCES
+        gui/osutils/nixutils/dbus/org.freedesktop.portal.RemoteDesktop.xml
+        xdp_remotedesktop
+    )
+    qt6_add_dbus_interface(core_SOURCES
+        gui/osutils/nixutils/dbus/org.freedesktop.portal.Clipboard.xml
+        xdp_clipboard
     )
 endif()
 
@@ -320,8 +343,8 @@ if(KPXC_FEATURE_FDOSECRETS)
     set(fdosecrets_LIB fdosecrets)
 endif()
 
-configure_file(config-keepassx.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-keepassx.h)
-configure_file(git-info.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/git-info.h)
+configure_file(config-keepassx.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-keepassx.h)
+configure_file(git-info.h.in ${CMAKE_CURRENT_BINARY_DIR}/git-info.h)
 
 # SVG Widgets
 find_package(Qt6 REQUIRED COMPONENTS SvgWidgets)
@@ -380,7 +403,16 @@ if(WIN32)
 endif()
 
 # Main Executable Definition
+unset(_restore_vcpkg_applocal_deps)
+if(WIN32 AND WITH_BUILD_QT AND VCPKG_APPLOCAL_DEPS)
+    set(VCPKG_APPLOCAL_DEPS OFF)
+    set(_restore_vcpkg_applocal_deps ON)
+endif()
 add_executable(${PROGNAME} main.cpp)
+if(_restore_vcpkg_applocal_deps)
+    set(VCPKG_APPLOCAL_DEPS ON)
+    unset(_restore_vcpkg_applocal_deps)
+endif()
 target_link_libraries(${PROGNAME} keepassxc_gui)
 set_target_properties(${PROGNAME} PROPERTIES ENABLE_EXPORTS ON)
 
@@ -402,7 +434,7 @@ elseif(APPLE AND WITH_APP_BUNDLE)
     set(MACOSX_BUNDLE_IDENTIFIER org.keepassxc.keepassxc)
     set(MACOSX_BUNDLE_ICON_NAME keepassxc)
     set(MACOSX_BUNDLE_APPLE_ENTITLEMENTS "${CMAKE_SOURCE_DIR}/share/macosx/keepassxc.entitlements")
-    configure_file("${CMAKE_SOURCE_DIR}/share/macosx/Info.plist.cmake" ${CMAKE_CURRENT_BINARY_DIR}/Info.plist)
+    configure_file("${CMAKE_SOURCE_DIR}/share/macosx/Info.plist.in" ${CMAKE_CURRENT_BINARY_DIR}/Info.plist)
     install(FILES "${CMAKE_SOURCE_DIR}/share/macosx/embedded.provisionprofile" DESTINATION ${BUNDLE_INSTALL_DIR})
     set(MACOSX_BUNDLE_RESOURCE_FILES
             "${CMAKE_SOURCE_DIR}/share/macosx/Assets.car"
@@ -452,7 +484,7 @@ install(TARGETS ${PROGNAME}
 if(WIN32)
     # Deploy used libraries into build directory for debugging
     add_custom_command(TARGET ${PROGNAME} POST_BUILD
-        COMMAND ${WINDEPLOYQT_EXE}
+        COMMAND ${DEPLOYQT_EXE}
             --dir $<TARGET_FILE_DIR:${PROGNAME}>
             $<IF:$<CONFIG:Debug>,--debug,--release>
             $<TARGET_FILE:${PROGNAME}>)
@@ -508,9 +540,28 @@ if(WIN32)
             "${CMAKE_SOURCE_DIR}/share/windows/KPXC_ExitDlg.wxs")
     set(CPACK_WIX_PROPERTY_ARPURLINFOABOUT  "https://keepassxc.org")
     set(CPACK_WIX_EXTENSIONS "WixUtilExtension.dll")
+    string(TOLOWER "${CMAKE_CXX_COMPILER_ARCHITECTURE_ID}" _windows_package_arch)
+    if(NOT _windows_package_arch)
+        string(TOLOWER "${CMAKE_SYSTEM_PROCESSOR}" _windows_package_arch)
+    endif()
+    if(_windows_package_arch MATCHES "^(arm64|aarch64)$")
+        set(CPACK_WIX_ARCHITECTURE arm64)
+    elseif(_windows_package_arch MATCHES "^(amd64|x64|x86_64)$")
+        set(CPACK_WIX_ARCHITECTURE x64)
+    else()
+        message(FATAL_ERROR
+                "Unsupported Windows package architecture: "
+                "${CMAKE_CXX_COMPILER_ARCHITECTURE_ID} (${CMAKE_SYSTEM_PROCESSOR})")
+    endif()
     include(CPack)
 
-    
+    # Cross compile builds need to use a special qtpaths script to find the right binaries to install
+    find_program(_QTPATHS_BAT host-qtpaths.bat HINTS "${Qt6_PREFIX}/bin" ENV PATH)
+    if(_QTPATHS_BAT)
+        message(STATUS "Using qtpaths script: ${_QTPATHS_BAT}")
+        set(_QTPATHS "--qtpaths \"${_QTPATHS_BAT}\"")
+    endif()
+
     # Use windeployqt.exe to setup Qt dependencies
     install(CODE "
         if(\"\${CMAKE_INSTALL_CONFIG_NAME}\" STREQUAL \"Debug\")
@@ -519,7 +570,7 @@ if(WIN32)
             set(_wdqt_mode --release)
         endif()
         execute_process(
-            COMMAND ${WINDEPLOYQT_EXE} ${PROGNAME}.exe \${_wdqt_mode}
+            COMMAND ${DEPLOYQT_EXE} \${_wdqt_mode} ${_QTPATHS} ${PROGNAME}.exe
             WORKING_DIRECTORY \${CMAKE_INSTALL_PREFIX}
             OUTPUT_QUIET
             RESULT_VARIABLE _wdqt_result
@@ -528,6 +579,29 @@ if(WIN32)
             message(FATAL_ERROR \"windeployqt failed with exit code \${_wdqt_result}\")
         endif()"
         COMPONENT Runtime)
+
+    if(WITH_BUILD_QT)
+        install(CODE "
+            if(\"\${CMAKE_INSTALL_CONFIG_NAME}\" STREQUAL \"Debug\")
+                set(_vcpkg_bin_dir \"${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/debug/bin\")
+            else()
+                set(_vcpkg_bin_dir \"${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin\")
+            endif()
+            file(GLOB _installed_executables \"\${CMAKE_INSTALL_PREFIX}/*.exe\")
+            foreach(_installed_executable IN LISTS _installed_executables)
+                execute_process(
+                    COMMAND \"${KPXC_VCPKG_EXECUTABLE}\" z-applocal
+                            \"--target-binary=\${_installed_executable}\"
+                            \"--installed-bin-dir=\${_vcpkg_bin_dir}\"
+                    RESULT_VARIABLE _applocal_result
+                )
+                if(NOT \${_applocal_result} EQUAL 0)
+                    message(FATAL_ERROR
+                            \"vcpkg app-local failed for \${_installed_executable} with exit code \${_applocal_result}\")
+                endif()
+            endforeach()"
+            COMPONENT Runtime)
+    endif()
 
     if(NOT VCPKG_INSTALLED_DIR)
         install(CODE "set(gp_tool \"objdump\")" COMPONENT Runtime)

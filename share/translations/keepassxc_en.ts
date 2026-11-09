@@ -282,6 +282,18 @@
         <source>Custom</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart KeePassXC to apply the Auto-Type desktop portals preference.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This setting is managed by your organization.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ApplicationSettingsWidgetGeneral</name>
@@ -616,6 +628,46 @@
         <source>Auto-generate password for new entries</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Keep remote desktop connection open after performing Auto-Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remote desktop mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Never remember session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember session until exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember session until revoked by desktop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configure...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use remote desktop for clipboard access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Experimental: Prefer desktop portals (Wayland implementation)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show autocomplete suggestions for username and additional attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ApplicationSettingsWidgetSecurity</name>
@@ -807,6 +859,17 @@
     </message>
     <message>
         <source>Sequence</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AutoTypePlatformWayland</name>
+    <message>
+        <source>No symbol found for key: &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No symbol found for character: &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1788,15 +1851,15 @@ Are you sure you want to continue with this file?.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;#&quot; style=&quot;text-decoration: underline&quot;&gt;I have a key file&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Hardware keys found, but no slots are configured.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Press ESC again to close this database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I have a key file</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4653,6 +4716,25 @@ This will leave your passwords and sensitive information vulnerable!
     </message>
 </context>
 <context>
+    <name>GlobalShortcutsPortal</name>
+    <message>
+        <source>KeePassXC - Global Shortcuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The XDG Desktop Portal for global shortcuts is not available on this system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Global Auto-Type shortcut is already configured. To change it, open your system settings and navigate to the keyboard or application shortcuts section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Trigger global Auto-Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Group</name>
     <message>
         <source>[empty]</source>
@@ -5502,6 +5584,10 @@ If this reoccurs, then your database file may be corrupt.</source>
     </message>
     <message>
         <source>Invalid entry field type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Incomplete entry: No UUID or group ID</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6666,15 +6752,11 @@ This version is not meant for production use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unable to read all IV bytes, wanted 16 but got %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Unable to init cipher for opdata01: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unable to read all HMAC signature bytes</source>
+        <source>Plain text length out of range: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6686,7 +6768,11 @@ This version is not meant for production use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Expected %1 bytes of clear-text, found %2</source>
+        <source>Invalid OpData01 data length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid OpData01 ciphertext length</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7538,6 +7624,10 @@ Do you want to overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Username or password cannot contain references</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8087,6 +8177,14 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Average password length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of passkeys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Entries with TOTP setup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9460,6 +9558,29 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
 </context>
 <context>
+    <name>RemoteDesktopPortal</name>
+    <message>
+        <source>Remote desktop session is not active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Session closed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User cancelled the interaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User interaction was canceled for unknown reason</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remote desktop session handle does not match expected path</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>RemoteHandler</name>
     <message>
         <source>Command `%1` did not finish in time. Process was killed.</source>
@@ -9970,6 +10091,14 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message>
         <source>Average password length is less than ten characters. Longer passwords provide more security.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of passkeys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Entries with TOTP setup</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">

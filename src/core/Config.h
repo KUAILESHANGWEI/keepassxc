@@ -54,6 +54,7 @@ public:
         HideWindowOnCopy,
         MinimizeOnCopy,
         MinimizeAfterUnlock,
+        AutocompleteSuggestions,
         AutoGeneratePasswordForNewEntries,
         DropToBackgroundOnCopy,
         UseGroupIconOnEntryCreation,
@@ -64,6 +65,11 @@ public:
         AutoTypeHideExpiredEntry,
         AutoTypeDialogSortColumn,
         AutoTypeDialogSortOrder,
+        AutoTypeDesktopPortalPersistConnection,
+        AutoTypeDesktopPortalUseClipboard,
+        AutoTypeDesktopPortalPersistMode,
+        AutoTypeDesktopPortalRestoreToken,
+        AutoTypePreferDesktopPortals,
         GlobalAutoTypeKey,
         GlobalAutoTypeModifiers,
         GlobalAutoTypeRetypeTime,
@@ -104,6 +110,7 @@ public:
         GUI_ShowExpiredEntriesOnDatabaseUnlock,
         GUI_ShowExpiredEntriesOnDatabaseUnlockOffsetDays,
         GUI_FontSizeOffset,
+        GUI_XDPGlobalShortcutsConfigured,
 
         GUI_MainWindowGeometry,
         GUI_MainWindowState,
@@ -219,6 +226,7 @@ public:
     ~Config() override;
     QVariant get(ConfigKey key);
     QVariant getDefault(ConfigKey key);
+    bool isManaged(ConfigKey key);
     QString getFileName();
     void set(ConfigKey key, const QVariant& value);
     void remove(ConfigKey key);
@@ -251,6 +259,9 @@ private:
 
     QScopedPointer<QSettings> m_settings;
     QScopedPointer<QSettings> m_localSettings;
+#if defined(Q_OS_WIN)
+    QScopedPointer<QSettings> m_managedSettings;
+#endif
     QHash<QString, QVariant> m_defaults;
 };
 
