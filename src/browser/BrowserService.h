@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2025 KeePassXC Team <team@keepassxc.org>
+ *  Copyright (C) 2026 KeePassXC Team <team@keepassxc.org>
  *  Copyright (C) 2017 Sami Vänttinen <sami.vanttinen@protonmail.com>
  *  Copyright (C) 2013 Francois Ferrand
  *
@@ -80,7 +80,9 @@ public:
 
     QJsonObject getDatabaseGroups();
     QJsonArray getDatabaseEntries();
-    QJsonObject createNewGroup(const QString& groupName, bool isPasskeysGroup = false);
+    QJsonObject createNewGroup(const QString& groupName,
+                               const QSharedPointer<Database>& selectedDb = {},
+                               bool isPasskeysGroup = false);
     QString getCurrentTotp(const QString& uuid);
     void showPasswordGenerator(const KeyPairMessage& keyPairMessage);
     bool isPasswordGeneratorRequested() const;
@@ -160,7 +162,8 @@ private:
     {
         Normal,
         Minimized,
-        Hidden
+        Hidden,
+        HiddenInSystemTray
     };
 
     QList<Entry*> searchEntries(const QSharedPointer<Database>& db,

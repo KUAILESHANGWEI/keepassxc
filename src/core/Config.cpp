@@ -72,6 +72,7 @@ static const QHash<Config::ConfigKey, ConfigDirective> configStrings = {
     {Config::URLDoubleClickAction, {QS("URLDoubleClickAction"), Roaming, 0}},
     {Config::HideWindowOnCopy,{QS("HideWindowOnCopy"), Roaming, false}},
     {Config::MinimizeOnCopy,{QS("MinimizeOnCopy"), Roaming, true}},
+    {Config::AutocompleteSuggestions,{QS("AutocompleteSuggestions"), Roaming, true}},
     {Config::AutoGeneratePasswordForNewEntries,{QS("AutoGeneratePasswordForNewEntries"), Roaming, false}},
     {Config::MinimizeAfterUnlock,{QS("MinimizeAfterUnlock"), Roaming, false}},
     {Config::DropToBackgroundOnCopy,{QS("DropToBackgroundOnCopy"), Roaming, false}},
@@ -83,6 +84,11 @@ static const QHash<Config::ConfigKey, ConfigDirective> configStrings = {
     {Config::AutoTypeHideExpiredEntry,{QS("AutoTypeHideExpiredEntry"), Roaming, false}},
     {Config::AutoTypeDialogSortColumn,{QS("AutoTypeDialogSortColumn"), Roaming, 0}},
     {Config::AutoTypeDialogSortOrder,{QS("AutoTypeDialogSortOrder"), Roaming, Qt::AscendingOrder}},
+    {Config::AutoTypeDesktopPortalPersistConnection,{QS("AutoTypeDesktopPortalPersistConnection"), Roaming, false}},
+    {Config::AutoTypeDesktopPortalUseClipboard,{QS("AutoTypeDesktopPortalUseClipboard"), Roaming, false}},
+    {Config::AutoTypeDesktopPortalPersistMode,{QS("AutoTypeDesktopPortalPersistMode"), Roaming, 1}},
+    {Config::AutoTypeDesktopPortalRestoreToken,{QS("AutoTypeDesktopPortalRestoreToken"), Local, ""}},
+    {Config::AutoTypePreferDesktopPortals,{QS("AutoTypePreferDesktopPortals"), Roaming, false}},
     {Config::GlobalAutoTypeKey,{QS("GlobalAutoTypeKey"), Roaming, 0}},
     {Config::GlobalAutoTypeModifiers,{QS("GlobalAutoTypeModifiers"), Roaming, 0}},
     {Config::GlobalAutoTypeRetypeTime,{QS("GlobalAutoTypeRetypeTime"), Roaming, 15}},
@@ -125,6 +131,7 @@ static const QHash<Config::ConfigKey, ConfigDirective> configStrings = {
     {Config::GUI_ShowExpiredEntriesOnDatabaseUnlock, {QS("GUI/ShowExpiredEntriesOnDatabaseUnlock"), Roaming, true}},
     {Config::GUI_ShowExpiredEntriesOnDatabaseUnlockOffsetDays, {QS("GUI/ShowExpiredEntriesOnDatabaseUnlockOffsetDays"), Roaming, 3}},
     {Config::GUI_FontSizeOffset, {QS("GUI/FontSizeOffset"), Local, 0}},
+    {Config::GUI_XDPGlobalShortcutsConfigured, {QS("GUI/XDPGlobalShortcutsConfigured"), Local, false}},
 
     {Config::GUI_MainWindowGeometry, {QS("GUI/MainWindowGeometry"), Local, {}}},
     {Config::GUI_MainWindowState, {QS("GUI/MainWindowState"), Local, {}}},
@@ -241,6 +248,11 @@ QVariant Config::get(ConfigKey key)
 {
     auto cfg = configStrings[key];
     auto defaultValue = configStrings[key].defaultValue;
+#if defined(Q_OS_WIN)
+    if (isManaged(key)) {
+        return m_managedSettings->value(cfg.name, defaultValue);
+    }
+#endif
     if (m_localSettings && cfg.type == Local) {
         return m_localSettings->value(cfg.name, defaultValue);
     }
@@ -250,6 +262,16 @@ QVariant Config::get(ConfigKey key)
 QVariant Config::getDefault(Config::ConfigKey key)
 {
     return configStrings[key].defaultValue;
+}
+
+bool Config::isManaged(ConfigKey key)
+{
+    auto cfg = configStrings[key];
+#if defined(Q_OS_WIN)
+    return m_managedSettings && m_managedSettings->contains(cfg.name);
+#else
+    return false;
+#endif
 }
 
 bool Config::hasAccessError()
@@ -555,6 +577,11 @@ void Config::init(const QString& configFileName, const QString& localConfigFileN
         m_localSettings.reset(new QSettings(localConfigFileName, QSettings::IniFormat));
     }
 
+#if defined(Q_OS_WIN)
+    m_managedSettings.reset(
+        new QSettings("HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\KeePassXC", QSettings::NativeFormat));
+#endif
+
     migrate();
     connect(qApp, &QCoreApplication::aboutToQuit, this, &Config::sync);
 }
@@ -579,6 +606,7 @@ QPair<QString, QString> Config::defaultConfigFiles()
     // On case-sensitive Operating Systems, force use of lowercase app directories
     configPath = QStandardPaths::writableLocation(QStandardPaths::GenericConfigLocation) + "/keepassxc";
     // Qt does not support XDG_STATE_HOME yet, change this once XDG_STATE_HOME is added
+    // TODO: Replace with QStandardPaths::StateLocation when we move to Qt 6.7 as min version (Ubuntu Resolute).
     QString xdgStateHome = QFile::decodeName(qgetenv("XDG_STATE_HOME"));
     if (!xdgStateHome.startsWith(u'/')) {
         xdgStateHome.clear(); // spec says relative paths should be ignored
